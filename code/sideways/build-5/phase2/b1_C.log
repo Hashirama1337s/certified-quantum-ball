@@ -1,0 +1,55 @@
+[    1.0s] nu_s=0.004 contracts over the box: eps=[1.05e-38 +/- 2.72e-43] epsX=[8.19e-40 +/- 3.21e-43] L*=[7.50 +/- 3.54e-3]
+[   76.8s]   tau step 50 x=-0.03194 h=0.008553 width=[3.35e-31 +/- 3.42e-34] t=69.4s
+[  159.7s]   lohner step 50 x=-0.0894 h=0.0008553 width=[1.62e-30 +/- 2.92e-33] t=63.0s
+[  223.0s]   lohner step 100 x=-0.1587 h=0.001829 width=[2.90e-30 +/- 4.93e-33] t=126.3s
+[  286.7s]   lohner step 150 x=-0.2739 h=0.00391 width=[5.40e-30 +/- 4.41e-33] t=190.0s
+[  349.0s]   lohner step 200 x=-0.4498 h=0.004181 width=[1.65e-29 +/- 1.12e-33] t=252.3s
+[  409.0s]   lohner step 250 x=-0.7119 h=0.004469 width=[2.59e-29 +/- 3.68e-32] t=312.3s
+[  468.9s]   lohner step 300 x=-1.0364 h=0.004778 width=[9.70e-29 +/- 2.88e-32] t=372.3s
+[  529.4s]   lohner step 350 x=-1.3785 h=0.005109 width=[3.15e-28 +/- 1.72e-31] t=432.7s
+[  589.9s]   lohner step 400 x=-1.7548 h=0.01092 width=[7.71e-28 +/- 4.99e-32] t=493.2s
+[  649.4s]   lohner step 450 x=-2.1982 h=0.01168 width=[1.91e-27 +/- 1.18e-32] t=552.7s
+[  710.7s]   lohner step 500 x=-2.7133 h=0.01248 width=[5.22e-27 +/- 4.32e-30] t=614.0s
+[  769.9s]   lohner step 550 x=-3.2949 h=0.01335 width=[1.62e-26 +/- 4.33e-30] t=673.2s
+[  779.2s] point run: 778.2s |R|=[2.98e-26 +/- 4.79e-29] width_end=[1.99e-26 +/- 8.98e-30] Epoint=[9.30e-30 +/- 1.80e-33]
+[  855.6s]   tau step 50 x=-0.03194 h=0.008553 width=[3.29e-27 +/- 8.88e-31] t=69.0s
+[  930.7s]   lohner step 50 x=-0.0894 h=0.0008553 width=[5.03e-27 +/- 8.17e-31] t=56.8s
+[  985.7s]   lohner step 100 x=-0.1587 h=0.001829 width=[9.64e-27 +/- 1.66e-30] t=111.8s
+[ 1045.1s]   lohner step 150 x=-0.2739 h=0.00391 width=[1.67e-26 +/- 2.20e-29] t=171.2s
+[ 1103.2s]   lohner step 200 x=-0.4498 h=0.004181 width=[2.27e-26 +/- 2.22e-29] t=229.3s
+[ 1160.1s]   lohner step 250 x=-0.7119 h=0.004469 width=[3.16e-26 +/- 3.87e-29] t=286.2s
+[ 1211.2s]   lohner step 300 x=-1.0364 h=0.004778 width=[1.11e-25 +/- 4.98e-28] t=337.3s
+[ 1266.5s]   lohner step 350 x=-1.3785 h=0.005109 width=[2.38e-25 +/- 2.14e-28] t=392.6s
+[ 1322.0s]   lohner step 400 x=-1.7548 h=0.01092 width=[4.77e-25 +/- 3.06e-29] t=448.1s
+[ 1375.9s]   lohner step 450 x=-2.1982 h=0.01168 width=[1.03e-24 +/- 1.17e-27] t=502.0s
+[ 1428.3s]   lohner step 500 x=-2.7133 h=0.01248 width=[2.53e-24 +/- 2.60e-27] t=554.4s
+[ 1481.7s]   lohner step 550 x=-3.2949 h=0.01335 width=[7.27e-24 +/- 4.25e-27] t=607.8s
+[ 1489.9s] rung r=1e-27: contraction=False  max rad(K)/rad(X)=26.2  Ebox=[9.30e-30 +/- 1.80e-33]  width_start=[3.08e-27 +/- 2.03e-30] width_end=[8.83e-24 +/- 1.86e-27] (711s)
+[ 1563.9s]   tau step 50 x=-0.03194 h=0.008553 width=[3.29e-26 +/- 6.45e-30] t=66.7s
+[ 1641.1s]   lohner step 50 x=-0.0894 h=0.0008553 width=[5.03e-26 +/- 2.59e-29] t=59.3s
+[ 1695.9s]   lohner step 100 x=-0.1587 h=0.001829 width=[9.64e-26 +/- 2.46e-29] t=114.2s
+[ 1756.0s]   lohner step 150 x=-0.2739 h=0.00391 width=[1.67e-25 +/- 2.94e-28] t=174.3s
+[ 1816.0s]   lohner step 200 x=-0.4498 h=0.004181 width=[2.27e-25 +/- 3.30e-28] t=234.2s
+[ 1875.5s]   lohner step 250 x=-0.7119 h=0.004469 width=[3.16e-25 +/- 2.11e-28] t=293.8s
+[ 1932.2s]   lohner step 300 x=-1.0364 h=0.004778 width=[1.10e-24 +/- 4.33e-27] t=350.4s
+[ 1991.7s]   lohner step 350 x=-1.3785 h=0.005109 width=[2.38e-24 +/- 5.67e-28] t=410.0s
+[ 2052.2s]   lohner step 400 x=-1.7548 h=0.01092 width=[4.77e-24 +/- 3.00e-27] t=470.5s
+[ 2106.5s]   lohner step 450 x=-2.1982 h=0.01168 width=[1.03e-23 +/- 1.92e-26] t=524.7s
+[ 2151.1s]   lohner step 500 x=-2.7133 h=0.01248 width=[2.53e-23 +/- 6.77e-27] t=569.3s
+[ 2208.1s]   lohner step 550 x=-3.2949 h=0.01335 width=[7.26e-23 +/- 8.0e-28] t=626.3s
+[ 2217.2s] rung r=1e-26: contraction=False  max rad(K)/rad(X)=2.62  Ebox=[9.30e-30 +/- 1.80e-33]  width_start=[3.08e-26 +/- 2.03e-29] width_end=[8.82e-23 +/- 4.92e-26] (727s)
+[ 2291.4s]   tau step 50 x=-0.03194 h=0.008553 width=[3.29e-25 +/- 6.21e-29] t=67.4s
+[ 2363.6s]   lohner step 50 x=-0.0894 h=0.0008553 width=[5.03e-25 +/- 2.77e-28] t=54.3s
+[ 2418.5s]   lohner step 100 x=-0.1587 h=0.001829 width=[9.64e-25 +/- 2.87e-28] t=109.2s
+[ 2475.7s]   lohner step 150 x=-0.2739 h=0.00391 width=[1.67e-24 +/- 3.01e-27] t=166.4s
+[ 2536.6s]   lohner step 200 x=-0.4498 h=0.004181 width=[2.27e-24 +/- 3.41e-27] t=227.3s
+[ 2596.8s]   lohner step 250 x=-0.7119 h=0.004469 width=[3.16e-24 +/- 1.94e-27] t=287.4s
+[ 2656.7s]   lohner step 300 x=-1.0364 h=0.004778 width=[1.10e-23 +/- 4.26e-26] t=347.3s
+[ 2707.6s]   lohner step 350 x=-1.3785 h=0.005109 width=[2.38e-23 +/- 4.10e-27] t=398.2s
+[ 2756.5s]   lohner step 400 x=-1.7548 h=0.01092 width=[4.77e-23 +/- 3.33e-26] t=447.1s
+[ 2811.2s]   lohner step 450 x=-2.1982 h=0.01168 width=[1.03e-22 +/- 1.99e-25] t=501.9s
+[ 2869.2s]   lohner step 500 x=-2.7133 h=0.01248 width=[2.53e-22 +/- 4.85e-26] t=559.8s
+[ 2923.0s]   lohner step 550 x=-3.2949 h=0.01335 width=[7.26e-22 +/- 4.91e-26] t=613.6s
+[ 2930.6s] rung r=1e-25: contraction=True  max rad(K)/rad(X)=0.262  Ebox=[9.30e-30 +/- 1.80e-33]  width_start=[3.08e-25 +/- 2.03e-28] width_end=[8.82e-22 +/- 4.23e-25] (713s)
+[ 2930.6s] B1: V0 = [0.1124394013880983362237630276 +/- 3.79e-29] width [6.94e-29 +/- 3.09e-32] inside E5 True
+memcap: exit 0, peak 0.10 GB of 8.00 GB cap

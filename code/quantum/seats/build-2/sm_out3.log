@@ -1,0 +1,17 @@
+[   88.5s] 25 evals, 25 cells, 0 unresolved, at x=9.09375
+[  174.6s] 50 evals, 50 cells, 0 unresolved, at x=9.19140625
+[  259.1s] 75 evals, 75 cells, 0 unresolved, at x=9.2890625
+[  343.7s] 100 evals, 100 cells, 0 unresolved, at x=9.38671875
+[  426.6s] 125 evals, 125 cells, 0 unresolved, at x=9.484375
+[  507.3s] 150 evals, 150 cells, 0 unresolved, at x=9.58203125
+[  586.9s] 175 evals, 175 cells, 0 unresolved, at x=9.6796875
+[  666.9s] 200 evals, 200 cells, 0 unresolved, at x=9.77734375
+[  747.1s] 225 evals, 225 cells, 0 unresolved, at x=9.875
+[  825.7s] 250 evals, 250 cells, 0 unresolved, at x=9.97265625
+[  897.6s] 275 evals, 275 cells, 0 unresolved, at x=10.0703125
+[  968.2s] 300 evals, 300 cells, 0 unresolved, at x=10.16796875
+[ 1041.0s] 325 evals, 325 cells, 0 unresolved, at x=10.265625
+[ 1112.4s] 350 evals, 350 cells, 0 unresolved, at x=10.36328125
+[ 1181.1s] 375 evals, 375 cells, 0 unresolved, at x=10.4609375
+[ 1206.2s] done: 384 evals, 384 certified cells, 0 unresolved -> sm_out3.json
+memcap: exit 0, peak 0.12 GB of 8.00 GB cap

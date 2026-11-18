@@ -1,0 +1,5 @@
+FRW k=1/2: R = -8/(27*tau**2)  Bach all zero: True
+V_tautau = 2*(6*xi - 1)**2/(243*tau**4)  expected 2(6xi-1)^2/(243 tau^4): True
+V_xx = 4*(6*xi - 1)**2/(243*tau**(28/9))  expected 4(6xi-1)^2/(243 tau^(28/9)): True
+FRW k=1/3: R = 0  V(xi) all zero: True
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

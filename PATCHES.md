@@ -1,0 +1,193 @@
+# PATCHES: lab paths in the shipped copies
+
+The lab's files name lab folders in string literals (sys.path inserts, input and output file names, usage lines), in
+recorded logs (the folder each run started in, the memory-cap launcher line) and in recorded ledger rows. To keep machine
+paths out of the public repository, every shipped copy has had those strings replaced by placeholders from one fixed
+table, `tools/path_patch.json`, applied in the order below. Nothing else in any file was changed. The substitution is
+exactly reversible.
+
+- `tools/check_pins.py` restores every patched file in memory and checks that the restored bytes have the original
+  sha256 (for pinned files: the lab ledger pin, `tools/pins.json`), and that the shipped file has the patched sha256
+  listed here.
+- `tools/reproduce.py` restores the originals inside its work folder before running anything, so every run sees the
+  original bytes. The lab root (R3) and the lab's tool folder (R6) that the restored instruments name are then pointed
+  at the work folder at compile time by `tools/run_sealed.py` (files on disk unchanged).
+- The original strings are stored in the table as hex. Hex is an encoding, not removal: anyone can decode it. Every
+  entry decodes to a lab folder name or the word for a temporary folder; none names a person or a home folder (checked
+  by a decode-and-scan before assembly).
+- Data files (`*.pkl`) are binary and are never patched; none of the shipped ones contains a lab path.
+
+## Tool fixes (repository tools, not lab files; 2026-11-18)
+
+- `tools/canon.py`: JSON outputs are parsed and every run-time key is removed at any depth before the canonical
+  comparison: `time_s` and every `time_s_*` / `*_time_s` variant (e.g. `time_s_finalize`), `seconds`, `sec(s)`,
+  `runtime(_s)`, `elapsed*`, `wall*`, `duration*` and peak-memory fields; then the JSON is re-serialised with sorted keys.
+  Before this fix `time_s_finalize` was kept, so a clean-room re-run of `qb1b_finalize` differed only in its clock.
+  Text logs stay line-based. `python tools/canon.py --selftest` (also run by `tools/reproduce.py` before any step)
+  proves that run-time keys are ignored and that a changed value, count or flag is still caught.
+- `tools/fill_balls.py` (new): every ball printed in paper.md, README.md, CLAIMS.md, SCORECARD.md and CITATION.cff is the
+  stored string verbatim or an outward rounding of it, written and asserted by this script (`--check`, `--write`).
+  `tools/make_scorecard.py` applies it to SCORECARD.md.
+
+## Substitution table (applied in this order; restored in reverse order)
+
+| Entry | Placeholder | What the original names |
+|---|---|---|
+| R1 | `<LAB-JSON>` | lab project root, JSON-escaped Windows form (20 characters) |
+| R2 | `<LAB-WIN>` | lab project root, Windows form (18 characters) |
+| R3 | `<LAB>` | lab project root, forward-slash form (code literals, logs, docs) (18 characters) |
+| R4 | `<lab>` | lab project root, lower-case form (ledger rows) (18 characters) |
+| R5 | `<MEMCAP>` | the lab's memory-cap launcher (usage lines, logs) (38 characters) |
+| R6 | `<TOOLS>` | the lab's tool folder (18 characters) |
+| R7 | `<LEANPROJ>` | the lab's Lean project folder (13 characters) |
+| R9 | `<LABDATA-WIN>` | the lab's data folder, Windows form (15 characters) |
+| R10 | `<labdata>` | the lab's data folder, lower-case form (15 characters) |
+| R11 | `<LABDATA>` | the lab's data folder (15 characters) |
+| R13 | `<SCRATCH>` | the word for a seat's temporary working folder (10 characters) |
+| R14 | `<tools>` | the lab's tool folder, lower-case form (ledger rows) (18 characters) |
+| R15 | `<TOOLS-WIN>` | the lab's tool folder, Windows form (18 characters) |
+| R16 | `<RECON>` | the lab's earlier reconnaissance project folder (prior-art notes) (23 characters) |
+
+## Patched files
+
+| File | Pinned | Original sha256 | Patched sha256 | Entries (count) |
+|---|---|---|---|---|
+| code/b4speed/cacheL.py | no | `a0489e264e31f61a9934b0089644025048adcc304c7e2401031c61c9e8b98533` | `db8f14230f415f13c3775ffbf95d33d2acd4171d319cfa7f94579ceb564e9dc5` | R3 x2 |
+| code/engine/bg.py | yes | `cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64` | `4e95f864545035f420e05c94fda0e9e22e31e51b467912b9e16ff9d06ed59cf2` | R3 x1 |
+| code/engine/bgc.py | yes | `d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e` | `5a6e50ede9f0c5f1943c9eb76db959c64b9a8394e83f828e92f72ef01ef2159d` | R3 x1 |
+| code/engine/cert/count_b4.py | no | `7f17adc9c0b10ec529fba28ea356296b7b3bd77dd95bd312e3bb791c4d2c7204` | `2e356929ec378586426e5fd1df7c04a5a9ccd2e8162c4e7d8af6c1ec1472148b` | R3 x3, R5 x3 |
+| code/engine/cert/count_b4v3.py | no | `9d6db027f0ca12a2fefc6fcb716bfd36d3a5d422c971611403bcec04dd13b28f` | `36856986c07506926767457feb34f5c24387255c56c76cb7b378575569d3730f` | R3 x6 |
+| code/engine/cert/count_b4v3_seal.py | no | `6e7d49f3e1af8e8f0a3caf32476adfd3557cee49cf7d5a067f528ab7d02f470c` | `f486ec3274b21d7f2e2324b6a4585ee3dfe3ce363a6a297ec2941e7333cde9d4` | R3 x1 |
+| code/engine/cert/driver.py | yes | `91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5` | `994436257302ec507879feec999c5be42f45d3239ef7b79cab9dea9e43ed81d4` | R3 x2 |
+| code/engine/cert/driver2.py | yes | `9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2` | `d7118ab1893d3ab5609bf589147cfb8a31c3ca1b5823c09983fc3177cdd552e1` | R3 x2 |
+| code/engine/cert/driver_v2.py | yes | `8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e` | `14b92394726d722172f13b39599cfdcba03e34865326d52409d336e558f45f7a` | R3 x2 |
+| code/engine/cert/driver_v3.py | yes | `84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2` | `cb3c53e0e2643d1e4fa6211217a2bdbddf7ecc18eeb8bd251af22bb7286b2af3` | R3 x2 |
+| code/engine/cert/driver_v31.py | yes | `0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171` | `4ad03d5868a26222c26c6b9b2e7cdbf29118d6caf4b4b0bd1cb7d456dc6fd209` | R3 x2 |
+| code/engine/cert/driver_v32.py | yes | `c95d0e5f301e56114d2bae97d31bdd94c3de6e23733c88d5c004ec85c1fcd771` | `1e36dde681e35eb633481579c6daaba7e972f00d9ecc1f3fb7531206cc588cee` | R3 x2 |
+| code/engine/cert/fields.py | yes | `7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99` | `d2fd12fbd8adef8bb5f7150791ce7a89a73d991cac4c73f8ff6205861d22062f` | R3 x2 |
+| code/engine/cert/lin_b4_smoke3.py | no | `45657bd361d2c18b7a2476e5f232f8b3c16f73835e8dc0618242fac9bc5f68cd` | `d6396db42d85b203d4c53ff490cc4aee22ac78deb2ffa6e0ff268edf9b706abb` | R3 x2 |
+| code/engine/cert/lin_float.py | no | `bae8983eeb4747cb8bf22d1c500885cf2488dc71a87bb300051af8726299773f` | `7fae1977436bd5015dcd40781fcdf5a66590990c94d36b4b912f7dd33f5fdd7b` | R3 x3 |
+| code/engine/cert/lin_mc.py | no | `ee336f0e6185a620c9d995466af69b486372716dc1f593ed56d0fc13bbcbf64d` | `97b6f2854dc1650323bf3b17a0e7647b937c3bb2250073a82f066b7ce3219047` | R3 x3 |
+| code/engine/cert/lin_stages.py | no | `582e24236c8ff81594cb56a4c2afdb0edc9a083dfdc261cf61623f4679deb821` | `a674260cca194731f36d57e7f4cddd2b36c28c6c725ba29eb32a55e14a1e57ef` | R3 x4 |
+| code/engine/cert/lin_stages_v2.py | no | `e477ec1f6fc3f36ec16e776c26c0516e1fa5b964ee769286d8e0c290f20bf2d5` | `b17134453ac43991dba692e3909efb8c14bdc5b38f58fb6ed69d716968436457` | R3 x3 |
+| code/engine/cert/lin_sym.py | no | `dfca4911981d24690b8ddef27ffee8a92e37425add03bb303ebd088630169e0d` | `5711cc68f9b4c8e80d58fe94ff0343a2a99d93cb3683dbe1f8f8f7077e1fea16` | R3 x2 |
+| code/engine/cert/lin_tube_v2.py | no | `a39312d4a76008e638e850ccb8417a0261b5c6ea590619c973b143a15d73a368` | `664146e426f678b23418046f6bd11eb7eb2631d04b0f919cf44a7fdf3afa8d85` | R3 x3 |
+| code/engine/cert/pipeline.py | yes | `a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1` | `964d807eee1ec6647014de2b775a75a43ae994d0df5b6f596714f7699b400a94` | R3 x3 |
+| code/engine/derive.py | yes | `ef70536c299390c3a59a22ecd3fb43c0055366052680dbb1ac841994ec96cf69` | `aa3573ab9c869344d694714c076bd1644321262a9ff0cd9956b77545592c4ff5` | R3 x1 |
+| code/engine/system.py | yes | `34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f` | `1b54c959634000cb05e9f1598c4c8eebe712aa08f3f178e54f6773cb0e6183d2` | R3 x1 |
+| code/quantum/seats/blind-qb2/BLIND-QB2.md | no | `6f113e3c7d3773c39dc5f1f1ff2d38a9fc4b68a59bde1daa8ba632edfb1d2dea` | `ade2e110074f10f93f5a52cea7d688bf0195fc81062da6bad2cd68d686ee20cb` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_bach.py | no | `d4cb0407c1e97e0d832e33b304360d54eaedad3790078647fe52b8a953063242` | `10cd007688314ec065e27fbd351d618252113e085a297649e48c23d427661cb3` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_bg.py | no | `7876d311441042d2a35c25f6592026bcc65282d79f263ec5ff6c7de817c58d1a` | `05440e70a91df5ea0855cf8e853b6da5b635a133565f43ed6c94e3e1303dc139` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_bgrun.py | no | `537ccebb87a21d389504679f5e491109a82d88f6dc30a40411aa66a1b2a1e340` | `22046531e7a97a3749f851fd26638697b6a6991d64c7fff6f638c9a14023acda` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_bisect.py | no | `6ff171ab449daf81c4f4e58f50153ba4f723f033aeb5ed084df9e5a152d61ba0` | `58f4b99b905b58f9dd4d2f09da4c8087434c1509326dbb721d8c5f3fce7eeb7f` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_coll.py | no | `bd562ea25a84c015914755307b29ad9178357c565f6dd7a7a59f018ddc04c897` | `fb09790207a3c1d858bfa7b85abbb94b118e4a51808c7dfa8de4664024026f33` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_common.py | no | `632adce7d59beffe5a4568e1551e804754c990bbda4d0b899a372dad6d3c307d` | `74ceddda74d459bc7658eb8167ede15d4c6cc059b82350af9e411a809eea7818` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_cont.py | no | `8c4880056dc53ca13b2ee003917320b3c1b2edbed98574082de65773a64dede3` | `2eb6141f3407ba64c3a3589562902ab67a8bf09954820887464f59effb5fbdc0` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_control.py | no | `3dc65e6a51429e1ce35452962b462b7f491431f1caa844173856358afa016e8b` | `c95382c24df391b80ff91f725b94461831c0676e5b58ac2913d873c24e62de38` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_derive.py | no | `467e862245cd2d8cfcc4eaefcf5c0db63e418f202400fdbfa57744c9bd0370d8` | `6df614144bbc5cc30a7247c3efd7e2c655f93aa72086f0ec950d808437dcc533` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_look.py | no | `3cbf8f1d9508c472b69fed7e1add017dc0290dcbc11b34157ea737a4b2e7afbc` | `558e84a8c8d876580c660162d625f6ee0d01c74efe96c5c1c921a668ed825f19` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_main.py | no | `518eefc3cb369c3b7f413d0cf19f834f63fe4ae3ded47e33d25cc396b045ce0d` | `71d791ca52578aa431ccb6269558d6c2cce85aec342fa150eadc5c54490286e5` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_pert.py | no | `b52bd8b0757ad17049f308325800fc6528f05857015dad97771c001e4b4130f6` | `5298715a60326c3eb25585c2ec57dd758856628958f317967c9bec5cfebc0854` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_probe_rhs.py | no | `a7df1a78710e21194c472a2cefcef0058b47a6fd9b45e47737e3ebbf5ba26812` | `46645187d54aad1a9f30132cd1c688b5f96281ecfa3d438876d1185e70b19065` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_shoot_scan.py | no | `817905215dfb413b1081be3d5d6f5c5067941c94bfd5369374905847d87a1f27` | `9935e705c045da4848f6711e6d23d3692dd8cc92fc0fb3dbb6e2e64502494f27` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_shoot_scan2.py | no | `928d39b3013b4d8d2cd2cb4c2745ef24ec87f77c4d223fca7749ac6df19b29e4` | `7c2f05366161275d01ca7d029e93c78c61191bbef56d080795f6a7be39db13f1` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_shoot_scan3.py | no | `e6761e1552081eab1e72e1377d8a7a9dff3485d731eb5ef572f91795f0f92822` | `9400b45ddcbaa9d0a62eda917c10c41276196a8a196efe04bbcda823d360733f` | R3 x1 |
+| code/quantum/seats/blind-qb2/qb2_shoot_scan4.py | no | `1ee0cdb906ef5baa6a99557c0f0edeb92025a43fe1d8003059248f789bfaa0cb` | `f80174c2ce41fb89ce015eb4c17cb92693958c61f5f2a451461e01057d20d99c` | R3 x1 |
+| code/quantum/seats/build-1/RUN.md | no | `766f29236343e2bbfb9042b794f2d1b44ec82c8917c53f59df969d4ad89fbb2c` | `cfd408c7ac251eb4714b6f1c9020c0276bca2f3613c6eba87cc76a19aed98bae` | R3 x1, R5 x1 |
+| code/quantum/seats/build-1/bg.py | yes | `c05ad4d77e20daa24ed87b1c766bc97bd7a9b720e1b77401027f1d3ca352166c` | `64900b8f5fafe22f672bd39e951212f62065c064128ecea478a8df74e24b20c8` | R3 x4 |
+| code/quantum/seats/build-1/controls_qb1.json | yes | `6a76082e38327fde5e70ab8c4e2c62cd8479353eb9246f9be6ec1b1d2d89a3c4` | `31756870048edfc969116109e768beca59f74f7a2325d475055629f3f3cb5229` | R3 x7 |
+| code/quantum/seats/build-1/dnew.py | yes | `4d809cfb75ce0549debedf8b1bcd416498bd5f0c1b45915fd3215e114dc53999` | `8948ad29e77c5ac500ebcfe2bcfd8354ab670a310acc06b5dd4969f31e722fdc` | R3 x3 |
+| code/quantum/seats/build-1/make_controls.py | no | `f41903fd351270681bb3f951c803a5c88c2b025a4ba22d65cde772580a1f88ea` | `9dab59f0d37d67ce803084d2a01e7d82454b7a0931e72cce79df26c6463cf92c` | R3 x5 |
+| code/quantum/seats/build-1/null_bg.py | yes | `c3dc74aba983db8d430a0721b065b31a92ff7d29022215ff1e724610f39d454d` | `d712d014dedf9a3c80a30f17c08a9548436bf5b3de969a91fcff1d15c9da73b9` | R3 x3 |
+| code/quantum/seats/build-1/null_in.log | no | `79d42331239ceb8dee44a3196821e8df2a20b2edf6b31d134261730bedf2b9af` | `8cdc55f89cfd5ddfc073695dc39f605abf1cb475a70086353642e3a2d9bba73f` | R2 x1 |
+| code/quantum/seats/build-1/null_out.log | no | `8e2d0881be46b262f2e5423d0e29469ccd510e24de7b7a09f22efc17d4e8b796` | `937272c69d954afa51e176a9bb9339e9c2d82cbe658a6739b9e7f29350dc6a39` | R2 x1 |
+| code/quantum/seats/build-1/result_qb1.json | yes | `65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4` | `a20eed9a480215a35be1b2681bc31b47ba5c1d23fcbd9b1a7b6d157d84d290d0` | R3 x2 |
+| code/quantum/seats/build-2/RUN.md | no | `5e0ace4ad264c22f87b09596f81bfade8a2f4a5a200e4bef6fbac2676550ba38` | `b4a485ef43472d58f12b88f08a4d566c7c3bad22c936bed1c07bc58ef86da134` | R3 x1, R5 x1 |
+| code/quantum/seats/build-2/controls_qb1b.json | yes | `7fefab90da0bbe553ac5472b8349b088f997b54c75a72a7efb9b8c4662c7f864` | `635760aca86686bc205233a1f53ebd3f5f1122ec23a8bd9786f871d6c1eaf5e0` | R3 x4 |
+| code/quantum/seats/build-2/dnew2.py | yes | `579a3750f80c02b3c735c6a7c17edab2e1805a7ee35a451df5f1092f32073b4c` | `a24a6f2cb583fbc0a53e74e74e2c916ed5ea650920faebe5ced231cad5205c28` | R3 x4 |
+| code/quantum/seats/build-2/finalize.py | yes | `040b410bc7a389c95ff4f448134bb91ce6174121eab47eab5f1a12b5d1dfe9f9` | `5ce42428fa874c63ee7b5dd4e95d1a089778aa5ee931e5ad162b1cc3f3fa5a97` | R3 x5 |
+| code/quantum/seats/build-2/schart.py | yes | `8708bc39034b26d13371803e649f0687f2ead95708f5e2ad761b1b7a35a1842f` | `c617f5c04e49a518ca7887360c909f9a31d54a95e314602a4fbe543a6ac78024` | R3 x1 |
+| code/quantum/seats/build-2/tasks2.py | yes | `010f9a6037367abe47d75deb0b8f796b0851f2e27425b053654508d4125cee3d` | `efe9b514e83036e6c10a8f623a3e936dc2545e1a43cc02824463ff8517f0f68c` | R3 x1 |
+| code/quantum/seats/build-2/tmbg.py | yes | `e1ebc3baa93dd76dbc97693ebb36fdf8cf94b7fd4dcf6e3a3a7f3200c816dd65` | `1566230cb380ebe4325f3972f4419953f86e9dbc42561a89e24a655f7f5e8deb` | R3 x1 |
+| code/quantum/seats/build-2/tmcell.py | yes | `d3416c6f6e93ad9b7b952bf84d7da9b4459774ff6ad1f7f53982f59b64349062` | `17037a1a0e843b4c31faa557eaa6d570c6b29d199444bf1807fd5ddbaf538d56` | R3 x1 |
+| code/quantum/seats/build-3/RUN.md | no | `d58d35722a19026ef029d8949715d07907b2b50037320352fe2839e15d125dd5` | `3602e67c8bb03bfb7c4f98d68d2d5b53fc1bcef1d4acde93dd7890961723c86b` | R3 x1, R5 x1 |
+| code/quantum/seats/build-3/bach_u.py | yes | `db51f3e02c21566e34f5ea5e89443954ceaf76f042bf99f7190b242986f4df6a` | `5884f86f9e183ebb6ee3a5403089653c99f06f9596b4de6cf8eb7e83740aa273` | R3 x2 |
+| code/quantum/seats/build-3/bachsym.py | yes | `9f314a7baf685d380c4f516d4eae46df1a88b286925cb60d6e979b0a9f846291` | `3679db83542d23e1d7edb3dfbdd49c201fbc0e57e79e2a0a95ca031d2a3d4aa5` | R3 x1 |
+| code/quantum/seats/build-3/c2check.py | yes | `b56be098baede4e8b564fbad57f0e31e6d20dd3900c10f3d04054ecc459fbc11` | `b4d993655f68d47d252fba6cc83f0eadce743e13d7cdbc06fd8c9ccc2772e9f5` | R3 x1 |
+| code/quantum/seats/build-3/controls_qb2.json | yes | `b0dc43375869d7bee661e88872712175a47036ae0437dc9aa5dd2ea7cd278626` | `49064d903f9a2e2e8516742dac36391572e16ea06aa85607e27ce3793600b5e6` | R3 x17 |
+| code/quantum/seats/build-3/hka_copy.py | yes | `6382993a91cc60e0cc7824ea1465036b999a77437abd878acb995a3c35f02b20` | `915b88bf4a515114f60f72a4a0d9006c7296eb6ab41d79c0a6ab6d1dda68e1e8` | R3 x1 |
+| code/quantum/seats/build-3/make_outputs.py | yes | `ddf1fe478cac601f9393cdd16782cd4e29ae1d92a7c9916cc1c793f0c54d8134` | `e7ac36b0e6b04d87ba5cbcebc9565f9c8ed3f8ccbeaf3b4ab23953e398cf0f26` | R3 x18 |
+| code/quantum/seats/build-3/n0check.py | yes | `d56f760c25235f8eb0016bea979d47c765aae63ebfd7ba82110306d0155045ce` | `0823817c879b79e7ab1e6c692a6975eba1341da86cb77952fa799cb197a7224b` | R3 x4 |
+| code/quantum/seats/build-3/n1_rows.py | yes | `df5160546dd3dace689a948562bda1e987545618f5245bd6bee6dcf3216d3fb5` | `098c95657021bd604698fc2dd7308746ad16ed7631072bacdfdc9cc284e22e00` | R3 x3 |
+| code/quantum/seats/build-3/qb2core.py | yes | `4906d61e202aa3cb63d576a0b9c9c90e1981afb02d7db4bc3ec4576e6f0499cf` | `737e7e6912b643333f18472e293135ddee0c8ab7586171e3dceac40e9c1d3045` | R3 x1 |
+| code/quantum/seats/build-3/qb2final.py | yes | `b005b5060d9314da3c1006dd3234f2191ddfebc28dcd00c0c80da165205aa908` | `debcf457c25bb404cbbffc35effb267672a7711c11d4abd4a52d0e91c512fa92` | R3 x5 |
+| code/quantum/seats/build-3/qb2lib.py | yes | `430507c93c425c77d1ec06ba35d090aede8d297ccad5f5d701d9be386e6178c2` | `23a618f60c812e7ba60d2dcd459eebf507ecf2d1574ea8539bc944e7487d9325` | R3 x3 |
+| code/quantum/seats/build-3/qb2pass.py | yes | `52c4165672062cf2096b22a0ccd261eb071ea82d44ebd8022c12b0ba415ecd1d` | `ae5db01d02e5cb5905901ec20d31e2c3e811f4ffc4b61ea398343814649f73d9` | R3 x5 |
+| code/quantum/seats/build-3/qb2stages.py | yes | `a27121aecb5376a0288894dfe9f5ca6373dc606799bdcc7a65a6048c5dbfd81c` | `54979119ef9a1cfcf2fb11323fcf503a939cd68c244667a5f71e0c76651c0c4f` | R3 x5 |
+| code/quantum/seats/build-3/qb2sym2.py | yes | `5f16c578c518c344a56f59f6088314f85bec5a78cafef052048c9f1bea65acc7` | `de3a9accaac9b79a8ba1e4496c034d93372b489d1cf7352703398af1a39a71de` | R3 x4 |
+| code/quantum/seats/build-3/run_pass.sh | no | `968bec39536dfec912efbc3e764ab242fa28fb98cc347e2a47c97fb103319a03` | `65da36b8ce9e5389efa316b2423caf9daa9a30e707df6ef0247f9150c5111ee8` | R3 x1, R5 x2 |
+| code/quantum/seats/build-4/RUN.md | yes | `40c178783be0ea38f75f8c479e3c0df99b61d375c059c49b1121350d6d4887e8` | `13a827d8bf3a8fdda6ef830c795c28d719d34c912cd2eafd8255bf34da2731cd` | R3 x1, R5 x1 |
+| code/quantum/seats/build-4/centre_exact.py | yes | `a6b388dd22df39556959d9223864c70705cf9e520115f93a3c3f5da282c1406f` | `c2b9cf0cc60768b913f36d65a9836ff370a24ef5210b37cdf18d6955bc153e1e` | R3 x3 |
+| code/quantum/seats/build-4/controls_qb2b.json | yes | `17c402436dd0881410a5eafc5f55e617045243a11ec2848d2feafa81fbd28aae` | `0b357cd36d0b27d1f6d38931de8d998a164c43eea12cf390394c49e3067ec9b7` | R3 x9 |
+| code/quantum/seats/build-4/final_b.py | yes | `26ec80976eeac68185bb7757c6a0b802e89b46ee048348af80a37dd23afed6aa` | `535e714f93bce83d41489aa22f46f7b19c371b7933b44557c67cfe8a68ac13b6` | R3 x1 |
+| code/quantum/seats/build-4/make_outputs_b.py | yes | `13727ff57848c8b7018519a4d19038311a28341630d65c03d61b0aa67d82f8a5` | `443a259b36768b33f60abfcb95c8c4dda2524490133d12062844ad2d2eb5709d` | R3 x11 |
+| code/quantum/seats/build-4/make_pass_b.py | yes | `84f71b12dd0f52a1c7947061a2b054853904fe922f36cca6f87f1c0637a9c222` | `d966b577cac3f5d26f9ad5488f64536c1e9b333172281121b86ba46e3d7a5753` | R3 x5 |
+| code/quantum/seats/build-4/pass_b.py | yes | `28e8cef71035449401c908b8cfa83be313dc076a56cd84f3428ebe3380d8b410` | `9ceb1c1e03dfec81afc940cc43c18785775d9e51af958936e82c59ae5e06a495` | R3 x4 |
+| code/quantum/seats/build-4/qb2b.py | yes | `58abe81d23b3a30e167b7df1612c44d66df5ebd5ee94b2e6a2af94b9d5b463e4` | `dd3465085b9d7bcb3a34a8431bf348798a0a52760438a2abb8828945811e31a7` | R3 x6 |
+| code/quantum/seats/build-4/qb2b_tight.py | no | `48cddf77da8292f5fb4a21cd946110d7f36a411694f0b2076c983e04fd884cf2` | `6ed084f6bd960a253814c7a974343e6b1b73cf2ffbf378e730be718d8012ec8f` | R3 x2 |
+| code/quantum/seats/build-4/run1/stages.json | no | `af5366313353a2a0330f1c8f2a1b14499069168be372b3f7d26138512234cbd8` | `440853fdf67ec3a5ad0cab9292e6c984a4427ae751b3c83906f46a403f041c85` | R3 x1 |
+| code/quantum/seats/build-4/run_pass_b.sh | no | `3247cedd28b29bd2dfd3867dd97c43e5d17d347caf5d6188919806f616dccf3c` | `af0397a37bf4f477e4da92a5125536a48eac467195a6ec150710f186948e0d5b` | R3 x1, R5 x2 |
+| code/quantum/seats/build-4/stages.json | no | `af5366313353a2a0330f1c8f2a1b14499069168be372b3f7d26138512234cbd8` | `440853fdf67ec3a5ad0cab9292e6c984a4427ae751b3c83906f46a403f041c85` | R3 x1 |
+| code/quantum/seats/build-4/stages_b.py | yes | `1a77e83c4b8393c60c2de95b29cc7a69d6ad40137ac55316da938a2055e175f0` | `6206f86943fc4201d16a33ccf4b5e990593d7c859ce7fecd6aa0f37a749bbd48` | R3 x1 |
+| code/quantum/seats/build-4/stages_b_helpers.py | yes | `6b93480eaddca91218fad55b6eeb4baf2c1e9c4391e853e2be3e7e54daa7fe23` | `527ca397df117f85a36b8a4cb1a9bb37ede8454136042897eaa7b020057b8c81` | R3 x1 |
+| code/quantum/seats/build-4/thth_eval.py | yes | `e99883f69d49c518a0cb2c69678f81fd3120e59a836747d28391fbe7d03e68ac` | `6add058debd8a8cdb479c0dd15f09a07f1389aa805fa9ba449fdc4193b197d4d` | R3 x1 |
+| code/quantum/seats/build-4/thth_sym.py | yes | `b54a2c689ffe730d1989c510eb42501d0c54b2d49be115423a169f1c59d69e23` | `a23f36238cea1f0a9617d8c73252b5fa558eb6b29d5bcfb61b46de33b9a2e82d` | R3 x2 |
+| code/quantum/seats/build-4/tube_bg2.log | no | `4d8dbdc504173de01e6b25e5787dd82d52fd9cfbe0fe8bcf794f8f3028008158` | `dd68214a50c68c4c6fbc7d68971ed34dd4ff6107723c798dcb19c8cbb935cc28` | R3 x2 |
+| code/quantum/seats/build-4/tube_bg2.py | yes | `160708f213648b4a31f65dc303d44ee8478ede0e9bd091600592df7ffa9a64e8` | `bf6231894f10bb4bc296c49888ce27bbb671ef69c6e72de588d62fa142654220` | R3 x5 |
+| code/quantum/seats/build-4/tube_compare.py | yes | `725685cf9779badf72cf4917fd76b1e95525614e94dd1f0632eeb9d744055750` | `5e48e29f152fc6ece9fde3dc62099827818205c0fbbc1b08b9c11010ea0548e5` | R3 x3 |
+| code/quantum/seats/build-5/RUN.md | yes | `ae38f51438c1bbbbc92d4f1df8671b854a7791b7e96c936f2dc878cc5bbae221` | `ce298ae1d6ab90759b00c81e6d2ad8a66b74cde37016299338feb15bb519c61e` | R3 x1, R5 x1 |
+| code/quantum/seats/build-5/deep_ratio.py | yes | `885f8c8f2fc343879d0419d8ce179746624edd6a83ba22e9da0a7d14ba0ec26d` | `a1c7365655e46a2a90bc69136f9359e88f533c91d36e45ca8627f937afab80b6` | R3 x1 |
+| code/quantum/seats/build-5/final_c.py | yes | `0ade9c32911d4cd0eef6d8bbbb148b1433fb2dd78a4fa91ca64851fd2d5d41b8` | `2b4c3858c5d15e5d8cc3acb38707fecf1512c3c9276789753d2aa95d7fde1a6d` | R3 x3 |
+| code/quantum/seats/build-5/make_outputs_c.py | yes | `3cdd194040a37d7d0f52acade4badffb6f2c61b8c71cdfd8673c24ae58fbc21b` | `dd5d7e5eafd54ca509c89e7a2e5c941d2a85b7beecb1619db7b5fb6c51f29815` | R3 x3 |
+| code/quantum/seats/build-5/probe_tight.py | yes | `5c0056bbf97b9c3aca0e2fd3b578e634b1741a9209f833d711695c44b1a0d9fc` | `efcc37cf43d1c598dee83e3a79d19648df7c0011e7f103ff6cc00eb2ad383b6f` | R3 x1 |
+| code/quantum/seats/build-5/thth_c.py | yes | `abcffb829bdc4ef80649e50e175833d476c3cc70e584e0b7969af5692740dbfe` | `cdaf112c76f4851afd18bae21d151c014850072cf52004aba6401a4a880e05fa` | R3 x2 |
+| code/quantum/seats/referee-1/REFEREE-QB1.md | no | `a3e833b16a91eb85de535cf4c8b5337d9c5ab8d855ccc1c37108bddc792a2781` | `1bbda6bf92afa226830a43404fbb1261faa8825eb01063ea7e0680c600a48e8c` | R3 x1 |
+| code/quantum/seats/referee-1/inspect_pkl.py | no | `775be90b491465ce9936149d345ba7316b9eb09021acd91b12a6733f9f6f92a2` | `57bb8e1bf9fbf9f3d9f4e7f66ab40c9c0751c92d797eccaa7874485e3e7abaa4` | R3 x2 |
+| code/quantum/seats/referee-1/ref_ec.py | no | `f7385cd8556a15a6cbcd6a0c57ec8e40de16cdf9dbe886e6a735fd3824d7fe22` | `fe4773306206d20c5bbddc4ff96863098a93ddf8668e5b29715a47d995f207ed` | R3 x2 |
+| code/quantum/seats/referee-2/r2_forced.py | no | `caa726c711d561017d2850b33a61b938db03372a40156334f8b59e00cb1b8f15` | `e89bc931428e811643fb05c72687b3a837e29ea88e063356acaaa5e0fde1d57b` | R3 x2 |
+| code/quantum/seats/referee-3/reconcile_qb2.py | no | `5edb066403981aa8820130af7a60239db539469a5522034540f90e9929536d1b` | `4ef78f6ef34d8580ec917b23cab2c5978ce733f9fd79cce7e6a3cf156062dcea` | R3 x2 |
+| code/quantum/seats/referee-4/r4_bach.py | no | `c41bdd4f933c779ffb9127b39b116b8113a22c487340d695750e7a820d413cfb` | `dfe4996110ee444422a2de8ae706f9a63b83a9bfc68f0f3a0cbdc7bd714c12cf` | R3 x1 |
+| code/sideways/build-1/RUN.md | no | `70403c4527b0626f2d0eb391d3bd27eabc4c5c09ad17cca48a6fcec2ee05173b` | `9dc357f08976f53a676f443a4795d105828abb470f470fef4e9b59efd9143b68` | R3 x1, R5 x2 |
+| code/sideways/build-1/bgnum.py | yes | `79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310` | `f475aaec490dea054279a01833ee21819996bae699a4782b54ead28996fc2de8` | R3 x3 |
+| code/sideways/build-1/eqs_l.py | yes | `63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6` | `1227019341442517227903b10c9a30e637a5289a22956fe832dddc2feb259e92` | R3 x1 |
+| code/sideways/build-1/l0_cert.py | yes | `b20787ed0e6d6fc0a95e630d186f41502fafda90e7931ba2ba1bd0c994006e71` | `95b1321027284d81a96a8b6628e0a4d5c1f3637b97148b1ba444bbd50c43220e` | R3 x3 |
+| code/sideways/build-1/outward_rec.py | yes | `839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa` | `067ddc2ee47ebb5c9c7e77e3a5c1b261824f56c6bfb3c94ec519f7774b6b1028` | R3 x2 |
+| code/sideways/build-1/polar_sys.py | yes | `03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60` | `bc703a202eef5b5a8fe31e45edf3411a79b2fbafe6fe916d0ab9288bd1e7c349` | R3 x1 |
+| code/sideways/build-4/ax_sys.py | yes | `f3f4d85865d691d14a8db6008aa14dd3c1530ff3dc90c7031d0277aed01a85c5` | `276df28bc97007367ea38dee0e2320f33d01cc9909b864616bfcdbf02e239cf0` | R3 x2 |
+| code/sideways/build-4/l2_cert.py | yes | `d76a06cfd2f238bb381f8aa34e9edce7c1b969cb18ed8ac70ff98449705d04a9` | `e16ef5ee1e3a6848c61708d64f13d3618c8b21c3ef27f456b9f529d92b9455c9` | R6 x2 |
+| code/sideways/build-4/l2_lib.py | yes | `40c831a3a07a20952e2c20051913679e92c4bdcf3024f5029a9f6b0efde91c84` | `4aed2b3387fba06c991ec77ed740dfa2d89ec5c4684c4baa712dc43094252cae` | R3 x3 |
+| code/sideways/build-5/RUN-BG2.md | no | `038140577f65171ac77ce7111afb693813c69969ddc5498e9bde70b8fdd39ea4` | `7a418e060b32ed95828857c46081bf22efb122261c2fc8d4eeaffce8f69c72a8` | R3 x2, R5 x10 |
+| code/sideways/build-5/controls_bg2.json | yes | `83580db3166d22a22024e3436c53d0a1b4b9e0e1de5a73aa817857fe9388e365` | `6a52d2a78129807592c5022ab8d99d4d4718c39e9e3936ce7472956ea41b3967` | R3 x11 |
+| code/sideways/build-5/phase2/b1_box.py | yes | `b5a922b1db4dd1e2d34ae00ba431b6c867ce9e6e7c782776409afc427bdd1924` | `e23a1d1b1eea1376eb4b91a325b698dae0f6b84d1ff2e9abdb827473389f41d4` | R3 x2 |
+| code/sideways/build-5/phase2/b2_C.log | no | `79d2d16f4614494edd54873d95004221a646efde893f44fde2b9dfcd45f99d5f` | `849e6c7fe9995c4c0bdc6c300fee61527aaa6940d96fb4454778b3d1d712de95` | R2 x1 |
+| code/sideways/build-5/phase2/b2_e5ctl.log | no | `07dc1cd2c78f53e06e23c7508e484141427d0de7120146e3a75e5c5d135bb97f` | `8f53f859d8d5b129d51c028227c0025555e863f1c9657ac70c059732ce703de2` | R2 x1 |
+| code/sideways/build-5/phase2/b2_nullshift.log | no | `b782ba88175e2631bd3f6c639f3e9aa97015c1aa3fef6e4581be1057a990fbd9` | `f70d393d95624acfeb1365311b34085d3a9cf8439531f073de5258c888d99293` | R2 x1 |
+| code/sideways/build-5/phase2/b2_outward.py | yes | `2bcbc847d928ddc3f22b1f86e69f77583a7ec1e36841b2f6f3bb21ee45d74b3c` | `0fff1de0e203040675beed91152c6dcfd40ad250a0e40268fcbd2ddc0dcc28a1` | R3 x3 |
+| code/sideways/build-5/phase2/b3_C.json | no | `d69da4fd63d4f32348e8b8174a6f7c19c8fcdcd83fbc794cbebd471c207d0060` | `f958d7af32fedd872d16720382598baed9026880bc3088b869a5fa5e64eab77f` | R1 x1 |
+| code/sideways/build-5/phase2/b3_gate.py | yes | `797060de937a85b885c385e1c7788098b4da89fb20107bae770d41791ccfb64a` | `ccf5d1ea6464f16d5d205a2a60aec7acde978c2a0f43f6544edb4637454d0caa` | R3 x1, R6 x1 |
+| code/sideways/build-5/phase2/b3_old.json | no | `dfcb682bd20a74afa1bcad5e9c73ca89716913200305b37da0594f4d6b16b2a7` | `9b3b3a62b14ca5fa0f037530309ae06d1831fd0da78344b7e6835f19d720e3fa` | R1 x1 |
+| code/sideways/build-5/phase2/make_bg2.py | yes | `e869e7158e1aaf1ef3d19fffd70eb96bfcccdbe91638a064e4500949391e6343` | `2cbdb849033c5347f79a170a9b1a549cbf10d62c737a441e79f2db9bba8e8b97` | R3 x11 |
+| code/sideways/build-5/phase2/p_dover.py | yes | `55bac6d8e98c8434de69db095b8a56f7de4b73654a031888cb3ea7047c49075c` | `6a1029406bc2eca143a8a37b5f2256a668a1fa6a4dcd6bb6c0de9d9a8ef6145e` | R3 x2, R6 x1 |
+| code/sideways/build-5/result_bg2.json | yes | `2635c4b2f3cc19001253368085cf8ddfb5803078d120f387aba119e4c155af85` | `d60c28451f0b86cd5f7c5257aee4e00c21cb7a2c37babac059753c86f546996f` | R1 x1 |
+| results/prior-art/PRIOR-ART-QB.md | no | `4551afb0d86c833e637704f2c76d5537b819e83330cc5b39ecfdde71497753db` | `3d2d54ac8718bcbd27460946ff923e09162af5b55aa813c88ec059263eac9ebd` | R3 x17, R5 x3, R6 x4, R16 x1 |
+| results/prior-art/PRIOR-ART-REFRESH.md | no | `f009bca99d501ed291f561a4e51afb78186c548de4b4ab00689ef0ae71d94b90` | `ad0743a0134e21bf3e8563139a93990bdf766c2c832306951f5ad5a95971320e` | R3 x21, R5 x3, R6 x4, R16 x1 |
+| results/result_qb1.json | yes | `65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4` | `a20eed9a480215a35be1b2681bc31b47ba5c1d23fcbd9b1a7b6d157d84d290d0` | R3 x2 |
+| results/ledger-quantum.json | no | `b515381d6b1a11fe5f7e0b11f41009dcf9eea59d2cd12a91ec37c18fa29ffed3` | `061a6b11a479637c1ebaf4cab0a4799763aafaa0fc91319a132773559c61ca2f` | R4 x411, R14 x2 |
+
+## Withheld file
+- `results/prior-art/QUERIES-QB.log` (the raw query log of the 2026-11-17 prior-art gate) is not shipped. One harvested
+  paper title in it names an observatory that matches a product name in the release privacy scan. The log stays in the
+  lab. The gate's conclusions and every source it relied on are in `PRIOR-ART-QB.md` and `PRIOR-ART-REFRESH.md`.
+- 2026-11-18, `tools/canon.py`: `setup_s` (a wall-clock setup time written by `sideways/build-4/l2_lib.py` l.413 via
+  `time.time()`) added to the run-time keys. Before this, the clean-room bg2 gate step differed from the shipped
+  `b3_C.json` only in `time_s` and `path_info.setup_s`.

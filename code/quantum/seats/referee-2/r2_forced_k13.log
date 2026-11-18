@@ -1,0 +1,29 @@
+k = 1/3
+geometry 2s
+rows 5s
+linearised + on-shell 18s
+K1 constraint first entry - kappa = (8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)/(3*(V - 1)*(V + 1)) ;  == -A : True
+K2 dJ/dx = c J on the homogeneous system: True ; c = (8*N*V*om + 4*V**2*om - 3*V**2 + 4*om + 3)/(3*(V - 1)*(V + 1)) ; c == -A : False
+K2 kappa in Comp: True
+    (div Sigma)_2 = 0
+    (div Sigma)_3 = 0
+K3 Comp / D_t free of sigma: True ; lam = (8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)/(3*(V - 1)*(V + 1))
+K3 lam == -A : True ; lam == -A^2 : False
+K3 sigma_TT in D_t: False ; in D_x: True
+K4 div(E_thth only)_s = 2*Eth(x)*exp(2*s - 2*x) ;  _x = -2*Eth(x)*exp(2*s - 2*x) ; sum = 0
+K5 my constraint row == HKA identity row: True
+    row 0 M4 == Mhka
+    row 1 M4 == Mhka
+    row 2 M4 - Mhka = F_i * I : True  F_i = (2*N*V + V**2 + 1)/(3*N**2*V**2 - N**2 + 4*N*V - V**2 + 3)
+    row 3 M4 - Mhka = F_i * I : True  F_i = (V - 1)*(V + 1)*(3*N*V**2 + N + 4*V)/(4*(3*N**2*V**2 - N**2 + 4*N*V - V**2 + 3))
+K5 HKA source row 0: [N**(-2), 2/N**2, N**(-2)]
+K5 HKA source row 1: [-1/(2*N**2), -1/N**2, (N - 1)*(N + 1)/(2*N**2)]
+K5 HKA source row 2: [V/N, (N + 6*V)/(3*N), -(2*N**2*V - N - 3*V)/(3*N)]
+K5 HKA source row 3: [1/(3*N), -(N*V - 2)/(3*N), -(2*N**2 + N*V - 1)/(3*N)]
+K5 rows 2,3 identically zero: False
+K5 (rate -A along HKA pencil) Comp via HKA pencil+full source == Comp via evolution rows: True
+K5 sigma_I coefficients: [-1/N**2, (N**2 - 2)/N**2, (N - 1)*(N + 1)/N**2]
+K5 c_derive - (-A) == I.F : True
+K5 denominators rows 2,3: [N, 3*N, 3*N, 3*N, 3*N, 3*N]
+total 38s
+memcap: exit 0, peak 0.09 GB of 8.00 GB cap

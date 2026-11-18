@@ -1,0 +1,42 @@
+{
+ "engine_sha256": {
+  "engine/cert/count_b4v3.py": "9d6db027f0ca12a2fefc6fcb716bfd36d3a5d422c971611403bcec04dd13b28f",
+  "engine/cert/count_b4.py": "7f17adc9c0b10ec529fba28ea356296b7b3bd77dd95bd312e3bb791c4d2c7204",
+  "engine/cert/count_b4v3_seal.py": "6e7d49f3e1af8e8f0a3caf32476adfd3557cee49cf7d5a067f528ab7d02f470c",
+  "engine/cert/lin_stages_v2.py": "e477ec1f6fc3f36ec16e776c26c0516e1fa5b964ee769286d8e0c290f20bf2d5",
+  "engine/cert/lin_stages.py": "582e24236c8ff81594cb56a4c2afdb0edc9a083dfdc261cf61623f4679deb821",
+  "engine/cert/lin_tube2_k1_3.pkl": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+ },
+ "linear": "CachedLinear2(L13_nsub2.pkl, sha256 verified c239cbe53470)",
+ "prec": 128,
+ "x_m": "[-4.600000000000000 +/- 7.11e-16]",
+ "D_new_2": {
+  "re": [
+   "-2.4126270857981028564",
+   "1.13e-9"
+  ],
+  "im": [
+   "0",
+   "3.74e-14"
+  ]
+ },
+ "D_HKA_2": {
+  "re": [
+   "-19.942295267987575083",
+   "1.12e-8"
+  ],
+  "im": [
+   "0",
+   "1.13e-13"
+  ]
+ },
+ "D_new_2_nonzero": true,
+ "D_new_2_sign": -1,
+ "abs_D_new_2_lower": "2.41262708466",
+ "build1_value": [
+  "-2.4126270857981028564",
+  "1.13e-9"
+ ],
+ "overlaps_build1": true,
+ "time_s": 14.9
+}

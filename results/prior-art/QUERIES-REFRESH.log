@@ -1,0 +1,1931 @@
+# QUERIES for PRIOR-ART-REFRESH.md (gate-2, 2026-11-18). arXiv export API (sortBy submittedDate, first 50 listed; date-window listings up to 600), INSPIRE literature API (mostrecent, size 250), Zenodo records API (size 25 listed; TOTAL is full count). Controls marked #CONTROL.
+== arxiv: abs:"critical collapse" #CONTROL
+  2610.41823v1 | 2026-10-30 | Primordial black holes and gravitational waves from aligned axion inflation
+  2610.22475v1 | 2026-10-15 | Angular Momenta in $4+1$ Vacuum Critical Collapse
+  2610.21658v1 | 2026-10-15 | From Cosmic Bounces to Primordial Black Holes: The Role of Primordial Magnetic Fields
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2610.07085v1 | 2026-10-05 | Primordial black holes and scalar-induced gravitational waves in the supersymmetric 331 model from SU(6)
+  2610.01964v1 | 2026-10-01 | Locating critical solutions in numerical relativity using automatic differentiation
+  2609.30240v2 | 2026-09-24 | Emergent Scaling Symmetry and Universal Interior Criticality of Scalarized Black Holes
+  2608.23957v1 | 2026-08-25 | Projected Constraints on Primordial Black Holes from Scalar-Induced Gravitational Waves with Taiji
+  2608.13206v3 | 2026-08-13 | Long-term 3+1 simulations of primordial black hole formation during radiation domination
+  2608.10127v2 | 2026-08-10 | Evaporation of Primordial Black Holes with Multimodal Mass and Extended Spin Distributions: Cosmological Imprints on the Effective Number of Relativistic Species
+  2607.19244v1 | 2026-07-21 | Decaying Dark Matter Halo Abundance from a Revised Spherical Collapse Model
+  2606.29590v2 | 2026-06-28 | Saturation Equations of State in Critical Gravitational Collapse: The Primordial Black Hole Threshold
+  2606.17135v2 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2606.09804v1 | 2026-06-08 | Universal Suppression of Gravitational Waves from Black Hole Evaporation Dynamics
+  2606.03751v1 | 2026-06-02 | Critical collapse of a self-interacting scalar field in asymptotically anti-de Sitter spacetime
+  2604.17083v3 | 2026-04-18 | Dark ages bounds on nonaccreting massive compact halo objects
+  2601.20563v1 | 2026-01-28 | Sustainable and Optimal Harvesting in a Seasonally Harvested Fishery with a Marine Protected Area: A Two-Patch Model with Bang-Bang and Singular Control
+  2601.18708v1 | 2026-01-26 | Ultra-fast growth of primordial black holes through radiative absorption
+  2601.18191v2 | 2026-01-26 | Critical collapse of a massive scalar field in semi-classical loop quantum gravity
+  2601.16717v1 | 2026-01-23 | When Primordial Black Holes Absorb During the Early Universe
+  2512.13648v3 | 2025-12-15 | The impact of non-Gaussianity when searching for Primordial Black Holes with LISA
+  2511.14874v3 | 2025-11-18 | Simulations of gravitational collapse in null coordinates IV: evolving through the event horizon, with an application to the spherical charged scalar field
+  2510.25534v1 | 2025-10-29 | Characteristic Critical Collapse of a Yang-Mills Field With Null Infinity
+  2510.13416v1 | 2025-10-15 | Spatial patterning of force centers controls folding pathways of active elastic networks
+  2510.09303v2 | 2025-10-10 | Effect of stochastic kicks on primordial black hole abundance and mass via the compaction function
+  2509.19371v1 | 2025-09-19 | How to inject knowledge efficiently? Knowledge Infusion Scaling Law for Pre-training Large Language Models
+  2509.10431v1 | 2025-09-12 | Primordial Black Hole Formation in a Scalar Field Dominated Universe: Investigation of the Critical nature of the Collapse
+  2509.07136v1 | 2025-09-08 | Self-similar collapse with elasticity
+  2509.03587v3 | 2025-09-03 | Quantum Critical Collapse Abhors a Naked Singularity
+  2508.21011v1 | 2025-08-28 | Baryogenesis via Asymmetric Evaporation of Primordial Black Holes
+  2507.07636v1 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2507.02490v4 | 2025-07-03 | Primordial black hole formation in k-inflation models
+  2505.04701v1 | 2025-05-07 | Non-local correlations of a test quantum field in gravitational collapse
+  2504.11069v2 | 2025-04-15 | Pseudospectral implementation of the Einstein-Maxwell system
+  2504.10590v2 | 2025-04-14 | Black Hole Critical Collapse in Infinite Dimensions: Continuous Self-Similar Solutions
+  2504.07890v1 | 2025-04-10 | Stupendously Large Primordial Black Holes from the QCD axion
+  2502.15279v1 | 2025-02-21 | Primordial Black Holes
+  2501.03065v1 | 2025-01-06 | Cosmic Whispers of the Early Universe: Gravitational Waves and Dark Matter from Primordial Black Holes
+  2412.07709v3 | 2024-12-10 | Unexpected shape of the primordial black hole mass function
+  2408.12140v1 | 2024-08-22 | Modulational instability and collapse of internal gravity waves in the atmosphere
+  2407.11952v1 | 2024-07-16 | Young Black Holes Have Smooth Horizons: A Swampland Argument
+  2407.10036v1 | 2024-07-14 | The Lugiato-Lefever equation driven by a double tightly focused pump
+  2405.06351v1 | 2024-05-10 | Energy in critical collapse
+  2405.05732v2 | 2024-05-09 | Constraints on primordial black holes from LIGO-Virgo-KAGRA O3 events
+  2404.15839v2 | 2024-04-24 | Simulations of gravitational collapse in null coordinates: II. Critical collapse of an axisymmetric scalar field
+  2404.15105v2 | 2024-04-23 | Simulations of gravitational collapse in null coordinates: I. Formulation and weak-field tests in generalised Bondi gauges
+  2403.03839v2 | 2024-03-06 | How open is the asteroid-mass primordial black hole window?
+  2403.01458v2 | 2024-03-03 | Semi-vortex solitons and their excited states in spin-orbit-coupled binary bosonic condensates
+  2402.10190v1 | 2024-02-15 | Extremal black hole formation as a critical phenomenon
+  2402.00062v1 | 2024-01-29 | High regularity waves on self-similar naked singularity interiors: decay and the role of blue-shift
+TOTAL 164
+== arxiv: abs:"critical collapse" AND (abs:semiclassical OR abs:"one-loop" OR abs:"back-reaction" OR abs:backreaction OR abs:anomaly)
+  2610.21658v1 | 2026-10-15 | From Cosmic Bounces to Primordial Black Holes: The Role of Primordial Magnetic Fields
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2606.17135v2 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2509.03587v3 | 2025-09-03 | Quantum Critical Collapse Abhors a Naked Singularity
+  2111.11400v1 | 2021-11-22 | Gravitational collapse of quantum fields and Choptuik scaling
+TOTAL 5
+== arxiv: abs:"critical solution" AND (abs:semiclassical OR abs:"trace anomaly" OR abs:"conformal anomaly" OR abs:"vacuum polarization")
+  2509.03584v3 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2110.15680v1 | 2021-10-29 | Breaking Buchdahl: ultracompact stars in semiclassical gravity
+  1401.4745v2 | 2014-01-19 | Numerical Study of the semiclassical limit of the Davey-Stewartson II equations
+  hep-th/9606152v2 | 1996-06-24 | Predictability and Semiclassical Approximation at the onset of Black Hole formation
+TOTAL 4
+== arxiv: abs:"Bach tensor" AND (abs:"self-similar" OR abs:homothetic OR abs:collapse OR abs:fluid)
+  2306.05863v2 | 2023-06-09 | The covariant approach to static spacetimes in Einstein and extended gravity theories
+  2212.00559v1 | 2022-12-01 | Characterizations Of Weakly Conformally Flat And Quasi Einstein Manifolds
+  gr-qc/0108018v1 | 2001-08-06 | A Conserved Bach Current
+TOTAL 3
+== arxiv: abs:"trace anomaly" AND (abs:"self-similar" OR abs:homothetic)
+  2604.16693v1 | 2026-04-17 | Effective Trace Framework for Self-Similar Casimir Systems
+TOTAL 1
+== arxiv: abs:"conformal anomaly" AND (abs:"self-similar" OR abs:collapse) AND abs:fluid
+TOTAL 0
+== arxiv: abs:"Choptuik" AND (abs:quantum OR abs:semiclassical OR abs:hbar)
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2606.17135v2 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2507.07636v1 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2406.04310v3 | 2024-06-06 | Neural Networks Assisted Metropolis-Hastings for Bayesian Estimation of Critical Exponent on Elliptic Black Hole Solution in 4D Using Quantum Perturbation Theory
+  2111.11400v1 | 2021-11-22 | Gravitational collapse of quantum fields and Choptuik scaling
+  2002.04044v1 | 2020-02-10 | Critical collapse of a scalar field in semiclassical loop quantum gravity
+  1812.03979v3 | 2018-12-10 | Gravitational collapse in SYK models and Choptuik-like phenomenon
+  1803.09168v1 | 2018-03-24 | Vacua on the Brink of Decay
+  1011.2381v2 | 2010-11-10 | Modified general relativity as a model for quantum gravitational collapse
+  0902.3224v1 | 2009-02-18 | Dynamical Singularity Resolution in Spherically Symmetric Black Hole Formation
+  0804.3321v1 | 2008-04-21 | Exploring an S-matrix for gravitational collapse
+  0711.4620v1 | 2007-11-28 | Critical phenomena in gravitational collapse
+  gr-qc/0508020v3 | 2005-08-05 | Exact Static Solutions for Scalar Fields Coupled to Gravity in $(3+1)$-Dimensions
+  gr-qc/0104073v1 | 2001-04-23 | Critical Phenomena in Gravitational Collapse: The Studies So Far
+  gr-qc/9712084v3 | 1997-12-21 | Critical phenomena in gravitational collapse (review paper)
+  gr-qc/9704027v1 | 1997-04-09 | Spherical Collapse of a Mass-Less Scalar Field With Semi-Classical Corrections
+TOTAL 16
+== arxiv: abs:"radiation fluid" AND abs:collapse AND (abs:quantum OR abs:semiclassical)
+  2110.03069v2 | 2021-10-06 | Rainbow Black Hole From Quantum Gravitational Collapse
+  1311.5712v1 | 2013-11-22 | Planck scale physics and topology change through an exactly solvable model
+TOTAL 2
+== arxiv: abs:"black hole threshold" AND (abs:quantum OR abs:semiclassical)
+  2609.31825v2 | 2026-09-25 | Cardy random matrix theory
+  2608.23111v2 | 2026-08-24 | A Third-Quantized Description of Spacetime Wormholes in AdS/CFT
+  2604.09396v2 | 2026-04-10 | The many facets of a hyperbolic tetrahedron: open and closed triangulations of 3d gravity
+  2507.07636v1 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2405.00083v2 | 2024-04-30 | Density of States, Black Holes and the Emergent String Conjecture
+  2402.19358v1 | 2024-02-29 | A Rigorous Holographic Bound on AdS Scale Separation
+  2312.04619v2 | 2023-12-07 | The Minimal Weak Gravity Conjecture
+  2308.03829v2 | 2023-08-07 | Approximate CFTs and Random Tensor Models
+  2212.05962v3 | 2022-12-12 | Holographic Quantum Scars
+  2004.14428v2 | 2020-04-29 | Pure Gravity and Conical Defects
+  0711.4620v1 | 2007-11-28 | Critical phenomena in gravitational collapse
+  hep-th/0109154v1 | 2001-09-20 | AdS/CFT duality and the black hole information paradox
+  gr-qc/9712084v3 | 1997-12-21 | Critical phenomena in gravitational collapse (review paper)
+TOTAL 13
+== arxiv: abs:"mass gap" AND abs:collapse AND abs:quantum
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2608.24505v2 | 2026-07-22 | Testing the QGP Star Hypothesis: The oMEGACat BH-2 System as a Candidate Color-Superconducting Quark-Gluon Plasma Star
+  2606.17135v2 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2605.02373v2 | 2026-05-04 | Geometric QCD III: Exact transition amplitudes and the glueball spectrum
+  2509.03587v3 | 2025-09-03 | Quantum Critical Collapse Abhors a Naked Singularity
+  2509.03584v3 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2205.09195v2 | 2022-05-18 | Visualizing the interplay of Dirac mass gap and magnetism at nanoscale in intrinsic magnetic topological insulators
+  2110.15373v1 | 2021-10-28 | Does loop quantum $μ_o$ scheme permit a black hole formation?
+  2107.05797v1 | 2021-07-13 | Non-singular quantum gravitational dynamics of an LTB dust shell model: the role of quantization prescriptions
+  2106.00674v1 | 2021-06-01 | Criticality in the collapse of spherically symmetric massless scalar fields in semi-classical loop quantum gravity
+  1410.3390v2 | 2014-10-13 | Theory of Nematic Fractional Quantum Hall State
+  1109.3158v1 | 2011-09-14 | Model for gravitational collapse in effective quantum gravity
+  1011.2381v2 | 2010-11-10 | Modified general relativity as a model for quantum gravitational collapse
+  0902.3224v1 | 2009-02-18 | Dynamical Singularity Resolution in Spherically Symmetric Black Hole Formation
+  0808.0949v2 | 2008-08-07 | Critical behaviour in quantum gravitational collapse
+  gr-qc/0105019v1 | 2001-05-04 | Gravitational collapse of spherically symmetric perfect fluid with kinematic self-similarity
+  gr-qc/9804058v1 | 1998-04-23 | Quantum corrections to critical phenomena in gravitational collapse
+  gr-qc/9608040v1 | 1996-08-16 | Choptuik Scaling and Quantum Effects in 2D Dilaton Gravity
+TOTAL 18
+== arxiv: abs:"self-similar" AND abs:"stress-energy" AND (abs:renormalized OR abs:renormalised)
+  gr-qc/9804058v1 | 1998-04-23 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 1
+== arxiv: abs:"self-similar" AND abs:"Weyl" AND abs:anomaly
+TOTAL 0
+== arxiv: abs:"type II" AND abs:"critical" AND abs:quantum AND abs:collapse
+  2606.30087v1 | 2026-06-29 | Compaction function in stochastic inflation: a \texttt{FOREST} of type I and II primordial black holes
+  2601.18191v2 | 2026-01-26 | Critical collapse of a massive scalar field in semi-classical loop quantum gravity
+  2511.13212v2 | 2025-11-17 | Vortex patterns of a two-dimensional Bose-Einstein condensate at the almost critical rotation speed
+  2509.03584v3 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+TOTAL 4
+== arxiv: ti:"critical collapse" #CONTROL
+  2611.07007v1 | 2026-11-04 | Critical collapse remains discretely self-similar at large D
+  2611.04679v1 | 2026-11-03 | Quark deconfinement as a natural trigger of Type-I critical collapse: black holes from neutron stars deemed stable
+  2610.22475v1 | 2026-10-15 | Angular Momenta in $4+1$ Vacuum Critical Collapse
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2606.27431v2 | 2026-06-25 | Critical collapse of vacuum spacetimes: Nakamura wave initial data
+  2606.03751v1 | 2026-06-02 | Critical collapse of a self-interacting scalar field in asymptotically anti-de Sitter spacetime
+  2605.23838v2 | 2026-05-22 | Quantum critical collapse of a pinned vortex glass in high-field superconducting resonators
+  2601.18191v2 | 2026-01-26 | Critical collapse of a massive scalar field in semi-classical loop quantum gravity
+  2510.25534v1 | 2025-10-29 | Characteristic Critical Collapse of a Yang-Mills Field With Null Infinity
+  2509.03587v3 | 2025-09-03 | Quantum Critical Collapse Abhors a Naked Singularity
+  2509.03584v3 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2504.10590v2 | 2025-04-14 | Black Hole Critical Collapse in Infinite Dimensions: Continuous Self-Similar Solutions
+  2405.06351v1 | 2024-05-10 | Energy in critical collapse
+  2404.15839v2 | 2024-04-24 | Simulations of gravitational collapse in null coordinates: II. Critical collapse of an axisymmetric scalar field
+  2402.06724v2 | 2024-02-09 | Twist-free axisymmetric critical collapse of a complex scalar field
+  2308.03943v3 | 2023-08-07 | Universality in the Critical Collapse of the Einstein-Maxwell System
+  2308.01812v1 | 2023-08-03 | Formulation Improvements for Critical Collapse Simulations
+  2307.04372v2 | 2023-07-10 | New results on the dynamics of critical collapse
+  2212.14805v1 | 2022-12-30 | Critical collapse for the Starobinsky $R^2$ model
+  2207.04373v3 | 2022-07-10 | Renormalization-group Perspective on Gravitational Critical Collapse
+  2110.07153v2 | 2021-10-14 | Estimation of Critical Collapse Solutions to Black Holes with Nonlinear Statistical Models
+  2108.03643v2 | 2021-08-08 | Critical collapse of an axisymmetric ultrarelativistic fluid in $2+1$ dimensions
+  2104.11940v2 | 2021-04-24 | Critical collapse of a spherically symmetric ultrarelativistic fluid in $2+1$ dimensions
+  2011.10937v2 | 2020-11-22 | Impacts of Hawking Radiation from Primordial Black Holes in Critical Collapse Model on the Light Element Abundances
+  2011.06792v1 | 2020-11-13 | Strength of the naked singularity in critical collapse
+  2008.12726v1 | 2020-08-28 | Type II critical collapse on a single fixed grid: a gauge-driven ingoing boundary method
+  2007.13764v1 | 2020-07-27 | A semi-linear wave model for critical collapse
+  2003.13730v2 | 2020-03-30 | Critical collapse in K-essence models
+  2002.04044v1 | 2020-02-10 | Critical collapse of a scalar field in semiclassical loop quantum gravity
+  1902.07218v2 | 2019-02-19 | Holographic Signatures of Critical Collapse
+  1810.04907v2 | 2018-10-11 | Self-similarity in Einstein-Maxwell-dilaton theories and critical collapse
+  1808.09826v3 | 2018-08-29 | Dynamics of critical collapse
+  1807.10283v1 | 2018-07-26 | Gravitating Scalars and Critical Collapse in the Large $D$ Limit
+  1805.10442v1 | 2018-05-26 | Critical collapse of ultra-relativistic fluids: damping or growth of aspherical deformations
+  1803.08705v1 | 2018-03-23 | Suppression of the critical collapse for one-dimensional solitons by saturable quintic nonlinear lattices
+  1702.04601v2 | 2017-02-15 | Critical collapse of a rotating scalar field in $2+1$ dimensions
+  1603.04373v2 | 2016-03-14 | Critical collapse of rotating radiation fluids
+  1512.00488v4 | 2015-12-01 | Effects of Critical Collapse on Primordial Black-Hole Mass Spectra
+  1510.02592v1 | 2015-10-09 | Scalar field critical collapse in 2+1 dimensions
+  1410.0708v2 | 2014-09-30 | Exploring Critical Collapse in the Semilinear Wave Equation using Space-Time Finite Elements
+  1409.5176v1 | 2014-09-18 | Critical collapse in the spherically-symmetric Einstein-Vlasov model
+  1310.1955v2 | 2013-10-07 | Critical Collapse of Scalar Fields Beyond Axisymmetry
+  1307.1378v2 | 2013-07-04 | More On Critical Collapse of Axion-Dilaton System in Dimension Four
+  1208.5250v3 | 2012-08-26 | Critical Collapse in Einstein-Gauss-Bonnet Gravity in Five and Six Dimensions
+  1201.4627v1 | 2012-01-23 | Stabilization of one-dimensional solitons against the critical collapse by quintic nonlinear lattices
+  1110.3258v1 | 2011-10-14 | Critical Collapse and Solitons in Classical Conformal Field Theory
+  1108.0078v1 | 2011-07-30 | Critical Collapse in the Axion-Dilaton System in Diverse Dimensions
+  1106.5287v4 | 2011-06-27 | Critical collapse and black hole formation within an expanding perfect fluid
+  1106.4132v2 | 2011-06-21 | Universality and properties of neutron star type I critical collapses
+  1008.3319v2 | 2010-08-19 | On critical collapse of gravitational waves
+TOTAL 84
+== arxiv: ti:semiclassical AND ti:collapse
+  2508.01573v1 | 2025-08-03 | Wave Function Collapse Triggering Spacetime Dynamics in Semiclassical Gravity
+  2503.00622v3 | 2025-03-01 | Computation of the semiclassical outflux emerging from a collapsing spherical null shell
+  2205.11671v5 | 2022-05-23 | On the initial value problem for semiclassical gravity without and with quantum state collapses
+  2111.15562v1 | 2021-11-30 | Real time dynamics of a semiclassical gravitational collapse of a scalar quantum field
+  2010.13215v2 | 2020-10-25 | Semiclassical gravitational collapse of a radially symmetric massless scalar quantum field
+  2002.04044v1 | 2020-02-10 | Critical collapse of a scalar field in semiclassical loop quantum gravity
+  1812.07727v4 | 2018-12-19 | Black hole evaporation and semiclassical thin shell collapse
+  1709.06237v3 | 2017-09-19 | Constraining quantum collapse inflationary models with current data: The semiclassical approach
+  1701.00343v3 | 2017-01-02 | Towards a theory of wavefunction collapse Part 1: How the Diosi-Penrose criterion and Born's rule can be derived from semiclassical gravity, and how the criterion can be relativistically generalised with help of the Einstein-Hilbert action
+  1305.3139v1 | 2013-05-14 | Restoring predictability in semiclassical gravitational collapse
+  1304.2332v1 | 2013-04-08 | Semiclassical description of collapses and revivals of quantum wave packets in bounded domains
+  1303.6157v3 | 2013-03-25 | Semiclassical dynamics of horizons in spherically symmetric collapse
+  0909.4668v2 | 2009-09-25 | Semiclassical environment of collapsing shells
+  0909.4157v1 | 2009-09-23 | Revisiting the semiclassical gravity scenario for gravitational collapse
+  0906.1768v2 | 2009-06-09 | Radiation from collapsing shells, semiclassical backreaction and black hole formation
+  0712.1130v1 | 2007-12-07 | Fate of gravitational collapse in semiclassical gravity
+  gr-qc/0312080v2 | 2003-12-17 | Semiclassical Instability of the Cauchy Horizon in Self-Similar Collapse
+  gr-qc/9611062v1 | 1996-11-26 | Semiclassical Collapse of a Sphere of Dust and Hawking Radiation
+  gr-qc/9512032v2 | 1995-12-18 | Semiclassical collapse of a sphere of dust
+TOTAL 19
+== arxiv: ti:quantum AND ti:"self-similar"
+  2608.04844v1 | 2026-08-05 | Quantum walker trapped by self-similarity of the Sierpiński carpet
+  2606.05288v1 | 2026-06-03 | Emergent Self-Similar Quantum Revivals in Spiral Drives
+  2602.19448v1 | 2026-02-23 | Subsystem Statistics and Conditional Self-Similarity of Random Quantum States
+  2509.10360v3 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2501.09477v1 | 2025-01-16 | From Complexification to Self-Similarity: New Aspects of Quantum Criticality
+  2410.18219v1 | 2024-10-23 | Self-similar phase diagram of the Fibonacci-driven quantum Ising model
+  2302.01552v1 | 2023-02-03 | Self-similar quantum groups
+  2209.03163v1 | 2022-06-08 | Quantum black holes, partition of integers and self-similarity
+  2201.04704v5 | 2022-01-12 | Self-similarity of spectral response functions for fractional quantum Hall states
+  2105.05507v2 | 2021-05-12 | Quantum Vacuum Energy of Self-Similar Configurations
+  2104.00740v2 | 2021-04-01 | Self-similar extrapolation in quantum field theory
+  2009.02360v1 | 2020-09-04 | Self-similar potentials in quantum mechanics and coherent states
+  2007.06989v1 | 2020-07-14 | Emergent entanglement structures and self-similarity in quantum spin chains
+  2003.13507v1 | 2020-03-30 | Universal quantum transport and impurity band super metallicity in self-similar graphene carpets
+  2002.12848v1 | 2020-02-27 | Self similarity of the expanding universe as understood by quantum-phase-fields
+  2001.02616v3 | 2020-01-08 | Finding self-similar behavior in quantum many-body dynamics via persistent homology
+  1911.04162v2 | 2019-11-11 | Temporal self-similarity of quantum dynamical maps as a concept of memorylessness
+  1504.04384v1 | 2015-04-16 | Self-similar Evaporation and Collapse in the Quantum Portrait of Black Holes
+  1203.3372v1 | 2012-03-15 | Landau-Ginzburg Limit of Black Hole's Quantum Portrait: Self Similarity and Critical Exponent
+  0811.3786v1 | 2008-11-24 | Long-time self-similar asymptotic of the macroscopic quantum models
+  cond-mat/0409007v2 | 2004-09-01 | Second Generation of Composite Fermions and the Self-Similarity of the Fractional Quantum Hall Effect
+  cond-mat/0401340v2 | 2004-01-19 | On the self-similarity in quantum Hall systems
+  hep-th/0302046v1 | 2003-02-07 | The factorization method, self-similar potentials and quantum algebras
+  gr-qc/9909009v1 | 1999-09-02 | The Large Numbers Hypothesis: Outline of a self-similar quantum-cosmological Model
+  cond-mat/9809007v1 | 1998-09-01 | Self-Similar Interpolation in Quantum Mechanics
+  gr-qc/9805095v1 | 1998-05-27 | The Quantum Stress-Tensor in Self-Similar Spherical Dust Collapse
+  chao-dyn/9606001v1 | 1996-06-07 | Decay of Nuclear Giant Resonances: Quantum Self-similar Fragmentation
+TOTAL 27
+== arxiv: abs:"interval arithmetic" AND (abs:"general relativity" OR abs:"self-similar" OR abs:"critical collapse" OR abs:"black hole")
+  2608.22574v1 | 2026-08-23 | Singularity formation and self-shrinkers for the parabolic Bernoulli problem
+  1610.09496v4 | 2016-10-29 | Construction of a spectrally stable self-similar blowup solution to the supercritical corotational harmonic map heat flow
+TOTAL 2
+== arxiv: abs:"computer-assisted proof" AND (abs:"self-similar" OR abs:collapse) AND (abs:Einstein OR abs:relativistic)
+TOTAL 0
+== arxiv: abs:"Evans-Coleman" OR abs:"Evans and Coleman"
+  gr-qc/0311014v3 | 2003-11-05 | Stability criterion for self-similar solutions with a scalar field and those with a stiff fluid in general relativity
+  gr-qc/0109042v2 | 2001-09-12 | Stability criterion for self-similar solutions with perfect fluids in general relativity
+  gr-qc/9812053v2 | 1998-12-16 | Critical phenomena in perfect fluids
+TOTAL 3
+== arxiv: abs:"anomaly-induced" AND (abs:collapse OR abs:"self-similar")
+  2610.20705v1 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  2610.04960v2 | 2026-10-04 | Polyakov backreaction in large D discretely self-similar collapse
+  2605.00780v1 | 2026-05-01 | Breakdown of Semiclassical Gravity in Four-Dimensional Black Hole Evaporation
+  1509.08472v2 | 2015-09-28 | Interior of Black Holes and Information Recovery
+  1008.5006v1 | 2010-08-30 | New Horizons in Gravity: The Trace Anomaly, Dark Energy and Condensate Stars
+  hep-th/9801180v1 | 1998-01-28 | Trace anomaly induced effective action and 2d black holes for dilaton coupled supersymmetric theories
+  hep-th/9706143v4 | 1997-06-20 | Trace anomaly induced effective action for 2D and 4D dilaton coupled scalars
+TOTAL 7
+== arxiv: abs:"Riegert" AND (abs:collapse OR abs:"self-similar" OR abs:fluid)
+TOTAL 0
+== arxiv: abs:"compactness" AND abs:"critical collapse"
+  2610.41823v1 | 2026-10-30 | Primordial black holes and gravitational waves from aligned axion inflation
+  2608.23957v1 | 2026-08-25 | Projected Constraints on Primordial Black Holes from Scalar-Induced Gravitational Waves with Taiji
+  2604.17083v3 | 2026-04-18 | Dark ages bounds on nonaccreting massive compact halo objects
+  2510.09303v2 | 2025-10-10 | Effect of stochastic kicks on primordial black hole abundance and mass via the compaction function
+  2509.07136v1 | 2025-09-08 | Self-similar collapse with elasticity
+  2501.03065v1 | 2025-01-06 | Cosmic Whispers of the Early Universe: Gravitational Waves and Dark Matter from Primordial Black Holes
+  2412.07709v3 | 2024-12-10 | Unexpected shape of the primordial black hole mass function
+  2205.11278v2 | 2022-05-23 | Constraints on Primordial-black-hole Population and Cosmic Expansion History from GWTC-3
+  2004.06117v2 | 2020-04-13 | Gravitational field of a pit and maximal mass defects
+  gr-qc/0603094v3 | 2006-03-24 | Critical Phenomena in Head-on Collisions of Neutron Stars
+TOTAL 10
+== arxiv: cat:gr-qc AND submittedDate:[202611050000 TO 202611182359]
+  2611.23200v1 | 2026-11-17 | A Universal Ratio Linking Cosmic Expansion and the Growth of Structure
+  2611.23114v1 | 2026-11-17 | Combining Pulsar Timing data with $\texttt{MetaPulsar}$. The linearized timing model
+  2611.23110v1 | 2026-11-17 | Convergence of the quasinormal-mode expansion of the Kerr Green function
+  2611.23103v1 | 2026-11-17 | Riemannian geometry and quantum gravity on trees
+  2611.23082v1 | 2026-11-17 | Probing Lorentz-violating electrodynamics with CMB polarization. II. Updated constraints and forecasts for the Simons Observatory and LiteBIRD
+  2611.22999v1 | 2026-11-17 | \texttt{StochAXtic}: a JAX-Accelerated, End-to-End Differentiable Framework for Gravitational-Wave Backgrounds from Compact Binary Populations
+  2611.22970v1 | 2026-11-17 | Shell crossing and the dynamical formation of thin shells in the collapse of self-gravitating relativistic dust
+  2611.22936v1 | 2026-11-17 | Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes
+  2611.22794v1 | 2026-11-17 | Time-Travel Paradox in a Bohmian Extension of Deutsch's Approach: Mandatory Tunneling as the "Banana Peel Mechanism"
+  2611.22731v1 | 2026-11-17 | The additive ambiguity of gravitational entropy fixed by the topology of the horizon
+  2611.22725v1 | 2026-11-17 | Gravitational Waves Population Study for Testing Kerr Hypothesis: Are Non-Kerr Deformations Universal or Source-Dependent?
+  2611.22718v1 | 2026-11-17 | Fluid/Gravity Correspondence in 3d Flat Gravity with Non-Compact Boundaries
+  2611.22687v1 | 2026-11-17 | Spectral recurrences and maximal analyticity: cosmological correlators at one and two loops
+  2611.22647v1 | 2026-11-17 | Inflation with an Exponential Power-Law Potential:Analytical Slow-Roll Relations, Branch Dynamics, and Conditional Reheating Matching
+  2611.22618v1 | 2026-11-17 | Beyond the point lens: radial structure and the horizon in wave-optics gravitational lensing
+  2611.22586v1 | 2026-11-17 | Shadows and Images of Black Holes with Purely Nonlinear Scalarization
+  2611.22498v1 | 2026-11-17 | Using the 0i Einstein equation to break dark-sector degeneracies
+  2611.22469v1 | 2026-11-17 | Geometric optics for gravitational waves in dynamical Chern-Simons gravity: amplitude birefringence and tensor-scalar mixing on general backgrounds
+  2611.22459v1 | 2026-11-17 | Gravitational Light Deflection via Fractional Calculus and Chebyshev Polynomial Approximation
+  2611.22372v1 | 2026-11-17 | What makes the gravito-thermodynamic arrow of time coincide with that of proper time?
+  2611.22266v1 | 2026-11-17 | Gravitational waves from cosmological first-order phase transitions with fluctuation-induced friction
+  2611.22134v1 | 2026-11-17 | Finite-wavelength corrections to dynamical friction in fuzzy dark matter: a causal linear-response approach
+  2611.22107v1 | 2026-11-17 | Regular/Singular Black Hole Thermodynamics from Renormalised Volume/Area
+  2611.22041v1 | 2026-11-17 | Quantum Born Geometries from Modular Quantization
+  2611.21997v1 | 2026-11-16 | Fundamental physics with quantum sensors in space
+  2611.21911v1 | 2026-11-16 | Self-gravitating Lee-Huang-Yang fluids as dark matter halos
+  2611.21774v1 | 2026-11-16 | Binary black-hole mergers with ultralight vector bosons
+  2611.21740v1 | 2026-11-16 | A Proposal for Quantum Reference Frames in Quantum Field Theory and their Experimental Exploration
+  2611.21735v1 | 2026-11-16 | Gravitational Mode Instabilities in Kerr-like Black Holes
+  2611.21734v1 | 2026-11-16 | Cyclic Boson Stars with Quantum Vortex Molecules
+  2611.21727v1 | 2026-11-16 | Supersymmetric warped AdS$_3$ solutions in eleven-dimensional supergravity
+  2611.21730v1 | 2026-11-16 | Gravity/Thermodynamics Correspondence for Generic Dynamical Spacetimes
+  2611.21722v1 | 2026-11-16 | Cosmic Censorship in the Landscape of SUSY-Broken AdS Vacua
+  2611.21717v1 | 2026-11-16 | 'Forward-backward' flows and integration cycles for semiclassical Euclidean gravity
+  2611.21712v1 | 2026-11-16 | Hidden wormholes from an action principle in $D=4$
+  2611.21603v1 | 2026-11-16 | A separation criterion for chiral systems and its application to Plebański--Demiański perturbations
+  2611.21591v1 | 2026-11-16 | Separation of gravitational perturbations of Myers-Perry black holes
+  2611.21557v1 | 2026-11-16 | On the Asymptotic Expansion of Massive Fields in Spherically Symmetric Systems
+  2611.21512v1 | 2026-11-16 | Pulsar timing response and observational constraints on continuous-spin gravity
+  2611.21430v1 | 2026-11-16 | On the toric Bando--Kasue--Nakajima conjecture
+  2611.21426v1 | 2026-11-16 | Geometry of squeezed states. The phase-space metric, relative vacua and cosmology
+  2611.21388v1 | 2026-11-16 | Carroll Double Copy
+  2611.21356v1 | 2026-11-16 | The Stability of the Higgs vacuum inside a Schwarzschild Black Hole
+  2611.21355v1 | 2026-11-16 | Critical curves and throat degeneracy in black bounces
+  2611.21323v1 | 2026-11-16 | Detectability of Eccentric Intermediate Mass-Ratio Inspiral in the Decihertz Band
+  2611.21296v1 | 2026-11-16 | Lifting asymptotic symmetries from metric to tetrad formulation
+  2611.21279v1 | 2026-11-16 | Pulsar Timing Correlations Induced by Stochastic Spin-2 Ultralight Dark Matter
+  2611.21271v1 | 2026-11-16 | Soft momentum expansion about the Stokes topological limit of Bogoliubov coefficients
+  2611.21093v1 | 2026-11-16 | On Chen's Extended Action for $κ(R,T)$ Gravity: Gravity in a Polarizable Medium, Material Folds and a No-Bounce Theorem
+  2611.21043v1 | 2026-11-16 | Maximum entropy reconstruction of the black hole greybody factors from its Korteweg-de Vries integrals
+  2611.21034v1 | 2026-11-16 | Gravitational collapse in Lorentz-violating gravity and the spin-0 mode
+  2611.20912v1 | 2026-11-16 | From Quasinormal Mode Poles to Branch Cuts at Finite $N$
+  2611.20910v1 | 2026-11-16 | Galaxy number counts in area distance space
+  2611.20865v1 | 2026-11-16 | A 3+1 formalism for self-similar expanding grids in computational relativistic and Newtonian magnetohydrodynamics
+  2611.20850v1 | 2026-11-16 | Cartan geometry and the Hamiltonian analysis of gravitational actions in terms of forms
+  2611.20738v1 | 2026-11-16 | Simultaneous tests of post-Newtonian inspiral using GW250114 and GW250207
+  2611.20731v1 | 2026-11-16 | A note on Padmanabhan's path-integral duality
+  2611.20701v1 | 2026-11-16 | Doubly-spinning Black Saturns
+  2611.20673v1 | 2026-11-16 | Holographic Homogeneous Black Branes from Anisotropic Scaling
+  2611.20634v1 | 2026-11-16 | Boson Stars with Ayón--Beato--García nonlinear electrodynamics
+  2611.20627v1 | 2026-11-16 | Quasinormal modes of Kerr--de Sitter black holes in semi-open systems
+  2611.20529v1 | 2026-11-16 | Harmonic branches of Einstein--ModMax--scalar field gravity: exact solutions and regularity II
+  2611.20416v1 | 2026-11-16 | Repeated Gravitational-Wave Lensing from Binary Black Holes on Eccentric and Precessing Orbits around Spinning Supermassive Black Holes
+  2611.20328v1 | 2026-11-15 | Phase Structure and Thermodynamic Geometry of STU Black Holes
+  2611.20295v1 | 2026-11-15 | Off-shell one-loop counterterms of Palatini gravity with an independent background connection
+  2611.20282v1 | 2026-11-15 | Canonical metrics on punctured spheres, II: compactified moduli spaces of black holes
+  2611.20210v1 | 2026-11-15 | A Gravitomagnetic Bootstrap: from Newtonian gravity to general relativity via localizing rotational and conformal symmetries
+  2611.20200v1 | 2026-11-15 | Energy-flow bubbles at the Schwarzschild horizon and their Regge-pole clock
+  2611.20168v1 | 2026-11-15 | Casimir-like wormholes
+  2611.20004v1 | 2026-11-15 | Probing superradiant cloud level transitions in stellar-mass black hole binaries with milli-Hertz and multiband gravitational wave observations
+  2611.19935v1 | 2026-11-15 | Quasinormal Modes and Environmental Trapping around Charged Letelier Black Holes with Perfect-Fluid Dark Matter and Quintessence
+  2611.19918v1 | 2026-11-15 | A hybrid log-likelihood-ratio statistic for single-detector SPIIR gravitational-wave searches
+  2611.19808v1 | 2026-11-15 | Multi-throat generalized Ellis--Bronnikov wormholes with asymptotic string-cloud behavior
+  2611.19682v1 | 2026-11-15 | Dymnikova black string
+  2611.19524v1 | 2026-11-14 | Geodesics and a Hubble Relation in Nonstationary Thermodynamic Geometry
+  2611.19510v1 | 2026-11-14 | Scalar charge of neutron stars and accreting black holes in Starobinsky gravity: quasi-universal relations, the trace anomaly and gravitational-wave sensitivity
+  2611.19502v1 | 2026-11-14 | Relativistic precession around rotating neutron stars. I. Slow rotation: Hartle--Thorne spacetimes, particle orbits and the QPOs of atoll and Z sources
+  2611.19500v1 | 2026-11-14 | Black holes in Myrzakulov $F(R,T)$ gravity
+  2611.19402v1 | 2026-11-14 | A Stable Vector Bounce
+  2611.19377v1 | 2026-11-14 | Two-scale system: compactified ambient metrics and Scri/Spi/Ti
+  2611.19307v1 | 2026-11-14 | Holographic Entanglement after a Global Quench in Noncommutative Yang-Mills Theory
+  2611.19293v1 | 2026-11-14 | Bayesian Time-Varying Spectral Estimation for LISA with P-Splines
+  2611.19240v1 | 2026-11-14 | Numerical evidence for the validity of the inverse hoop conjecture for black holes
+  2611.19191v1 | 2026-11-14 | Chaotic motion of spinning particles in nonlocal gravity
+  2611.19117v1 | 2026-11-14 | Testing General Relativity by Reconstructing Dark Energy and the Growth Index with Physics-Informed Neural Networks
+  2611.19098v1 | 2026-11-14 | Drift of a Charged Particle in a Black Hole Magnetosphere: the Effect of Black Hole Spin
+  2611.19087v1 | 2026-11-14 | The fate of hidden symmetries under magnetic Harrison transformations
+  2611.19058v1 | 2026-11-14 | Projected DKP spin-1 sectors in a $(2+1)$-dimensional static wormhole: Self-duality, helicity content, and spectral correspondence
+  2611.19035v1 | 2026-11-14 | A Bound on Wormhole Probing Time from Holographic Multi-Entropy
+  2611.19006v1 | 2026-11-13 | Cosmography with gravitational waves II: Padé approximants in an extended redshift regime
+  2611.18922v1 | 2026-11-13 | Asymptotic stability of axisymmetric perturbations of near-horizon extremal Kerr with a Schwarzian-deformed throat
+  2611.18899v1 | 2026-11-13 | Primordial Non-Gaussianity and Correlation-Function Perturbativity in mLQC-I: The Hybrid Approach
+  2611.18879v1 | 2026-11-13 | Landauer erasure and horizon information in an expanding universe
+  2611.18862v1 | 2026-11-13 | Polarized equatorial emission around regular compact objects
+  2611.18833v1 | 2026-11-13 | Black Hole Superradiance and the Gravitational Auger Effect
+  2611.18826v1 | 2026-11-13 | Schwarzschild scattering from CFT
+  2611.18827v1 | 2026-11-13 | Gravitational Memory Correlators and BMS Symmetry
+  2611.18558v1 | 2026-11-13 | Reconstruction of Dynamical Dark Energy and Gravity from latest cosmological data
+  2611.18557v1 | 2026-11-13 | Does Dark Energy Evolve $\textit{and}$ Cluster?
+  2611.18551v1 | 2026-11-13 | The Klein-Gordon equation in projective geometry
+  2611.18515v1 | 2026-11-13 | Parity conservation of the isotropic galaxy 4PCF in redshift space
+  2611.18821v1 | 2026-11-13 | Observables and Symmetries in Causal Fermion System
+  2611.18398v1 | 2026-11-13 | Notes on the singularity theorems of general relativity
+  2611.18200v1 | 2026-11-13 | Separability of coupled gravitational perturbations in Plebański--Demiański spacetimes
+  2611.18117v1 | 2026-11-13 | Quasinormal modes of dyonic axion black holes with nonlinear electrodynamics
+  2611.17978v1 | 2026-11-13 | General $δN$ formalism in Single Field Inflation and Graph Theory
+  2611.17940v1 | 2026-11-13 | Complexity and symmetry: The asymmetry factor approach
+  2611.17840v1 | 2026-11-13 | Axial gravitational-wave propagation and mass--gravity identifiability in conformal scalar--tensor lensing
+  2611.17725v1 | 2026-11-13 | Axion quintessence with a negative cosmological constant: Bayesian constraints from current cosmological data
+  2611.17642v1 | 2026-11-13 | Linear monitoring-feedback Model for Linearized gravity
+  2611.17572v1 | 2026-11-12 | Multimessenger Exoplanets: Combining Infrared Excess and Astrometry with Gravitational-wave Detections of Double White Dwarf Exoplanets
+  2611.17571v1 | 2026-11-12 | Receiving Exoplanet Messages with Gravitational-wave Carriers: The Gravitational-wave Radial Velocity Method
+  2611.17428v1 | 2026-11-12 | Gravitational-wave hierarchical inference from population samples
+  2611.17421v1 | 2026-11-12 | The Gravitational Wave Foreground from Galactic Cataclysmic Variables in LISA
+  2611.17407v1 | 2026-11-12 | Microcausality Bounds on Dispersion Laws
+  2611.17319v1 | 2026-11-12 | The Cauchy problem for skew-torsion-parallel spinors with applications to supergravity
+  2611.17266v1 | 2026-11-12 | Global Fit Inference for LISA with samsara++
+  2611.17260v1 | 2026-11-12 | Non-interferometric tests of gravitational decoherence models with mechanical oscillators
+  2611.17153v1 | 2026-11-12 | Effects of Lensing by Sgr A* on Semicoherent Searches for Continuous Gravitational Waves. I. Signal Model and Mismatch Studies
+  2611.17147v1 | 2026-11-12 | Gauge aspects of teleparallel gravity and Noether's second theorem
+  2611.17396v1 | 2026-11-12 | WDM_GW_Wavelets: A fast, JAX-based Python implementation of the Wilson-Daubechies-Meyer wavelet transform for the time-frequency analysis of gravitational wave data
+  2611.17045v1 | 2026-11-12 | De Sitter Gravity and Emergent Time from Fusion Matrix Product States and SYK
+  2611.17038v1 | 2026-11-12 | Rapid Multiparameter Gravitational-Wave Tests of General Relativity with Neural Posterior Estimation
+  2611.17027v1 | 2026-11-12 | Spin to win: enhancing the quantum Otto cycle with the circular Unruh effect
+  2611.16985v1 | 2026-11-12 | Lurkers at the Threshold: GWTC-4.0's near-threshold events
+  2611.16967v1 | 2026-11-12 | Lorentz Boosts and Governing Equations of the Quantum Geometric Tensor in 4D Energy-Momentum Space
+  2611.16936v1 | 2026-11-12 | Holographic viscous transport in scalar-coupled Gauss-Bonnet gravity
+  2611.16916v1 | 2026-11-12 | Localization of gravitational-wave source behind galaxy clusters by gravitational-wave lensing
+  2611.16914v1 | 2026-11-12 | Lense-Thirring induced repeating blast trains in continuous gravitational waves
+  2611.16864v1 | 2026-11-12 | Relational Cosmology: Covariant and Canonical Dressings, and the Hamiltonian of Internal Time
+  2611.16853v1 | 2026-11-12 | The uniqueness of smooth stationary black holes
+  2611.16836v1 | 2026-11-12 | The $w$-mode instability of strangeon ergostars and its impact on energy extraction
+  2611.16697v1 | 2026-11-12 | Efficient Standard Siren Cosmological Inference with Posterior Reuse
+  2611.16636v1 | 2026-11-12 | Residual ellipticity driven by intense magnetic stress in the hot neutron star era
+  2611.16629v1 | 2026-11-12 | Kinessence, phantom crossing and sign-switching dark energy
+  2611.16564v1 | 2026-11-12 | Tricritical Dynamics Reveal Black Hole Interior Geometry
+  2611.16407v2 | 2026-11-12 | Minimal vacuum histories beyond $Λ$CDM: model comparison within VCDM
+  2611.16390v1 | 2026-11-12 | Exceptional point excitation by a plunging particle
+  2611.16364v1 | 2026-11-12 | Thermodynamics within and across AdS Gauss--Bonnet holographic CFTs
+  2611.16187v1 | 2026-11-12 | Holographic Counterterms from Restricted Weyl Symmetry in Even-Dimensional Einstein-AdS Gravity
+  2611.16168v1 | 2026-11-12 | A Universal Law for Horizon Formation in Black Hole Mergers
+  2611.16141v1 | 2026-11-12 | Double null coordinates for Kerr-Vaidya spacetime
+  2611.16120v1 | 2026-11-12 | Separation of Variables and Spectroscopy of Massive Spin-3/2 Fields on a Kerr Background
+  2611.16106v1 | 2026-11-11 | Machine learning and high accuracy: Neural preconditioners for computational gravity
+  2611.16083v1 | 2026-11-11 | Tendex Lines and Short-Time Deformation: The Geometry of Lunar Tides
+  2611.16029v1 | 2026-11-11 | Silent Heavy Fields: An Exclusion Rule for the Cosmological Collider
+  2611.16026v1 | 2026-11-11 | Shear, vorticity, and $f(R)$ theories
+  2611.15993v1 | 2026-11-11 | Self-Force and Bremsstrahlung in Finite Electrodynamics
+  2611.15933v1 | 2026-11-11 | Imaging the two-sided black hole interior with four-point correlators
+  2611.15932v1 | 2026-11-11 | Degeneracies in the quasinormal mode spectrum of the Kerr-Sen black hole
+  2611.15921v1 | 2026-11-11 | Exact Infrared Triangle in Gravity with Long-Range Interactions
+  2611.15914v1 | 2026-11-11 | Searching for Massive Scalar Fields with non-minimal Curvature Couplings in LIGO-Virgo-KAGRA Ringdown Signals
+  2611.15912v1 | 2026-11-11 | Entire boosted hypersurfaces of vanishing mean curvature in Schwarzschild spacetime
+  2611.15889v1 | 2026-11-11 | Gray-body factors: Method matters II, WKB vs GrayHawk
+  2611.15876v1 | 2026-11-11 | Cubic Curvature Deformations to the Kerr Black Hole Shadow
+  2611.15870v1 | 2026-11-11 | Cosmological Dressing Rules for Massive Scalars
+  2611.15868v1 | 2026-11-11 | Cosmological correlators and kinematic flow on complex Hartle-Hawking saddles
+  2611.15865v1 | 2026-11-11 | Toward the minimal set of states in axion superradiance
+  2611.15853v1 | 2026-11-11 | Einstein Reconstruction Scheme: Metric Reconstruction by Direct Inversion of the Einstein Operator
+  2611.15841v1 | 2026-11-11 | Improved constraints on axion inflation with the new code AxioGen: an efficient generator of curvature perturbations
+  2611.15813v1 | 2026-11-11 | Integrable Singularity Black Holes without Inner Horizons in Asymptotically Safe Inspired Gravity and NFW Dark Matter Effects
+  2611.15795v1 | 2026-11-11 | How to find regular black-hole islands in the swamp
+  2611.15753v1 | 2026-11-11 | Radiative stability of species-separated Kaluza--Klein spectra in warped geometry
+  2611.15746v1 | 2026-11-11 | Relaxation of Quantum Observables in a 4D Black Hole that forms from Collapse of a Null Shell
+  2611.15738v1 | 2026-11-11 | Population inference of eccentric binary black holes using asymptotic constants of motion
+  2611.15736v1 | 2026-11-11 | Eccentricity detectability in Extreme Mass-Ratio Inspirals
+  2611.15721v1 | 2026-11-11 | Highly spinning binary black holes: promise and pitfalls for parameterized tests of general relativity
+  2611.15662v2 | 2026-11-11 | Exact transformation-optics representation of the Ellis wormhole and limits of finite-device scattering emulation
+  2611.15647v1 | 2026-11-11 | Enhanced Early Structure from Axiodilatons & 21cm Observations
+  2611.15637v1 | 2026-11-11 | Determinant Identities and Branch Selection in the Stationary Multi-Horizon Balance Problem
+  2611.15591v1 | 2026-11-11 | Slow Macroscopic Rotations of Neutron Stars With a Deformed Effective Surface
+  2611.15454v1 | 2026-11-11 | Constraining Dark Matter Gravitational Production with the 21cm Signal at the Cosmic Dawn
+  2611.15444v1 | 2026-11-11 | Spectra and Central Charges of Gauged Curvature Squared Supergravities in Five Dimensions
+  2611.15414v1 | 2026-11-11 | Exact model of a gravitational wave and electromagnetic radiation in DHOST gravity theory: wave solutions and testable effects
+  2611.15405v1 | 2026-11-11 | Maximal force bounds in general relativity and beyond
+  2611.15388v1 | 2026-11-11 | A unified mean-field description of dense hadron matter constrained from $χ$EFT and lattice QCD
+  2611.15345v1 | 2026-11-11 | Magnetically Deformed Neutron Stars and Gravitational Waves
+  2611.15331v1 | 2026-11-11 | FOORT: Flexible Object-Oriented Ray Tracing
+  2611.15321v1 | 2026-11-11 | Conserved gravitational-wave Stress-Energy Tensor in General Metric Theories
+  2611.15318v1 | 2026-11-11 | Weak null singularities for the Einstein--Vlasov system
+  2611.15256v1 | 2026-11-11 | Quasinormal Modes of a Black Hole in a Dehnen-Type Dark Matter Halo with Radial Pressure
+  2611.15206v1 | 2026-11-11 | Astrometric effects of anisotropic gravitational wave backgrounds
+  2611.15188v1 | 2026-11-11 | Non-Gaussian matter fluctuations from primordial magnetic fields and galaxy luminosity function
+  2611.15169v1 | 2026-11-11 | Rapidly Spinning Primordial Black Holes from Confinement
+  2611.15077v1 | 2026-11-11 | Magnetized strange quark matter in hypersurface-homogeneous $f(R,T)$ cosmology: physical closure, isotropization and late-time observational constraints
+  2611.15050v1 | 2026-11-11 | A consistent formulation of stochastic inflation II: Reassessing its role in nonlinear cosmological perturbations
+  2611.14934v1 | 2026-11-11 | From Matched Black-Hole Scalar Charges to Gravitational-Wave Inspirals in a Massive Scalar--Gauss--Bonnet Effective Theory
+  2611.14875v1 | 2026-11-11 | Quantum Fluctuations of the Stress-Energy Tensor via Noether's Theorem and the Connection to the Cosmological Constant
+  2611.14788v1 | 2026-11-10 | Accurate calibration method of the Back-linked Fabry Perot interferometer using null channel for space-based gravitational wave antenna
+  2611.17374v1 | 2026-11-10 | Holographically motivated Hubble-running dark energy: Phantom-divide crossing in VCDM and observational constraints
+  2611.14772v1 | 2026-11-10 | Self-gravitating spinning mesonic tubes
+  2611.14721v1 | 2026-11-10 | Time Advances and Dispersive Constraints in Dressed Gravitational Scattering
+  2611.14693v1 | 2026-11-10 | Correlation Geometry and Emergent Space-Time from Stochastic Correlation Flows
+  2611.14650v1 | 2026-11-10 | Ernst-Potential Driven Recovery of Kerr with Neural Networks
+  2611.14647v1 | 2026-11-10 | Binary black holes with non-orthogonal reference metrics
+  2611.14644v1 | 2026-11-10 | Gravitational observables from a post-Carrollian expansion
+  2611.14636v1 | 2026-11-10 | Galilean cosmologies in two dimensions
+  2611.14628v1 | 2026-11-10 | Impact of dynamical, quadratic, and higher-order tidal effects on gravitational-wave observations of binary neutron stars
+  2611.14627v1 | 2026-11-10 | Post-adiabatic effects sourced by radiation reaction for inspiraling, eccentric binaries in post-Newtonian theory
+  2611.14625v1 | 2026-11-10 | Conic Tilings of Black Hole Images by Radial Closest Approach
+  2611.14613v1 | 2026-11-10 | The NANOGrav 15-year data set: A Limit on Continuous Spin Gravitons
+  2611.14610v1 | 2026-11-10 | Spins do not add: why rotating stars do not help spin-up black holes in binaries
+  2611.14482v1 | 2026-11-10 | Singustars: Between Black Holes and Compact Stars
+  2611.14455v1 | 2026-11-10 | Gravitational radiation from a particle in circular orbit around a wormhole: the nonrotating case
+  2611.14353v1 | 2026-11-10 | Black Holes beyond General Relativity: The Effective Metric Description
+  2611.14344v1 | 2026-11-10 | Dynamical obstructions to primary Proca hair and its logarithmic Maxwell continuation
+  2611.14315v1 | 2026-11-10 | A Construction of Cauchy Data for Trapped Surface Formation in the Massive Einstein--Klein--Gordon System
+  2611.14306v1 | 2026-11-10 | Images of Regular Black Holes with Hedgehog Scalar Hair Embedded in Radiatively Inefficient Accretion Flows
+  2611.14305v1 | 2026-11-10 | Can torsion mimic a cosmological constant? A one-parameter logarithmic $f(T)$ extension of $Λ$CDM
+  2611.14255v1 | 2026-11-10 | Simulation-Based Inference on EMRI Frequency Tracks: Harmonic Identification and Parameter Constraints from Search Outputs
+  2611.14243v1 | 2026-11-10 | Relativistic tidal response and mode excitation in neutron-star binaries
+  2611.14212v1 | 2026-11-10 | Stellar Scalar Monopoles from Gauss--Bonnet Curvature beyond Four Dimensions
+  2611.14197v1 | 2026-11-10 | Search Method for Continuous Gravitational Waves from Rotating Neutron Stars in Highly Eccentric Wide Orbits
+  2611.14151v1 | 2026-11-10 | Response of Circular Binaries to Monochromatic Gravitational Waves
+  2611.14077v1 | 2026-11-10 | Renormalized dynamical tidal response of neutron stars in binary dynamics
+  2611.14075v2 | 2026-11-10 | Landau Theory of Black Brane Phase Transitions from Kasner Singularities
+  2611.14031v1 | 2026-11-10 | Gravitational Origin of Black Hole Thermodynamic Geometry from Boundary Conditions
+  2611.14001v1 | 2026-11-10 | Non-singular cosmology from effective LQG-inspired black holes
+  2611.13871v1 | 2026-11-10 | Inverse Scattering & Isospectrality in (Analog) Cosmology
+  2611.13864v1 | 2026-11-10 | Gravitational Particle Production and Locality of the Wavefunction-Squared
+  2611.14584v1 | 2026-11-10 | A Positive Turn: Coupled Quintessence and Cosmological Neutrino Masses
+  2611.13569v1 | 2026-11-10 | Quasinormal overtones and grey-body factors of Frolov black holes
+  2611.13462v1 | 2026-11-10 | The out-state of scalar-induced gravitational waves
+  2611.13418v2 | 2026-11-10 | A dual-moment phenomenological framework for gravitational,electromagnetic and strong interactions
+  2611.13269v1 | 2026-11-09 | Viscosity heats, diffusion drains: Open-system thermodynamics in unimodular cosmology
+  2611.13266v2 | 2026-11-09 | Challenging the hoop conjecture with spinning pancakes and baguettes
+  2611.13261v1 | 2026-11-09 | Expiscating the black hole singularity in holography
+  2611.13253v1 | 2026-11-09 | Polarized Equatorial Emission around Kerr Black Holes with Synchronized Scalar Hair. II. Indirect images
+  2611.13197v1 | 2026-11-09 | Eccentricity greatly enhances the detectability of line-of-sight acceleration in gravitational wave signals
+  2611.13170v1 | 2026-11-09 | Depletion of Dark Matter Spikes by Massive Black Hole Mergers
+  2611.13151v1 | 2026-11-09 | General non-extremal rotating charged AdS black hole solutions with four independent charge parameters in $D=4$, STU gauged supergravity
+  2611.13122v1 | 2026-11-09 | Rotational instability and quadrupolar order in BFSS matrix theory
+  2611.13112v1 | 2026-11-09 | Resummations In Higher-Curvature Modifications Of Starobinsky Inflation
+  2611.13109v1 | 2026-11-09 | Accretion variability as a probe of black holes and their environments: Light curve signatures of a single hot spot
+  2611.13105v1 | 2026-11-09 | Galaxy clusters as cosmic lenses for high frequency gravitational-waves
+  2611.13102v1 | 2026-11-09 | Effective scalar-fluid description of thermal first-order phase transitions and their spinodal instabilities
+  2611.13100v1 | 2026-11-09 | Fast Scrambling Cosmology
+  2611.13088v1 | 2026-11-09 | Holographic Drag Force and the Entanglement Membrane: Geometric Reconstruction and Information Spreading
+  2611.13075v1 | 2026-11-09 | Shaping black hole resonances II: Spectroscopic landscapes and interference in black hole ringdown
+  2611.13080v1 | 2026-11-09 | Thermal damping of spectator scalar dark matter: Relaxing the overclosure and isocurvature bounds
+  2611.13074v1 | 2026-11-09 | Four-charge Rotating AdS Black Holes in Gauged STU Supergravity
+  2611.12861v1 | 2026-11-09 | Little Red Dots from Primordial Black Holes: Non-Gaussianity and Accretion Evade $μ$-Distortion Constraints
+  2611.12857v1 | 2026-11-09 | Mapping of Spacetimes with Neural Networks
+  2611.12839v1 | 2026-11-09 | Beyond $Λ$CDM: Probing Structure Growth and Observational Viability of Generalized ${f\,(Q , \mathcal{L}_{m})}$ Gravity
+  2611.12838v1 | 2026-11-09 | Scalar quasinormal modes of the exact spinning Morris--Thorne wormhole
+  2611.12831v1 | 2026-11-09 | Numerical-Relativity Particle-in-Cell Simulations: Self-Gravitating Collisionless Matter in Dynamical Spacetimes
+  2611.12792v1 | 2026-11-09 | Coupled dark energy and apparent phantom crossing: a potential-independent lower bound
+  2611.12772v1 | 2026-11-09 | Gravitational waves and the exit from de Sitter in Inflation without an Inflaton
+  2611.12715v1 | 2026-11-09 | Boundary Formula for Volume Response of Entanglement Wedge Polygons
+  2611.12698v1 | 2026-11-09 | On Thermodynamic Role of the Gauss-Bonnet Topological Term
+  2611.12683v2 | 2026-11-09 | Thermodynamics of Kerr-Newman-Bertotti-Robinson black holes from background subtraction
+  2611.12609v1 | 2026-11-09 | Effective Time Advance of Quantum Clocks under Postselection
+  2611.12510v1 | 2026-11-09 | Real-Time Path Integral Resurgence: Which Classical Path Contributes?
+  2611.12496v1 | 2026-11-09 | Long before plunge: Uncovering intermediate-mass black holes through their inspiralling compact object companions with LISA
+  2611.12489v1 | 2026-11-09 | Gravity Without Absolutes
+  2611.12483v2 | 2026-11-09 | Direct product geometries in $n$-dimensional linear and quadratic gravity
+  2611.12482v1 | 2026-11-09 | Cubic Curvature Corrections to Taub-NUT-AdS Black Holes and Their Thermodynamics
+  2611.12335v1 | 2026-11-09 | Reabsorbed Urca neutrinos suppress bulk-viscous damping of neutron star merger oscillations
+  2611.12282v1 | 2026-11-09 | A Self-Interacting Dark-Matter Route to Supermassive Kerr Black Holes via Super-Eddington Bondi Accretion: Mass-Spin Evolution
+  2611.12204v1 | 2026-11-09 | Einstein--Yang--Mills Plane Waves: Uniqueness and an Exact Curvature Double Copy
+  2611.12093v1 | 2026-11-09 | Next-to-next-to-leading gravitational radiation-reaction corrections to quasi-elliptic and quasi-hyperbolic compact binary orbits
+  2611.12050v1 | 2026-11-09 | Deviations from Kerr: Critical curves and photon-ring critical parameters for general observer inclinations
+  2611.11943v1 | 2026-11-09 | Single and repetitive Penrose processes in genuine uncharged Kerr-Bertotti-Robinson black hole
+  2611.11922v1 | 2026-11-09 | Deep-Learning-Assisted Bayesian Inference for Extreme-Mass-Ratio Inspirals
+  2611.11920v1 | 2026-11-09 | Proof of the QNEC, without assumptions and under a weight
+  2611.11917v1 | 2026-11-09 | Efficiency enhancement in the Unruh quantum Otto engine
+  2611.11895v1 | 2026-11-09 | Quasinormal Modes of Black holes in the generalized Schwarzschild-de Sitter solution of $f(R)$ gravity
+  2611.11884v1 | 2026-11-09 | The shape and velocity of black hole coronas
+  2611.11879v1 | 2026-11-09 | Work needed to lift a mass in Schwarzschild spacetime
+  2611.11835v1 | 2026-11-09 | Vacuum energy interacting with dark matter and dark radiation: alleviating the $H_0$-$S_8$ seesaw
+  2611.11775v1 | 2026-11-09 | Horizon-penetrating rotating black-hole configurations in VCDM
+  2611.11760v1 | 2026-11-09 | Proof of the Rényi QNEC
+  2611.11686v1 | 2026-11-08 | Nonlinear Scalarization of Reissner-Nordström Black Holes in Scalar-Torsion-Maxwell Teleparallel Gravity
+  2611.11584v1 | 2026-11-08 | Quasinormal modes of a scale-dependent black hole in 5D spacetime with cosmological constant
+  2611.11495v1 | 2026-11-08 | Smooth Rigidity Near Extremal Horizons
+  2611.11449v1 | 2026-11-08 | Pushing the accuracy of the quasi-circular baseline for the SEOBNR family of models
+  2611.11380v1 | 2026-11-08 | Negative Dynamical Friction in Dark Matter Spikes around Rotating Black Holes
+  2611.18716v1 | 2026-11-08 | Holographic Einstein rings of a covariant quantum corrected AdS black hole
+  2611.11366v1 | 2026-11-08 | Exceptional Points in Scalar Quasinormal Modes of Rastall String-Fluid Black Holes
+  2611.11356v1 | 2026-11-08 | What an Observer Reads off a Holographic Screen
+  2611.11323v1 | 2026-11-08 | Stanley Deser 19th March 1931 - 21st April 2023
+  2611.11099v1 | 2026-11-08 | Covariant Hamiltonian Gravity in Spherical Symmetry
+  2611.11094v1 | 2026-11-08 | Is Dark Energy Inhomogeneous?
+  2611.11006v1 | 2026-11-07 | Dynamical entropy on local causal horizons: the Einstein equation of state and canonical-energy flux
+  2611.10998v2 | 2026-11-07 | Spectral function, OPE, and QNMs detect different singular points of black branes with unequal R-charges
+  2611.10942v1 | 2026-11-07 | Thermodynamic, Optical, and Wave Signatures of Charged Letelier AdS Black Holes with PFDM and Quintessence
+  2611.10933v1 | 2026-11-07 | Qubit representation of the mass observable in quantized Schwarzschild interior
+  2611.12971v1 | 2026-11-07 | Time Running Backwards, and Where It Stops: Superoscillations of Proper Time and the Memory of the Environment
+  2611.10880v1 | 2026-11-07 | A note on Positivity and Rigidity for an Expanding Quasi-Local Energy
+  2611.10794v1 | 2026-11-07 | Variational Approach to the Mathisson-Papapetrou-Dixon Equations of Motion for Extended Objects in General Relativity
+  2611.10783v1 | 2026-11-07 | The Energy-Momentum Tensor of a Compact Object in General Relativity to all Multipole Orders
+  2611.18712v1 | 2026-11-07 | Resonance Induced Chaos of Charged Particles Around a Magnetized, Periodically Time-Conformal Reissner-Nordstrom Black Hole with Quintessence
+  2611.10662v1 | 2026-11-07 | Self-bound quantum dark fermion stars: saturation, a coupling-capped maximum mass, and tidal signatures of a vector dark sector
+  2611.10661v1 | 2026-11-07 | Black-hole ringdown at an exceptional point
+  2611.10616v1 | 2026-11-07 | Scalar-tensor reconstruction of coherent quantum black holes
+  2611.10604v1 | 2026-11-07 | Generalized Second Law of Thermodynamics in $f(Q)$ Symmetric Teleparallel Gravity
+  2611.10596v1 | 2026-11-07 | Constraining Cosmic Deceleration using the Solar System
+  2611.10584v1 | 2026-11-07 | ERG, axions, and a PT-symmetric accelerating Universe
+  2611.10540v1 | 2026-11-07 | Engineering a digital acoustic black hole
+  2611.10539v1 | 2026-11-07 | Shallow-water black holes and lattice superradiance
+  2611.10525v1 | 2026-11-07 | Polarization Signatures of Magnetic Reconnection Bubbles near Black Holes
+  2611.18711v1 | 2026-11-07 | Finite Energy, Event Horizons, and a Universal Bound on the Singularity Order in Born--Infeld-type Black Holes
+  2611.10320v1 | 2026-11-06 | Relativistic Simulations of Self-Gravitating Radiation Fluids
+  2611.10231v1 | 2026-11-06 | Stealth scalars on prescribed dark-energy backgrounds: reconstruction, branch regularity, and perturbative bounds
+  2611.10203v1 | 2026-11-06 | Large-D approach to nearly critical holographic matter and Yang-Mills deconfinement
+  2611.10133v1 | 2026-11-06 | Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors
+  2611.10128v1 | 2026-11-06 | The Ghost and Its Secret Partner
+  2611.10126v1 | 2026-11-06 | Holographic warped CFTs on AdS$_3$, parity violation and unitarity
+  2611.10121v1 | 2026-11-06 | Emergent de Sitter Universes in Non-Hermitian Holography
+  2611.10112v1 | 2026-11-06 | Baby Universes Nucleate by Hiding Observers from the Boundary
+  2611.09859v1 | 2026-11-06 | Particle production from noncommutative-inspired Reissner-Nordström black hole
+  2611.09812v1 | 2026-11-06 | The Double Copy of the Doubly Spinning Black Ring
+  2611.09786v1 | 2026-11-06 | Edge dynamics of covariant higher-rank Chern-Simons theory of fractons
+  2611.09757v1 | 2026-11-06 | Generalized Schwarzian thermodynamics from gravitational perturbations of near-extremal Kerr
+  2611.09743v1 | 2026-11-06 | Does DESI point towards transient cosmic acceleration?
+  2611.09737v1 | 2026-11-06 | Scalar Black-Holes in Gravity from Entropy
+  2611.10090v1 | 2026-11-06 | Gravitational Production of Non-minimally Coupled Vector Dark Matter in Warm Inflation
+  2611.09606v1 | 2026-11-06 | Quasinormal modes of Kerr--Newman--de Sitter black hole: Linear stability and strong cosmic censorship conjecture
+  2611.09582v1 | 2026-11-06 | Mathematical foundations and numerical simulations of BDNK hydrodynamics: from heavy-ion collisions to astrophysics
+  2611.18705v1 | 2026-11-06 | Thermodynamics and interior structure of density-responsive regular black holes
+  2611.09362v1 | 2026-11-06 | Primordial non-Gaussianity as a large-scale cosmic-web bias
+  2611.10074v1 | 2026-11-06 | A Free-Field Realization of Boundary Symmetries in Discrete Jackiw--Teitelboim Gravity
+  2611.09303v1 | 2026-11-06 | Natural potentials for TT tensors, divergence-free symmetric tensors and linearised relativistic initial data
+  2611.14563v1 | 2026-11-06 | SuSy and CoDy Radiation from Evaporating Black Holes
+  2611.09249v1 | 2026-11-06 | Optical Geometry of a Lorentz-Violating BTZ-Like Black Hole: Reflection Double and Dirac Scattering
+  2611.09236v1 | 2026-11-06 | Axion cloud survival in nuclear star clusters
+  2611.09216v1 | 2026-11-06 | Quasi-spherical fallback in binary neutron-star mergers: fuel and obstacle for extended emission
+  2611.09209v2 | 2026-11-06 | Carrollian minimal massive gravity and the fate of third-way consistency
+  2611.18703v1 | 2026-11-06 | Fourier Transform of the Scalar Propagator with Quantum Light-Cone Fluctuations
+  2611.09062v1 | 2026-11-06 | Analogue Schwinger Pair Production in Acoustic Black Holes
+  2611.09056v1 | 2026-11-06 | The Weyl Tensor for Gravitational-Wave Causal Sets: Thickness of Geodesic Analogs and Geodesic Deviation
+  2611.08958v1 | 2026-11-06 | Bondi-Sachs formalism on past light cones and an analogue of the integral mass formula
+  2611.08955v1 | 2026-11-06 | Weak-field analytical solutions for f(R,L_matt) gravity in a static and spherically symmetric space-time for perfect fluids
+  2611.08952v1 | 2026-11-06 | Equatorial Periodic Orbits and Gravitational Wave Signatures in Weyl Geometric Gravity Black Holes
+  2611.08948v1 | 2026-11-06 | Landauer bound in a regular Bardeen black hole: extremality and evaporation
+  2611.08880v1 | 2026-11-06 | A pipeline for identifying astrophysical signals and instrumental glitches in LISA data
+  2611.08742v1 | 2026-11-05 | Neutrino pair annihilation in curved spacetime: a fast moment method and the geometry of flavour conversion
+  2611.08642v2 | 2026-11-05 | Testing influence of tides on gravitational wave emission with SPH code PHANTOM
+  2611.08628v1 | 2026-11-05 | NLO corrections to charged-current correlators near extremality: non-Abelian hydrodynamics meets AdS$_2$
+  2611.08619v1 | 2026-11-05 | Quantum-enabled measurement of gravitational forces at the milligram scale
+  2611.08609v1 | 2026-11-05 | The Gibbons--Penrose inequality in Minkowski spacetime
+  2611.08602v1 | 2026-11-05 | Effects of Self-Interactions on the Bifurcations in Boson Stars
+  2611.08597v1 | 2026-11-05 | Reflecting Baths and Black Hole Interior Islands in JT Gravity
+  2611.08596v1 | 2026-11-05 | Phentax: A JAX implementation of the IMRPhenomTHM waveform model
+  2611.08585v1 | 2026-11-05 | Primordial or Post-Inflationary: Distinguishing the Origin of Scale-Dependent Features in the CMB
+  2611.08584v1 | 2026-11-05 | Fermionic Kaluza-Klein Reductions
+  2611.08471v2 | 2026-11-05 | Dressed Newton-Cartan geometry and Euclidean thermal configurations in 3D
+  2611.08422v1 | 2026-11-05 | Torsion talks only to spin: the CMB temperature as a test of energy exchange in Einstein-Cartan cosmology
+  2611.08382v1 | 2026-11-05 | When Can Pulsar Timing Distinguish a Propagation Mass from a Weak Longitudinal Background?
+  2611.08322v1 | 2026-11-05 | Instabilities of Simpson-Visser black bounces sourced by a phantom scalar and nonlinear electrodynamics
+  2611.08313v1 | 2026-11-05 | Testing Gravitationally-Induced-Entanglement with Massive Particles and Quantum Clocks
+  2611.08191v1 | 2026-11-05 | Parity-violating scalar-tensor theory revisited: complete basis up to $d=4$ and Hamiltonian analysis
+  2611.08145v1 | 2026-11-05 | A Smoothly Truncated Dark Matter Spike around a Black Hole in an Einstein-Cluster Model
+  2611.18700v1 | 2026-11-05 | Optical Appearances and Multiple Lensed Rings of Self-Interacting Boson Stars with a Double-Well Potential
+  2611.08008v1 | 2026-11-05 | Multi-Probe Cosmological Constraints on Clustering DBI Dark Energy Scenario
+  2611.07957v1 | 2026-11-05 | Can $n_s$ hint at a parity-odd sector of gravity?
+  2611.07877v1 | 2026-11-05 | Can Two-Point Correlations Determine Gravitational Waves from Sound Waves?
+  2611.07875v2 | 2026-11-05 | An Orbital Curvature for ISCOs
+  2611.18698v1 | 2026-11-05 | Metric perturbations in Einstein-Hilbert gravity: An alternative perturbative formulation
+  2611.07747v1 | 2026-11-05 | Gravitational Thermodynamicization of Primordial Black Holes: An RVB Residue Formulation of Thermal Formation and Nonequilibrium Evolution
+  2611.18697v1 | 2026-11-05 | Kalb-Ramond black bounces: throat-blind shadows and throat-sensitive neutrinos
+  2611.07596v1 | 2026-11-05 | Rational Orbits and Gravitational-Wave Signatures around a Horndeski Black Hole
+  2611.07547v1 | 2026-11-05 | The logarithm construction and (super) Weyl anomalies
+  2611.07544v1 | 2026-11-05 | Can absorption enhance differences between black-hole images?
+  2611.07525v1 | 2026-11-05 | Circular motion and fundamental frequencies of charged particles in dipole magnetic field around magnetized Bocharova--Bronnikov--Melnikov--Bekenstein black holes
+  2611.07500v1 | 2026-11-05 | Algebraic representation of General Relativity in harmonic gauge
+  2611.07492v1 | 2026-11-05 | Primordial non-Gaussianity in warm $k$-inflation with nonminimal derivative coupling
+  2611.07447v1 | 2026-11-05 | Demystifying Graviton Detection
+  2611.07418v1 | 2026-11-05 | Dynamical and Cosmological Perspectives on Symmetric Teleparallel Gravity and its Extensions
+  2611.18695v2 | 2026-11-05 | Transient Information in Moving-Mirror Quantum Correlations
+  2611.07341v1 | 2026-11-05 | Tidal Love Numbers of Thin-Shell Wormholes, de Sitter Gravastars, and Anti-de Sitter Gravastars via Full Perturbed Junction Conditions
+  2611.07331v1 | 2026-11-05 | Algebraic classification of single-field inflationary dynamics
+  2611.07288v1 | 2026-11-05 | Self-interacting $p$-forms and the shear-free anisotropic cosmological model
+TOTAL 373
+== inspire: t:"critical collapse" #CONTROL
+  3223940 | 2611.07007 | 2026-11-04 | Critical collapse remains discretely self-similar at large D
+  3222612 | 2611.04679 | 2026-11-03 | Quark deconfinement as a natural trigger of Type-I critical collapse: black holes from neutron stars deemed stable
+  3215820 | 2610.22475 | 2026-10-15 | Angular Momenta in $4+1$ Vacuum Critical Collapse
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3174128 | 2606.27431 | 2026-06-25 | Critical collapse of vacuum spacetimes: Nakamura wave initial data
+  3164876 | 2606.03751 | 2026-06-02 | Critical collapse of a self-interacting scalar field in asymptotically anti-de Sitter spacetime
+  3111470 | 2601.18191 | 2026-01-26 | Critical collapse of a massive scalar field in semiclassical loop quantum gravity
+  3074820 | 2510.25534 | 2025-10-29 | Characteristic critical collapse of a Yang-Mills field with null infinity
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2912179 | 2504.10590 | 2025-04-14 | Black hole critical collapse in infinite dimensions: continuous self-similar solutions
+  2894572 | - | 2024-12-27 | Critical collapse in asymptotically anti-de Sitter spacetime*
+  2821327 | - | 2024-08-19 | Critical collapse of massless scalar fields in asymptotically anti-de Sitter spacetime*
+  2780754 | 2404.15839 | 2024-04-24 | Simulations of gravitational collapse in null coordinates. II. Critical collapse of an axisymmetric scalar field
+  2757565 | 2402.06724 | 2024-02-09 | Twist-free axisymmetric critical collapse of a complex scalar field
+  2726463 | 2405.06351 | 2023-11-23 | Energy in critical collapse
+  2686354 | 2308.03943 | 2023-08-07 | Universality in the critical collapse of the Einstein-Maxwell system
+  2685099 | 2308.01812 | 2023-08-03 | Formulation improvements for critical collapse simulations
+  2675669 | 2307.04372 | 2023-07-10 | New results on the dynamics of critical collapse*
+  2619362 | 2212.14805 | 2022-12-30 | Critical collapse for the Starobinsky R$^{2}$ model
+  2109061 | 2207.04373 | 2022-07-09 | Renormalization-group perspective on gravitational critical collapse
+  2049203 | - | 2022 | Light Element Abundances Constrain Primordial Black Holes in the Critical Collapse Model
+  1944921 | 2110.07153 | 2021-10-14 | Estimation of Critical Collapse Solutions to Black Holes with Nonlinear Statistical Models
+  1902065 | 2108.03643 | 2021-08-08 | Critical collapse of an axisymmetric ultrarelativistic fluid in 2+1 dimensions
+  1860805 | 2104.11940 | 2021-04-24 | Critical collapse of a spherically symmetric ultrarelativistic fluid in 2+1 dimensions
+  1832517 | 2011.10937 | 2020-11-22 | Impacts of Hawking Radiation from Primordial Black Holes in Critical Collapse Model on the Light Element Abundances
+  1822533 | 2011.06792 | 2020-10-07 | Strength of the naked singularity in critical collapse
+  1813849 | 2008.12726 | 2020-08-28 | Type II critical collapse on a single fixed grid: a gauge-driven ingoing boundary method
+  1809067 | 2007.13764 | 2020-07-27 | Semilinear wave model for critical collapse
+  1789044 | 2003.13730 | 2020-03-30 | Critical collapse in K-essence models
+  1779706 | 2002.04044 | 2020-02-10 | Critical collapse of a scalar field in semiclassical loop quantum gravity
+  1720894 | 1902.07218 | 2019-02-19 | Holographic Signatures of Critical Collapse
+  1698020 | 1810.04907 | 2018-10-11 | Self-similarity in Einstein-Maxwell-dilaton theories and critical collapse
+  1691967 | 1808.09826 | 2018-08-29 | Geometric properties of critical collapse
+  1684230 | 1807.10283 | 2018-07-26 | Gravitating scalar stars in the large D limit
+  1675058 | 1805.10442 | 2018-05-26 | Critical collapse of ultrarelativistic fluids: Damping or growth of aspherical deformations
+  1513463 | 1702.04601 | 2017-02-15 | Critical collapse of a rotating scalar field in $2+1$ dimensions
+  1427408 | 1603.04373 | 2016-03-14 | Critical collapse of rotating radiation fluids
+  1407791 | 1512.00488 | 2015-12-01 | Effects of Critical Collapse on Primordial Black-Hole Mass Spectra
+  1396987 | 1510.02592 | 2015-10-09 | Scalar field critical collapse in 2+1 dimensions
+  1319992 | 1410.0708 | 2014-09-30 | Exploring Critical Collapse in the Semilinear Wave Equation using Space-Time Finite Elements
+  1317868 | 1409.5176 | 2014-09-17 | Critical collapse in the spherically-symmetric Einstein-Vlasov model
+  1257591 | 1310.1955 | 2013-10-07 | Critical Collapse of Scalar Fields Beyond Axisymmetry
+  1241560 | 1307.1378 | 2013-07-04 | More On Critical Collapse of Axion-Dilaton System in Dimension Four
+  1182044 | 1208.5250 | 2012-08 | Critical Collapse in Einstein-Gauss-Bonnet Gravity in Five and Six Dimensions
+  3021168 | 1201.4627 | 2012-01-23 | Stabilization of one-dimensional solitons against the critical collapse by quintic nonlinear lattices
+  940038 | 1110.3258 | 2011-10 | Critical Collapse and Solitons in Classical Conformal Field Theory
+  921566 | 1108.0078 | 2011-08 | Critical Collapse in the Axion-Dilaton System in Diverse Dimensions
+  915931 | 1106.5287 | 2011-06 | Critical collapse and black hole formation within an expanding perfect fluid
+  865700 | 1008.3319 | 2010-08 | On critical collapse of gravitational waves
+  765200 | 0710.4315 | 2007-10 | Critical Collapse of Einstein Cluster
+  758284 | 0708.1914 | 2007-08 | Global versus Local Aspects of Critical Collapse
+  701210 | gr-qc/0512136 | 2005-12 | Bifurcation and fine structure phenomena in critical collapse of a self-gravitating sigma-field
+  690014 | gr-qc/0508062 | 2005-08 | Critical collapse of an ultrarelativistic fluid in the Gamma ---> 1 limit
+  664616 | gr-qc/0411078 | 2004-11 | News from critical collapse: Bondi mass, tails and quasinormal modes
+  650648 | gr-qc/0405101 | 2004-05 | Critical collapse of a complex scalar field with angular momentum
+  647774 | gr-qc/0404033 | 2004-04 | Approximately selfsimilar critical collapse in (2+1)-dimensions
+  623542 | gr-qc/0307071 | 2003-07 | Critical collapse of cylindrically symmetric scalar field in four-dimensional Einstein's theory of gravity
+  623645 | gr-qc/0307081 | 2003-07 | The Naked singularity in the global structure of critical collapse space-times
+  617959 | gr-qc/0305003 | 2003-05 | Critical collapse of the massless scalar field in axisymmetry
+  618086 | gr-qc/0305014 | 2003-05 | Critical collapse of a massive vector field
+  587294 | gr-qc/0205107 | 2002-05 | Perturbations of an exact solution for (2+1)-dimensional critical collapse
+  568071 | gr-qc/0112023 | 2001-12 | Analytical approach to critical collapse in (2+1)-dimensions
+  562276 | gr-qc/0109002 | 2001-09 | Critical collapse in (2+1)-dimensional AdS space-time: Quasi CSS solutions and linear perturbations
+  552187 | gr-qc/0101073 | 2001-01 | Analytical treatment of critical collapse in (2+1)-dimensional AdS space-time
+  538829 | gr-qc/0012059 | 2000-09 | Critical collapse of collisionless matter in spherical symmetry
+  531506 | gr-qc/0008023 | 2000-08 | An Exact solution for 2+1 dimensional critical collapse
+  550479 | - | 2000-07 | Type II critical collapse of a self-gravitating nonlinear sigma model
+  524103 | gr-qc/0002067 | 2000-02 | Type II critical collapse of a selfgravitating nonlinear sigma model
+  505659 | gr-qc/9908046 | 1999-08 | Continuous selfsimilarity breaking in critical collapse
+  517991 | - | 1999-06 | Critical collapse of a massless scalar field: Perturbative approach
+  497679 | astro-ph/9904021 | 1999-04 | Bounds from primordial black holes with a near critical collapse initial mass function
+  494249 | astro-ph/9901268 | 1999-01 | Critical collapse and the primordial black hole initial mass function
+  482311 | gr-qc/9901039 | 1998-11 | On equivalence of critical collapse of nonAbelian fields
+  482325 | gr-qc/9901044 | 1998-11 | Critical collapse in tensor multiscalar and nonlinear gravity theories: A Universal class
+  478694 | gr-qc/9811001 | 1998-10 | Critical collapse beyond spherical symmetry: General perturbations of the Roberts solution
+  469333 | gr-qc/9804040 | 1998-04 | Critical collapse of collisionless matter: A Numerical investigation
+  466066 | gr-qc/9801012 | 1998-01 | Critical collapse of Skyrmions
+  449640 | gr-qc/9710066 | 1997-10 | Nonspherical perturbations of critical collapse and cosmic censorship
+  425257 | gr-qc/9610069 | 1996-10 | Echoing and scaling in Einstein Yang-Mills critical collapse
+  420116 | gr-qc/9606072 | 1996-06 | Charge scaling and universality in critical collapse
+  417456 | gr-qc/9604019 | 1996-04 | Understanding critical collapse of a scalar field
+TOTAL 82
+== inspire: fulltext:"Evans-Coleman" #CONTROL
+  3174573 | 2606.29590 | 2026-06-28 | Saturation Equations of State in Critical Gravitational Collapse: The Primordial Black Hole Threshold
+  2968081 | 2509.07136 | 2025-09-08 | Self-similar collapse with elasticity
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2824854 | 2409.01939 | 2024-09-03 | Cosmology using numerical relativity
+  2735924 | 2312.06782 | 2023-12-11 | Solar Evolution Models with a Central Black Hole
+  2129534 | 2208.00696 | 2022-08-01 | Effective Inspiral Spin Distribution of Primordial Black Hole Binaries
+  1768043 | 1912.00677 | 2019-12-02 | Universality of the spherical collapse with respect to the matter type : the case of a barotropic fluid with linear equation of state
+  1645599 | 1801.00672 | 2018-01-02 | Primordial Black Holes as Generators of Cosmic Structures
+  1084182 | 1201.2379 | 2012-01 | Primordial black hole formation in the early universe: critical behaviour and self-similarity
+  768973 | 0711.4620 | 2007-11 | Critical phenomena in gravitational collapse
+  689493 | gr-qc/0508039 | 2005-08 | The Similarity hypothesis in general relativity
+  667010 | gr-qc/0412063 | 2004-12 | Computations of primordial black hole formation
+  648848 | astro-ph/0404434 | 2004-04 | Universality of the subsolar mass distribution from critical gravitational collapse
+  646296 | astro-ph/0403336 | 2004-03 | Power - laws from critical gravitational collapse: The Mass distribution of subsolar objects
+  632497 | gr-qc/0311014 | 2003-11 | Stability criterion for selfsimilar solutions with a scalar field and those with a stiff fluid in general relativity
+  612707 | gr-qc/0302004 | 2003-02 | Selfsimilar solutions, critical behavior and convergence to attractor in gravitational collapse
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  581839 | gr-qc/0201056 | 2002-01 | Numerical approaches to space-time singularities
+  567912 | gr-qc/0112009 | 2001-12 | Selfsimilar spherically symmetric solutions of the massless Einstein-Vlasov system
+  562652 | gr-qc/0109042 | 2001-09 | Stability criterion for selfsimilar solutions with perfect fluids in general relativity
+  525118 | gr-qc/0003080 | 2000-03 | Selfsimilar spherically symmetric cosmological models with a perfect fluid and a scalar field
+  514026 | gr-qc/0003009 | 1999-11 | Spherically symmetric selfsimilar solutions and their astrophysical and cosmological applications
+  493950 | gr-qc/9901031 | 1999-01 | Critical phenomena and a new class of selfsimilar spherically symmetric perfect fluid solutions
+  494150 | gr-qc/9901050 | 1999-01 | A Complete classification of spherically symmetric perfect fluid similarity solutions
+  491226 | astro-ph/9811452 | 1998-11 | Optical and uv observations of a strong flare in the young, single k2-dwarf lq hya
+  471580 | gr-qc/9806048 | 1998-06 | Selfsimilarity in general relativity
+  454122 | gr-qc/9803075 | 1997-12 | The (Unstable) threshold of black hole formation
+  420411 | gr-qc/9607010 | 1996-07 | Renormalization group and critical behavior in gravitational collapse
+  403054 | gr-qc/9512003 | 1995-12 | Numerical investigation of singularities
+  393236 | gr-qc/9503007 | 1995-03 | Critical behavior in gravitational collapse of radiation fluid: A Renormalization group (linear perturbation) analysis
+  381313 | astro-ph/9412046 | 1994-06 | Quantum aspects of gravity
+TOTAL 31
+== inspire: refersto:recid:469529
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3098875 | 2601.05129 | 2026-01-08 | Quantum fields in boson star spacetime
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  1971627 | - | 2021-09-09 | Quantum Aspects of Space and Time
+  793611 | 0808.3024 | 2008-08 | A Toy Model for Topology Change Transitions: Role of Curvature Corrections
+  767641 | 0711.2279 | 2007-11 | Developments in black hole research: Classical, semi-classical, and quantum
+  768973 | 0711.4620 | 2007-11 | Critical phenomena in gravitational collapse
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  563966 | gr-qc/0110049 | 2001-10 | Critical gravitational collapse with angular momentum: From critical exponents to scaling functions
+  555715 | gr-qc/0104073 | 2001-04 | Critical phenomena in gravitational collapse: The Studies so far
+  513238 | gr-qc/0001046 | 1999-11 | Critical Phenomena in Gravitational Collapse
+  515144 | - | 1999 | Critical behaviour in gravitational collapse
+  471899 | gr-qc/9806069 | 1998-06 | Size gap for zero temperature black holes in semiclassical gravity
+TOTAL 17
+== inspire: refersto:recid:2966624
+  3223940 | 2611.07007 | 2026-11-04 | Critical collapse remains discretely self-similar at large D
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3211567 | 2610.04960 | 2026-10-04 | Polyakov backreaction in large D discretely self-similar collapse
+  3206687 | 2609.26875 | 2026-09-22 | Collapse to extremality: The third law of black hole thermodynamics in quantum gravity
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3152039 | 2605.03015 | 2026-05-04 | The fate of nucleated black holes in de Sitter quantum gravity
+  3118614 | 2602.10185 | 2026-02-10 | Critical spacetime crystals in continuous dimensions
+  3109820 | 2601.14358 | 2026-01-20 | Analytic Discrete Self-Similar Solutions of Einstein-Klein-Gordon at Large <math display="inline"><mi>D</mi></math>
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+TOTAL 9
+== inspire: refersto:recid:2966695
+  3223940 | 2611.07007 | 2026-11-04 | Critical collapse remains discretely self-similar at large D
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3211567 | 2610.04960 | 2026-10-04 | Polyakov backreaction in large D discretely self-similar collapse
+  3206687 | 2609.26875 | 2026-09-22 | Collapse to extremality: The third law of black hole thermodynamics in quantum gravity
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3152039 | 2605.03015 | 2026-05-04 | The fate of nucleated black holes in de Sitter quantum gravity
+  3118614 | 2602.10185 | 2026-02-10 | Critical spacetime crystals in continuous dimensions
+  3109820 | 2601.14358 | 2026-01-20 | Analytic Discrete Self-Similar Solutions of Einstein-Klein-Gordon at Large <math display="inline"><mi>D</mi></math>
+  3098875 | 2601.05129 | 2026-01-08 | Quantum fields in boson star spacetime
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+TOTAL 11
+== inspire: refersto:recid:2969255
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3177545 | 2607.04386 | 2026-07-05 | Universal Leading Quantum Stress Near the Schwarzschild Singularity
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2919491 | 2505.04701 | 2025-05-07 | Nonlocal correlations of a test quantum field in gravitational collapse
+TOTAL 5
+== inspire: refersto:recid:3169247
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3206687 | 2609.26875 | 2026-09-22 | Collapse to extremality: The third law of black hole thermodynamics in quantum gravity
+TOTAL 2
+== inspire: refersto:recid:3215465
+TOTAL 0
+== inspire: refersto:recid:3211567
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+TOTAL 1
+== inspire: refersto:recid:3223940
+TOTAL 0
+== inspire: refersto:recid:444860
+  3223940 | 2611.07007 | 2026-11-04 | Critical collapse remains discretely self-similar at large D
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2175934 | 2211.01394 | 2022-11-02 | Self-similar gravitational dynamics, singularities and criticality in 2D
+  768973 | 0711.4620 | 2007-11 | Critical phenomena in gravitational collapse
+  761670 | 0709.3738 | 2007-09 | Thermodynamics of Large AdS Black Holes
+  714072 | hep-th/0604049 | 2006-04 | Ramifications of lineland
+  650562 | gr-qc/0405096 | 2004-05 | Backreaction in acoustic black holes
+  650564 | gr-qc/0405098 | 2004-05 | Quantum effects in acoustic black holes: The Backreaction
+  635915 | gr-qc/0312086 | 2003-12 | The Ultrarelativistic limit of 2-D dilaton gravity and its energy momentum tensor
+  628355 | hep-th/0309160 | 2003-09 | Generalized Virasoro anomaly and stress tensor for dilaton coupled theories
+  623235 | hep-th/0307096 | 2003-07 | Generalized Virasoro anomaly for dilaton coupled theories
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  586155 | hep-th/0204253 | 2002-04 | Dilaton gravity in two-dimensions
+  582647 | hep-th/0202036 | 2002-02 | Vacuum polarization in two-dimensional static space-times and dimensional reduction
+  563938 | hep-th/0110064 | 2001-10 | De Sitter space versus Nariai black hole: Stability in d5 higher derivative gravity
+  555715 | gr-qc/0104073 | 2001-04 | Critical phenomena in gravitational collapse: The Studies so far
+  538135 | hep-th/0012048 | 2000-12 | Vacuum polarization in the Schwarzschild space-time and dimensional reduction
+  538811 | hep-th/0012140 | 2000-12 | 2-D black holes and effective actions
+  539473 | hep-th/0012252 | 2000-12 | Nonminimally coupled massive scalar field in a 2-D black hole: exactly solvable model
+  534230 | hep-th/0009202 | 2000-09 | Quantum dilatonic gravity in (D = 2)-dimensions, (D = 4)-dimensions and (D = 5)-dimensions
+  531409 | hep-th/0008061 | 2000-08 | On the dimensional reduction procedure
+  531894 | hep-th/0008137 | 2000-08 | On the dimensional reduced theories
+  533570 | gr-qc/0009051 | 2000-07 | Hawking radiation and Hawking flux from spherical reduction
+  525691 | gr-qc/0004004 | 2000-04 | The Nonlinear evolution of de Sitter space instabilities
+  525653 | hep-th/0003290 | 2000-03 | The Dimensional reduction anomaly in spherically symmetric space-times
+  513238 | gr-qc/0001046 | 1999-11 | Critical Phenomena in Gravitational Collapse
+  509119 | hep-th/9910198 | 1999-10 | Two-dimensional effective action for matter fields coupled to the dilaton
+  507109 | hep-th/9909086 | 1999-09 | The Dimensional reduction anomaly
+  503068 | gr-qc/9907008 | 1999-07 | Unified approach to study quantum properties of primordial black holes, wormholes and of quantum cosmology
+  499887 | hep-th/9905089 | 1999-05 | Thermodynamics of Schwarzschild-(anti-)de Sitter black holes with account of quantum corrections
+  498665 | hep-th/9904146 | 1999-04 | Anomaly induced effective actions in even dimensions and reliability of s wave approximation
+  496203 | hep-th/9903033 | 1999-03 | On the conformal anomaly from higher derivative gravity in AdS / CFT correspondence
+  494923 | hep-th/9902035 | 1999-02 | (Non)singular Kantowski-Sachs universe from quantum spherically reduced matter
+  495894 | hep-th/9902183 | 1999-02 | Quantum global structure of de Sitter space
+  494455 | hep-th/9901119 | 1999-01 | Conformal anomaly for 2-D and 4-D dilaton coupled spinors
+  481134 | hep-th/9812164 | 1998-12 | Induced wormholes due to quantum effects of spherically reduced matter in large N approximation
+  479091 | hep-th/9811092 | 1998-11 | Effective action and Hawking radiation for dilaton coupled scalars in two-dimensions
+  477275 | hep-th/9810008 | 1998-10 | Conformal anomaly for dilaton coupled theories from AdS / CFT correspondence
+  473464 | hep-th/9807123 | 1998-07 | Hawking radiation by effective two-dimensional theories
+  470440 | hep-th/9805081 | 1998-05 | Proliferation of de Sitter space
+  471497 | gr-qc/9806034 | 1998-05 | Can quantum corrected BTZ black hole anti-evaporate?
+  471530 | hep-th/9806055 | 1998-05 | Quantum (in)stability of 2-D charged dilaton black holes and 3-D rotating black holes
+  466898 | hep-th/9802029 | 1998-02 | Conformal anomaly in 2-d dilaton scalar theory
+  466374 | hep-th/9801122 | 1998-01 | Comment on: `Trace anomaly of dilaton coupled scalars in two-dimensions'
+  454122 | gr-qc/9803075 | 1997-12 | The (Unstable) threshold of black hole formation
+TOTAL 50
+== inspire: fulltext:"Bach tensor" and fulltext:"self-similar" and fulltext:collapse
+  3147618 | 2604.19668 | 2026-01 | Abstract null hypersurfaces and characteristic initial value problems in General Relativity
+  3073014 | 2510.21646 | 2025-10-24 | Conformal characterization of the Fefferman–Graham ambient metric
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2676323 | 2307.06139 | 2023-07-09 | Constructing maximal extensions of the Vaidya metric in Israel coordinates: Integration of the field equations
+  1228003 | - | 2006 | Stellar Iron Core Collapse in 3+1 General Relativity and The Gravitational Wave Signature of Core-Collapse Supernovae
+  655155 | gr-qc/0407095 | 2004-07 | Lectures on mathematical cosmology
+  601496 | gr-qc/0211022 | 2002-11 | Scale invariant gravity: Geometrodynamics
+  561133 | gr-qc/0108018 | 2001-07 | A Conserved Bach current
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 9
+== inspire: fulltext:"Bach tensor" and fulltext:"critical collapse"
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  1773599 | 1912.13333 | 2019-12-31 | Horizonless ultracompact objects and dark matter in quadratic gravity
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 3
+== inspire: fulltext:"Evans-Coleman" and fulltext:"Bach"
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+TOTAL 1
+== inspire: fulltext:"Evans-Coleman" and fulltext:"one-loop"
+  381313 | astro-ph/9412046 | 1994-06 | Quantum aspects of gravity
+TOTAL 1
+== inspire: fulltext:"Evans-Coleman" and fulltext:"conformal anomaly"
+TOTAL 0
+== inspire: fulltext:"radiation fluid" and fulltext:"conformal anomaly" and fulltext:"self-similar"
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  1865662 | 2105.12582 | 2021-05-20 | Modified Gravity and Cosmology. An Update by the CANTATA Network
+  1415546 | 1601.03884 | 2016-01-15 | The Status of Cosmic Topology after Planck Data
+  631875 | hep-ph/0310337 | 2003-10 | Advances in perturbative thermal field theory
+  1396612 | - | 2002 | Proceedings, 35th Rencontres de Moriond, Energy densities in the universe
+TOTAL 6
+== inspire: fulltext:"critical solution" and fulltext:"trace anomaly" and fulltext:"perfect fluid"
+  3209473 | - | 2026-08-28 | Quantum Information Probes in Holography: Shell Geometries and Black Hole Singularities
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2807284 | 2407.08807 | 2024-07-11 | Whispers from the quantum core: the ringdown of semiclassical stars
+  2680418 | 2307.13416 | 2023-07-25 | After Collapse: On How a Physical Vacuum Can Change the Black Hole Paradigm
+  2616066 | 2212.09375 | 2022-12-19 | Asymptotically flat vacuum solutions in order-reduced semiclassical gravity
+  2039764 | 2202.13908 | 2022-02-28 | The 4D Einstein–Gauss–Bonnet theory of gravity: a review
+  1865662 | 2105.12582 | 2021-05-20 | Modified Gravity and Cosmology. An Update by the CANTATA Network
+  1768787 | 1912.07035 | 2019-09-19 | Higher-Curvature Gravity, Black Holes and Holography
+  1793922 | - | 2019 | Aspects of critical phenomena in curved space
+  883144 | 1101.0618 | 2011-01 | Gauge/String Duality, Hot QCD and Heavy Ion Collisions
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  513238 | gr-qc/0001046 | 1999-11 | Critical Phenomena in Gravitational Collapse
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+  481293 | gr-qc/9812071 | 1998-02 | Critical phenomena in gravitational collapse
+  452724 | gr-qc/9712084 | 1997-12 | Critical phenomena in gravitational collapse
+TOTAL 15
+== inspire: fulltext:"quantum growing mode"
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3211567 | 2610.04960 | 2026-10-04 | Polyakov backreaction in large D discretely self-similar collapse
+  3206687 | 2609.26875 | 2026-09-22 | Collapse to extremality: The third law of black hole thermodynamics in quantum gravity
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+TOTAL 6
+== inspire: fulltext:"Brady and Ottewill" and fulltext:"perfect fluid"
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  563966 | gr-qc/0110049 | 2001-10 | Critical gravitational collapse with angular momentum: From critical exponents to scaling functions
+  481293 | gr-qc/9812071 | 1998-02 | Critical phenomena in gravitational collapse
+TOTAL 6
+== inspire: abstracts.value:"critical collapse" and abstracts.value:quantum
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3111470 | 2601.18191 | 2026-01-26 | Critical collapse of a massive scalar field in semiclassical loop quantum gravity
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2942043 | 2507.02490 | 2025-07-03 | Primordial black hole formation in k-inflation models
+  2919491 | 2505.04701 | 2025-05-07 | Nonlocal correlations of a test quantum field in gravitational collapse
+  2893283 | 2502.15279 | 2025-02-21 | Primordial Black Holes
+  1973244 | 2111.11400 | 2021-11-22 | Gravitational collapse of quantum fields and Choptuik scaling
+  1813849 | 2008.12726 | 2020-08-28 | Type II critical collapse on a single fixed grid: a gauge-driven ingoing boundary method
+  1732601 | 1904.12081 | 2019-04-26 | (INVITED) Vortex solitons: Old results and new perspectives
+  1277886 | 1401.4093 | 2014-01-16 | Comment on ‘Critical scalar field collapse in AdS$_3$: an analytical approach’
+  783848 | 0804.3321 | 2008-04 | Exploring an S-matrix for gravitational collapse
+  714072 | hep-th/0604049 | 2006-04 | Ramifications of lineland
+  556225 | gr-qc/0105019 | 2001-05 | Gravitational collapse of spherically symmetric perfect fluid with kinematic selfsimilarity
+  555715 | gr-qc/0104073 | 2001-04 | Critical phenomena in gravitational collapse: The Studies so far
+  520848 | astro-ph/9912322 | 1999-12 | Red hole gamma-ray bursts: a new gravitational collapse paradigm explains the peak energy distribution and solves the grb energy crisis
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 18
+== inspire: abstracts.value:"self-similar" and abstracts.value:"conformal anomaly"
+TOTAL 0
+== inspire: abstracts.value:"self-similar" and abstracts.value:"Bach"
+  3005739 | - | 2025-08-13 | New Conformally Invariant Born–Infeld Models and Geometrical Currents
+  1731844 | 1904.12423 | 2019-04-28 | Shadow of a Schwarzschild black hole surrounded by a Bach–Weyl ring
+TOTAL 2
+== inspire: abstracts.value:"critical collapse" and abstracts.value:"back-reaction"
+TOTAL 0
+== inspire: t:"semiclassical" and t:"self-similar"
+  635787 | gr-qc/0312080 | 2003-12 | Semiclassical instability of the Cauchy horizon in selfsimilar collapse
+TOTAL 1
+== inspire: t:"quantum" and t:"critical collapse"
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3111470 | 2601.18191 | 2026-01-26 | Critical collapse of a massive scalar field in semiclassical loop quantum gravity
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  1779706 | 2002.04044 | 2020-02-10 | Critical collapse of a scalar field in semiclassical loop quantum gravity
+TOTAL 5
+== inspire: fulltext:"interval arithmetic" and fulltext:"self-similar" and fulltext:"Einstein"
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  1998970 | 2112.15241 | 2021-12-30 | General Relativistic Shock Waves that Exhibit an Accelerated Expansion
+TOTAL 2
+== inspire: fulltext:"computer-assisted" and fulltext:"Evans-Coleman"
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  420411 | gr-qc/9607010 | 1996-07 | Renormalization group and critical behavior in gravitational collapse
+TOTAL 2
+== inspire: fulltext:"rigorous numerics" and fulltext:"critical collapse"
+TOTAL 0
+== inspire: fulltext:"compactness" and fulltext:"Evans-Coleman" and fulltext:"quantum"
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2824854 | 2409.01939 | 2024-09-03 | Cosmology using numerical relativity
+  1768043 | 1912.00677 | 2019-12-02 | Universality of the spherical collapse with respect to the matter type : the case of a barotropic fluid with linear equation of state
+  1084182 | 1201.2379 | 2012-01 | Primordial black hole formation in the early universe: critical behaviour and self-similarity
+  768973 | 0711.4620 | 2007-11 | Critical phenomena in gravitational collapse
+TOTAL 5
+== arxiv: abs:"Bach tensor" #CONTROL
+  2611.09303v1 | 2026-11-06 | Natural potentials for TT tensors, divergence-free symmetric tensors and linearised relativistic initial data
+  2610.08628v2 | 2026-10-06 | On the Bach tensor and quadratic curvature functionals
+  2610.02993v1 | 2026-10-02 | A geometric flow associated to $Q$-curvature
+  2609.07750v1 | 2026-09-07 | Classification of Conformally Covariant 2-Tensors from the Kulkarni--Nomizu Product in Dimension 4
+  2512.19050v2 | 2025-12-22 | Higher Self-Duality
+  2512.03731v1 | 2025-12-03 | Critical metrics of the volume functional on complete manifolds
+  2511.05774v3 | 2025-11-08 | Rigidity of Gradient Shrinking Ricci Solitons with a Vanishing Bach-like Tensor and Related Variational Formulas
+  2508.02756v2 | 2025-08-03 | Creating a Universe from Nothing as an Alternative to the Cosmological Principle
+  2506.01630v2 | 2025-06-02 | Six-dimensional $\mathcal{N}=(2,0)$ Conformal Superspace
+  2505.24316v1 | 2025-05-30 | Some Characteristics of Almost $ω$-Bach Solitons
+  2505.13059v1 | 2025-05-19 | Bach-pinched metrics on closed manifolds
+  2503.24337v1 | 2025-03-31 | On gradient $ρ$-Einstein solitons with Bach tensor radially nonnegative
+  2502.05541v3 | 2025-02-08 | Huber Theorem revisited in dimensions 2 and 4
+  2501.11339v2 | 2025-01-20 | ${\mathcal N}=3$ nonlinear multiplet and supergravity
+  2406.05908v1 | 2024-06-09 | Charged black holes in quadratic gravity
+  2312.07242v2 | 2023-12-12 | $\mathcal{N}=3$ conformal superspace in four dimensions
+  2307.01882v1 | 2023-07-04 | Vanishing bach-like tensors on complete gradient shrinking ricci solitons
+  2306.05863v2 | 2023-06-09 | The covariant approach to static spacetimes in Einstein and extended gravity theories
+  2303.07328v3 | 2023-03-13 | Perturbations of Fefferman spaces over CR three-manifolds
+  2302.12739v3 | 2023-02-24 | Symplectic charges in the Yang-Mills theory of the normal conformal Cartan connection: applications to gravity
+  2301.10720v1 | 2023-01-25 | Topological black holes in higher derivative gravity
+  2212.00559v1 | 2022-12-01 | Characterizations Of Weakly Conformally Flat And Quasi Einstein Manifolds
+  2210.16673v1 | 2022-10-29 | Electrostatic system with divergence-free Bach tensor and non-null cosmological constant
+  2206.11016v2 | 2022-06-22 | Some canonical metrics {\em via} Aubin's local deformations
+  2201.10875v2 | 2022-01-26 | Bach equation and the matching of spacetimes in conformal cyclic cosmology models
+  2107.08515v1 | 2021-07-18 | A conformally invariant Yang-Mills type energy and equation on 6-manifolds
+  2107.05487v6 | 2021-07-12 | Rotational symmetry of complete gradient Einstein-type manifolds with $α=0$ under vanishing conditions on several tensor fields
+  2103.12796v1 | 2021-03-23 | Rigidity of Bach-flat gradient Schouten solitons
+  2012.08551v2 | 2020-12-15 | Black holes and other spherical solutions in quadratic gravity with a cosmological constant
+  2005.05943v1 | 2020-05-12 | On the Bach and Einstein equations in presence of a field
+  1907.00046v2 | 2019-06-28 | Black holes and other exact spherical solutions in Quadratic Gravity
+  1812.11744v3 | 2018-12-31 | Vacuum static spaces with vanishing of complete divergence of Bach tensor and Weyl tensor
+  1810.03504v2 | 2018-10-08 | Bachian Gravity in Three Dimensions
+  1809.06338v3 | 2018-09-17 | Formal power series for asymptotically hyperbolic Bach-flat metrics
+  1809.00178v1 | 2018-09-01 | Gap theorems on critical point equation of the total scalar curvature with divergence-free Bach tensor
+  1806.08209v1 | 2018-06-21 | Explicit black hole solutions in higher-derivative gravity
+  1710.08293v2 | 2017-10-20 | Rigidity of the total scalar curvature with divergence-free Bach tensor
+  1709.01174v2 | 2017-09-04 | Holographic correlation functions in Critical Gravity
+  1708.09293v2 | 2017-08-29 | Conformally Invariant Vector-Tensor Field Theories Consistent with Conservation of Charge in a Four-Dimensional Space
+  1707.05036v2 | 2017-07-17 | Rigidity of complete Riemannian manifolds with vanishing Bach tensor
+  1706.04227v1 | 2017-06-13 | Polyhomogeneous expansions from time symmetric initial data
+  1701.00682v3 | 2017-01-03 | Off-shell superconformal higher spin multiplets in four dimensions
+  1608.07826v2 | 2016-08-28 | From conformal to Einstein Gravity
+  1606.02646v3 | 2016-06-08 | Exact solutions to quadratic gravity
+  1602.00534v2 | 2016-02-01 | Gradient Ricci solitons with vanishing conditions on Weyl
+  1512.06907v1 | 2015-12-21 | Weyl gravity and Cartan geometry
+  1402.3453v1 | 2014-02-14 | On the geometry of gradient Einstein-type manifolds
+  1402.2216v3 | 2014-02-10 | Bach-flat critical metrics of the volume functional on 4-dimensional manifolds with boundary
+  1306.4637v2 | 2013-06-19 | Conformal Tensors via Lovelock Gravity
+  1304.7772v2 | 2013-04-29 | Self-Dual Conformal Gravity
+TOTAL 68
+== arxiv: abs:"Bach tensor" AND abs:"spherically symmetric"
+  2406.05908v1 | 2024-06-09 | Charged black holes in quadratic gravity
+  2012.08551v2 | 2020-12-15 | Black holes and other spherical solutions in quadratic gravity with a cosmological constant
+  1907.00046v2 | 2019-06-28 | Black holes and other exact spherical solutions in Quadratic Gravity
+  1806.08209v1 | 2018-06-21 | Explicit black hole solutions in higher-derivative gravity
+TOTAL 4
+== arxiv: abs:"Bach tensor" AND (abs:origin OR abs:center OR abs:centre OR abs:regular)
+  2512.03731v1 | 2025-12-03 | Critical metrics of the volume functional on complete manifolds
+  2502.05541v3 | 2025-02-08 | Huber Theorem revisited in dimensions 2 and 4
+  2201.10875v2 | 2022-01-26 | Bach equation and the matching of spacetimes in conformal cyclic cosmology models
+TOTAL 3
+== arxiv: abs:"Weyl squared" AND abs:"self-similar"
+TOTAL 0
+== arxiv: abs:"conformally coupled" AND abs:"self-similar" AND abs:collapse
+  gr-qc/9804058v1 | 1998-04-23 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 1
+== arxiv: abs:"quadratic gravity" AND abs:"self-similar" AND abs:collapse
+TOTAL 0
+== arxiv: abs:"higher derivative" AND abs:"critical collapse"
+TOTAL 0
+== inspire: fulltext:"Bach tensor" #CONTROL
+  3230272 | 2611.22107 | 2026-11-17 | Regular/Singular Black Hole Thermodynamics from Renormalised Volume/Area
+  3229430 | 2611.19338 | 2026-11-14 | On the Spontaneous symmetry breaking of Conformal Gravity to Weyl and Einstein Gravities
+  3228210 | 2611.16936 | 2026-11-12 | Holographic viscous transport in scalar-coupled Gauss-Bonnet gravity
+  3226131 | - | 2026-11-09 | Non-twisting geometries in general relativity and its extensions
+  3225617 | 2611.09303 | 2026-11-06 | Natural potentials for TT tensors, divergence-free symmetric tensors and linearised relativistic initial data
+  3223932 | 2611.07547 | 2026-11-05 | The logarithm construction and (super) Weyl anomalies
+  3222985 | 2611.05787 | 2026-11-04 | Partially Massless Condensates and Reentrant NUT/Bolt Phase Transitions in Conformal Gravity
+  3223134 | 2611.06842 | 2026-11-04 | Anomaly effective actions for 4d $\mathcal{N}=1$ superconformal field theories
+  3216268 | 2610.24625 | 2026-10-17 | Static tidal Love numbers of Schwarzschild and non-Schwarzschild black holes in quadratic gravity
+  3216169 | 2610.23976 | 2026-10-13 | Onset of Chaos and Orbital Instabilities around Rotating Weyl Black Holes
+  3213527 | - | 2026-10-11 | Geodesic motion in quadratic gravity spacetimes
+  3205757 | 2609.22861 | 2026-09-19 | Holomorphic Conformal Cartan Geometry: Conformal Gravity, Twistors, and Ambitwistors
+  3205236 | 2609.21797 | 2026-09-18 | A computer assisted existence proof for a non-Schwarzschild black hole in Einstein--Weyl gravity
+  3204451 | 2609.18105 | 2026-09-16 | Symmetry preservation in black hole quasinormal mode spectra
+  3203809 | 2609.15737 | 2026-09-14 | Black holes and phase transitions in Conformal Gravity
+  3203021 | 2609.13381 | 2026-09-11 | The Conformal $w$-Algebra
+  3197895 | 2608.29277 | 2026-08-29 | Energy extraction processes and thermodynamics in rotating Weyl conformal black holes
+  3197798 | 2608.28743 | 2026-08-28 | OPE and correlation functions in a generally covariant form
+  3194593 | 2608.21118 | 2026-08-21 | Mannheim–Kazanas Black Holes: Horizons, Temperatures and Thermodynamics
+  3192179 | 2608.17847 | 2026-08-18 | Conformally Einstein anti-self-dual spaces and their generalisations
+  3189308 | 2608.09847 | 2026-08-10 | Rotating near-horizon extreme geometries in quadratic gravity
+  3187204 | 2608.02912 | 2026-08-03 | Bessel-Hagen currents for linearised Weyl-squared gravity
+  3182537 | 2607.20381 | 2026-07-22 | Critical analysis of some weak-field Weyl conformal gravity solutions
+  3182235 | 2607.18518 | 2026-07-20 | Vacuum gravity from entropy: Stability, spectra, and exact waves
+  3179990 | 2607.10889 | 2026-07-12 | Post-Newtonian N-body dynamics in extended theories of gravity
+  3177575 | 2607.03679 | 2026-07-04 | Conformal Renormalisation of 8D Einstein Gravity
+  3175024 | 2606.30878 | 2026-06-29 | Four-dimensional electrostatic system with harmonic (anti-)self-dual Weyl tensor
+  3167431 | 2606.10443 | 2026-06-09 | Geometry of gravitational instantons
+  3165470 | 2606.05978 | 2026-06-04 | Lecture notes: Introduction to the Off-shell Double Copy Program
+  3164869 | 2606.03955 | 2026-06-02 | Flat from AdS: in any even dimension and for any spin
+  3160302 | 2605.26506 | 2026-05-26 | The Stability of Minkowski Spacetime
+  3155447 | 2605.14658 | 2026-05-14 | Static spherically symmetric Kundt vacuum solutions of higher-derivative gravities
+  3154831 | 2605.12392 | 2026-05-12 | On the Geometry of Cotton Gravity
+  3150421 | - | 2026-04-30 | Black Hole Mimickers from Asymptotically Safe Einstein-Weyl Gravity
+  3149820 | 2604.24931 | 2026-04-27 | Wellposedness of the initial boundary value problem for the conformal field equations
+  3149020 | 2604.22725 | 2026-04-24 | Gauge-independent approach to inflation in quadratic gravity
+  3137699 | 2603.29952 | 2026-03-31 | Holographic Weyl Anomaly and Kounterterms in AdS Gravity
+  3136463 | 2603.24608 | 2026-03-22 | Conventionalism in general relativity?: formal existence proofs and Reichenbach's theorem θ in context
+  3127681 | 2603.07150 | 2026-03-07 | Quantum (quadratic) gravity: replacing the massive tensor ghost with an inverted harmonic oscillator-like instability
+  3124943 | - | 2026-03-03 | Kounterterms in Einstein Gravity and in Higher-Derivative Theories of Gravity
+  3124676 | 2603.00321 | 2026-02-27 | Universal relations for two- and three-point functions of the CFT energy-momentum tensor and the Weyl anomaly
+  3118168 | 2602.09664 | 2026-02-10 | Dynamical implementation of the constraints in conformal gravity
+  3115453 | 2602.04336 | 2026-02-04 | Nonlinear self-duality for arbitrary spin, superspin, and supersymmetry type
+  3116959 | 2602.05061 | 2026-02-04 | Transverse expansion of the metric at null infinity
+  3115060 | 2602.02840 | 2026-02-02 | Exact Bachian singularity in quadratic gravity
+  3198838 | 2610.19616 | 2026-01-20 | A quantum probabilistic approach to the emergence of an inflationary Starobinsky Universe
+  3105699 | 2601.09975 | 2026-01-15 | Einstein and Yang-Mills implies conformal Yang-Mills
+  3100188 | 2601.05750 | 2026-01-09 | Parameterized post-Newtonian analysis of quadratic gravity and solar system constraints
+  3147618 | 2604.19668 | 2026-01 | Abstract null hypersurfaces and characteristic initial value problems in General Relativity
+  3094770 | 2512.18482 | 2025-12-20 | Generalized Birkhoff theorems and <math display="inline"><mrow><mn>2</mn><mo>+</mo><mn>2</mn></mrow></math> direct product spacetimes in Weyl conformal gravity
+  3093268 | 2512.14347 | 2025-12-16 | Anti–de Sitter flag superspace
+  3093271 | 2512.14148 | 2025-12-16 | Spherically-symmetric solutions in quasi-local Einstein-Weyl gravity
+  3093316 | 2512.14501 | 2025-12-11 | Pfaffian Systems, Cartan Connections, and the Null Surface Formulation of General Relativity
+  3090339 | 2512.06576 | 2025-12-06 | Boundary structure of gauge fields on asymptotically AdS spaces
+  3082741 | 2511.10567 | 2025-11-13 | Gravitational wave polarization modes and the kinematical tensors in general relativity and beyond
+  3082228 | 2511.09547 | 2025-11-12 | Vacuum and charged asymptotically (A)dS black holes in quadratic gravity
+  3080517 | 2511.04170 | 2025-11-06 | Quantum Vacuum Self-Consistency as the Dynamical Origin of Spacetime and Particle Physics
+  3076218 | 2511.01368 | 2025-11-03 | 8D conformal gravity with Einstein sector, and its relation to the Q-curvature
+  3098232 | 2511.01777 | 2025-11-03 | The Analysis of Willmore Surfaces and its Generalizations in Higher Dimensions
+  3073014 | 2510.21646 | 2025-10-24 | Conformal characterization of the Fefferman–Graham ambient metric
+  3071729 | 2510.18750 | 2025-10-21 | Backreactions from loading the stable photon sphere in Weyl conformal gravity
+  3069203 | 2510.11854 | 2025-10-13 | Nonconformally Ricci-flat instantons in conformal gravity with and without nonlinear matter fields
+  3065815 | 2510.08201 | 2025-10-09 | Spectrum of pure R $^{2}$ gravity: full Hamiltonian analysis
+  3064234 | 2510.05701 | 2025-10-07 | Charged black holes in Weyl conformal gravity
+  2973891 | 2509.21458 | 2025-09-25 | Factorization algebras for linearized gravity
+  2973909 | 2509.21495 | 2025-09-25 | Black holes in higher-derivative Weyl conformal gravity
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2964339 | 2508.19369 | 2025-08-26 | Conformal Weyl Tensor Dynamics and Stability Analysis in Rotating Black Hole Spacetimes: A Novel Approach to Quasinormal Mode Spectra
+  2960167 | 2508.09244 | 2025-08-12 | Cosmic structure formation in massive conformal gravity
+  2957261 | 2508.01790 | 2025-08-03 | Charged Taub-NUT type black holes in Einstein-Weyl-Maxwell theory
+  2957701 | 2508.02756 | 2025-08-03 | Creating a universe from nothing as an alternative to the cosmological principle
+  2955871 | 2507.23457 | 2025-07-31 | Black Holes as Non-Abelian Anyon Condensates: Implications for the Information Paradox
+  2956175 | 2508.00203 | 2025-07-31 | Quantum-Corrected Thermodynamics of Conformal Weyl Gravity Black Holes: GUP Effects and Phase Transitions
+  2955227 | 2507.21923 | 2025-07-29 | Linear perturbations of Kerr black hole in quadratic gravity
+  2954811 | 2507.20661 | 2025-07-28 | Geometric reflective boundary conditions for asymptotically Anti-de Sitter spaces
+  2955198 | 2507.21292 | 2025-07-28 | Classification of Λ ≠ 0-vacuum algebraically special spacetimes with conformally flat <math altimg="si1.svg"><mi mathvariant="script">I</mi></math> from Weyl tensor expansion
+  2941339 | 2507.01379 | 2025-07-02 | Structure of Kerr black hole spacetimes in Weyl conformal gravity
+  2933833 | 2506.10081 | 2025-06-11 | Precision predictions of Starobinsky inflation with self-consistent Weyl-squared corrections
+  2928710 | 2506.01630 | 2025-06-02 | Six-dimensional $ \mathcal{N} $ = (2, 0) conformal superspace
+  2924612 | 2505.17171 | 2025-05-22 | On the entropy of the massive conformal gravity universe
+  2918231 | 2505.02340 | 2025-05-04 | Charged black holes in Einstein-Weyl-Maxwell theory
+  2903373 | 2503.17880 | 2025-03-22 | Regular black holes and complete monotonicity
+  2902245 | 2503.16087 | 2025-03-20 | Long-lived quasinormal modes and gray-body factors of black holes and wormholes in dark matter inspired Weyl gravity
+  2877092 | 2502.03706 | 2025-02-05 | Novel echoes from black holes in conformal Weyl gravity
+  2874735 | 2502.00905 | 2025-02-02 | Generalized Eddington–Finkelstein coordinates and exact Vaidya-type solutions in Weyl conformal gravity
+  2873874 | 2501.17828 | 2025-01-29 | On heat coefficients, multiplicative anomaly and 4D Casimir energy for GJMS operators
+  2872622 | 2501.16134 | 2025-01-27 | Quasinormal ringing and shadows of black holes and wormholes in dark matter-inspired Weyl gravity
+  2871018 | 2501.11339 | 2025-01-20 | $ \mathcal{N} $ = 3 nonlinear multiplet and supergravity
+  2960716 | - | 2025 | Modified Gravity Through the Lens of the Event Horizon Telescope: The Search for Macroscopic Microscopic Effects
+  2858810 | 2412.08734 | 2024-12-11 | Non-Abelian black holes in conformal gravity
+  2858942 | 2412.08690 | 2024-12-11 | Lectures in quantum gravity
+  2846385 | 2411.04851 | 2024-11-07 | Spontaneous Symmetry Breaking To GR in SO(4,2) Gravitational Yang-Mills Theory
+  2846111 | 2411.03842 | 2024-11-06 | Ambient space and integration of the trace anomaly
+  2845844 | 2411.01835 | 2024-11-04 | Higher Willmore Energies from tractor coupled GJMS operators
+  2845025 | 2411.00624 | 2024-11-01 | The exterior calculus of quadratic gravity
+  2842048 | 2410.16097 | 2024-10-21 | Holographic Weyl anomaly in 8D from general higher curvature gravity
+  2840460 | 2410.11168 | 2024-10-14 | On Conical Asymptotically Flat Manifolds
+  2838424 | 2410.05941 | 2024-10-08 | Dust collapse and horizon formation in quadratic gravity
+  2836715 | 2410.01558 | 2024-10-02 | Nonlinear Scattering Theory for Asymptotically de Sitter Vacuum Solutions in All Even Spatial Dimensions
+  2835332 | 2409.19485 | 2024-09-28 | Higher-dimensional Willmore energy as holographic entanglement entropy
+  2833857 | 2409.17949 | 2024-09-26 | The <math altimg="si1.svg"><mi mathvariant="script">C</mi></math>-connection and the 4-dimensional Einstein spaces
+  2828356 | 2409.08344 | 2024-09-12 | Newman-Penrose formalism and exact vacuum solutions to conformal Weyl gravity
+  2827325 | 2409.06995 | 2024-09-10 | Renormalized Yang-Mills Energy on Poincaré-Einstein Manifolds
+  2814502 | 2408.01836 | 2024-08-03 | Carroll black holes in (A)dS spacetimes and their higher-derivative modifications
+  2815660 | 2408.03387 | 2024-08-03 | Optical appearance of numerical black hole solutions in higher derivative gravity
+  2813575 | 2407.21573 | 2024-07-31 | Towards $ \mathcal{N} $ = 2 superconformal higher-spin theory
+  2809941 | 2407.14539 | 2024-07-14 | The gravitational energy-momentum pseudo-tensor of conformally invariant theories of gravity
+  2804281 | 2407.02695 | 2024-07-02 | Topics in Weyl geometry and quantum anomalies
+  2803533 | 2407.00415 | 2024-06-29 | Weyl cohomology and the conformal anomaly in the presence of torsion
+  2802585 | 2406.19147 | 2024-06-27 | New class of non-Einstein pp-wave solutions to quadratic gravity
+  2802347 | 2406.18096 | 2024-06-26 | Running of the number of degrees of freedom in quantum conformal gravity
+  2796760 | 2406.05908 | 2024-06-09 | Charged black holes in quadratic gravity
+  2795360 | 2406.03692 | 2024-06-05 | New Taub-NUT black holes with massive spin-2 hair
+  3096742 | 2405.15870 | 2024-05-24 | Extended Solitons of the Ambient Obstruction Flow
+  2786123 | 2405.07692 | 2024-05-13 | Holography of Higher Codimension Submanifolds: Riemannian and Conformal
+  2782862 | 2405.00735 | 2024-04-29 | Exterior stability of Minkowski spacetime with borderline decay
+  2775440 | 2404.05665 | 2024-04-08 | Substructures of the Weyl group and their physical applications
+  2774628 | 2404.03815 | 2024-04-04 | Geometry from geodesics: fine-tuning Ehlers, Pirani, and Schild
+  2771710 | 2403.16710 | 2024-03-25 | A Gauss–Bonnet Formula for the Renormalized Area of Minimal Submanifolds of Poincaré–Einstein Manifolds
+  2765814 | 2403.03256 | 2024-03-05 | Impossible symmetries and conformal gravity
+  2759532 | 2402.11376 | 2024-02-17 | Cartan geometry, supergravity and group manifold approach
+  2744942 | 2401.04523 | 2024-01-09 | Spin-(s, j) projectors and gauge-invariant spin-s actions in maximally symmetric backgrounds
+  2745012 | 2401.04434 | 2024-01-09 | Gravitons in a gravitational plane wave
+  2741897 | 2312.17725 | 2023-12-29 | Generalization of conformal Hamada operators
+  2735848 | 2312.07242 | 2023-12-12 | $ \mathcal{N} $ = 3 conformal superspace in four dimensions
+  2745763 | 2401.05621 | 2023-11-17 | Superspin projection operators and off-shell higher-spin supermultiplets on Minkowski and anti-de Sitter superspace
+  2764922 | 2403.02700 | 2023-11-17 | Aspects of superconformal symmetry
+  2715720 | 2310.19269 | 2023-10-30 | Stress and Geometry for Isotropic Singularities
+  2708813 | 2310.07483 | 2023-10-11 | Global stability of Minkowski spacetime with minimal decay
+  2704928 | 2309.16986 | 2023-09-29 | Perturbations of Fefferman spaces over almost CR manifolds
+  2696659 | 2309.05617 | 2023-09-11 | Hidden Symmetries of Generalised Gravitational Instantons
+  2696713 | 2309.06389 | 2023-09-10 | Singularities in massive conformal gravity
+  2689307 | 2308.09140 | 2023-08-17 | Conformal Renormalization of topological black holes in AdS$_{6}$
+  2688625 | 2308.08123 | 2023-08-15 | Analytical Approximations to Charged Black Hole Solutions in Einstein–Maxwell–Weyl Gravity
+  2688304 | 2308.07508 | 2023-08-14 | Computational General Relativity in the Wolfram Language using Gravitas I: Symbolic and Analytic Computation
+  2686052 | 2308.03506 | 2023-08-07 | Analytical approximate solutions of AdS black holes in Einstein-Weyl-scalar gravity*
+  2685071 | 2308.01845 | 2023-08-03 | A new geometric flow on 3-manifolds: the $K$-flow
+  2682386 | 2307.14625 | 2023-07-27 | Two instabilities of Schwarzschild-AdS black holes in Einstein–Weyl-scalar theory
+  2677660 | 2307.08470 | 2023-07-17 | The Dirichlet-to-Neumann map for Poincaré-Einstein fillings
+  2676323 | 2307.06139 | 2023-07-09 | Constructing maximal extensions of the Vaidya metric in Israel coordinates: Integration of the field equations
+  2675634 | 2307.04060 | 2023-07-08 | Double instability of Schwarzschild black holes in Einstein-Weyl-scalar theory
+  2673580 | 2306.17328 | 2023-06-29 | Einstein Metrics via Derdziński Duality
+  2671755 | 2306.13714 | 2023-06-23 | On the ghost problem of conformal gravity
+  2667569 | 2306.05863 | 2023-06-09 | The covariant approach to static spacetimes in Einstein and extended gravity theories
+  2666542 | 2306.03780 | 2023-06-06 | Notes on conformal anomaly, nonlocal effective action, and the metamorphosis of the running scale
+  2666534 | 2306.03790 | 2023-06-02 | Emerging Newtonian potential in pure R$^{2}$ gravity on a de Sitter background
+  2662641 | 2305.16029 | 2023-05-25 | The <math altimg="si1.svg"><mi mathvariant="script">N</mi><mo linebreak="goodbreak" linebreakstyle="after">=</mo><mn>2</mn></math> superconformal gravitino multiplet
+  2661579 | 2305.12611 | 2023-05-21 | Conserved quantities for asymptotically AdS spacetimes in quadratic curvature gravity in terms of a rank-4 tensor
+  2651881 | 2304.08456 | 2023-04-17 | A stationary axisymmetric vacuum solution for pure $^{2}$ gravity
+  2648265 | 2304.00663 | 2023-04-02 | Massive scalar field perturbations in Weyl black holes
+  2644960 | 2303.12758 | 2023-03-22 | Kerr Stability in External Regions
+  2644548 | 2303.11696 | 2023-03-21 | Regular Black Holes: A Short Topic Review
+  2641549 | 2303.07328 | 2023-03-13 | Perturbations of Fefferman spaces over CR three-manifolds
+  2637938 | 2303.00764 | 2023-03-01 | Generalizations and challenges for the spacetime block-diagonalization
+  2638197 | 2303.00646 | 2023-03-01 | Conformally Einstein Lorentzian Lie groups with Heisenberg symmetry
+  2636409 | 2302.12739 | 2023-02-24 | Symplectic charges in the Yang-Mills theory of the normal conformal Cartan connection: Applications to gravity
+  2635123 | 2302.10716 | 2023-02-21 | Cosmologies with turning points
+  2632051 | 2302.07128 | 2023-02-14 | Spacetime Conventionalism Revisited
+  2627383 | 2301.11954 | 2023-01-27 | Early universe nucleosynthesis in massive conformal gravity
+  2626434 | 2301.10720 | 2023-01-25 | Topological black holes in higher derivative gravity
+  2623902 | 2301.06628 | 2023-01-16 | Weyl-ambient geometries
+  2725299 | - | 2023 | Black holes inside out
+  2618663 | 2212.13357 | 2022-12-26 | Novel black holes in higher derivative gravity
+  2617631 | 2212.11711 | 2022-12-22 | Toward a classification of conformal hypersurface invariants
+  2616328 | 2212.09770 | 2022-12-19 | Exact quantum conformal symmetry, its spontaneous breakdown, and gravitational Weyl anomaly
+  2606530 | 2212.00468 | 2022-12-01 | Induced action for superconformal higher-spin multiplets using SCFT techniques
+  2601358 | 2211.15585 | 2022-11-28 | A black hole solution in conformal supergravity
+  2601366 | 2211.15230 | 2022-11-28 | Stability of Minkowski spacetime in exterior regions
+  2512996 | 2211.11162 | 2022-11-20 | Covariant Superspace Approaches to $\mathscr {N}=\text{2}$ Supergravity
+  2181806 | 2211.07380 | 2022-11-09 | Beyond Schwarzschild–de Sitter spacetimes. III. A perturbative vacuum with nonconstant scalar curvature in <math display="inline"><mi>R</mi><mo>+</mo><msup><mi>R</mi><mn>2</mn></msup></math> gravity
+  2173450 | 2210.17088 | 2022-10-31 | Superspace Approaches to $\mathscr {N} = \text{1}$ Supergravity
+  2862902 | 2210.15886 | 2022-10-28 | Wellposedness of nonlinear flows on manifolds of bounded geometry
+  2163304 | 2210.03982 | 2022-10-08 | Extrinsic Paneitz operators and $Q$-curvatures for hypersurfaces
+  2158968 | 2209.15089 | 2022-09-29 | Newman-Penrose formalism in quadratic gravity
+  2140449 | 2208.11095 | 2022-08-23 | Quantum gravitational signatures in next-generation gravitational wave detectors
+  2139536 | 2208.09302 | 2022-08-19 | Higher fundamental forms of the conformal boundary of asymptotically de Sitter spacetimes
+  2138858 | 2208.08461 | 2022-08-17 | Towards rotating 2-2-holes
+  2132869 | 2208.02933 | 2022-08-04 | Presymplectic BV-AKSZ formulation of conformal gravity
+  2093838 | 2206.04366 | 2022-06-09 | The Maxwell-scalar field system near spatial infinity
+  2089006 | 2205.14392 | 2022-05-28 | Einstein–Maxwell fields as solutions of higher-order theories
+  2085186 | 2205.09405 | 2022-05-19 | Peeling in generalized harmonic gauge
+  2066243 | 2204.05755 | 2022-04-08 | Λcdm ∪ Mond
+  2062421 | 2204.01508 | 2022-04-04 | Nöther currents, black hole entropy universality and CFT duality in conformal Weyl gravity
+  2047328 | 2203.03295 | 2022-03-07 | Curvature–matter couplings in modified gravity: From linear models to conformally invariant theories
+  2032151 | 2202.06349 | 2022-02-13 | Coupling matter and curvature in Weyl geometry: conformally invariant $f\left( R,L_m\right) $ gravity
+  2030727 | 2202.04701 | 2022-02-09 | Weyl covariance and the energy momentum tensors of higher-derivative free conformal field theories
+  2017991 | 2201.10875 | 2022-01-26 | Bach equation and the matching of spacetimes in conformal cyclic cosmology models
+  1998045 | 2112.14378 | 2021-12-28 | A sharp characterization of the Willmore invariant
+  1989072 | 2112.05954 | 2021-12-11 | Black hole superpotential as a unifying entropy function and BPS thermodynamics
+  1982737 | 2112.01084 | 2021-12-02 | Scale and conformal invariance in higher derivative shift symmetric theories
+  1979447 | 2111.14713 | 2021-11-29 | Weyl anomalies of four dimensional conformal boundaries and defects
+  1973547 | 2111.11150 | 2021-11-22 | Canonical metrics and ambiKähler structures on 4-manifolds with $U(2)$ symmetry
+  1957140 | 2111.00179 | 2021-10-30 | Generalized Willmore energies, Q-curvatures, extrinsic Paneitz operators, and extrinsic Laplacian powers
+  1941362 | 2110.05463 | 2021-10-11 | On the Vacuum Structure of the N=4 Conformal Supergravity
+  1933884 | 2109.14014 | 2021-09-28 | Obstruction tensors in Weyl geometry and holographic Weyl anomaly
+  1907153 | 2108.08085 | 2021-08-18 | Well-Posedness of the Ambient Metric Equations and Stability of Even Dimensional Asymptotically de Sitter Spacetimes
+  1904083 | 2108.05535 | 2021-08-12 | Unfolding conformal geometry
+  1896553 | 2107.14605 | 2021-07-30 | On the Geometry of Electrovacuum Spaces in Higher Dimensions
+  1893660 | 2107.12875 | 2021-07-27 | Staticity and regularity for zero rest-mass fields near spatial infinity on flat spacetime
+  1890421 | 2107.10381 | 2021-07-21 | Conformal fundamental forms and the asymptotically Poincaré-Einstein condition.
+  1887558 | 2107.08515 | 2021-07-18 | A conformally invariant Yang–Mills type energy and equation on 6-manifolds
+  1885442 | 2107.07033 | 2021-07-14 | Infrared behavior of Weyl Gravity
+  1881001 | 2107.04590 | 2021-07-09 | Supersymmetry of higher-derivative supergravity in AdS4 holography
+  1876682 | 2107.02001 | 2021-07-05 | Duality-invariant superconformal higher-spin models
+  1887670 | - | 2021-06-23 | Schwarzschild–Bach black holes
+  1867851 | 2106.04581 | 2021-06-08 | Higher-derivative supergravity, AdS$_{4}$ holography, and black holes
+  1866169 | 2105.14978 | 2021-05-31 | On the conformal transformation between two anisotropic fluid spacetimes
+  1864783 | 2105.10669 | 2021-05-22 | Topological Early Universe Cosmology
+  1864788 | 2105.10574 | 2021-05-21 | Self-dual gravitational instantons in conformal gravity: Conserved charges and thermodynamics
+  1864195 | 2105.09304 | 2021-05-17 | Emergence of the Cotton tensor for describing gravity
+  1862545 | 2105.02924 | 2021-05-06 | Noether-Wald charges in six-dimensional Critical Gravity
+  1862350 | 2105.02372 | 2021-05-05 | Anisotropy in constraint 4D Gauss–Bonnet gravity
+  1859552 | 2104.10416 | 2021-04-21 | Extended superconformal higher-spin gauge theories in four dimensions
+  1853436 | 2103.13451 | 2021-03-24 | Conformal gravity does not predict flat galaxy rotation curves
+  2036088 | 2103.01552 | 2021-03-02 | On Singular Yamabe Obstructions
+  1846711 | 2102.07494 | 2021-02-15 | Masking singularities in Weyl gravity and Ricci flows
+  1844321 | 2102.00545 | 2021-01-31 | Energy in Fourth-Order Gravity
+  1842449 | 2101.09027 | 2021-01-22 | Residue families, singular Yamabe problems and extrinsic conformal Laplacians
+  1841057 | 2101.05524 | 2021-01-14 | AdS superprojectors
+  1840539 | 2101.04705 | 2021-01-12 | Manifest electric-magnetic duality in linearized conformal gravity
+  1839675 | 2101.02608 | 2021-01-07 | Exact solution to perturbative conformal cosmology from recombination until the current era
+  2017426 | 2201.10163 | 2021 | Models for (super)conformal higher-spin fields on curved backgrounds
+  1837850 | 2012.11608 | 2020-12-21 | Dimensional Transmutation in Gravity and Cosmology
+  1837095 | 2012.09183 | 2020-12-16 | Chiral hydrodynamics in strong external magnetic fields
+  1836937 | 2012.08551 | 2020-12-15 | Black holes and other spherical solutions in quadratic gravity with a cosmological constant
+  1832499 | 2011.11300 | 2020-11-23 | Generalised superconformal higher-spin multiplets
+  1829020 | 2011.04508 | 2020-11-09 | Ergosphere, Photon Region Structure, and the Shadow of a Rotating Charged Weyl Black Hole
+  1826884 | 2010.15146 | 2020-10-28 | Einstein Gravity from Conformal Gravity in 6D
+  1826326 | 2010.13001 | 2020-10-24 | Yang-Mills sources in biconformal gravity
+  1821790 | 2010.03391 | 2020-10-06 | Standard cosmology on the Anti-de Sitter boundary
+  1820133 | 2009.14087 | 2020-09-29 | Stability of Schwarzschild (Anti)de Sitter black holes in conformal gravity
+  1818196 | 2009.10012 | 2020-09-21 | Optical geometries
+  1817340 | 2009.06841 | 2020-09-14 | Exact solution to perturbative conformal cosmology in the recombination era
+  1817086 | 2009.06176 | 2020-09-13 | Quadratic Gravity, double layers and non-conservative energy-momentum tensor
+  1815649 | 2009.03402 | 2020-09-07 | The role of elliptic integrals in calculating the gravitational lensing of a charged Weyl black hole surrounded by plasma
+  1805530 | 2007.03637 | 2020-07-20 | Gravitational waves in massive conformal gravity
+  1812517 | - | 2020-07-20 | Higher Curvature Supergravity
+  1803610 | 2006.15596 | 2020-06-28 | Dark side of Weyl gravity
+  1801153 | 2006.07913 | 2020-06-14 | Equivalence of solutions between the four-dimensional novel and regularized EGB theories in a cylindrically symmetric spacetime
+  1796786 | 2005.08657 | 2020-05-29 | New locally (super)conformal gauge models in Bach-flat backgrounds
+  1795927 | 2005.05943 | 2020-05-12 | Bach and Einstein’s equations in presence of a field
+  1795045 | 2009.03399 | 2020-05-07 | Motion of massive particles around a charged Weyl black hole and the geodetic precession of orbiting gyroscopes
+  1793591 | 2004.14468 | 2020-04-29 | Born–Infeld black holes in 4D Einstein–Gauss–Bonnet gravity
+  1791853 | 2004.09339 | 2020-04-20 | Vacua in novel 4D Einstein-Gauss-Bonnet Gravity: pathology and instability?
+  1791851 | 2004.09025 | 2020-04-19 | Stability of asymptotically de Sitter and anti-de Sitter black holes in 4D regularized Einstein–Gauss–Bonnet theory
+  1791860 | 2004.09346 | 2020-04-17 | Model of a spin-1/2 electric charge in F($B^2$) modified Weyl gravity
+  1791357 | - | 2020-04-14 | Null geodesics in conformal gravity
+  1790291 | 2004.03390 | 2020-04-07 | Is there a novel Einstein–Gauss–Bonnet theory in four dimensions?
+  1785628 | 2003.06425 | 2020-03-13 | Counterterms, Kounterterms, and the variational problem in AdS gravity
+  1784090 | 2003.02646 | 2020-03-03 | Spinor field solutions in $F(B^2)$ modified Weyl gravity
+TOTAL 573
+== inspire: fulltext:"Bach tensor" and fulltext:"regular center" and fulltext:"spherically symmetric"
+  2667569 | 2306.05863 | 2023-06-09 | The covariant approach to static spacetimes in Einstein and extended gravity theories
+  2644548 | 2303.11696 | 2023-03-21 | Regular Black Holes: A Short Topic Review
+  2725299 | - | 2023 | Black holes inside out
+TOTAL 3
+== inspire: fulltext:"Bach tensor" and fulltext:"regular centre"
+  3093271 | 2512.14148 | 2025-12-16 | Spherically-symmetric solutions in quasi-local Einstein-Weyl gravity
+TOTAL 1
+== inspire: fulltext:"Bach tensor" and fulltext:"self-similar" and fulltext:"perfect fluid"
+  3147618 | 2604.19668 | 2026-01 | Abstract null hypersurfaces and characteristic initial value problems in General Relativity
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  1228003 | - | 2006 | Stellar Iron Core Collapse in 3+1 General Relativity and The Gravitational Wave Signature of Core-Collapse Supernovae
+  655155 | gr-qc/0407095 | 2004-07 | Lectures on mathematical cosmology
+  561133 | gr-qc/0108018 | 2001-07 | A Conserved Bach current
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+TOTAL 6
+== inspire: fulltext:"Bach tensor" and fulltext:"homothetic"
+  3197798 | 2608.28743 | 2026-08-28 | OPE and correlation functions in a generally covariant form
+  3136463 | 2603.24608 | 2026-03-22 | Conventionalism in general relativity?: formal existence proofs and Reichenbach's theorem θ in context
+  3116959 | 2602.05061 | 2026-02-04 | Transverse expansion of the metric at null infinity
+  3147618 | 2604.19668 | 2026-01 | Abstract null hypersurfaces and characteristic initial value problems in General Relativity
+  3073014 | 2510.21646 | 2025-10-24 | Conformal characterization of the Fefferman–Graham ambient metric
+  2775440 | 2404.05665 | 2024-04-08 | Substructures of the Weyl group and their physical applications
+  2673580 | 2306.17328 | 2023-06-29 | Einstein Metrics via Derdziński Duality
+  2638197 | 2303.00646 | 2023-03-01 | Conformally Einstein Lorentzian Lie groups with Heisenberg symmetry
+  2173450 | 2210.17088 | 2022-10-31 | Superspace Approaches to $\mathscr {N} = \text{1}$ Supergravity
+  1973547 | 2111.11150 | 2021-11-22 | Canonical metrics and ambiKähler structures on 4-manifolds with $U(2)$ symmetry
+  1991195 | 2112.08032 | 2020 | Study of the de Sitter space-time and its behavior at infinity
+  1757056 | 1910.00339 | 2019-10-01 | Generalized Komar currents for vector fields
+  1705671 | 1811.11458 | 2018-11-28 | Einstein manifolds with torsion and nonmetricity
+  1624399 | 1709.06078 | 2017-09-16 | Concircular vector fields for Kantowski–Sachs and Bianchi type-III spacetimes
+  1221520 | 1302.6975 | 2013-02-27 | Ambitoric geometry I: Einstein metrics and extremal ambikähler structures
+  726299 | math/0608044 | 2006-08 | A Sub-product construction of Poincare-Einstein metrics
+  655155 | gr-qc/0407095 | 2004-07 | Lectures on mathematical cosmology
+  561133 | gr-qc/0108018 | 2001-07 | A Conserved Bach current
+  511654 | gr-qc/9912067 | 1999-12 | Cohomogeneity one Einstein-Weyl structures: A Local approach
+  500775 | gr-qc/9905103 | 1999-05 | A New conformal duality of spherically symmetric space-times
+TOTAL 20
+== inspire: fulltext:"critical collapse" and fulltext:"Weyl squared"
+  1773599 | 1912.13333 | 2019-12-31 | Horizonless ultracompact objects and dark matter in quadratic gravity
+TOTAL 1
+== inspire: fulltext:"critical collapse" and fulltext:"quadratic gravity"
+  3180041 | 2607.11879 | 2026-07-13 | Higher-derivative gravitational effective field theories are generically weakly hyperbolic
+  3155597 | 2605.15197 | 2026-05-14 | Primordial Black Hole from Tensor-induced Density Fluctuation: First-order Phase Transitions and Domain Walls
+  3149863 | 2604.25635 | 2026-04-28 | Metastability Landscapes in Nonlinear Ghost-Normal Scalar Fields
+  3134112 | 2603.23687 | 2026-03-24 | Review of Strongly Coupled Regimes in Gravity with Dyson–Schwinger Approach
+  3100212 | 2601.06024 | 2026-01-09 | Primordial black holes: constraints, potential evidence and prospects
+  2952787 | - | 2025-07-18 | Probing black hole evolution through homogeneous gravitational collapse in f(Q) gravity
+  2921511 | 2505.09680 | 2025-05-14 | Regular black holes from Oppenheimer-Snyder collapse
+  2904482 | 2503.20696 | 2025-03-26 | Immortality through the dark forces: Dark-charge primordial black holes as dark matter candidates
+  2901213 | 2503.12263 | 2025-03-15 | The Science of the Einstein Telescope
+  2895316 | 2502.20138 | 2025-02-27 | Fundamental physics and cosmology with TianQin
+  2841291 | 2410.14414 | 2024-10-18 | Black Holes Inside and Out 2024: visions for the future of black hole physics
+  2813780 | 2408.00044 | 2024-07-31 | Strong gravity beyond general relativity
+  2683182 | 2307.15163 | 2023-07-27 | Gravitational collapse in quadratic gravity
+  2624696 | 2301.08055 | 2022 | Application of the Raychaudhuri Equation in Gravitational Systems
+  1839241 | 2101.00266 | 2021-01-01 | Spherical inhomogeneous solutions of Einstein and scalar–tensor gravity: A map of the land
+  1779709 | 2002.04110 | 2020-02-10 | Dynamically Generated Inflationary $\Lambda$CDM
+  1839760 | - | 2020 | General relativity and its classical modification in gravitational collapse
+  1773599 | 1912.13333 | 2019-12-31 | Horizonless ultracompact objects and dark matter in quadratic gravity
+  1773663 | 1912.12352 | 2019-12-27 | Matters of Gravity: The Newsletter of the Division of Gravitational Physics of the American Physical Society. Number 54. December 2019
+  1677928 | 1806.05195 | 2018-06-13 | Black holes, gravitational waves and fundamental physics: a roadmap
+  1606325 | 1706.07421 | 2017-06-22 | Fixing extensions to general relativity in the nonlinear regime
+TOTAL 21
+== zenodo: "critical collapse" #CONTROL
+  23527032 | 2026-10-21 | Quantum Human Economics
+  23270506 | 2026-10-09 | Exactly one unstable mode: a computer-assisted spectral count for Choptuik's critical spacetime under spherically symmetric perturbations
+  23222363 | 2026-10-07 | Certificate data for the spectral count of Choptuik's critical spacetime
+  22504248 | 2026-09-06 | Lean 4 Confirmation and Approval Proof for Hamzah Equation. (48)
+  22276796 | 2026-09-03 | Lean 4 Confirmation and Approval Proof for Hamzah Equation. (35)
+  21711448 | 2026-07-30 | Postmodern Physics of Hamzah Information.(62)
+  20598523 | 2026-06-08 | Minimum Black-Hole Mass as a Stability Threshold: the G2 Brane Evades the Bizon-Rostworowski Instability via Resonance Failure (One-Octonion Brane-Bulk Framework, Paper CCLXXXVI)
+  16939371 | 2025-08-25 | Death, Birth, Life, and Resurrection in the ψ–S Framework of the Hamzah Equation: Consciousness Collapse, Entropic Pressure, and the Possibility of Survival Beyond Fate.
+  5024876 | 2019-07-18 | Data from: When the "selfish herd" becomes the "frozen herd": spatial dynamics and population persistence in a colonial seabird
+  24327088 | 2026-11-18 | A certified Evans-Coleman critical solution: existence, one growing spherical mode, and its exponent
+  24226610 | 2026-11-14 | The exterior of the Choptuik spacetime and a characteristic completion
+  23702556 | 2026-10-27 | Source Code and Numerical Simulations for "Holographic Complexity and the JWST Tension
+  23674428 | 2026-10-26 | Exact Solutions and Physical Applications of SU(d) Yang-Mills Gauge Fields: The Non-Abelian Skyrmionic Phase-Lock Conjecture
+  23567883 | 2026-10-22 | The ultraviolet completion of the gravitational-wave signal of primordial black hole reheating: clustering, shot noise and dissipation
+  23480094 | 2026-10-19 | FORMAL DOCUMENTATION FOR THE YANG-MILLS MILLENNIUM PRIZE PROBLEM: THE MCEC-TOPOLOGICAL FRAMEWORK
+  23422424 | 2026-10-16 | A Unified Topological Framework for Consciousness Entropy Nested-Coupling Models of Five-Dimensional Dynamical Topological Entropy and Five Negative-Entropy Systems
+  23366737 | 2026-10-14 | Adelic Spectral Isomorphism and Continuous Operator Trace Formulas for Motivic L-Functions
+  23119812 | 2026-10-03 | EL-RAKHAWI DOCTRINE OF ALGORITHMIC SOCIAL PHYSICS ENGINEERING PHASE TRANSITIONS AND COLLECTIVE INTELLIGENCE IN COMPLEX NETWORKS
+  22249022 | 2026-09-02 | Arithmetic–Spectral Criticality from the Pythagorean Angle Lattice: Gaussian Prime Sectors, Tensor Spectra, and Exact Spectral Collapse
+  22212628 | 2026-08-31 | THE COSMIC‑STRUCTURE ENGINE (CSE): Curvature Fields, Harmonic Flow, and Topological Behaviour Across Carlo Cosmoses
+  22129655 | 2026-08-27 | The Spatio-Temporal Ladder Mechanism of the Great Flood: A Dimensional Reduction Phase Transition Triggered by Dark Matter Cloud Crossing with Three-Reservoir Coupled Release
+  22110537 | 2026-08-26 | The Ibaguner Fractal Operator : IFO-Cromwell Analysis in British Hıstory: A Fractal Dynamics Study of the English Revolution and the Collapse of the Protectorate
+  22072926 | 2026-08-24 | The Carlo Love Field — A Unified Multi‑Domain Collapse Engine for Emotional Dynamics
+  22029735 | 2026-08-20 | Comprehensive Verification, Steady‑State Analysis and Standard Definition of Global Application Boundaries for the Ternary Global‑Domain Unified Mathematical System《三元全域统一数理体系综合核验、稳态分析与全域应用边界标准化界定》
+  21968614 | 2026-08-16 | THERMODYNAMICS OF SEDENTARY COGNITION: The Tomb Singularity, Ontological Claustrophobia, and the Emergence of the Conceptual Logos
+TOTAL 66
+== zenodo: "Evans-Coleman" #CONTROL
+  24327088 | 2026-11-18 | A certified Evans-Coleman critical solution: existence, one growing spherical mode, and its exponent
+TOTAL 1
+== zenodo: "critical collapse" AND (semiclassical OR "one-loop" OR "back-reaction" OR backreaction OR "trace anomaly" OR "conformal anomaly")
+TOTAL 0
+== zenodo: "Bach tensor" AND ("self-similar" OR collapse OR "regular centre" OR "regular center")
+TOTAL 0
+== zenodo: "trace anomaly" AND ("self-similar" OR homothetic OR "critical solution")
+  18691586 | 2026-02-19 | Stable Self-Similar Quantum Geometry Emerges in Ultra-High-Resolution Quantum Gravity Simulation – Compatible with Real LIGO & CMB Data
+TOTAL 1
+== zenodo: "radiation fluid" AND ("critical" OR "self-similar") AND (quantum OR semiclassical)
+  22866082 | 2026-09-21 | Complex-Variable Light-Energy Cosmology
+TOTAL 1
+== zenodo: "Choptuik" AND (quantum OR semiclassical OR "mass gap")
+  22233306 | 2026-09-01 | Tone_Theory_and_Space_Crystals
+  16890514 | 2025-08-17 | Tensorial Effects of Scalar Fields: Revising Einsteinian Metrics via Non-Vectorial Potentials in Cosmological and Compact Object Systems
+  24278335 | 2026-11-16 | The Standard Model from One Polynomial
+  21763862 | 2026-07-24 | Dynamic Pseudocore and Collapse-Generated Transport in the Maxwell Gravitational Complement
+  21480394 | 2026-07-21 | The Crystal Bubble Model (CBM 3.0) – An Evolutionary Geometric Paradigm for Restructuring Spacetime Dynamics
+TOTAL 5
+== zenodo: "quantum critical collapse"
+TOTAL 0
+== zenodo: "Brady" AND "Ottewill"
+TOTAL 0
+== zenodo: "semiclassical" AND "self-similar" AND collapse
+  24338153 | 2026-11-18 | Topological Magnetic Monopoles, Spin Structures, and Protonic Geometry in the 6D-3D Metric-Elastic Framework: Unifying Lepton Masses, Neutrino Loops, and Mirror Boundary Conditions
+  20388923 | 2026-05-26 | If the Universe Had a Floor: A Meta-Theoretical Inquiry of Physics
+  17025424 | 2025-09-01 | Deterministic Quantum Gravity Governed by the Hamzah Certainty Constant (ΩH∗)→(HCC-ΩH∗). Unifying General Relativity and Quantum Mechanics with Testable Predictions from LIGO, the Cosmic Microwave Background (CMB), and Black Hole Information Recovery via the Hamzah Equation. Discovery and Precise Determination of Five New Fundamental Constants — (ΩH∗, Λf, α∗, Hξ, Hφ).
+  20744100 | 2026-06-18 | Supersymmetric Grand Unification: A Constraint-Mapping Engine with Fractal Trajectory Correction
+TOTAL 4
+== zenodo: "Tomasevic" OR "Chih-Hung Wu"
+  24337803 | 2026-11-18 | Fitting One Factor to Two Traits: reproduction materials
+  23930057 | 2026-11-11 | YSocial hybrid human-AI community experiment: platform activity, agent memory, agent interviews, browser telemetry and configuration under visible versus hidden AI labels
+  23885805 | 2026-11-02 | Influenza-Related Discourse on Serbian Language Online Fora: A Rapid Thematic Analysis
+  23668208 | 2026-10-26 | undeRfactor: What One Factor Measures When the Items Come from Two Traits
+  23417135 | 2026-10-16 | Visible and hidden AI identity labels in mixed human–AI online communities: an experimental protocol
+  23315931 | 2026-10-12 | populism-axis: a training-free measure of populist rhetoric
+  21760360 | 2024-01-02 | Azithromycin decomposition from simple and complex waters by H2O2 activation over a recyclable catalyst of clay modified with nanofiltration process brine
+  21157714 | 2026-07-03 | CRITERIA FOR RISK ASSESSMENT FROM CONTAMINATED SEDIMENTS Guidelines with recommendations
+  20551311 | 2026-06-05 | OTPADNE VODE KAO RESURS – POTENCIJAL CIRKULARNE EKONOMIJE
+  20551255 | 2026-06-05 | AKCIONI PLAN ZA DOSTIZANJE GRANIČNIH VREDNOSTI EMISIJE ZAGAĐUJUĆIH MATERIJA U OTPADNIM VODAMA – PRIMER ZA JAVNO KOMUNALNO PREDUZEĆE
+  20551049 | 2026-06-05 | Ex Situ Sediment Remediation Using the Electrokinetic (EK) Two-Anode Technique (TAT) Supported by Mathematical Modeling
+  20550899 | 2026-06-05 | Advances in Biochar-Assisted Anaerobic Digestion: Effects on Process Stability, Methanogenic Pathways, and Digestate Properties
+  20029853 | 2026-05-04 | The Role of Electronic Communications and the Media in Integrated Risk Management: The Case of a Public Warning System
+  20008519 | 2026-05-03 | Lesion of the Urinary Bladder Microbiome in Neurogenic Dysfunction after Spinal Cord Injury
+  18936920 | 2026-03-10 | Overview of energy production potential in the wastewater sector
+  18904195 | 2025-01-07 | AI-driven Decision Support System for Heart Failure Diagnosis: INTELHEART Approach Towards Personalized Treatment Strategies
+  18862433 | 2025-10-30 | Utilizing Voice Biomarkers for the Diagnosis of Heart Failure: Review of different approaches
+  18862464 | 2026-03-04 | Differences in the clinical presentation of patients with HFrEF vs. HFpEF - an analysis from the INTELHEART database
+  18862314 | 2026-03-04 | INTELHEART MULTIDISCIPLINARY SYSTEM FOR IMPROVED DIAGNOSIS OF HEART FAILURE
+  18862090 | 2026-03-04 | Heart failure disease progression assessment in patients through the use of traditional machine learning approaches
+  18487295 | 2024 | Dynamic outcome prediction of alteplase-treated acute ischemic stroke patients: A machine learning approach
+  18471989 | 2026-02-03 | ICCE2025_19th International Conference on Chemistry and the Environment_SmartWaterTwin
+  18471421 | 2026-02-03 | A decision-making framework for sustainable sewage sludge management in the Republic of Serbia: circular economy perspectives
+  18466605 | 2025 | Praktična primena velikih jezičkih modela veštačke inteligencije u fizikalnoj medicini i rehabilitaciji
+  18466076 | 2025 | Menadžment bola nakon moždanog udara – iskustva iz kliničke prakse
+TOTAL 182
+== inspire: a Tomasevic, Marija
+  3169607 | 2606.18380 | 2026-06-16 | What makes spacetime spin in string theory?
+  3167959 | 2606.12528 | 2026-06-10 | How traversable is a traversable wormhole?
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2854107 | 2411.18690 | 2024-11-27 | Size and shape of rotating strings and the correspondence to black holes
+  2851290 | 2411.14998 | 2024-11-22 | String theory in a pinch: resolving the Gregory-Laflamme singularity
+  2708743 | 2310.06014 | 2023-10-09 | Singularities in 2D and 3D quantum black holes
+  2675209 | 2307.03573 | 2023-07-07 | The correspondence between rotating black holes and fundamental strings
+  2657509 | - | 2023-03-24 | On the Inaccessibility of Time Machines
+  2621269 | 2301.02587 | 2023-01-06 | Holographic duals of evaporating black holes
+  2107202 | 2207.03302 | 2022-07-07 | Black holes in dS$_{3}$
+  1991431 | 2112.07967 | 2021-12-15 | Black tsunamis and naked singularities in AdS
+  1986835 | 2112.04860 | 2021-12-09 | Holographic complexity of quantum black holes
+  1971627 | - | 2021-09-09 | Quantum Aspects of Space and Time
+  1918559 | 2109.03611 | 2021-09-08 | Quantum backreaction on chronology horizons
+  1895212 | 2107.14200 | 2021-07-29 | Holography of time machines
+  1836442 | 2012.07821 | 2020-12-14 | Multi-mouth Traversable Wormholes
+  1778916 | 2002.02083 | 2020-02-06 | Strong cosmic censorship in the BTZ black hole
+  1765096 | 1911.06305 | 2019-11-14 | Unitarity From a Smooth Horizon?
+  1752740 | 1909.02001 | 2019-09-04 | Quantum Information Bound on the Energy
+  1748570 | 1908.02755 | 2019-08-07 | Quantum Penrose Inequality
+  1698020 | 1810.04907 | 2018-10-11 | Self-similarity in Einstein-Maxwell-dilaton theories and critical collapse
+TOTAL 22
+== inspire: a Wu, Chih-Hung
+  3215465 | 2610.20705 | 2026-10-14 | Quantum critical collapse in the large $D$ limit
+  3206687 | 2609.26875 | 2026-09-22 | Collapse to extremality: The third law of black hole thermodynamics in quantum gravity
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3152039 | 2605.03015 | 2026-05-04 | The fate of nucleated black holes in de Sitter quantum gravity
+  3071814 | 2510.18842 | 2025-10-21 | Vector spin polarization evolution determined in an entangled muon-fluorine system under pulsed excitation
+  2966624 | 2509.03587 | 2025-09-03 | Quantum critical collapse abhors a naked singularity
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2901883 | 2503.14639 | 2025-03-18 | The wavefunction of a quantum S$^{1}$ × S$^{2}$ universe
+  2846000 | - | 2024-06-04 | Information, Chaos, and Black Holes: Bridging Quantum Entanglement and Holographic Spacetime
+  2755058 | 2402.01167 | 2024-02-02 | Edge State, Band Topology, and Time Boundary Effect in the Fine-Grained Categorization of Chern Insulators
+  2688621 | 2308.07952 | 2023-08-15 | Holographic entanglement from the UV to the IR
+  2662310 | 2305.14895 | 2023-05-24 | The Lobster Eye Imager for Astronomy Onboard the SATech-01 Satellite
+  2656004 | 2305.00997 | 2023-05-01 | The expressivity of classical and quantum neural networks on entanglement entropy
+  2639034 | 2303.03410 | 2023-03-06 | Islands in non-minimal dilaton gravity: exploring effective theories for black hole evaporation
+  2051094 | 2203.06189 | 2022-03-11 | A tale of two butterflies: an exact equivalence in higher-derivative gravity
+  1957601 | 2111.00150 | 2021-10-29 | Time-reversal symmetric topological metal
+  3148462 | - | 2021-09-15 | Nonlocal quantum computing theory and Poincare cycle in spherical states
+  3060055 | 2105.03676 | 2021-05-08 | Topology of anti-parity-time-symmetric non-Hermitian Su-Schrieffer-Heeger model
+  1859590 | - | 2021-04-19 | Radiative Cooling of the Thermally Isolated System in KAGRA Gravitational Wave Telescope
+  1828998 | 2011.03953 | 2020-11-08 | U(1) CS theory vs SL(2) CS formulation: Boundary theory and Wilson line
+  1813015 | 2008.10076 | 2020-08-23 | An alternative method for extracting the von Neumann entropy from Rényi entropies
+  3056932 | 2007.08724 | 2020-07-20 | Untying links through anti-parity-time-symmetric coupling
+  1804525 | 2007.00314 | 2020-07-01 | Optimization of the JUNO liquid scintillator composition using a Daya Bay antineutrino detector
+  1804792 | 2007.00855 | 2020-07-01 | Quantum Entanglement and Spectral Form Factor
+  3051408 | 1908.10512 | 2020-01-27 | Hybrid exceptional point created from type III Dirac point
+  3048530 | 1905.07548 | 2019-07-29 | Topological Phase Transition Independent of System Non-Hermiticity
+  1737331 | 1905.11576 | 2019-05-27 | Inversion symmetric non-Hermitian Chern insulator
+  1654851 | 1802.04599 | 2018-02-13 | Two-Dimensional Dilaton Gravity Theory and Lattice Schwarzian Theory
+  1644259 | - | 2017-12-18 | Generation of Gigawatt Circularly Polarized Attosecond-Pulse Pairs
+  1635947 | 1711.04415 | 2017-11-12 | Maximally entangled state and Bell’s inequality in qubits
+  1628642 | 1710.01533 | 2017-10-04 | Pre-Hawking radiation cannot prevent the formation of apparent horizon
+  1614475 | 1708.01265 | 2017-08-03 | Seasonal Variation of the Underground Cosmic Muon Flux Observed at Daya Bay
+  1589439 | 1704.01082 | 2017-04-04 | Evolution of the Reactor Antineutrino Flux and Spectrum at Daya Bay
+  1484668 | 1608.08695 | 2016-08-30 | Broken bridges: A counter-example of the ER=EPR conjecture
+  1473826 | 1607.01177 | 2016-07-05 | Limits on Active to Sterile Neutrino Oscillations from Disappearance Searches in the MINOS, Daya Bay, and Bugey-3 Experiments
+  1427291 | 1603.03549 | 2016-03-11 | New measurement of $\theta_{13}$ via neutron capture on hydrogen at Daya Bay
+  1302816 | 1406.6311 | 2014-06-24 | The Physics of the B Factories
+  2777705 | - | 2014-01-30 | A non-qubit quantum adder as one-dimensional cellular automaton
+  1820701 | 1304.0670 | 2013-04-02 | Prospects for observing and localizing gravitational-wave transients with Advanced LIGO, Advanced Virgo and KAGRA
+  923055 | - | 2011-07-01 | Nonlinear coherent Thomson scattering from relativistic electron sheets as a means to produce isolated ultrabright attosecond x-ray pulses
+  893586 | - | 2011-03-01 | Improving beam spectral and spatial quality by double-foil target in laser ion acceleration
+  1723999 | - | 2010-08-05 | Study of DCX reaction on medium nuclei with Monte‐Carlo Shell Model
+  830608 | 0909.1530 | 2009-09 | Collective deceleration: toward a compact beam dump
+  855020 | - | 2009-07-24 | Enhanced Laser-Driven Ion Acceleration in the Relativistic Transparency Regime
+  816362 | 0903.4584 | 2009-03 | Self-organizing GeV, nano-Coulomb, collimated proton beam from laser foil interaction at 7 x 10**21 W/cm**2
+  748194 | 0704.1000 | 2007-04 | Measurement of $D^0 - \bar {D^0}$ Mixing Parameters in $D^0 \to K_s^0 \pi^+ \pi^-$ decays
+  743749 | hep-ex/0702009 | 2007-02 | Improved measurement of CP-violating parameters in B0 ---> rho+ rho- decays
+  743450 | hep-ex/0701053 | 2007-01 | Measurement of the absolute branching fraction of the D+-(s) meson
+  733344 | hep-ex/0612006 | 2006-12 | Study of the Y (4260) resonance in e+ e- collisions with initial state radiation at Belle
+  731753 | hep-ex/0611026 | 2006-11 | Observation of the decay Upsilon(4S) ---> Upsilon(1S) pi+ pi-
+  732728 | hep-ex/0611047 | 2006-11 | Determination of |V(cb)| and m(b) from inclusive B ---> X(c) l nu and B ---> X(s) gamma decays at Belle
+  733011 | hep-ex/0611054 | 2006-11 | Study of anti-B0 ---> D0 pi+ pi- decays
+  728303 | hep-ex/0610022 | 2006-10 | Study of tensor states in the reaction gamma gamma ---> pi+ pi- pi0
+  729385 | hep-ex/0610054 | 2006-10 | Measurement of exclusive B ---> X(u) l nu decays using a full-reconstruction tag at Belle
+  729692 | hep-ex/0610065 | 2006-10 | Improved measurement of B0 ---> pi0 pi0
+  730116 | hep-ex/0610081 | 2006-10 | Dalitz Analysis of Three-body Charmless B0 ---> K0 pi+ pi- Decay
+  725277 | hep-ex/0609003 | 2006-09 | $B^0 \rightarrow \pi+\pi-\pi^0$ time-dependent Dalitz analysis from Belle
+  725649 | hep-ex/0609013 | 2006-09 | Search for Lepton Flavor Violating tau- Decays into l- eta, l- eta-prime and l- pi0
+  725651 | hep-ex/0609015 | 2006-09 | Measurements of Branching Fractions for B ---> K pi and B ---> pi pi Decays with 449 million B anti-B Pairs
+  725652 | hep-ex/0609016 | 2006-09 | Observation of B ---> phi phi K Decays
+  725750 | hep-ex/0609018 | 2006-09 | First Observation of the Decay tau- ---> phi K- nu(tau)
+  726900 | hep-ex/0609042 | 2006-09 | A Study of gamma gamma ---> K0(S) K0(S) production at energies of 2.4-GeV to 4.0-GeV at Belle
+  727063 | hep-ex/0609048 | 2006-09 | Studies of gamma gamma to Lambda anti-Lambda , Sigma0 anti-Sigma0 production at Belle
+  727064 | hep-ex/0609049 | 2006-09 | A New Search for tau ---> mu gamma and tau ---> e gamma Decays at Belle
+  723154 | hep-ex/0608012 | 2006-08 | Measurement of masses of Xi(c)(2645) and Xi(c)(2815) baryons
+  723333 | hep-ex/0608018 | 2006-08 | Measurement of the near-threshold e+ e- ---> D(*)+- D(*)-+ cross section using initial-state radiation
+  723505 | hep-ex/0608026 | 2006-08 | The First observation of tau+- ---> phi K+- nu decay
+  723568 | hep-ex/0608031 | 2006-08 | Observation of a new D(sJ) meson in B+ ---> anti-D0 D0 K+ decays
+  723639 | hep-ex/0608034 | 2006-08 | Measurement of charmless B Decays to eta K* and eta rho
+  723640 | hep-ex/0608035 | 2006-08 | Observation of Direct CP-Violation in B0 ---> pi+ pi- Decays and Model-Independent Constraints on phi(2)
+  723916 | hep-ex/0608043 | 2006-08 | Experimental constraints on the possible J**P quantum numbers of the Lambda(c)(2880)+
+  723992 | hep-ex/0608046 | 2006-08 | Measurement of the mass of the tau-lepton and an upper limit on the mass difference between tau+ and tau-
+  723993 | hep-ex/0608047 | 2006-08 | Search for B0 ---> K*0 nu anti-nu using one fully reconstructed B meson
+  724051 | hep-ex/0608049 | 2006-08 | Observation of B decays to two kaons
+  721820 | hep-ex/0607029 | 2006-07 | Improved measurements of color-suppressed decays anti-B0 ---> D0 pi0, D0 eta, D0 omega, D*0 pi0, D*0 eta and D*0 omega
+  718970 | hep-ex/0606022 | 2006-06 | Study of J/psi to p anti-p, Lambda anti-Lambda and observation of eta(c) to Lambda anti-Lambda at Belle
+  719875 | hep-ex/0606051 | 2006-06 | Observation of new states decaying into Lambda(c)+ K- pi+ and Lambda(c)+ K0(S) pi-
+  720033 | hep-ex/0606055 | 2006-06 | Observation of a Near-threshold D0 anti-D0 pi0 Enhancement in B ---> D0 anti-D0 pi0 K Decay
+  700571 | hep-ex/0512034 | 2005-12 | Evidence for the decay upsilon(4S) ---> upsilon(1S) pi+ pi-
+  701426 | hep-ex/0512071 | 2005-12 | A High statistics study of the decay tau- ---> pi- pi0 nu(tau)
+  697969 | hep-ex/0511038 | 2005-11 | Measurement of the mass of the tau-lepton and an upper limit on the mass difference between tau+ and tau-
+  693871 | hep-ex/0510003 | 2005-10 | Measurement of D0 ---> pi l nu (K l nu) and their form-factors
+  691298 | hep-ex/0509003 | 2005-09 | Study of B0 ---> eta K+ pi- and eta pi+ pi-
+  691923 | hep-ex/0509013 | 2005-09 | Hadronic mass moments in B ---> X(c) l nu decays
+  691924 | hep-ex/0509014 | 2005-09 | Search for lepton flavor violating tau- decays including with a k0(S) meson
+  692142 | hep-ex/0509016 | 2005-09 | Study of B ---> eta' h
+  692494 | hep-ex/0509020 | 2005-09 | Study of charmonium decays into baryon-antibaryon pairs
+  693737 | hep-ex/0509047 | 2005-09 | Dalitz analysis of the three-body charmless decay B0 ---> K0(S) pi+ pi-
+  688757 | hep-ex/0508005 | 2005-08 | Moments of the photon energy spectrum from B --> X(s gamma) decays measured by BELLE
+  688936 | hep-ex/0508009 | 2005-08 | Measurement of forward-backward asymmetry and Wilson coefficients in B ---> K* l+ l-
+  689332 | hep-ex/0508015 | 2005-08 | Observation of B+ ---> Lambda(c)+ Lambda(c)- K+ and B0 ---> Lambda(c)+ Lambda(c)- K0 decays
+  689335 | hep-ex/0508018 | 2005-08 | Measurement of exclusive B ---> X(u) l nu decays with D(*) l nu decay tagging
+  689726 | hep-ex/0508030 | 2005-08 | Improved measurements of branching fractions and CP asymmetries in B ---> eta h decays
+  690274 | hep-ex/0508040 | 2005-08 | Improved measurement of Anti-B0 ---> D(s)- D+ and search for anti-B0 ---> D(s)+ D(s)- at BELLE
+  690687 | hep-ex/0508048 | 2005-08 | Study of the suppressed decays M+- ---> [K-+ pi+-](D) K+- and B+- ---> [K-+ pi+-](D) pi+- at BELLE
+  690854 | hep-ex/0508052 | 2005-08 | Improved measurements of branching fractions and CP asymmetries for B ---> omega h decays
+  691028 | hep-ex/0508056 | 2005-08 | Moments of the electron energy spectrum in B ---> X(c) l nu decays at Belle
+  707514 | - | 2005-08 | Measurement of branching fraction and CP asymmetry in B0 ---> rho0 pi0 decays
+  686575 | hep-ex/0507014 | 2005-07 | Search for the Theta(1540)+ pentaquark using kaon secondary interactions at BELLE
+  686708 | hep-ex/0507020 | 2005-07 | Search for D0 - anti-D0 mixing using semileptonic decays at Belle
+  686892 | hep-ex/0507030 | 2005-07 | Observation of D(s1)(2536)+ ---> D+ pi- K+
+  686992 | hep-ex/0507033 | 2005-07 | Observation of a chi'(c2) candidate in gamma gamma ---> D anti-D production in Belle
+  686993 | hep-ex/0507034 | 2005-07 | Search for B ---> tau nu and B ---> K nu anti-nu decays with a fully reconstructed B at Belle
+  686996 | hep-ex/0507037 | 2005-07 | Time-dependent CP asymmetries in b ---> s anti-q q transitions and sin 2 phi(1) in B0 ---> j/psi K0 decays with 386 million B anti-B pairs
+  687092 | hep-ex/0507039 | 2005-07 | Measurement of the branching fraction, polarization, and CP asymmetry in B0 ---> rho+ rho- decays
+  687098 | hep-ex/0507045 | 2005-07 | Improved measurements of direct CP violation in B ---> K+ pi-, K+ pi0 and pi+ pi0 decays
+  687350 | hep-ex/0507059 | 2005-07 | Time-dependent CP asymmetries in B0 ---> K0(S) pi0 gamma transition
+  687436 | hep-ex/0507063 | 2005-07 | Measurement of azimuthal asymmetries in inclusive production of hadron pairs in e+ e- annihilation at Belle
+  687437 | hep-ex/0507064 | 2005-07 | Improved measurements of anti-B0 ---> D+(sJ) K- decays
+  687438 | hep-ex/0507065 | 2005-07 | Measurement of phi(1) using anti-B ---> D[K0(s) pi+ pi-] h0
+  688247 | hep-ex/0507096 | 2005-07 | Observation of B0 ---> a+-(1) (1260) pi-+
+  686352 | hep-ex/0506079 | 2005-06 | Observation of b ---> d gamma and determination of |V(td)/V(ts)|
+  682657 | hep-ex/0505037 | 2005-05 | Evidence for X(3872) ---> gamma J / psi and the sub-threshold decay X(3872) ---> omega J / psi
+  682658 | hep-ex/0505038 | 2005-05 | Experimental constraints on the possible $J^{PC}$ quantum numbers of the $X$(3872)
+  619163 | nucl-th/0305055 | 2003-05 | Double charge exchange and configuration mixing
+  607905 | - | 2002 | Is nuclear structure relevant to non-mesonic hypernuclear weak decay?
+  572111 | - | 2001-07 | Non-mesonic weak decay of Lambda hypernuclei and nuclear structure
+  533621 | - | 2000 | Pion elastic scattering and double charge exchange on heavy nuclei in the generalized seniority model
+  543812 | - | 2000 | Pion elastic scattering and double charge exchange on medium and heavy nuclei
+  499280 | gr-qc/9905012 | 1999-05 | Fluctuations of the Hawking flux
+  438903 | - | 1996-09 | Double charge exchange on Te isotopes in the generalized seniority scheme
+  335529 | - | 1992-05 | Dynamical and Bose-Einstein correlations in hadronization
+  276115 | - | 1988-10 | E-4 properties in deformed nuclei and the sdg interacting boson model
+  1453449 | - | 1987 | Magnetic dipole properties in the SU(3) limit of IBA-2 with L =0, 2 and 4 bosons
+  244160 | - | 1986-08 | Intrinsic states for the SU (3) limit of the interacting boson model
+  1449753 | - | 1983 | 3 He particle emission in fast neutron induced reactions
+  1447535 | - | 1979 | Activation and mass spectrometric study of 3 He particle emission in the interactions of fast neutrons with medium mass nuclei
+TOTAL 127
+== inspire: a Zahn, Jochen
+  3186836 | 2608.02259 | 2026-08-03 | Hidden Symmetry of Kerr-deSitter from Manifest Symmetry of Painlevé VI
+  3151210 | 2605.02570 | 2026-05-04 | Revisiting semiclassical scalar QED in 1+1 dimensions
+  2969255 | 2509.10360 | 2025-09-12 | Quantum fields on self-similar spacetimes
+  2915577 | 2504.17854 | 2025-04-24 | The Weyl anomaly in interacting quantum field theory on curved spacetimes
+  2867104 | 2501.05549 | 2025-01-09 | Quantum effects in near-extremal charged black hole spacetimes
+  2771560 | 2311.06068 | 2023-11-10 | Long-range correlations of the stress tensor near the Cauchy horizon
+  2677320 | 2307.07467 | 2023-07-14 | Canonical quantization of Teukolsky fields on Kerr backgrounds
+  2169818 | 2210.13018 | 2022-10-24 | Angular time delay in quantum mechanical scattering
+  2147151 | 2209.02393 | 2022-09-06 | Background Independence and the Adler–Bardeen Theorem
+  2069321 | 2204.08785 | 2022-04-19 | Semiclassical energy density of kinks and solitons
+  2034308 | 2202.08563 | 2022-02-17 | Dynamics of spherical charged dust shells in de Sitter space
+  1858056 | 2104.06005 | 2021-04-13 | Renormalized charged scalar current in the Reissner–Nordström–de Sitter spacetime
+  1850434 | 2103.03714 | 2021-03-05 | Quantum (Dis)Charge of Black Hole Interiors
+  1822282 | 2010.05499 | 2020-10-12 | Vacuum polarization near boundaries
+  1802169 | 2006.10991 | 2020-06-19 | Quantum stress tensor at the Cauchy horizon of the Reissner–Nordström–de Sitter spacetime
+  1770475 | 1912.06047 | 2019-12-12 | Quantum instability of the Cauchy horizon in Reissner–Nordström–deSitter spacetime
+  1731236 | 1904.10982 | 2019-04-24 | Trace anomaly for chiral fermions via Hadamard subtraction
+  1669261 | 1804.07640 | 2018-04-20 | Background independence in gauge theories
+  1516946 | 1703.03721 | 2017-03-10 | The semi-classical energy of the Chodos-Thorn string
+  1490938 | 1610.02813 | 2016-10-10 | Semiclassical energy of closed Nambu-Goto strings
+  1487568 | 1609.06562 | 2016-09-21 | Global anomalies on Lorentzian space-times
+  1465642 | 1605.07928 | 2016-05-25 | Semiclassical energy of open Nambu-Goto strings
+  1410058 | 1512.05512 | 2015-12-17 | Generalized Wentzell boundary conditions and quantum field theory
+  1341080 | 1501.06527 | 2015-01-26 | The current density in quantum electrodynamics in time-dependent external potentials and the Schwinger effect
+  1340864 | 1501.05912 | 2015-01-23 | The current density in quantum electrodynamics in external potentials
+  1315143 | 1409.1440 | 2014-09-04 | Self-intersecting fuzzy extra dimensions from squashed coadjoint orbits in $ \mathcal{N}=4 $ SYM and matrix models
+  1308950 | 1407.8079 | 2014-07-30 | Classical phase space and Hadamard states in the BRST formalism for gauge field theories on curved spacetime
+  1305272 | 1407.1994 | 2014-07-08 | Locally covariant chiral fermions and anomalies
+  1276527 | 1401.2020 | 2014-01-09 | An extended standard model and its Higgs geometry from the matrix model
+  1266744 | 1311.7661 | 2013-11-29 | Locally covariant charged fields and background independence
+  1256344 | 1310.0253 | 2013-10-01 | The excitation spectrum of rotating strings with masses at the ends
+  1252580 | 1309.0650 | 2013-09-03 | An Index for Intersecting Branes in Matrix Models
+  1219821 | 1302.3707 | 2013-02-15 | Brane compactifications and 4-dimensional geometry in the IKKT model
+  1198309 | 1211.1271 | 2012-11 | Seismic diagnostics for transport of angular momentum in stars 1. Rotational splittings from the PMS to the RGB
+  1190657 | 1210.4031 | 2012-10 | The renormalized locally covariant Dirac field
+  1125531 | 1208.0377 | 2012-08 | The anelastic equilibrium tide in exoplanetary systems
+  1114915 | 1205.3536 | 2012-05 | The equilibrium tide in stars and giant planets: I - the coplanar case
+  1103055 | 1204.0895 | 2012-04 | Strong tidal dissipation in Saturn and constraints on Enceladus' thermal state from astrometry
+  1107643 | 1204.1468 | 2012-04 | Anelastic tidal dissipation in multi-layer planets
+  1112765 | 1204.6263 | 2012-04 | The effective theory of strings
+  919157 | 1107.3665 | 2011-07 | Magnetic confinement of the solar tachocline: II. Coupling to a convection zone
+  902071 | 1105.6240 | 2011-05 | Ultraviolet-infrared mixing on the noncommutative Minkowski space in the Yang-Feldman formalism
+  1255339 | - | 2011 | (Supersymmetric) Quantum Electrodynamics on Moyal space
+  865270 | 1008.2309 | 2010-08 | Noncommutative (supersymmetric) electrodynamics in the Yang-Feldman formalism
+  853860 | 1005.0541 | 2010-05 | Divergences in quantum field theory on the noncommutative two-dimensional Minkowski space with Grosse-Wulkenhaar potential
+  898079 | 1105.0535 | 2010 | Divergences in QFT on the Noncommutative Minkowski Space with Grosse-Wulkenhaar potential
+  1498827 | - | 2009 | Proceedings, Stellar Magnetism
+  1499925 | - | 2008 | Proceedings, Stellar Nucleosynthesis: 50 years after B$^2$FH
+  764827 | 0710.3648 | 2007-10 | Hydrodynamic stability and mode coupling in Keplerian flows: Local strato-rotational analysis
+  756446 | 0707.3287 | 2007-07 | On magnetic instabilities and dynamo action in stellar radiation zones
+  753348 | 0706.2446 | 2007-06 | Transport and mixing by internal waves in stellar interiors: Effect of the Coriolis force
+  745844 | astro-ph/0703117 | 2007-03 | Advances in secular magnetohydrodynamics of stellar interiors dedicated to asteroseismic spatial missions
+  736308 | 0707.2149 | 2006-12 | Dispersion relations in quantum electrodynamics on the noncommutative Minkowski space
+  727683 | astro-ph/0610069 | 2006-10 | Magnetic confinement of the solar tachocline
+  716165 | hep-th/0605062 | 2006-05 | Dispersion relations in the noncommutative phi**3 and Wess-Zumino model in the Yang-Feldman formalism
+  713367 | hep-th/0603231 | 2006-03 | Remarks on twisted noncommutative quantum field theory
+  699504 | hep-th/0512028 | 2005-12 | Infrared cutoffs and the adiabatic limit in noncommutative spacetime
+  698068 | astro-ph/0511472 | 2005-11 | Probing the internal magnetic field of slowly pulsating b-stars through g modes
+  696415 | astro-ph/0510854 | 2005-10 | The magnetism of the solar interior for a complete mhd solar vision
+  684169 | astro-ph/0506105 | 2005-06 | Transport and mixing in the radiation zones of rotating stars. 2. Axisymmetric magnetic field
+  683668 | gr-qc/0505163 | 2005-05 | Energy flow in acoustic black holes
+  912943 | 1106.1276 | 2005 | Stability and turbulent transport in rotating shear flows: prescription from analysis of cylindrical and plane Couette flows data
+  661443 | astro-ph/0410224 | 2004-10 | An Hydrodynamic shear instability in stratified disks
+  652665 | astro-ph/0406418 | 2004-06 | Transport and mixing in the radiation zones of rotating stars: I-hydrodynamical processes
+  651175 | hep-th/0405253 | 2004-05 | Noncommutative electrodynamics with covariant coordinates
+  646962 | astro-ph/0403580 | 2004-03 | On shear - induced turbulence in rotating stars
+  636694 | - | 2003-12 | Wirkungs- und Lokalita ̈tsprinzip fu ̈r nichtkommutative skalare Feldtheorien
+  588313 | astro-ph/0206180 | 2002-06 | Seismic tests for solar models with tachocline mixing
+  577123 | astro-ph/0110056 | 2001-10 | A powerful local shear instability in stratified disks
+  548291 | astro-ph/0010543 | 2000-10 | Shear turbulence beneath the solar tachocline
+  544356 | astro-ph/0001510 | 2000-01 | Influence of the tachocline on solar evolution
+  502286 | astro-ph/9906382 | 1999-06 | Standard solar models in the light of new helioseismic constraints. 2. mixing below the convective zone
+  489654 | astro-ph/9807090 | 1998-07 | Macroscopic processes in the solar interior
+  436556 | astro-ph/9609010 | 1996-09 | Anisotropic diffusion and shear instabilities
+  349488 | - | 1992-11 | Circulation and turbulence in rotating stars
+  128411 | - | 1977-05 | Tidal friction in close binary stars
+TOTAL 76
+== inspire: a Ottewill, Adrian C.
+  3174102 | 2606.27859 | 2026-06-26 | Quantum fluxes and <math display="inline"><mo stretchy="false">⟨</mo><msup><mover accent="true"><mi mathvariant="normal">Φ</mi><mo stretchy="false">^</mo></mover><mn>2</mn></msup><mo stretchy="false">⟩</mo></math> for a nonminimally coupled scalar field: Ringdown and tail on approaching the polar Kerr inner horizon
+  2833853 | 2409.17464 | 2024-09-25 | Computation of <math display="inline"><mrow><mo stretchy="false">⟨</mo><msup><mrow><mi mathvariant="normal">Φ</mi></mrow><mrow><mn>2</mn></mrow></msup><mo stretchy="false">⟩</mo></mrow></math> and quantum fluxes at the polar interior of a spinning black hole
+  2053760 | 2203.08502 | 2022-03-16 | Quantum Fluxes at the Inner Horizon of a Spinning Black Hole
+  2052911 | 2203.07780 | 2022-03-15 | Two-point function of a quantum scalar field in the interior region of a Kerr black hole
+  1757750 | 1910.02567 | 2019-10-06 | Regularized calculation of the retarded Green function in a Schwarzschild spacetime
+  1696576 | 1810.00432 | 2018-09-30 | High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency
+  1640629 | 1712.01098 | 2017-12-04 | Accelerated motion and the self-force in Schwarzschild spacetime
+  1602464 | 1706.00459 | 2017-06-01 | Spin-orbit precession along eccentric orbits for extreme mass ratio black hole binaries and its effective-one-body transcription
+  1482345 | 1608.05392 | 2016-08-18 | High-order late-time tail in a Kerr spacetime
+  1468633 | 1606.03423 | 2016-06-10 | Spin-1 quasinormal frequencies in Schwarzschild spacetime for large overtone number
+  1415257 | 1601.03394 | 2016-01-13 | Analytical high-order post-Newtonian expansions for spinning extreme mass ratio binaries
+  1408486 | 1512.01556 | 2015-12-04 | Analytic self-force calculations in the post-Newtonian regime: eccentric orbits on a Schwarzschild background
+  1393483 | 1509.04702 | 2015-09-15 | High-order tail in Schwarzschild spacetime
+  1383675 | 1507.05026 | 2015-07-17 | Vacuum polarization on the brane
+  1370663 | 1505.04447 | 2015-05-17 | Octupolar invariants for compact binaries on quasicircular orbits
+  1351205 | 1503.02334 | 2015-03-08 | Analytical high-order post-Newtonian expansions for extreme mass ratio binaries
+  1301549 | 1406.4890 | 2014-06-18 | Tidal invariants for compact binaries on quasicircular orbits
+  1276816 | 1401.2667 | 2014-01-12 | Static detectors and circular-geodesic detectors on the Schwarzschild black hole
+  1276402 | 1401.1506 | 2014-01-07 | Self-force via Green functions and worldline integration
+  1236806 | 1306.0884 | 2013-06-04 | Self-Force and Green Function in Schwarzschild spacetime via Quasinormal Modes and Branch Cut
+  1188834 | 1210.0519 | 2012-10 | Analytic Investigation of the Branch Cut of the Green Function in Schwarzschild Space-time
+  1188275 | 1209.6080 | 2012-09 | Quantum field theory on the Bertotti-Robinson space-time
+  1124274 | 1207.7089 | 2012-07-30 | Quantization of fermions on Kerr space-time
+  1116134 | 1205.5587 | 2012-05 | Static Kerr Green's Function in Closed Form and an Analytic Derivation of the Self-Force for a Static Scalar Charge in Kerr Space-Time
+  1116511 | 1205.6592 | 2012-05 | Spectroscopy of the Schwarzschild Black Hole at Arbitrary Frequencies
+  1081249 | 1112.3048 | 2011-12 | Hadamard Renormalization of the Stress Energy Tensor in a Spherically Symmetric Black Hole Space-Time with an Application to Lukewarm Black Holes
+  945619 | 1111.3298 | 2011-11 | Hadamard Renormalisation of the Stress Energy Tensor on the Horizons of a Spherically Symmetric Black Hole Space-Time
+  914555 | 1106.4318 | 2011-06 | Wave Propagation and Quasinormal Mode Excitation on Schwarzschild Spacetime
+  873326 | 1010.3943 | 2010-10 | Renormalized Vacuum Polarization and Stress Tensor on the Horizon of a Schwarzschild Black Hole Threaded by a Cosmic String
+  860045 | 1007.0051 | 2010-07 | Vacuum polarization on the Schwarzschild metric threaded by a cosmic string
+  859404 | 1006.4520 | 2010-06 | Renormalized Vacuum Polarization on the Horizon of a Schwarzschild Black Hole Threaded by a Cosmic String
+  859553 | 1006.4912 | 2010-06 | Extended Green-Liouville asymptotics and vacuum polarization for lukewarm black holes
+  847383 | 1003.0476 | 2010-03 | A Transport Equation Approach to Green Functions and Self-force Calculations
+  850656 | 1003.5790 | 2010-03 | Method of Matched Expansions and the Singularity Structure of the Green Function
+  827746 | 0908.0329 | 2009-08 | On an Expansion Method for Black Hole Quasinormal Modes and Regge Poles
+  821751 | 0906.0005 | 2009-06 | A Transport Equation Approach to Calculations of Hadamard Green functions and non-coincident DeWitt coefficients
+  814576 | 0903.0395 | 2009-03 | Self-Force Calculations with Matched Expansions and Quasinormal Mode Sums
+  816754 | 0903.5319 | 2009-03 | Pade Approximants of the Green Function in Spherically Symmetric Spacetimes
+  799128 | 0810.1961 | 2008-10 | Quasi-local contribution to the scalar self-force: Non-geodesic Motion
+  767811 | 0711.2469 | 2007-11 | Quasilocal contribution to the scalar self-force: Geodesic motion
+  688425 | gr-qc/0507116 | 2005-07 | The Renormalized stress tensor in Kerr space-time: Numerical results for the Hartle-Hawking vacuum
+  674249 | gr-qc/0501005 | 2005-01 | Canonical quantization of the electromagnetic field on the Kerr background
+  666104 | gr-qc/0412009 | 2004-12 | Quasi-local contribution to the gravitational self-force
+  658248 | gr-qc/0409012 | 2004-09 | High frequency asymptotics for the spin-weighted spheroidal equation
+  601766 | hep-th/0211096 | 2002-11 | The Rotating quantum thermal distribution
+  583539 | gr-qc/0203003 | 2002-03 | Detection of negative energy: 4-dimensional examples
+  534206 | gr-qc/0009091 | 2000-09 | Wave forms for gravitational radiation from cosmic string loops
+  527792 | gr-qc/0005108 | 2000-05 | Divergence of a quantum thermal state on Kerr space-time
+  525905 | gr-qc/0004022 | 2000-04 | The Renormalized stress tensor in Kerr space-time: general results
+  507781 | gr-qc/9909083 | 1999-09 | Automatic cross talk removal from multichannel data
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+  421305 | gr-qc/9607068 | 1996-07 | Detection of anisotropies in the gravitational wave stochastic background
+  401540 | gr-qc/9510058 | 1995-10 | Long range effects of cosmic string structure
+  392070 | gr-qc/9412075 | 1995-01 | One loop quantum gravity in Schwarzschild space-time
+  403355 | - | 1995 | Graviton production as a measure of gravitational entropy in an isotropic universe
+  33761 | gr-qc/9212004 | 1992-12-18 | Quantum vacuum instability near rotating stars
+  338487 | - | 1992 | Anisotropy of the quantum thermal state in Schwarzschild space-time
+  339745 | - | 1992 | Photon and graviton Green's functions on cosmic string space-times
+  339746 | - | 1992 | Examples of the Vilkovisky-DeWitt effective action in one loop quantum gravity
+  345264 | - | 1992 | Macroscopic detection of negative energy fluxes
+  322193 | - | 1991-09 | Gauge independence in Hadamard renormalization
+  329393 | - | 1991 | An example of the Vilkovisky-DeWitt effective action in one loop quantum gravity
+  29070 | - | 1990-12-29 | Renormalized electromagnetic stress tensor for an evaporating black hole
+  28321 | - | 1990-08-14 | Effects of curvature couplings for quantum fields on cosmic string space-times
+  25064 | - | 1989-01-31 | Particle Detectors in the Presence of Boundaries
+  252237 | - | 1987-11 | The Renormalized Graviton Stress - Energy Tensor in Curved Vacuum Space-times
+  232393 | - | 1986 | Conformally Invariant Quantum Field Theory in Static Einstein Space-times
+  238181 | - | 1986 | Photon Propagators and the Definition and Approximation of Renormalized Stress Tensors in Curved Space-time
+  241378 | - | 1986 | EXACT AND APPROXIMATE RENORMALIZED STRESS TENSORS IN CURVED SPACE-TIME
+  219167 | - | 1985 | EFFECTIVE ACTIONS AND CONFORMAL TRANSFORMATIONS
+  222085 | - | 1985 | A CONSTRAINT ON PHYSICAL QUANTUM STATES IN COSMOLOGICAL SPACE-TIMES
+  224032 | - | 1985 | FRONTIERS OF MODERN PHYSICS. NEW PERSPECTIVES ON COSMOLOGY, RELATIVITY, BLACK HOLES AND EXTRATERRESTRIAL INTELLIGENCE
+  227672 | - | 1985 | QUANTUM STATES AND THE HADAMARD FORM. 3. CONSTRAINTS IN COSMOLOGICAL SPACE-TIMES
+  208843 | - | 1984 | QUANTUM STATES AND THE HADAMARD FORM. I. ENERGY MINIMIZATION FOR SCALAR FIELDS
+  13222 | - | 1983-03 | The Stability of General Relativistic Cosmological Theory
+  196952 | - | 1983 | NOTES ON 'PARTICLE DETECTORS.'
+  197097 | - | 1983 | THE ENERGY MOMENTUM OPERATOR IN CURVED SPACE-TIME
+  184203 | - | 1982 | A SIMPLE APPROACH TO THE CALCULATION OF OBSERVED VACUUM STRESS IN TWO-DIMENSIONAL ACCELERATED MOTIONS
+  184442 | - | 1982 | COMMENTS ON CONFORMAL KILLING VECTOR FIELDS AND QUANTUM FIELD THEORY
+  184574 | - | 1982 | NEGATIVE ENERGY RADIATION AND THE SECOND LAW OF THERMODYNAMICS
+  172399 | - | 1981 | CLOSED FORMS FOR CONFORMALLY FLAT GREEN'S FUNCTIONS
+  174996 | - | 1981 | GREEN'S FUNCTIONS, STATES AND RENORMALIZATION
+TOTAL 82
+== inspire: fulltext:"Evans-Coleman" and fulltext:semiclassical
+  2944628 | 2507.07636 | 2025-07-10 | Critical Phenomena in Gravitational Collapse
+  2824854 | 2409.01939 | 2024-09-03 | Cosmology using numerical relativity
+  768973 | 0711.4620 | 2007-11 | Critical phenomena in gravitational collapse
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  381313 | astro-ph/9412046 | 1994-06 | Quantum aspects of gravity
+TOTAL 5
+== inspire: fulltext:"Koike" and fulltext:"trace anomaly" and fulltext:"critical"
+  3192747 | 2608.18949 | 2026-08-19 | Three-body forces in the quark model
+  3190962 | 2608.12646 | 2026-08-12 | A Novel One-loop Model for Majorana Neutrino Mass and Dark Matter
+  3178109 | 2607.06060 | 2026-05 | A Quantitative Framework of Nonperturbative QCD from Topological Vacuum with Application to Parton Structures
+  2971000 | 2509.14970 | 2025-09-18 | Melting of heavy quarkonia in QGP using deep neural networks
+  2966695 | 2509.03584 | 2025-09-03 | Unveiling horizons in quantum critical collapse
+  2825241 | 2409.03691 | 2024-09-05 | Physics case for quarkonium studies at the Electron Ion Collider
+  2824135 | 2409.00366 | 2024-08-31 | Mini-Proceedings of the "Fourth International Workshop on the Extension Project for the J-PARC Hadron Experimental Facility (HEF-ex 2024)"
+  2777241 | 2404.08734 | 2024-04-12 | Hard Thermal Loop—Theory and applications
+  2686235 | 2308.01657 | 2023-08-03 | Spectral properties of <math display="inline"><mi>ω</mi></math>, <math display="inline"><mi>ρ</mi></math>, and <math display="inline"><msub><mi>A</mi><mn>1</mn></msub></math> mesons in hot magnetized matter: Effects of the inverse magnetic catalysis
+  2657741 | 2305.04730 | 2023-05-08 | A study of Bosonic and Fermionic Theories at Large Charge
+  2617065 | 2212.11107 | 2022-12-21 | 50 Years of Quantum Chromodynamics
+  2616047 | 2212.09094 | 2022-12-18 | Cosmological gravity probes: Connecting recent theoretical developments to forthcoming observations
+  2175934 | 2211.01394 | 2022-11-02 | Self-similar gravitational dynamics, singularities and criticality in 2D
+  2159844 | 2210.01622 | 2022-10-04 | Electromagnetic probes: Theory and experiment
+  2147207 | 2209.02455 | 2022-09-06 | In-medium properties of light vector and axial-vector mesons: effects of Dirac sea
+  2040189 | - | 2021-07-09 | Primordial cosmology and gravitational waves : from phase transitions to cosmic strings and primordial black holes
+  1851258 | 2103.05419 | 2021-03-08 | Science Requirements and Detector Concepts for the Electron-Ion Collider
+  1815329 | 2009.02309 | 2020-09-04 | Pion Condensation in the Early Universe at Nonvanishing Lepton Flavor Asymmetry and Its Gravitational Wave Signatures
+  1782665 | 2002.12333 | 2020-02-25 | Proceedings, Probing Nucleons and Nuclei in High Energy Collisions: Dedicated to the Physics of the Electron Ion Collider
+  1768637 | 1912.02253 | 2019-12-04 | Heavy Quarkonium in Extreme Conditions
+  1746204 | - | 2019-01-31 | Meson distribution amplitudes
+  1706144 | 1812.00385 | 2018-12-02 | Recent Progress in QCD Condensate Evaluations and Sum Rules
+  1756364 | - | 2018-09 | Theory and Phenomenology of Classical Scale Invariance, Dark Matter and Ultralight Axions
+  1682240 | - | 2018-05-24 | The Union of Quantum Field Theory and Non-equilibrium Thermodynamics
+  1669572 | 1804.07810 | 2018-04-20 | Lattice QCD and heavy ion collisions: a review of recent progress
+  1651202 | - | 2017-11-16 | Transport coefficients and low energy excitations of a strongly interacting holographic fluid
+  1725076 | - | 2017 | QCD sum rules for D mesons: In-medium effects, chiral symmetry aspects and higher orders
+  1472837 | 1606.08685 | 2016-06-28 | Heavy Hadrons in Nuclear Matter
+  1415278 | 1601.03414 | 2016-01-13 | New Nonperturbative Methods in Quantum Field Theory: From Large-N Orbifold Equivalence to Bions and Resurgence
+  1680725 | - | 2016 | QCD sum rules for D mesons: In-medium effects, chiral symmetry aspects and higher orders
+  1346264 | 1502.06624 | 2015-02-23 | Hidden topological angles and Lefschetz thimbles
+  1316264 | - | 2014 | Probing chiral restoration with $\rho$-meson melting through sum rules
+  1264150 | 1311.2921 | 2013-11-12 | Is $\rho$-Meson Melting Compatible with Chiral Restoration?
+  1249605 | 1308.3768 | 2013-08-17 | Heavy Scalar, Vector and Axial-Vector Mesons in Hot and Dense Nuclear Medium
+  1295756 | - | 2012-07-19 | Medium Modiﬁcations of Mesons
+  881147 | 1012.3110 | 2010-12 | Charmonium mass in hot and dense hadronic matter
+  851108 | 1004.1059 | 2010-04 | Vector mesons at finite temperature and QCD sum rules
+  825643 | 0907.2388 | 2009-07 | Hadrons in strongly interacting matter
+  767641 | 0711.2279 | 2007-11 | Developments in black hole research: Classical, semi-classical, and quantum
+  723348 | hep-ph/0608079 | 2006-07 | CP Studies and Non-Standard Higgs Physics
+  692397 | hep-th/0509121 | 2005-09 | Integrability of two-loop dilatation operator in gauge theories
+  682567 | gr-qc/0505065 | 2005-05 | Analogue gravity
+  680288 | hep-ph/0504073 | 2005-04 | Chiral phase transition in QCD and vector manifestation
+  655253 | hep-th/0407232 | 2004-07 | Integrability in QCD and beyond
+  635083 | hep-ph/0312130 | 2003-12 | Operator product expansion and local quark hadron duality: Facts and riddles
+  626531 | hep-ph/0308237 | 2003-08 | The Pion velocity at chiral restoration and the vector manifestation
+  620571 | hep-ph/0306057 | 2003-06 | The Uses of conformal symmetry in QCD
+  600812 | gr-qc/0210101 | 2002-10 | Critical phenomena in gravitational collapse
+  524613 | hep-ph/0003050 | 2000-03 | Vacuum structure of a modified MIT bag
+  529840 | nucl-th/0007011 | 2000-03 | Photons from ultrarelativistic heavy ion collisions
+  513238 | gr-qc/0001046 | 1999-11 | Critical Phenomena in Gravitational Collapse
+  506632 | hep-ph/9909267 | 1999-09 | Thermal photons and lepton pairs from quark gluon plasma and hot hadronic matter
+  503716 | hep-ph/9907351 | 1999-07 | Thermal QCD sum rules in the rho0 channel revisited
+  469529 | gr-qc/9804058 | 1998-04 | Quantum corrections to critical phenomena in gravitational collapse
+  481293 | gr-qc/9812071 | 1998-02 | Critical phenomena in gravitational collapse
+  452724 | gr-qc/9712084 | 1997-12 | Critical phenomena in gravitational collapse
+  450989 | hep-ph/9711297 | 1997-11 | QCD sum rules at finite temperature
+  425000 | hep-ph/9610451 | 1996-10 | Instantons in QCD
+  421765 | nucl-th/9608015 | 1996-08 | The Chiral phase transition
+  394892 | nucl-th/9505005 | 1995-05 | QCD sum rules, scattering length and the vector mesons in nuclear medium
+  377927 | nucl-th/9410005 | 1994-10 | Physics and signatures of the quark - gluon plasma
+  38465 | nucl-th/9406029 | 1994-07-08 | Chiral symmetry in nuclei: Partial restoration and its consequences
+  38213 | gr-qc/9406012 | 1994-06-07 | Hawking like effects and Unruh like effects: Toward experiments?
+  371361 | hep-ph/9401310 | 1994-01 | QCD phenomenology based on a chiral effective Lagrangian
+TOTAL 64
+== inspire: fulltext:"critical collapse" and fulltext:"effective field theory" and fulltext:"self-similar" and fulltext:"Weyl"
+  3169247 | 2606.17135 | 2026-06-15 | Quantum fate of the Choptuik naked singularity
+  3118614 | 2602.10185 | 2026-02-10 | Critical spacetime crystals in continuous dimensions
+  2901213 | 2503.12263 | 2025-03-15 | The Science of the Einstein Telescope
+  2665942 | 2306.02885 | 2023-06-05 | Stochastic Processes in Mesoscale Physics and the Early Universe
+  2624696 | 2301.08055 | 2022 | Application of the Raychaudhuri Equation in Gravitational Systems
+  1839241 | 2101.00266 | 2021-01-01 | Spherical inhomogeneous solutions of Einstein and scalar–tensor gravity: A map of the land
+  1764261 | - | 2018 | Cosmology as a probe of gravity with future surveys.
+  1823879 | - | 2017 | Holographic thermalization in finite-size systems
+  1466603 | 1606.00180 | 2016-06-01 | Cosmology and fundamental physics with the Euclid satellite
+  1313072 | 1409.0014 | 2014-08-29 | Exploring New Physics Frontiers Through Numerical Relativity
+  812395 | 0902.0377 | 2009-02 | Proceedings, 38th International Symposium on Multiparticle Dynamics (ISMD 2008)
+  586155 | hep-th/0204253 | 2002-04 | Dilaton gravity in two-dimensions
+TOTAL 12
+== inspire: refersto:recid:3177545
+  3230103 | 2611.21356 | 2026-11-16 | The Stability of the Higgs vacuum inside a Schwarzschild Black Hole
+  3187282 | 2608.03538 | 2026-08-04 | Semiclassical Black Hole-White Hole transitions: an analytical treatment
+TOTAL 2
+== arxiv: abs:"critical collapse" AND (abs:"effective field theory" OR abs:"higher curvature" OR abs:"higher-curvature" OR abs:"higher derivative")
+TOTAL 0
+== arxiv: abs:"self-similar" AND abs:"quantum" AND abs:"perfect fluid"
+  0811.1926v4 | 2008-11-12 | The physics of the relativistic counter-streaming instability that drives mass inflation inside black holes
+  gr-qc/0311014v3 | 2003-11-05 | Stability criterion for self-similar solutions with a scalar field and those with a stiff fluid in general relativity
+  gr-qc/0105019v1 | 2001-05-04 | Gravitational collapse of spherically symmetric perfect fluid with kinematic self-similarity
+TOTAL 3
+== arxiv: abs:"Weyl tensor" AND abs:"self-similar" AND abs:"perfect fluid" AND abs:center
+TOTAL 0
+== arxiv: (cat:hep-th OR cat:gr-qc OR cat:math-ph OR cat:astro-ph.CO) AND submittedDate:[202611050000 TO 202611182359] AND (abs:collapse OR abs:"self-similar" OR abs:"critical solution" OR abs:"trace anomaly")
+  2611.22970v1 | 2026-11-17 | Shell crossing and the dynamical formation of thin shells in the collapse of self-gravitating relativistic dust
+  2611.22372v1 | 2026-11-17 | What makes the gravito-thermodynamic arrow of time coincide with that of proper time?
+  2611.21767v1 | 2026-11-16 | Existence of a third self-similar solution of the Yang--Mills equation in high even dimensions
+  2611.21523v1 | 2026-11-16 | Mean curvature flow into an ambient Riemannian manifold evolving by Ricci-Bourguignon flow
+  2611.21424v1 | 2026-11-16 | Instant Folded Strings: Fractal Decay and ANEC Saturation
+  2611.21034v1 | 2026-11-16 | Gravitational collapse in Lorentz-violating gravity and the spin-0 mode
+  2611.20356v1 | 2026-11-16 | Triple Exchange at the Cosmological Collider in Closed Form
+  2611.20327v1 | 2026-11-15 | Exceptional structure and Lifshitz criticality in a non-Hermitian Kitaev chain
+  2611.20282v1 | 2026-11-15 | Canonical metrics on punctured spheres, II: compactified moduli spaces of black holes
+  2611.18929v1 | 2026-11-13 | Quantifying the Dominance and Emergence of Brightest Cluster Galaxies in SPT and Planck Clusters: A Novel Application of the Gini Index
+  2611.18386v1 | 2026-11-13 | On the origin and geometry of anomaly-related poles in Double Deeply Virtual Compton Scattering
+  2611.18337v1 | 2026-11-13 | Gravitational production of dark QED by the trace anomaly
+  2611.18269v1 | 2026-11-13 | Inverse energy transfer for 2D Navier--Stokes near a self-similar vortex collapse
+  2611.17676v1 | 2026-11-13 | Predicting Individual Dark Matter Halo Concentrations from Their Assembly Histories
+  2611.17260v1 | 2026-11-12 | Non-interferometric tests of gravitational decoherence models with mechanical oscillators
+  2611.17202v1 | 2026-11-12 | Parallel alignment of radio AGN jets and large cosmic web structures in the direction of the Shapley supercluster
+  2611.16026v1 | 2026-11-11 | Shear, vorticity, and $f(R)$ theories
+  2611.16006v1 | 2026-11-11 | A flash before dawn: 21 cm signatures of transient reionization from supermassive Pop III stars
+  2611.15868v1 | 2026-11-11 | Cosmological correlators and kinematic flow on complex Hartle-Hawking saddles
+  2611.15860v1 | 2026-11-11 | Cosmological Signals from Finite-Lifetime Domain Wall Networks
+  2611.15169v1 | 2026-11-11 | Rapidly Spinning Primordial Black Holes from Confinement
+  2611.15070v1 | 2026-11-11 | Solving spectral flow in AdS$_3$: from covering maps to pencils
+  2611.14800v1 | 2026-11-10 | Self-interacting Dark Matter signatures from stars extremely magnified by galaxy clusters
+  2611.14482v1 | 2026-11-10 | Singustars: Between Black Holes and Compact Stars
+  2611.13542v1 | 2026-11-10 | OASIS: A Fast Dynamical Halo Finding Algorithm
+  2611.13266v2 | 2026-11-09 | Challenging the hoop conjecture with spinning pancakes and baguettes
+  2611.12831v1 | 2026-11-09 | Numerical-Relativity Particle-in-Cell Simulations: Self-Gravitating Collisionless Matter in Dynamical Spacetimes
+  2611.12282v1 | 2026-11-09 | A Self-Interacting Dark-Matter Route to Supermassive Kerr Black Holes via Super-Eddington Bondi Accretion: Mass-Spin Evolution
+  2611.17370v1 | 2026-11-08 | Algebra-Valued Yang-Mills-Type Theories: Polynomial Obstructions and Holonomy Reductions
+  2611.11670v1 | 2026-11-08 | Projective symmetries and differential recursions for the large-$N$ Gross--Witten--Wadia and one-dimensional QCD matrix models
+  2611.11351v1 | 2026-11-08 | The Fate of Collisional Neutrino Flavor Conversion: Fixed Points, Period Doubling, and Chaos
+  2611.10320v1 | 2026-11-06 | Relativistic Simulations of Self-Gravitating Radiation Fluids
+  2611.09546v1 | 2026-11-06 | Through Ups and Downs: the Transient Lensing Behaviour of SIDM halos undergoing Core Collapse
+  2611.18705v1 | 2026-11-06 | Thermodynamics and interior structure of density-responsive regular black holes
+  2611.08786v1 | 2026-11-05 | Talanov dynamics and chirp-controlled rogue-wave formation for the vector nonlinear Schrödinger equation
+  2611.08401v1 | 2026-11-05 | Spectral Regimes of Truncated sinc-Power and Pulse-Train Kernels: Edge Exponents, Per-Edge Plunges, and the Landau-Widom Limit
+  2611.07747v1 | 2026-11-05 | Gravitational Thermodynamicization of Primordial Black Holes: An RVB Residue Formulation of Thermal Formation and Nonequilibrium Evolution
+TOTAL 37

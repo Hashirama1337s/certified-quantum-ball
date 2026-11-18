@@ -1,0 +1,20 @@
+hay R = -exp(2*u)
+hay V(xi=0) tt,uu,thth at u=0: [0.0125000000000000, 0.0708333333333333, -0.0145833333333333] expected 1/80, 17/240, -7/480 FAIL
+hay trace V(0) = 6.93889390390723e-18*exp(4*u)
+hay V(1/6) - B/60 zero: False
+hay T2 - T1/3 + 4B zero: False
+hay dV/dxi nonzero (R != 0): [(6*xi - 1)*exp(2*u)/12, 11*(6*xi - 1)*exp(2*u)/12, 5*(1 - 6*xi)*exp(2*u)/24]
+rn R = 0
+rn dV/dxi == 0: True
+rn V - B/60 == 0: True
+rn V_tt, V_rr, V_thth: [(4*r**2 - 8*r + 1)**2/(640*r**10), -1/(120*r**6), (4*r**2 - 8*r + 1)/(240*r**6)]
+rn design C3 expected: (4r^2-8r+1)^2/(640 r^10), -1/(120 r^6), (4r^2-8r+1)/(240 r^6)
+rn match design C3: [True, True, True]
+rn V at r=3: [0.000004471921624413622584633101, -0.00001143118427069044352994970, 0.00007430269775948788294467307]
+rn trace: 0
+pp R = 0  Ric_uu = -x**2*sin(u) - 6*x**2 - 3*x*y - y**2*sin(u)
+pp dV/dxi == 0: True  V - B/60 == 0: True
+pp V_uu = -sin(u)/30 - 1/10 ; PAPER prediction -(1/240) Lap^2 H = -sin(u)/30 - 1/10 PASS
+pp other components all zero: True
+flip-null Hayward: [1/80, 17/240, -1/32] REFUSES
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

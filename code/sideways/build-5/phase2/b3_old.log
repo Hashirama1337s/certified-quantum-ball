@@ -1,0 +1,13 @@
+[    0.8s] x_lc [1.35794126577 +/- 4.27e-12] (root step 387) 0.0s
+[   47.2s] outward pieces: 380 (46.5s)
+[  137.7s] tube pieces: 720 (137.0s)
+[  137.7s] sonic pieces (137.0s)
+[  137.8s] centre ready (137.1s)
+[  138.3s] light-cone Frobenius ready (137.6s)
+[  141.9s] near-cone pieces: 22, K [46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 46, 39, 39, 39, 39, 39, 39, 39, 34] (141.1s)
+[  169.9s] transition polynomials built for 1124 pieces (169.2s)
+[  202.0s] k=21 (d [0.060406 +/- 4.60e-9]): max rel radius 1.000e+00 -> fail
+[  230.2s] k=14 (d [0.035246 +/- 3.24e-7]): max rel radius 1.000e+00 -> fail
+[  257.6s] k=7 (d [0.020566 +/- 1.09e-7]): max rel radius 1.000e+00 -> fail
+[  284.2s] k=0 (d [0.012000 +/- 1e-11]): max rel radius 1.000e+00 -> fail
+memcap: exit 0, peak 0.62 GB of 8.00 GB cap

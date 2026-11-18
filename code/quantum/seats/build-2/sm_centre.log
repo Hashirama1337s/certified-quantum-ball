@@ -1,0 +1,10 @@
+[   58.8s] 25 evals, 12 cells, 0 unresolved, at x=-5.40625
+[  119.6s] 50 evals, 26 cells, 0 unresolved, at x=-5.3046875
+[  175.9s] 75 evals, 40 cells, 0 unresolved, at x=-5.1953125
+[  233.3s] 100 evals, 52 cells, 0 unresolved, at x=-5.09375
+[  290.3s] 125 evals, 66 cells, 0 unresolved, at x=-4.9921875
+[  347.3s] 150 evals, 80 cells, 0 unresolved, at x=-4.8828125
+[  403.1s] 175 evals, 92 cells, 0 unresolved, at x=-4.78125
+[  459.8s] 200 evals, 106 cells, 0 unresolved, at x=-4.6796875
+[  497.3s] done: 218 evals, 117 certified cells, 0 unresolved -> sm_centre.json
+memcap: exit 0, peak 0.12 GB of 8.00 GB cap

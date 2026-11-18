@@ -1,0 +1,30 @@
+{
+ "kstar": {
+  "D_HKA": [
+   "0",
+   "4.55e-7"
+  ],
+  "D_new": [
+   "0",
+   "1.52e-7"
+  ],
+  "D_HKA_contains_0": true,
+  "D_new_contains_0": true,
+  "sec": 6.6
+ },
+ "kappa2": {
+  "D_HKA": [
+   "-19.9422952679876",
+   "1.12e-8"
+  ],
+  "D_new": [
+   "-2.41262708579810",
+   "1.13e-9"
+  ],
+  "D_HKA_contains_0": false,
+  "D_new_contains_0": false,
+  "sec": 6.7
+ },
+ "C2_refused": true,
+ "kappa2_unique": true
+}

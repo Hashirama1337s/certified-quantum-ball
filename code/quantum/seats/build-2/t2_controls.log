@@ -1,0 +1,4 @@
+[    1.0s]   controls: positives pass True, sign-flip null refuses True
+[   10.8s] extended controls pass True, sign-flip refuses True
+[   10.8s] wrote controls_tm.json
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

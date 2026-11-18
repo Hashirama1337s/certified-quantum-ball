@@ -1,0 +1,14 @@
+curvature 4s
+weyl 15s
+div weyl 25s
+bach 52s
+trace Bach == 0: True
+b_nn free: ['A0', 'A1', 'A2', 'A3', 'A4', 'l0', 'l1', 'l2', 'l3', 'l4']  ops 196
+b_nr free: ['A0', 'A1', 'A2', 'A3', 'A4', 'l0', 'l1', 'l2', 'l3', 'l4']  ops 220
+b_rr free: ['A0', 'A1', 'A2', 'A3', 'A4', 'l0', 'l1', 'l2', 'l3', 'l4']  ops 377
+b_T free: ['A0', 'A1', 'A2', 'A3', 'A4', 'l0', 'l1', 'l2', 'l3', 'l4']  ops 383
+traceless b_nn - b_rr - 2 b_T == 0: True
+D_t == 0 identically: True
+(div Sigma)_s == 0: True  (div Sigma)_x == 0: True
+total 89s
+memcap: exit 0, peak 0.08 GB of 8.00 GB cap

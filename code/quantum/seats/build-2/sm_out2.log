@@ -1,0 +1,20 @@
+[   89.3s] 25 evals, 25 cells, 0 unresolved, at x=3.375
+[  174.9s] 50 evals, 50 cells, 0 unresolved, at x=3.765625
+[  260.2s] 75 evals, 75 cells, 0 unresolved, at x=4.15625
+[  344.5s] 100 evals, 100 cells, 0 unresolved, at x=4.546875
+[  426.9s] 125 evals, 125 cells, 0 unresolved, at x=4.9375
+[  505.9s] 150 evals, 150 cells, 0 unresolved, at x=5.328125
+[  584.7s] 175 evals, 175 cells, 0 unresolved, at x=5.71875
+[  664.9s] 200 evals, 200 cells, 0 unresolved, at x=6.109375
+[  744.2s] 225 evals, 225 cells, 0 unresolved, at x=6.5
+[  823.1s] 250 evals, 250 cells, 0 unresolved, at x=6.890625
+[  897.9s] 275 evals, 275 cells, 0 unresolved, at x=7.28125
+[  971.6s] 300 evals, 300 cells, 0 unresolved, at x=7.671875
+[ 1042.0s] 325 evals, 325 cells, 0 unresolved, at x=8.0625
+[ 1112.6s] 350 evals, 347 cells, 0 unresolved, at x=8.390625
+[ 1185.0s] 375 evals, 364 cells, 0 unresolved, at x=8.515625
+[ 1265.1s] 400 evals, 381 cells, 0 unresolved, at x=8.6484375
+[ 1342.4s] 425 evals, 397 cells, 0 unresolved, at x=8.78125
+[ 1421.4s] 450 evals, 414 cells, 0 unresolved, at x=8.90625
+[ 1472.5s] done: 466 evals, 425 certified cells, 0 unresolved -> sm_out2.json
+memcap: exit 0, peak 0.12 GB of 8.00 GB cap

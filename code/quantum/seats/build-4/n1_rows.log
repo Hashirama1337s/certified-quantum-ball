@@ -1,0 +1,31 @@
+christoffel 1s
+ricci 2s
+rows built 3s
+on shell 6s
+HKA pencil 7s
+row 0: Y-part = lam*I : True ; lam = -2
+row 1: Y-part = lam*I : True ; lam = 1
+row 2: Y-part = lam*I : True ; lam = 0
+row 3: Y-part = lam*I : True ; lam = -3*om*(V - 1)**2*(V + 1)**2/(4*pi*N**2*(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)**2)
+row 4: Y-part = lam*I : True ; lam = -3*om*(V - 1)**2*(V + 1)**2/(4*pi*N**2*(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)**2)
+solutions: 1 22s
+N1 S row 0: [N**(-2), 2/N**2, N**(-2)]
+N1 S row 1: [-1/(2*N**2), -1/N**2, (N - 1)*(N + 1)/(2*N**2)]
+N1 S row 2: [V/N, (N + 6*V)/(3*N), -(2*N**2*V - N - 3*V)/(3*N)]
+N1 S row 3: [1/(3*N), -(N*V - 2)/(3*N), -(2*N**2 + N*V - 1)/(3*N)]
+N1 sigma_I: [-1/N**2, (N**2 - 2)/N**2, (N - 1)*(N + 1)/N**2]
+N1 row 0 == r2_forced_k13.log K5 row 0 : True
+N1 row 1 == r2_forced_k13.log K5 row 1 : True
+N1 row 2 == r2_forced_k13.log K5 row 2 : True
+N1 row 3 == r2_forced_k13.log K5 row 3 : True
+N1 sigma_I == K5 l.25 : True
+check: srcprop prefactor == Acons: True
+N1 row 0 / srcprop l.13 = [(3*V**2 - 3)/(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3), (3*V**2 - 3)/(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3), (3*V**2 - 3)/(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)] (constant ratio -1/A expected: srcprop row Ham is -A x HKA row 0)
+N1 row 1 / srcprop l.14 = [-1/N, -1/N, -1/N]
+N1 S_0 frame == A beta_nn : True
+N1 S_1 frame == -(1/2) A (beta_nn - beta_rr) : True
+N1 sigma_I frame == A(-beta_nn + N beta_nr) : True
+N1 S_2 frame: -N*(3*V*beta_nn - 2*V*beta_rr + beta_nr)*(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)/(9*(V - 1)*(V + 1))
+N1 S_3 frame: N*(V*beta_nr - beta_nn + 2*beta_rr)*(8*N*V*om + 2*V**2*om - 3*V**2 + 6*om + 3)/(9*(V - 1)*(V + 1))
+total 22s
+memcap: exit 0, peak 0.08 GB of 8.00 GB cap

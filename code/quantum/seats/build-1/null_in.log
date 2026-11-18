@@ -1,0 +1,11 @@
+[    6.8s] sonic manifold: nu_s=0.06 eps=[3.47e-61 +/- 3.54e-64] epsX=[1.31e-62 +/- 2.29e-65] (7s)
+[   49.3s] tau leg: 69 steps, width [1.10e-16 +/- 2.64e-19] (49s)
+[  107.0s]   x step 100 x=-0.159 width [2.13e-16 +/- 1.99e-20] (107s)
+[  180.6s]   x step 200 x=-0.450 width [4.70e-16 +/- 4.27e-19] (181s)
+[  257.5s]   x step 300 x=-1.036 width [3.47e-15 +/- 2.39e-18] (257s)
+[  330.1s]   x step 400 x=-1.755 width [1.42e-14 +/- 1.38e-17] (330s)
+[  401.4s]   x step 500 x=-2.713 width [7.21e-14 +/- 1.83e-17] (401s)
+[  476.6s]   x step 600 x=-3.925 width [6.56e-13 +/- 1.05e-16] (477s)
+[  510.3s] x leg: 651 steps, end width [2.44e-12 +/- 2.57e-15] (510s)
+[  510.3s] saved <LAB-WIN>\quantum\seats\build-1\null_in.pkl
+memcap: exit 0, peak 0.09 GB of 8.00 GB cap

@@ -1,0 +1,773 @@
+{
+ "note": "Pinned sha256 of every shipped file whose sha256 the lab ledger recorded (results/ledger-quantum.json: seal-file, pin and settle rows). For a path-patched file the pin is the sha256 of the restored original (PATCHES.md). tools/check_pins.py verifies them.",
+ "pins": [
+  {
+   "path": "code/_pocketlab/gravity_engine/argument_count.py",
+   "sha256": "57da7ee2b42db29fbdf177d19c545c51d6c98374ae9c3068651ab53da3ff602b",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/bg.py",
+   "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/bgc.py",
+   "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/core.py",
+   "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver.py",
+   "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver2.py",
+   "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver_v2.py",
+   "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver_v3.py",
+   "sha256": "84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver_v31.py",
+   "sha256": "0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/driver_v32.py",
+   "sha256": "c95d0e5f301e56114d2bae97d31bdd94c3de6e23733c88d5c004ec85c1fcd771",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/fields.pkl",
+   "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/fields.py",
+   "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/lin_tube2_k1_3.pkl",
+   "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/lohner.py",
+   "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/lohner2.py",
+   "sha256": "cdbcbc3ed708a132ca441f9f1ae4877a575c990a3b8abce629607e1665fe40b5",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/param.py",
+   "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/pipeline.py",
+   "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/cert/taylor.py",
+   "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/derive.py",
+   "sha256": "ef70536c299390c3a59a22ecd3fb43c0055366052680dbb1ac841994ec96cf69",
+   "seal": "9ed31dfab0",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "code/engine/eqs_gen.py",
+   "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/jet.py",
+   "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/engine/system.py",
+   "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f",
+   "seal": "d0af75803f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/ajet.py",
+   "sha256": "acee648e75a2a63ce0d1953d108acb3908e9bfc0537e60d7ae7b5770c7609c2f",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/aser.py",
+   "sha256": "fef6d9027b777ded02599a05d51610207c7f40a05dd842766a710d09642fa21e",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/bg.py",
+   "sha256": "c05ad4d77e20daa24ed87b1c766bc97bd7a9b720e1b77401027f1d3ca352166c",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/charts.py",
+   "sha256": "3bb001bad328659c0a49438dd26c3c7610d52e5e24d486a0178ccb33604fd6c9",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/controls_qb1.json",
+   "sha256": "6a76082e38327fde5e70ab8c4e2c62cd8479353eb9246f9be6ec1b1d2d89a3c4",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/ctl.py",
+   "sha256": "b31dc093e4a3e7649929bcff327fba519974e4f01b9db4fce5e69dda40071275",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/dnew.py",
+   "sha256": "4d809cfb75ce0549debedf8b1bcd416498bd5f0c1b45915fd3215e114dc53999",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/dnew_qb1.json",
+   "sha256": "7182a1fc2d7c578d6e78981250457dc4b716add2188797fd233d3209bb12cf5f",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/null_bg.py",
+   "sha256": "c3dc74aba983db8d430a0721b065b31a92ff7d29022215ff1e724610f39d454d",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/null_eval.py",
+   "sha256": "b22f5fa882d4b4c9e4a89314e11b351e5b5c71f2604cd876e2ac7f70275cd6dd",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/null_qb1.json",
+   "sha256": "56eb00903de62cb62cd5b7133887c2297be0514080ef0f82dd7d6a12a1734897",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/qb1.py",
+   "sha256": "309e91b6179ad72a28481c5e481d787be10cbe4060b7f20d105d960b2682fdc9",
+   "seal": "54caa4012c",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-1/result_qb1.json",
+   "sha256": "65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4",
+   "seal": "54caa4012c",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/controls_qb1b.json",
+   "sha256": "7fefab90da0bbe553ac5472b8349b088f997b54c75a72a7efb9b8c4662c7f864",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/dnew2.py",
+   "sha256": "579a3750f80c02b3c735c6a7c17edab2e1805a7ee35a451df5f1092f32073b4c",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/finalize.py",
+   "sha256": "040b410bc7a389c95ff4f448134bb91ce6174121eab47eab5f1a12b5d1dfe9f9",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/result_qb1b.json",
+   "sha256": "cb204c29eaedd633c3a6f5ab58826a616a029f097afef1b88fba2d7f7ef1e6cd",
+   "seal": "4d3b12ef39",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/schart.py",
+   "sha256": "8708bc39034b26d13371803e649f0687f2ead95708f5e2ad761b1b7a35a1842f",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/signmap2.py",
+   "sha256": "bea6245c4cb4ad493da86881daa34e52751548befe0f122884595c2433c139f7",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/tasks2.py",
+   "sha256": "010f9a6037367abe47d75deb0b8f796b0851f2e27425b053654508d4125cee3d",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/tm.py",
+   "sha256": "cfd650cd6874720bc7ae3e9a5a2ef490fefdea4ee57e5747fefeba0f24066b1f",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/tmbg.py",
+   "sha256": "e1ebc3baa93dd76dbc97693ebb36fdf8cf94b7fd4dcf6e3a3a7f3200c816dd65",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-2/tmcell.py",
+   "sha256": "d3416c6f6e93ad9b7b952bf84d7da9b4459774ff6ad1f7f53982f59b64349062",
+   "seal": "4d3b12ef39",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/a3.py",
+   "sha256": "95dda7df5c9b6bc549341571b2dbe22819b366bf6fdb593d42ef95b9cb541f96",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/bach_u.py",
+   "sha256": "db51f3e02c21566e34f5ea5e89443954ceaf76f042bf99f7190b242986f4df6a",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/bachsym.py",
+   "sha256": "9f314a7baf685d380c4f516d4eae46df1a88b286925cb60d6e979b0a9f846291",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/c2check.py",
+   "sha256": "b56be098baede4e8b564fbad57f0e31e6d20dd3900c10f3d04054ecc459fbc11",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/controls_qb2.json",
+   "sha256": "b0dc43375869d7bee661e88872712175a47036ae0437dc9aa5dd2ea7cd278626",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/hka_copy.py",
+   "sha256": "6382993a91cc60e0cc7824ea1465036b999a77437abd878acb995a3c35f02b20",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/make_outputs.py",
+   "sha256": "ddf1fe478cac601f9393cdd16782cd4e29ae1d92a7c9916cc1c793f0c54d8134",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/n0check.py",
+   "sha256": "d56f760c25235f8eb0016bea979d47c765aae63ebfd7ba82110306d0155045ce",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/n1_rows.py",
+   "sha256": "df5160546dd3dace689a948562bda1e987545618f5245bd6bee6dcf3216d3fb5",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2core.py",
+   "sha256": "4906d61e202aa3cb63d576a0b9c9c90e1981afb02d7db4bc3ec4576e6f0499cf",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2final.py",
+   "sha256": "b005b5060d9314da3c1006dd3234f2191ddfebc28dcd00c0c80da165205aa908",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2lib.py",
+   "sha256": "430507c93c425c77d1ec06ba35d090aede8d297ccad5f5d701d9be386e6178c2",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2pass.py",
+   "sha256": "52c4165672062cf2096b22a0ccd261eb071ea82d44ebd8022c12b0ba415ecd1d",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2stages.py",
+   "sha256": "a27121aecb5376a0288894dfe9f5ca6373dc606799bdcc7a65a6048c5dbfd81c",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/qb2sym2.py",
+   "sha256": "5f16c578c518c344a56f59f6088314f85bec5a78cafef052048c9f1bea65acc7",
+   "seal": "f2bcfadb3e",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-3/result_qb2.json",
+   "sha256": "d677bb43a80fe18f2eb7225771bea6759640f1538952137813536b82d691a620",
+   "seal": "f2bcfadb3e",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/DOMAIN-LEMMA.md",
+   "sha256": "ff441eb27db3a1d0bb8bb0f5fbcf5e3d9f230557c926d298d894f13a67a857fa",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/RUN.md",
+   "sha256": "40c178783be0ea38f75f8c479e3c0df99b61d375c059c49b1121350d6d4887e8",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/centre_exact.json",
+   "sha256": "cfddeddb931e0f042f348b61fe8f8db35a8fce44e3cd2164bcce8a7ffbc66ccb",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/centre_exact.py",
+   "sha256": "a6b388dd22df39556959d9223864c70705cf9e520115f93a3c3f5da282c1406f",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/controls_qb2b.json",
+   "sha256": "17c402436dd0881410a5eafc5f55e617045243a11ec2848d2feafa81fbd28aae",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/final.json",
+   "sha256": "a2c849774b40deb3a6a3d1b284654f0304f9d5af1ad36905a88832730d7002b4",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/final_b.py",
+   "sha256": "26ec80976eeac68185bb7757c6a0b802e89b46ee048348af80a37dd23afed6aa",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/make_outputs_b.py",
+   "sha256": "13727ff57848c8b7018519a4d19038311a28341630d65c03d61b0aa67d82f8a5",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/make_pass_b.py",
+   "sha256": "84f71b12dd0f52a1c7947061a2b054853904fe922f36cca6f87f1c0637a9c222",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/pass_b.py",
+   "sha256": "28e8cef71035449401c908b8cfa83be313dc076a56cd84f3428ebe3380d8b410",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/qb2b.py",
+   "sha256": "58abe81d23b3a30e167b7df1612c44d66df5ebd5ee94b2e6a2af94b9d5b463e4",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/result_qb2b.json",
+   "sha256": "b2a00fc7f86b5867964a7784aef873ed2bbd3f68dca5ea2c2c34a5b97300a691",
+   "seal": "373f306e9f",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/run1/final.json",
+   "sha256": "a2c849774b40deb3a6a3d1b284654f0304f9d5af1ad36905a88832730d7002b4",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/run1/thth.json",
+   "sha256": "b2d15ebcba416bd6e80d831d84806b93c9fbfd8d741963af1f330715be73607f",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/stages_b.py",
+   "sha256": "1a77e83c4b8393c60c2de95b29cc7a69d6ad40137ac55316da938a2055e175f0",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/stages_b_helpers.py",
+   "sha256": "6b93480eaddca91218fad55b6eeb4baf2c1e9c4391e853e2be3e7e54daa7fe23",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/thth.json",
+   "sha256": "b2d15ebcba416bd6e80d831d84806b93c9fbfd8d741963af1f330715be73607f",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/thth_eval.py",
+   "sha256": "e99883f69d49c518a0cb2c69678f81fd3120e59a836747d28391fbe7d03e68ac",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/thth_sym.py",
+   "sha256": "b54a2c689ffe730d1989c510eb42501d0c54b2d49be115423a169f1c59d69e23",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/tube_bg2.py",
+   "sha256": "160708f213648b4a31f65dc303d44ee8478ede0e9bd091600592df7ffa9a64e8",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/tube_compare.json",
+   "sha256": "d3ea5415c9c2e536281c22b45a3fa83c79ab6db87c1319f4c77a5fd95ceb9f1a",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-4/tube_compare.py",
+   "sha256": "725685cf9779badf72cf4917fd76b1e95525614e94dd1f0632eeb9d744055750",
+   "seal": "373f306e9f",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/RUN.md",
+   "sha256": "ae38f51438c1bbbbc92d4f1df8671b854a7791b7e96c936f2dc878cc5bbae221",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/controls_qb2c.json",
+   "sha256": "17932836cad43b8960dcefc93ae47e54c7816c3f58fc14745e0965b10c6d5d40",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/conv_c.json",
+   "sha256": "6d02b6b1acd4d64c81698c75415dfc6a77484a4078a68f941b80c1383bdd505c",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/deep_ratio.json",
+   "sha256": "7155f52396a3553a512b7f807d2ad9d1e70f3c05e9f98eb17e4ab1ee3023c722",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/deep_ratio.py",
+   "sha256": "885f8c8f2fc343879d0419d8ce179746624edd6a83ba22e9da0a7d14ba0ec26d",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/final_c.json",
+   "sha256": "c0f3d42246e24acd133bd7a6f73d5e4755fd518ef9942eef0f6408687bc47225",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/final_c.py",
+   "sha256": "0ade9c32911d4cd0eef6d8bbbb148b1433fb2dd78a4fa91ca64851fd2d5d41b8",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/make_outputs_c.py",
+   "sha256": "3cdd194040a37d7d0f52acade4badffb6f2c61b8c71cdfd8673c24ae58fbc21b",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/probe_tight.log",
+   "sha256": "5ed4d89300a7cbcafef873fcc8fee9fa717a4d5f88ec2670216c1fed76c21125",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/probe_tight.py",
+   "sha256": "5c0056bbf97b9c3aca0e2fd3b578e634b1741a9209f833d711695c44b1a0d9fc",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/result_qb2c.json",
+   "sha256": "3aac39669ab99dee6a45233b477a2b33056a75fa1b5dad42ea4ec5e6776a0d7a",
+   "seal": "7aab7efe5a",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/thth_c.json",
+   "sha256": "bba0f715a809c63d7bad3aed9161225cccc32fba9ca52399d7ab00e0ff98dffd",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/quantum/seats/build-5/thth_c.py",
+   "sha256": "abcffb829bdc4ef80649e50e175833d476c3cc70e584e0b7969af5692740dbfe",
+   "seal": "7aab7efe5a",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/bgnum.py",
+   "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310",
+   "seal": "9077a35520",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/eqs_l.pkl",
+   "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/eqs_l.py",
+   "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6",
+   "seal": "9077a35520",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/l0_cert.py",
+   "sha256": "b20787ed0e6d6fc0a95e630d186f41502fafda90e7931ba2ba1bd0c994006e71",
+   "seal": "596c7146ff",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/lin_core.py",
+   "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7",
+   "seal": "9077a35520",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/outward_rec.pkl",
+   "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/outward_rec.py",
+   "sha256": "839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa",
+   "seal": "0812c8e0d2",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-1/polar_sys.py",
+   "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60",
+   "seal": "2ddcc50b71",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-4/ax_sys.py",
+   "sha256": "f3f4d85865d691d14a8db6008aa14dd3c1530ff3dc90c7031d0277aed01a85c5",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-4/l2_cert.py",
+   "sha256": "d76a06cfd2f238bb381f8aa34e9edce7c1b969cb18ed8ac70ff98449705d04a9",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-4/l2_lib.py",
+   "sha256": "40c831a3a07a20952e2c20051913679e92c4bdcf3024f5029a9f6b0efde91c84",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-4/l2b_ext.py",
+   "sha256": "81d41a108bf66bb5a55252a37db56b7c602b7eef50c175f88587cae5085aa542",
+   "seal": "fc89881caf",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/controls_bg2.json",
+   "sha256": "83580db3166d22a22024e3436c53d0a1b4b9e0e1de5a73aa817857fe9388e365",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/b1_box.py",
+   "sha256": "b5a922b1db4dd1e2d34ae00ba431b6c867ce9e6e7c782776409afc427bdd1924",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/b2_outward.py",
+   "sha256": "2bcbc847d928ddc3f22b1f86e69f77583a7ec1e36841b2f6f3bb21ee45d74b3c",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/b3_gate.py",
+   "sha256": "797060de937a85b885c385e1c7788098b4da89fb20107bae770d41791ccfb64a",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/make_bg2.py",
+   "sha256": "e869e7158e1aaf1ef3d19fffd70eb96bfcccdbe91638a064e4500949391e6343",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/outward_C.pkl",
+   "sha256": "c5aab9780d415073dccb8c9ab179e46ce9050ac493d400c26da18e1be540b1d5",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/phase2/p_dover.py",
+   "sha256": "55bac6d8e98c8434de69db095b8a56f7de4b73654a031888cb3ea7047c49075c",
+   "seal": "ed61d09268",
+   "source": "ledger pin row (files)"
+  },
+  {
+   "path": "code/sideways/build-5/result_bg2.json",
+   "sha256": "2635c4b2f3cc19001253368085cf8ddfb5803078d120f387aba119e4c155af85",
+   "seal": "ed61d09268",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/result_qb1.json",
+   "sha256": "65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4",
+   "seal": "54caa4012c",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/result_qb1b.json",
+   "sha256": "cb204c29eaedd633c3a6f5ab58826a616a029f097afef1b88fba2d7f7ef1e6cd",
+   "seal": "4d3b12ef39",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/result_qb2.json",
+   "sha256": "d677bb43a80fe18f2eb7225771bea6759640f1538952137813536b82d691a620",
+   "seal": "f2bcfadb3e",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/result_qb2b.json",
+   "sha256": "b2a00fc7f86b5867964a7784aef873ed2bbd3f68dca5ea2c2c34a5b97300a691",
+   "seal": "373f306e9f",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/result_qb2c.json",
+   "sha256": "3aac39669ab99dee6a45233b477a2b33056a75fa1b5dad42ea4ec5e6776a0d7a",
+   "seal": "7aab7efe5a",
+   "source": "ledger settle row (results)"
+  },
+  {
+   "path": "results/seals/AMENDMENT-QB2-v3.md",
+   "sha256": "090d61a7b99647f3995d44a99b338c2f763a737db7872e13f44138db03a6fe4e",
+   "seal": "4cf7213207",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-QB1.md",
+   "sha256": "bc14c5b13ff87226664beb4a49229c71b93ef1c6d15eb45f7dc55f1a7f3d71df",
+   "seal": "54caa4012c",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-QB1b.md",
+   "sha256": "53c5f4cadd0f03564c91bdafd5372a7f70772920a783ba9ccfcb1c5047430970",
+   "seal": "4d3b12ef39",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-QB2.md",
+   "sha256": "650f45f38ab2704e34a01407a9e0f633a2defe842d1894cb939fb369d763ac46",
+   "seal": "f2bcfadb3e",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-QB2b.md",
+   "sha256": "de4a8f97ad985bfc97a77e7278ef33da1c4588f400dd420b7844c14f2c58fee3",
+   "seal": "373f306e9f",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-QB2c.md",
+   "sha256": "3cd7a8df4dacc27a3f1f862c02a7fb771cd00ce9ee92de0a6d314dd0126f16be",
+   "seal": "7aab7efe5a",
+   "source": "ledger seal-file row (files)"
+  },
+  {
+   "path": "results/seals/BAR-SF-BG2.md",
+   "sha256": "3e839b4df3e8138741ab7c4b0acb99b507fe98f3cab99320298587e8ced544ef",
+   "seal": "ed61d09268",
+   "source": "ledger seal-file row (files)"
+  }
+ ]
+}

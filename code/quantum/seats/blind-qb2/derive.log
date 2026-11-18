@@ -1,0 +1,25 @@
+background...
+norm check 0
+bg done 10.903717756271362
+Ebg_uu free: ['A', 'A1', 'al', 'al1', 'v', 'w', 'x'] ops 88
+Ebg_ux free: ['A', 'A1', 'al', 'al1', 'v', 'w', 'x'] ops 49
+Ebg_xx free: ['A', 'al', 'al1', 'v', 'w', 'x'] ops 35
+Ebg_tt free: ['A', 'A1', 'A2', 'al', 'al1', 'al2', 'w', 'x'] ops 50
+divbg_0 free: ['A', 'A1', 'al', 'al1', 'v', 'v1', 'w', 'w1', 'x'] ops 232
+divbg_1 free: ['A', 'A1', 'al', 'al1', 'v', 'v1', 'w', 'w1', 'x'] ops 127
+1-2m/r bg: 1/A
+V tensor...
+Vhat uu ops 29703 35.15994691848755
+Vhat ux ops 31945 58.92379426956177
+Vhat xx ops 26204 80.14417552947998
+Vhat tt ops 3700 83.59181761741638
+perturbation...
+dE uu free ['A', 'A1', 'A2', 'al', 'al1', 'al2', 'dQ', 'da', 'da1', 'da2', 'dc', 'dc1', 'dw', 'lam', 'v', 'w', 'x'] 116.40640020370483
+dE ux free ['A', 'A1', 'A2', 'al', 'al1', 'al2', 'dQ', 'da', 'da1', 'da2', 'dc', 'dc1', 'dw', 'lam', 'v', 'w', 'x'] 140.8872516155243
+dE xx free ['A', 'A1', 'A2', 'al', 'al1', 'al2', 'dQ', 'da', 'da1', 'da2', 'dc', 'dc1', 'dw', 'lam', 'v', 'w', 'x'] 172.42161226272583
+dE tt free ['A', 'A1', 'A2', 'al', 'al1', 'al2', 'da', 'da1', 'da2', 'dc', 'dc1', 'dw', 'lam', 'x'] 195.49014592170715
+ddiv 0 free ['A', 'A1', 'al', 'al1', 'dQ', 'dQ1', 'da', 'da1', 'dc', 'dc1', 'dw', 'dw1', 'lam', 'v', 'v1', 'w', 'w1', 'x'] 217.15107583999634
+ddiv 1 free ['A', 'A1', 'al', 'al1', 'dQ', 'dQ1', 'da', 'da1', 'dc', 'dc1', 'dw', 'dw1', 'lam', 'v', 'v1', 'w', 'w1', 'x'] 237.8556900024414
+d(1-2m/r): -A*x**2*(A*da - dc*(A*x**2 - al**2))/(-A**2*x**2 + A*(A*x**2 - al**2))**2 - da/(-A**2*x**2 + A*(A*x**2 - al**2)) + dc*x**2/(-A**2*x**2 + A*(A*x**2 - al**2)) + (A*da - dc*(A*x**2 - al**2))*(A*x**2 - al**2)/(-A**2*x**2 + A*(A*x**2 - al**2))**2
+DONE 241.6933524608612
+memcap: exit 0, peak 0.07 GB of 8.00 GB cap

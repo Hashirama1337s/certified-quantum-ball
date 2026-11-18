@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The quantum fingerprint on the critical ball of light: a certified one-loop Bach source on the Evans-Coleman solution, and the sign of its secular push on the peak compactness"
+authors:
+  - name: "Moki & Julio"
+version: "1.0"
+doi: "{{DOI}}"
+license: CC-BY-4.0
+keywords:
+  - critical collapse
+  - Evans-Coleman solution
+  - radiation fluid
+  - semiclassical gravity
+  - one-loop stress tensor
+  - Bach tensor
+  - trace anomaly
+  - self-similar solutions
+  - computer-assisted proof
+  - interval arithmetic
+  - rigorous numerics
+abstract: >-
+  On the certified Evans-Coleman critical solution (p = rho/3, spherical, continuously self-similar), the
+  state-independent log-growing one-loop source of every free massless field of spin <= 1 is a positive multiple of the
+  Bach tensor (a one-line consequence of Zahn 2025 and Brady-Ottewill 1998 on R = 0). With ball arithmetic and Taylor
+  models we certify its energy profile b_nn = r^4 B_(nn) on x in [-12, 12]: negative in the core, positive in the shell,
+  with exactly one zero, at x in [-0.82611434347927570343, -0.82611433975398540497]; the sonic value b_uu =
+  [0.4466737796695366321 +- 1.3e-17]; and the centre coefficient c0 = -(2/3)W0(8W0-3)e^{-4xc} =
+  [-173.1004443922995663248426 +- 8.79e-16]. The forced linear response at rate 2 is unique modulo gauge, and the
+  gauge-invariant s e^{2s} change of the local peak compactness 2m/r at the sphere where the fluid velocity vanishes is
+  Psi2 = [3.4616358037141656915 +- 3.02e-12] (per unit K eps s e^{2s}, KHA clock, K = N_c/(30 pi)): positive, toward
+  trapping. A blind double-precision replication agrees to 6.9e-12 relative. All five sealed tests are listed: QB1b
+  HOLD; QB1, QB2, QB2b and QB2c FAILED by item (the headline held in all three QB2 bars; the conservation-width bar
+  failed in QB2 and QB2b and was not run as sealed in QB2c). Every claim is conditional on a Hadamard state respecting self-similarity, whose existence is not
+  proved; the direction in which hbar moves the black-hole threshold is stated only as a conjecture.

@@ -1,0 +1,40 @@
+[    0.1s] sonic
+[    1.9s]   sonic: b_nn [0.415737284077010 +/- 3.81e-17], b_nr [0.119042195958447 +/- 9.52e-17], b_rr [-0.117119508466304 +/- 2.40e-16], b_T [0.266428396271657 +/- 1.31e-16], b_uu [0.446673779669537 +/- 3.81e-16]
+[    1.9s] centre
+[    3.0s]   centre: c0 = [-173.100444392300 +/- 7.33e-13] (sign -1)
+[    3.0s] routes
+[    7.8s]   centre chart theta=[4.968633 x=-12.0000000000           b_nn -2.4669653586070 +/- 1.51e-24  A/B overlap True Eres 2.02e-26
+[    7.8s]   centre chart theta=[4.968633 x=-12.0000000000           b_nn -2.4669653586070 +/- 1.91e-24  A/B overlap True Eres 2.18e-26
+[    7.8s]   centre chart theta=[9.979767 x=-9.00000000995           b_nn -4.0151029788901 +/- 6.09e-22  A/B overlap True Eres 8.13e-24
+[    7.8s]   centre chart theta=[9.979767 x=-9.00000000995           b_nn -4.0151029788901 +/- 7.72e-22  A/B overlap True Eres 8.79e-24
+[    7.8s]   centre chart theta=[0.002004 x=-6.00000401796           b_nn -6.5338896137718 +/- 2.46e-19  A/B overlap True Eres 3.28e-21
+[    7.8s]   centre chart theta=[0.002004 x=-6.00000401796           b_nn -6.5338896137718 +/- 3.12e-19  A/B overlap True Eres 3.55e-21
+[    7.8s]   centre chart theta=[0.008983 x=-4.50008069565           b_nn -2.6291546810556 +/- 5.02e-18  A/B overlap True Eres 6.63e-20
+[    7.8s]   centre chart theta=[0.008983 x=-4.50008069565           b_nn -2.6291546810556 +/- 6.34e-18  A/B overlap True Eres 7.17e-20
+[    7.8s]   tube x=-4.5                  x=-4.50000000000           b_nn -2.6300024457005 +/- 2.98e-9   A/B overlap True Eres 1.78e-11
+[    7.8s]   tube x=-3                    x=-3.00000000000           b_nn -0.0010135284303 +/- 5.86e-10  A/B overlap True Eres 2.80e-12
+[    7.8s]   tube x=-3                    x=-3.00000000000           b_nn -0.0010135284303 +/- 5.84e-10  A/B overlap True Eres 2.89e-12
+[    7.8s]   tube x=-2                    x=-2.00000000000           b_nn -0.0406049429244 +/- 5.30e-10  A/B overlap True Eres 1.58e-12
+[    7.8s]   tube x=-1.5                  x=-1.50000000000           b_nn -0.1600680570770 +/- 7.74e-10  A/B overlap True Eres 1.43e-12
+[    7.8s]   tube x=-1                    x=-1.00000000000           b_nn -0.1607706467550 +/- 8.12e-10  A/B overlap True Eres 8.63e-13
+[    7.8s]   tube x=-1                    x=-1.00000000000           b_nn -0.1607706467550 +/- 9.06e-10  A/B overlap True Eres 9.07e-13
+[    7.8s]   tube x=-0.84                 x=-0.84000000000           b_nn -0.0159786967654 +/- 6.09e-10  A/B overlap True Eres 5.71e-13
+[    7.8s]   tube x=-0.5                  x=-0.50000000000           b_nn 0.37937871202103 +/- 2.21e-10  A/B overlap True Eres 1.64e-13
+[    7.8s]   tube x=-0.2489               x=-0.24890000000           b_nn 0.47683050662698 +/- 2.44e-10  A/B overlap True Eres 1.21e-13
+[    7.8s]   sonic x=0                    x=0                        b_nn 0.41573728407701 +/- 1.09e-17  A/B overlap True Eres 1.15e-21
+[    7.8s]   outward x=0.2489             x=0.248900000000           b_nn 0.31961448465774 +/- 2.61e-18  A/B overlap True Eres 1.23e-21
+[    7.8s]   outward x=0.5                x=0.500000000000           b_nn 0.24193775195405 +/- 6.03e-19  A/B overlap True Eres 5.79e-22
+[    7.8s]   outward x=1                  x=1.000000000000           b_nn 0.15685522527273 +/- 2.88e-19  A/B overlap True Eres 3.15e-22
+[    7.8s]   outward x=x_lc               x=1.357941265765           b_nn 0.12957296903266 +/- 3.51e-19  A/B overlap True Eres 3.42e-22
+[    7.8s]   outward x=2                  x=2.000000000000           b_nn 0.10909231121132 +/- 9.07e-19  A/B overlap True Eres 5.46e-22
+[    7.8s]   outward x=3                  x=3.000000000000           b_nn 0.10102781798064 +/- 1.03e-17  A/B overlap True Eres 1.69e-21
+[    7.8s]   outward x=6                  x=6.000000000000           b_nn 0.09942488889050 +/- 7.57e-14  A/B overlap True Eres 1.11e-19
+[    7.8s]   outward x=9                  x=9.000000000000           b_nn 0.09943697797641 +/- 1.66e-9   A/B overlap True Eres 1.70e-17
+[    7.8s]   outward x=12                 x=12.00000000000           b_nn 0.09943860976412 +/- 5.89e-5   A/B overlap True Eres 5.01e-15
+[    7.8s] sign map
+[  131.9s]   sign map: 691 points, 0 uncertified, sign changes between [[['-0.8300000000000000000000000', '1.00e-75'], ['-0.8200000000000000000000000', '1.01e-75']]]
+[  131.9s] zero
+[  138.3s]   zero in [[-0.826114342212677 +/- 1.97e-18], [-0.826114339828491 +/- 2.11e-16]] width [2.38e-9 +/- 4.19e-12]; uniqueness interval ['-0.82612410664558410645', '-0.82610457539558410645']
+[  138.3s] interval attempts
+[  140.1s] wrote result_qb1.json
+memcap: exit 0, peak 0.12 GB of 8.00 GB cap

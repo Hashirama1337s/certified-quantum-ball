@@ -1,0 +1,127 @@
+{
+ "x=-0.01": {
+  "real": [
+   "0",
+   "1.10e-9"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "-2.74128164390e-7",
+   "1.10e-9"
+  ],
+  "N_b_excludes_0": true,
+  "sigma_TT": [
+   "0.274128164119",
+   "1.03e-15"
+  ],
+  "predicted_N_b": [
+   "-2.74128164119e-7",
+   "1.03e-21"
+  ]
+ },
+ "x=-0.25": {
+  "real": [
+   "4.33680868994e-19",
+   "1.60e-10"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "-5.14096818449e-7",
+   "1.60e-10"
+  ],
+  "N_b_excludes_0": true,
+  "sigma_TT": [
+   "0.514096817878",
+   "3.42e-16"
+  ],
+  "predicted_N_b": [
+   "-5.14096817878e-7",
+   "3.42e-22"
+  ]
+ },
+ "x=-2": {
+  "real": [
+   "3.19839640883e-18",
+   "1.14e-10"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "6.85100125075e-7",
+   "1.14e-10"
+  ],
+  "N_b_excludes_0": true,
+  "sigma_TT": [
+   "-0.685100124585",
+   "1.70e-13"
+  ],
+  "predicted_N_b": [
+   "6.85100124585e-7",
+   "1.70e-19"
+  ]
+ },
+ "x=-4.6": {
+  "real": [
+   "0",
+   "1.67e-8"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "5.81641278197e-9",
+   "1.67e-8"
+  ],
+  "N_b_excludes_0": false,
+  "sigma_TT": [
+   "-0.00581641271330",
+   "4.14e-10"
+  ],
+  "predicted_N_b": [
+   "5.81641271330e-9",
+   "4.14e-16"
+  ],
+  "note": "sonic-side transported representation (|Y| ~ 600): width too large for N-b; see x=-4.6_centre_side"
+ },
+ "x=-6": {
+  "real": [
+   "0",
+   "4.81e-11"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "3.54471713050e-10",
+   "4.81e-11"
+  ],
+  "N_b_excludes_0": true,
+  "sigma_TT": [
+   "-0.000354471712549",
+   "2.11e-12"
+  ],
+  "predicted_N_b": [
+   "3.54471712549e-10",
+   "2.11e-18"
+  ]
+ },
+ "x=-4.6_centre_side": {
+  "real": [
+   "0",
+   "8.00e-12"
+  ],
+  "real_contains_0": true,
+  "N_b": [
+   "5.81641272299e-9",
+   "8.00e-12"
+  ],
+  "N_b_excludes_0": true,
+  "sigma_TT": [
+   "-0.00581641271330",
+   "1.70e-13"
+  ],
+  "predicted_N_b": [
+   "5.81641271330e-9",
+   "1.70e-19"
+  ]
+ },
+ "all_real_contain_0": true,
+ "all_N_b_exclude_0": true,
+ "N_b_points_used": "x=-6, x=-4.6_centre_side, x=-2, x=-0.25, x=-0.01"
+}
+memcap: exit 0, peak 1.14 GB of 8.00 GB cap

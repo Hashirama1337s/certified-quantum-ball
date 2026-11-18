@@ -1,0 +1,15 @@
+k = 1/5
+geometry 2s
+rows 5s
+linearised + on-shell 19s
+K1 constraint first entry - kappa = (12*N*V*om + 2*V**2*om - 5*V**2 + 10*om + 5)/(5*(V - 1)*(V + 1)) ;  == -A : True
+K2 dJ/dx = c J on the homogeneous system: True ; c = (12*N*V*om + 6*V**2*om - 5*V**2 + 6*om + 5)/(5*(V - 1)*(V + 1)) ; c == -A : False
+K2 kappa in Comp: True
+    (div Sigma)_2 = 0
+    (div Sigma)_3 = 0
+K3 Comp / D_t free of sigma: True ; lam = (12*N*V*om + 2*V**2*om - 5*V**2 + 10*om + 5)/(5*(V - 1)*(V + 1))
+K3 lam == -A : True ; lam == -A^2 : False
+K3 sigma_TT in D_t: False ; in D_x: True
+K4 div(E_thth only)_s = 2*Eth(x)*exp(2*s - 2*x) ;  _x = -2*Eth(x)*exp(2*s - 2*x) ; sum = 0
+total 39s
+memcap: exit 0, peak 0.09 GB of 8.00 GB cap

@@ -1,0 +1,3 @@
+[    1.0s] nu_s=0.004 contracts over the box: eps=[1.05e-38 +/- 2.72e-43] epsX=[8.19e-40 +/- 3.21e-43] L*=[7.50 +/- 3.54e-3]
+[  708.5s] point run at E5 seed: |R| [+/- 1.45e-29], E [9.30e-30 +/- 1.80e-33], Newton step [+/- 3.48e-29], width_end [1.99e-26 +/- 8.98e-30] (707s)
+memcap: exit 143, peak 0.10 GB of 8.00 GB cap

@@ -1,0 +1,132 @@
+{
+ "instrument_sha256": {
+  "tm.py": "cfd650cd6874720bc7ae3e9a5a2ef490fefdea4ee57e5747fefeba0f24066b1f",
+  "tmbg.py": "e1ebc3baa93dd76dbc97693ebb36fdf8cf94b7fd4dcf6e3a3a7f3200c816dd65",
+  "tmcell.py": "d3416c6f6e93ad9b7b952bf84d7da9b4459774ff6ad1f7f53982f59b64349062",
+  "schart.py": "8708bc39034b26d13371803e649f0687f2ead95708f5e2ad761b1b7a35a1842f",
+  "signmap2.py": "bea6245c4cb4ad493da86881daa34e52751548befe0f122884595c2433c139f7",
+  "tasks2.py": "010f9a6037367abe47d75deb0b8f796b0851f2e27425b053654508d4125cee3d",
+  "dnew2.py": "579a3750f80c02b3c735c6a7c17edab2e1805a7ee35a451df5f1092f32073b4c",
+  "finalize.py": "040b410bc7a389c95ff4f448134bb91ce6174121eab47eab5f1a12b5d1dfe9f9"
+ },
+ "build1_imported_sha256": {
+  "ajet.py": "acee648e75a2a63ce0d1953d108acb3908e9bfc0537e60d7ae7b5770c7609c2f",
+  "aser.py": "fef6d9027b777ded02599a05d51610207c7f40a05dd842766a710d09642fa21e",
+  "charts.py": "3bb001bad328659c0a49438dd26c3c7610d52e5e24d486a0178ccb33604fd6c9",
+  "bg.py": "c05ad4d77e20daa24ed87b1c766bc97bd7a9b720e1b77401027f1d3ca352166c",
+  "ctl.py": "b31dc093e4a3e7649929bcff327fba519974e4f01b9db4fce5e69dda40071275",
+  "qb1.py": "309e91b6179ad72a28481c5e481d787be10cbe4060b7f20d105d960b2682fdc9"
+ },
+ "inputs_sha256": {
+  "<LAB>/engine/cert/lin_tube2_k1_3.pkl": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df",
+  "<LAB>/sideways/build-5/phase2/outward_C.pkl": "c5aab9780d415073dccb8c9ab179e46ce9050ac493d400c26da18e1be540b1d5",
+  "<LAB>/engine/cert/fields.pkl": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b",
+  "<LAB>/engine/cert/taylor.py": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+ },
+ "parts_sha256": {
+  "sm_centre.json": "080a61354cdc0535fb6f3a1f2dfcc51fcf55c5a4bf044ae1cd66bdfc4b7f8421",
+  "sm_out1.json": "285e24c191a2f1be7645642ee1283fcf04af1b210016682e646e6f5920f87382",
+  "sm_out2.json": "58ca5ab14459b33e80836c5954cf5e64524675aa6513bde2e4cef3afcf7c0e32",
+  "sm_out3.json": "5c9f8c06a54d4c88add77dd4b06dbf67becb351dc67010bb8e9fe84533a41bf2",
+  "sm_out4.json": "472d3c2969f7ecd45620b650b4a0001a09c61d135e5a9bccc12fbf8de6cde823",
+  "sm_sonic.json": "a260ed057a9dc5b715323e464617a703b8df6813eb8d28aa7af108c4cc3fe81e",
+  "sm_tube.json": "0796c9981e7acafbeef7edc6450a127adcaa67e7229bafadf67a974f39864444",
+  "sm_tube2.json": "5cb247fa5e7c1e495353c6358abd1e4c1e8aba421838b9c569d8b5858b9e3b05",
+  "sm_w.json": "a5d315116f9d6ae900b0da8c4a437b6a2a67bbf42b98374537b562c976ce9a98"
+ },
+ "result_qb1b_sha256": "cb204c29eaedd633c3a6f5ab58826a616a029f097afef1b88fba2d7f7ef1e6cd",
+ "controls": {
+  "build1_controls_under_install": {
+   "all_positive_controls_pass": true,
+   "signflip_null_refuses": true
+  },
+  "C0_hayward_TM_u_in_[-1/16,1/16]": {
+   "contains": [
+    true,
+    true,
+    true
+   ],
+   "values": [
+    "[+/- 0.0201]",
+    "[+/- 0.0913]",
+    "[-0.01 +/- 9.56e-3]"
+   ],
+   "pass_": true
+  },
+  "NULL_signflip_hayward_TM": {
+   "contains": [
+    true,
+    true,
+    false
+   ],
+   "values": [
+    "[+/- 0.0201]",
+    "[+/- 0.0913]",
+    "[-0.03 +/- 8.45e-3]"
+   ],
+   "refuses": true
+  },
+  "C3_RN_TM_r_in_[95/32,97/32]": {
+   "xi0": [
+    true,
+    true,
+    true
+   ],
+   "xi1/6": [
+    true,
+    true,
+    true
+   ],
+   "Bach_eq_60V": [
+    true,
+    true,
+    true
+   ],
+   "routeA_eq_V": [
+    true,
+    true,
+    true
+   ],
+   "pass_": true
+  },
+  "C2_minkowski_schart_TM": {
+   "b": {
+    "nn": "[+/- 4.35e-5]",
+    "nr": "[+/- 7.92e-9]",
+    "rr": "[+/- 1.30e-5]",
+    "T": "[+/- 1.30e-5]",
+    "uu": "[+/- 4.35e-5]"
+   },
+   "pass_": true
+  },
+  "C6_friedmann_k1/2_schart_TM": {
+   "rows": [
+    {
+     "z": "0.5 +- 1/512",
+     "V0_uu": "[0.0005 +/- 2.25e-5]",
+     "pred": "[0.0005 +/- 2.25e-5]",
+     "V6_uu": "[+/- 1.16e-10]",
+     "pass_": true
+    },
+    {
+     "z": "1 +- 1/512",
+     "V0_uu": "[0.008 +/- 2.95e-4]",
+     "pred": "[0.008 +/- 2.95e-4]",
+     "V6_uu": "[+/- 8.10e-11]",
+     "pass_": true
+    },
+    {
+     "z": "1.5 +- 1/512",
+     "V0_uu": "[0.042 +/- 5.52e-4]",
+     "pred": "[0.042 +/- 5.51e-4]",
+     "V6_uu": "[+/- 2.10e-7]",
+     "pass_": true
+    }
+   ],
+   "pass_": true
+  },
+  "all_extended_positive_controls_pass": true,
+  "signflip_null_refuses_TM": true,
+  "time_s": 10.8
+ }
+}

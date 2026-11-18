@@ -1,0 +1,15 @@
+sonic X[0], X[1] = 0.0 1.0
+sonic N0, om0, V0 = ['2.011316891263235172802', '0.3256888894230684044787', '0.1124394013880983362238']
+sonic condition (1+NV)^2 - k(N+V)^2 = 3.9171e-37
+generic geometry built in 14.4 s
+sonic A0 = 1.861426722571081642101
+sonic b_nn = 0.4157372840770100272197622
+sonic b_nr = 0.1190421959584470894048207
+sonic b_rr = -0.1171195084663042197300078
+sonic b_T = 0.266428396271657123474885
+sonic b_uu = 0.4466737796695366321323105
+sonic b_uu_flipV = 0.3924480919465112301503743
+sonic traceless check b_T - (b_nn - b_rr)/2 = -3.2519e-51
+sonic Einstein residual r^2(G-8piT): {'nn': '1.013e-34', 'nr': '-0.10627', 'rr': '1.7839e-35', 'T': '2.137e-32'}  with V flipped (nr): 5.0367e-35
+sonic r^2 R = -4.2657e-32
+memcap: exit 0, peak 0.09 GB of 8.00 GB cap

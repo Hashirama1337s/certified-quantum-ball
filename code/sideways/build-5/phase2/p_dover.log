@@ -1,0 +1,5 @@
+old built and evaluated (174s)
+new built and evaluated (352s)
+all overlap: True
+D_new v0, v8: [3.9495412485 +/- 5.62e-11] + [-0.8581369214 +/- 2.67e-11]j [-0.00939863 +/- 3.29e-9] + [0.01982346 +/- 3.50e-9]j
+memcap: exit 0, peak 0.78 GB of 8.00 GB cap

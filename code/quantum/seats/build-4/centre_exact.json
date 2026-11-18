@@ -1,0 +1,20 @@
+{
+ "claims": {
+  "nn_O4": true,
+  "rr_O4": true,
+  "T_O4": true,
+  "nr_O5": true,
+  "isotropy_rr4": true,
+  "isotropy_T4": true
+ },
+ "b_nn_4": "-2*W0*(8*W0 - 3)/3",
+ "b_nr_5": "-8*W0*(8*W0 - 3)/9",
+ "c0": [
+  "-173.1004443922995663248426",
+  "8.79e-16"
+ ],
+ "c0_overlaps_QB1": true,
+ "NMAX": 6,
+ "J0": "Matrix([[1, 0, 0], [0, 0, 0], [0, 0, -3]])",
+ "time_s": 204.6
+}

@@ -1,0 +1,4 @@
+sigma_ss - page: 0  sigma_sx - page: 0  sigma_xx - page: 0
+row0 = A*bnn | row1 = -A*(bnn - brr)/2 | sigma_I = A*(N*bnr - bnn)
+g_ss/r^2 = -A*N**2 + A  g_sx/r^2 = -A  g_xx/r^2 = A
+memcap: exit 0, peak 0.05 GB of 4.00 GB cap

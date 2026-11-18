@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="900pt" height="547.2pt" viewBox="0 0 900 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 900 547.2 
+L 900 0 
+L 0 0 
+L 0 547.2 
+z
+" style="fill: none"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 17.1 543.9168 
+L 882.9 543.9168 
+Q 896.4 543.9168 896.4 535.7088 
+L 896.4 11.4912 
+Q 896.4 3.2832 882.9 3.2832 
+L 17.1 3.2832 
+Q 3.6 3.2832 3.6 11.4912 
+L 3.6 535.7088 
+Q 3.6 543.9168 17.1 543.9168 
+z
+" style="fill: #1c2026; stroke: #2f353d; stroke-width: 1.5; stroke-linejoin: miter"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_3">
+    <path d="M 274.5 513.05472 
+C 329.296986 513.05472 381.857006 491.283647 420.604326 452.536326 
+C 459.351647 413.789006 481.12272 361.228986 481.12272 306.432 
+C 481.12272 251.635014 459.351647 199.074994 420.604326 160.327674 
+C 381.857006 121.580353 329.296986 99.80928 274.5 99.80928 
+C 219.703014 99.80928 167.142994 121.580353 128.395674 160.327674 
+C 89.648353 199.074994 67.87728 251.635014 67.87728 306.432 
+C 67.87728 361.228986 89.648353 413.789006 128.395674 452.536326 
+C 167.142994 491.283647 219.703014 513.05472 274.5 513.05472 
+z
+" clip-path="url(#p139bef241f)" style="fill: #d95926; opacity: 0.28"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 274.5 383.083237 
+C 294.828146 383.083237 314.32644 375.006779 328.700609 360.632609 
+C 343.074779 346.25844 351.151237 326.760146 351.151237 306.432 
+C 351.151237 286.103854 343.074779 266.60556 328.700609 252.231391 
+C 314.32644 237.857221 294.828146 229.780763 274.5 229.780763 
+C 254.171854 229.780763 234.67356 237.857221 220.299391 252.231391 
+C 205.925221 266.60556 197.848763 286.103854 197.848763 306.432 
+C 197.848763 326.760146 205.925221 346.25844 220.299391 360.632609 
+C 234.67356 375.006779 254.171854 383.083237 274.5 383.083237 
+z
+" clip-path="url(#p139bef241f)" style="fill: #3987e5; opacity: 0.55"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 274.5 481.536 
+C 320.938124 481.536 365.480514 463.085938 398.317226 430.249226 
+C 431.153938 397.412514 449.604 352.870124 449.604 306.432 
+C 449.604 259.993876 431.153938 215.451486 398.317226 182.614774 
+C 365.480514 149.778062 320.938124 131.328 274.5 131.328 
+C 228.061876 131.328 183.519486 149.778062 150.682774 182.614774 
+C 117.846062 215.451486 99.396 259.993876 99.396 306.432 
+C 99.396 352.870124 117.846062 397.412514 150.682774 430.249226 
+C 183.519486 463.085938 228.061876 481.536 274.5 481.536 
+L 274.5 481.536 
+z
+" clip-path="url(#p139bef241f)" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #c98500; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 274.5 442.423581 
+C 310.565389 442.423581 345.158488 428.09465 370.660569 402.592569 
+C 396.16265 377.090488 410.491581 342.497389 410.491581 306.432 
+C 410.491581 270.366611 396.16265 235.773512 370.660569 210.271431 
+C 345.158488 184.76935 310.565389 170.440419 274.5 170.440419 
+C 238.434611 170.440419 203.841512 184.76935 178.339431 210.271431 
+C 152.83735 235.773512 138.508419 270.366611 138.508419 306.432 
+C 138.508419 342.497389 152.83735 377.090488 178.339431 402.592569 
+C 203.841512 428.09465 238.434611 442.423581 274.5 442.423581 
+L 274.5 442.423581 
+z
+" clip-path="url(#p139bef241f)" style="fill: none; stroke: #39ff14; stroke-width: 2.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m15b674c46a" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #e8edf2"/>
+    </defs>
+    <g clip-path="url(#p139bef241f)">
+     <use xlink:href="#m15b674c46a" x="274.5" y="306.432" style="fill: #e8edf2; stroke: #e8edf2"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #e8edf2" x="31.5" y="43.60625" transform="rotate(-0 31.5 43.60625)">Where the quantum source points, at one instant (t = −1, so r = e^x)</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 14px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9aa4ae" x="31.5" y="70.993125" transform="rotate(-0 31.5 70.993125)">Shading: sign of the Bach energy b_nn, the same for every free massless field of spin ≤ 1.</text>
+  </g>
+  <g id="text_3">
+   <text style="font-size: 15px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #3987e5" x="558" y="142.272" transform="rotate(-0 558 142.272)">core  r &lt; 0.43775:  b_nn &lt; 0</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 15px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #d95926" x="558" y="186.048" transform="rotate(-0 558 186.048)">shell r &gt; 0.43775:  b_nn &gt; 0</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 15px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c98500" x="558" y="240.768" transform="rotate(-0 558 240.768)">dashed: sonic sphere r = 1</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 15px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #39ff14" x="558" y="295.488" transform="rotate(-0 558 295.488)">solid: peak compactness, r = e^{x_V} = 0.7766</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 15px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #39ff14" x="558" y="325.584" transform="rotate(-0 558 325.584)">Ψ₂ is read here</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 13px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #9aa4ae" transform="translate(558 376.008586)">The picture shrinks self-similarly as t → 0⁻.</text>
+   <text style="font-size: 13px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #9aa4ae" transform="translate(558 390.39923)">Conditional on a Hadamard state respecting</text>
+   <text style="font-size: 13px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #9aa4ae" transform="translate(558 404.928)">self-similarity (existence not proved).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p139bef241f">
+   <rect x="55.62" y="87.552" width="437.76" height="437.76"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,14 @@
+plain order-0 radius profile: []
+plain tube step 690 0.3s/step order-0 radius 8.1e-14
+plain tube step 715 0.3s/step order-0 radius 3.1e-13
+tight tube step 690 4.5s/step order-0 radius 8.0e-14
+tight tube step 715 4.7s/step order-0 radius 3.1e-13
+record setrad at tube step 100 3.445077
+record setrad at tube step 600 2.549236
+record setrad at tube step 690 2.376457
+record setrad at tube step 715 4.671617
+memcap: exit 0, peak 1.14 GB of 8.00 GB cap
+100 3.4450 00000000e-22
+600 2.5492 00000000e-18
+690 2.3764 00000000e-17
+715 4.6716 00000000e-17

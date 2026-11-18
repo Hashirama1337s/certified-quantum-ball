@@ -1,0 +1,36 @@
+{
+  "upload_type": "software",
+  "title": "Which way does the quantum world push a ball of light? A certified one-loop Bach source on the Evans-Coleman critical solution, and the sign of its secular push on the peak compactness",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
+  "description": "<p><strong>In plain words.</strong> A collapsing ball of light (a gas of radiation) either forms a black hole or flies apart, and exactly on the dividing line sits the Evans-Coleman critical solution, which we certified earlier. Quantum fields add a small extra stress to it. Most of that stress depends on an unknown quantum state, but one slowly growing piece is fixed by the geometry alone: for every free massless field of spin up to 1 it is a positive multiple of a curvature quantity called the Bach tensor. We computed that piece on the certified solution with guaranteed error bars, and then the ball's response to it.</p><p><strong>Results (computer-assisted).</strong> The energy profile of the Bach source is negative in the core and positive in the shell, with exactly one sign change on x in [-12, 12], at x in [-0.82611434347927570343, -0.82611433975398540497]. Its centre coefficient has the closed form c0 = -(2/3)W0(8W0-3)e^{-4xc} = [-173.1004443922995663248426 +- 8.79e-16]. The gauge-invariant s e^{2s} change of the local peak compactness 2m/r, at the sphere where the gas stands still, is Psi2 = [3.4616358037141656915 +- 3.02e-12] (per unit K eps s e^{2s}, Koike-Hara-Adachi clock, K = N_c/(30 pi)): positive, toward trapping. To our knowledge (search of arXiv, INSPIRE and Zenodo to 18 November 2026), no earlier work evaluates this source on a true critical solution, derives a sign from it, or certifies any semiclassical quantity on a true critical-collapse solution.</p><p><strong>Not claimed.</strong> Every claim assumes a Hadamard quantum state respecting self-similarity, whose existence on this background is not proved. Which way Planck's constant moves the black-hole threshold is stated only as a conjecture under named conditions. The state-dependent part is not computed.</p><p><strong>Checks.</strong> Five sealed tests, all listed: one HOLD and four FAILED by item. The headline held in all three bars that tested it, and the conservation-width bar failed and is reported as failed. Four internal hostile referee rounds (internal lab checks, not external peer review). A blind second implementation, by a different double-precision method, agrees to 6.9e-12 relative. A clean-room reproduction script re-runs the certificates.</p><p>Prepared with AI assistance; what was checked, and by what, is stated above.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "language": "eng",
+  "keywords": [
+    "critical collapse",
+    "Evans-Coleman solution",
+    "radiation fluid",
+    "semiclassical gravity",
+    "one-loop stress tensor",
+    "Bach tensor",
+    "trace anomaly",
+    "self-similar solutions",
+    "computer-assisted proof",
+    "interval arithmetic",
+    "rigorous numerics",
+    "general relativity"
+  ],
+  "related_identifiers": [
+    {"relation": "isSupplementedBy", "identifier": "https://github.com/Hashirama1337s/certified-quantum-ball", "scheme": "url"},
+    {"relation": "references", "identifier": "10.5281/zenodo.24303877", "scheme": "doi"},
+    {"relation": "references", "identifier": "arXiv:gr-qc/9804058", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:2509.10360", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:2509.03584", "scheme": "arxiv"},
+    {"relation": "references", "identifier": "arXiv:2509.03587", "scheme": "arxiv"}
+  ]
+}

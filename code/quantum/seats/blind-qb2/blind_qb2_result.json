@@ -1,0 +1,36 @@
+{
+  "seat": "blind-qb2",
+  "Psi_per_unit_K_eps": "0.1075199950",
+  "Psi_error_estimate": "1e-11 (spread of 6 runs: N=40,50,60 x X=0.90,0.95 is 8.4e-13; gauge-shift changes <= 8e-12)",
+  "Psi_sign": "positive",
+  "Psi_runs": {
+    "N40_X0.95": "0.10751999497668573",
+    "N50_X0.95": "0.10751999497706545",
+    "N60_X0.95": "0.10751999497716666",
+    "N40_X0.90": "0.10751999497733232",
+    "N50_X0.90": "0.10751999497752145",
+    "N60_X0.90": "0.107519994977364"
+  },
+  "Psi_if_t_rescaled_so_sonic_point_at_x_1": "0.0703122148",
+  "normalisation": "source eps*K*u*B_ab/(240 pi^2), B_ab = nabla^c nabla^d C_acbd + (1/2) R^cd C_acbd (Wald signs, mostly plus); u = -ln(-t), t = proper time of the central observer (alpha(0)=1), t->0^- at the singularity; Psi = coefficient of eps*K*u*e^{2u} in delta(2m/r), divided by (1-2m/r), at x_peak. If t_lead = c * t_here then Psi_lead = c^2 * Psi_here.",
+  "kappa_star": "2.8105525488",
+  "gamma": "0.3558019224",
+  "B_over_V_check": "B_hat/V_hat = 60 to <= 2e-6 (N=60), pointwise on the background",
+  "background": {
+    "w0_8pi_rho_t2_centre": "17.80264655551",
+    "x_sonic": "0.80866895631844",
+    "v_sonic": "0.1124394013881",
+    "x_peak": "0.62803916560721",
+    "A_peak": "1.91434642526073",
+    "two_m_over_r_peak": "0.47762850714765"
+  },
+  "controls": {
+    "manufactured_source_Psi_exact": "0.059103772656349494",
+    "manufactured_source_Psi_solver_N40": "0.05910377265634301",
+    "manufactured_source_Psi_solver_N60": "0.05910377265585871",
+    "kappa_reproduced": true,
+    "background_matches_lab_stored_constants": true,
+    "gauge_invariance_numeric": true
+  },
+  "resume_tested": "not applicable (no checkpoint/resume path)"
+}

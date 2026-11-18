@@ -1,0 +1,20 @@
+KMAX 12 MODE off
+christoffel (2s)
+riemann (12s); R scalar at t=-1, theta=pi/2, low orders: -(28*m0*r**2 + 365*r**2 - 42)/70
+weyl (22s)
+Weyl trace residual: lowest r-power per component (None = exactly 0): [12, None, None, None, None, 12, None, None, None, None, 12, None, None, None, None, 12]
+div weyl (57s)
+bach (79s)
+B_(nn) at t=-1: coefficients of r^p, p<=2: {0: -(560*m0**2 - 210*m0 - 1749)/420, 2: -(-149800*m0**3 + 1190*m0**2 + 3822000*m0*v5 + 597375*m0 + 78066)/37800}
+B_(nr) at t=-1: coefficients of r^p, p<=2: {1: -(560*m0**2 - 210*m0 - 1749)/315}
+B_(rr) at t=-1: coefficients of r^p, p<=2: {0: -(560*m0**2 - 210*m0 - 1749)/1260, 2: -(-172200*m0**3 + 345590*m0**2 + 3822000*m0*v5 + 541335*m0 - 971334)/189000}
+B_(T) at t=-1: coefficients of r^p, p<=2: {0: -(560*m0**2 - 210*m0 - 1749)/1260, 2: -(-144200*m0**3 - 84910*m0**2 + 3822000*m0*v5 + 611385*m0 + 340416)/94500}
+trace of B (orders <= 2) at t=-1: 0
+b_nn_4 = t^4 B_(nn)(t,0) = -(2240*W0**2 - 420*W0 - 1749)/420   claim -2*W0*(8*W0-3)/3 -> False
+b_nr_5 (coef of z^5 in r^4 B_(nr), t=-1) = -(2240*W0**2 - 420*W0 - 1749)/315   claim -8*W0*(8*W0-3)/9 -> False
+b_nr_5/b_nn_4 = 4/3
+b_rr_4/b_nn_4 = 1/3  b_T_4/b_nn_4 = 1/3
+v5 present in the leading coefficients: True
+done (86s)
+memcap: exit 0, peak 0.08 GB of 4.00 GB cap
+EXIT 0

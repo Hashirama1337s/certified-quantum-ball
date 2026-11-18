@@ -1,0 +1,10 @@
+[    0.5s] stage S ready (0s)
+[    1.0s] centre ready (1s)
+[    5.1s] stage L ready: 1440 steps (5s)
+[    5.1s] [v3] engine: CachedLinear2(L13_nsub2.pkl, sha256 verified c239cbe53470), prec set to 128 after setup, TM frame A1
+[    9.1s] kappa=0: D_new = [-108.527276 +/- 4.05e-7] + [+/- 2.38e-12]j   D_HKA = [194.055283 +/- 3.85e-7] + [+/- 5.41e-12]j  (4s)
+[   13.2s] kappa=1: D_new = [-7.24408854 +/- 4.85e-9] + [+/- 1.97e-14]j   D_HKA = [-23.46259769 +/- 8.12e-9] + [+/- 1.04e-13]j  (4s)
+[   17.2s] kappa=2: D_new = [-2.41262709 +/- 5.34e-9] + [+/- 3.75e-14]j   D_HKA = [-19.9422953 +/- 4.33e-8] + [+/- 1.14e-13]j  (4s)
+[   29.1s] float lin_float D_new: {'-4.6': {0.0: -108.52727565150171, 1.0: -7.244088542878887, 2.0: -2.412627085797027}, '-2.0': {0.0: -7.958257902778397, 1.0: -0.5442148357564793, 2.0: -0.18568821647419909}}
+[   29.1s] wrote dnew_qb1.json
+memcap: exit 0, peak 1.16 GB of 8.00 GB cap

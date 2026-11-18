@@ -1,0 +1,17 @@
+[   60.6s] 25 evals, 25 cells, 0 unresolved, at x=-4.125
+[  122.6s] 50 evals, 50 cells, 0 unresolved, at x=-3.734375
+[  180.2s] 75 evals, 75 cells, 0 unresolved, at x=-3.34375
+[  238.7s] 100 evals, 100 cells, 0 unresolved, at x=-2.953125
+[  296.9s] 125 evals, 125 cells, 0 unresolved, at x=-2.5625
+[  354.7s] 150 evals, 150 cells, 0 unresolved, at x=-2.171875
+[  411.7s] 175 evals, 175 cells, 0 unresolved, at x=-1.78125
+[  468.5s] 200 evals, 200 cells, 0 unresolved, at x=-1.390625
+[  523.6s] 225 evals, 225 cells, 0 unresolved, at x=-1.0
+[  578.6s] 250 evals, 239 cells, 0 unresolved, at x=-0.8261260986328125
+[  632.1s] 275 evals, 260 cells, 1 unresolved, at x=-0.65625
+[  687.4s] 300 evals, 283 cells, 1 unresolved, at x=-0.328125
+[  738.2s] 325 evals, 299 cells, 1 unresolved, at x=-0.19921875
+[  780.7s] 350 evals, 314 cells, 1 unresolved, at x=-0.12109375
+[  822.9s] 375 evals, 327 cells, 1 unresolved, at x=-0.078125
+[  844.6s] done: 386 evals, 334 certified cells, 1 unresolved -> sm_tube.json
+memcap: exit 0, peak 0.13 GB of 8.00 GB cap

@@ -1,0 +1,9 @@
+nn free ['A0', 'A1', 'A2', 'A3', 'A4', 'l1', 'l2', 'l3', 'l4', 'u']  denom 24*A0**6
+   check True
+nr free ['A0', 'A1', 'A2', 'A3', 'A4', 'l1', 'l2', 'l3', 'l4', 'u']  denom 6*A0**6
+   check True
+rr free ['A0', 'A1', 'A2', 'A3', 'A4', 'l1', 'l2', 'l3', 'l4', 'u']  denom 24*A0**6
+   check True
+T free ['A0', 'A1', 'A2', 'A3', 'A4', 'l1', 'l2', 'l3', 'l4', 'u']  denom 24*A0**6
+   check True
+memcap: exit 0, peak 0.06 GB of 8.00 GB cap

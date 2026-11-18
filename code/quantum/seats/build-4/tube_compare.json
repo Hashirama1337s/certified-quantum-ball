@@ -1,0 +1,34 @@
+{
+ "n_old": 720,
+ "n_new": 720,
+ "same_partition": true,
+ "steps_not_overlapping": [],
+ "max_setrad_old": "[1.01e-13 +/- 1.83e-16]",
+ "max_setrad_new": "[5.19e-17 +/- 1.36e-20]",
+ "max_|dc|/(setrad_old+setrad_new)": 0.717916228308894,
+ "sm_coeffs_overlap": true,
+ "sm_ncoeffs": 324,
+ "cm_coeffs_overlap": true,
+ "cm_ncoeffs": 244,
+ "sm_coeff1_rad_old_new": [
+  "1.148887078e-16",
+  "1.315493046e-25"
+ ],
+ "sm_coeff5_rad_old_new": [
+  "1.546640923e-10",
+  "1.770927194e-19"
+ ],
+ "end_overlap": true,
+ "end_rad_old_new": [
+  [
+   "1.451337730e-13",
+   "3.255970751e-18",
+   "7.111958789e-15"
+  ],
+  [
+   "5.200476601e-17",
+   "7.078158681e-22",
+   "2.158978661e-18"
+  ]
+ ]
+}

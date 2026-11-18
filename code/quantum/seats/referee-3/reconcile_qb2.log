@@ -1,0 +1,15 @@
+x_V(build) - ln(x_peak/x_s) = -4.53521635977346505973400325827e-15
+A(build) - 1/(1-2m/r)(blind) = 1.57496102130588504728883608011e-14
+blind run 0.107519994976685 -> build units 3.461635803690203 ; minus build -2.39e-11 ; rel -6.92e-12
+blind run 0.107519994977065 -> build units 3.461635803702428 ; minus build -1.17e-11 ; rel -3.39e-12
+blind run 0.107519994977166 -> build units 3.461635803705687 ; minus build -8.46e-12 ; rel -2.44e-12
+blind run 0.107519994977332 -> build units 3.46163580371102 ; minus build -3.13e-12 ; rel -9.03e-13
+blind run 0.107519994977521 -> build units 3.461635803717109 ; minus build 2.96e-12 ; rel 8.56e-13
+blind run 0.107519994977364 -> build units 3.46163580371204 ; minus build -2.11e-12 ; rel -6.08e-13
+build Psi2 radius 0.000000115  rel 3.32e-8
+implied factor/pi = 30.0000000000733
+Abar2/(30 pi x_s^2) = 0.107519994977429  blind N60 = 0.10751999497716666
+null 5pi^2 instead of 30pi/A: 3.46976872434 vs 3.4616358037141459203
+per unit N_c eps: build delta(2m/r) coeff of s e^{2s} = Psi2/(30pi) = 0.036729096623
+  same in central-proper-time u e^{2u}: Psi_blind/A = 0.0561653802877  = Psi2/(30pi x_s^2) = 0.0561653802878
+photons N_c=12, K*Psi2 = 12 Psi2/(30 pi) = 0.440749159476

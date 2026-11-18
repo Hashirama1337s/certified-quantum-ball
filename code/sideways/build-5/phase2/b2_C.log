@@ -1,0 +1,21 @@
+[    0.9s] nu_s=0.004 contracts over the box: eps=[1.46e-26 +/- 3.82e-29] epsX=[1.67e-27 +/- 4.67e-30] L*=[7.50 +/- 3.54e-3]
+[    0.9s] V0 box [0.1124394013880983362237630276 +/- 3.80e-29] (width [7.58e-29 +/- 2e-35]), nu_s 0.004, prec 256, Kt 50
+[   61.9s]   tau step 50 x=0.03262 h=0.008553 width=[3.85e-26 +/- 3.85e-29] t=60.4s
+[   88.1s] tau leg 63 steps; x-gap transport to x = [0.050000 +/- 1e-11] (87s)
+[  146.3s]   lohner step 50 x=0.0899 h=0.0008553 width=[1.10e-25 +/- 2.90e-28] t=58.2s
+[  203.8s]   lohner step 100 x=0.1612 h=0.001829 width=[1.46e-25 +/- 1.80e-28] t=115.7s
+[  262.3s]   lohner step 150 x=0.2831 h=0.00391 width=[2.00e-25 +/- 3.62e-28] t=174.2s
+[  317.0s]   lohner step 200 x=0.4772 h=0.004181 width=[2.44e-25 +/- 4.53e-28] t=228.9s
+[  378.8s]   lohner step 250 x=0.7739 h=0.008939 width=[2.61e-25 +/- 4.55e-28] t=290.8s
+[  440.1s]   lohner step 300 x=1.1523 h=0.009557 width=[2.40e-25 +/- 4.55e-28] t=352.0s
+[  502.7s]   lohner step 350 x=1.5795 h=0.01022 width=[2.13e-25 +/- 6.12e-29] t=414.6s
+[  567.8s]   lohner step 400 x=2.0362 h=0.01092 width=[1.81e-25 +/- 1.22e-28] t=479.7s
+[  631.1s]   lohner step 450 x=2.5526 h=0.01168 width=[1.43e-25 +/- 4.89e-28] t=543.0s
+[  690.4s]   lohner step 500 x=3.1527 h=0.01248 width=[1.06e-25 +/- 4.34e-28] t=602.3s
+[  751.0s]   lohner step 550 x=3.9690 h=0.0267 width=[8.76e-26 +/- 7.74e-30] t=662.9s
+[  815.1s]   lohner step 600 x=5.3977 h=0.05708 width=[7.41e-26 +/- 2.50e-29] t=727.1s
+[  879.3s]   lohner step 650 x=9.5862 h=0.1221 width=[6.85e-26 +/- 1.42e-29] t=791.3s
+[  904.4s] outward: steps=731 D<0 True V>0 True lemma True
+[  904.5s] saved <LAB-WIN>\sideways\build-5\phase2\outward_C.pkl (731 steps)
+[  912.1s] x_lc [1.357941265765732412834755 +/- 4.81e-25] (width [6.9783e-25 +/- 7.73e-31]); near-cone max rel 1.058e-24; state at x_lc max rel 1.466e-24; overlap old True; x_lc overlaps old True
+memcap: exit 0, peak 0.14 GB of 8.00 GB cap

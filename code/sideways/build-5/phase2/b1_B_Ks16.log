@@ -1,0 +1,17 @@
+[    0.9s] nu_s=0.004 contracts over the box: eps=[1.46e-26 +/- 3.82e-29] epsX=[1.67e-27 +/- 4.67e-30] L*=[7.50 +/- 3.54e-3]
+[  531.4s] point run at E5 seed: |R| [+/- 3.90e-30], Newton step [+/- 7.91e-30], width_end [5.35e-27 +/- 2.51e-30] (530s)
+[  582.9s]   tau step 50 x=-0.03194 h=0.008553 width=[7.43e-31 +/- 1.91e-34] t=47.2s
+[  636.7s]   lohner step 50 x=-0.0894 h=0.0008553 width=[2.84e-30 +/- 4.47e-33] t=41.0s
+[  677.0s]   lohner step 100 x=-0.1587 h=0.001829 width=[5.42e-30 +/- 6.97e-34] t=81.3s
+[  718.5s]   lohner step 150 x=-0.2739 h=0.00391 width=[8.56e-30 +/- 2.94e-33] t=122.8s
+[  759.3s]   lohner step 200 x=-0.4498 h=0.004181 width=[1.24e-29 +/- 2.66e-33] t=163.5s
+[  799.2s]   lohner step 250 x=-0.7119 h=0.004469 width=[4.65e-29 +/- 3.17e-32] t=203.5s
+[  845.3s]   lohner step 300 x=-1.0364 h=0.004778 width=[1.15e-28 +/- 4.89e-31] t=249.5s
+[  897.1s]   lohner step 350 x=-1.3785 h=0.005109 width=[1.97e-28 +/- 4.26e-31] t=301.3s
+[  957.4s]   lohner step 400 x=-1.7548 h=0.01092 width=[3.12e-28 +/- 1.83e-31] t=361.7s
+[ 1016.2s]   lohner step 450 x=-2.1982 h=0.01168 width=[5.17e-28 +/- 9.08e-32] t=420.5s
+[ 1076.3s]   lohner step 500 x=-2.7133 h=0.01248 width=[9.82e-27 +/- 4.12e-30] t=480.6s
+[ 1136.6s]   lohner step 550 x=-3.2949 h=0.01335 width=[5.78e-26 +/- 4.65e-29] t=540.8s
+[ 1145.5s] point run: 614.1s |R|=[1.75e-25 +/- 2.06e-28] width_end=[7.53e-26 +/- 3.61e-29] Epoint=[1.67e-24 +/- 1.74e-28]
+[ 1224.7s]   tau step 50 x=-0.03194 h=0.008553 width=[3.29e-27 +/- 1.32e-30] t=72.3s
+memcap: exit 143, peak 0.10 GB of 8.00 GB cap

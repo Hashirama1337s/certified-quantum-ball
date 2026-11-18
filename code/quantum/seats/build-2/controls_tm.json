@@ -1,0 +1,94 @@
+{
+ "build1_controls_under_install": {
+  "all_positive_controls_pass": true,
+  "signflip_null_refuses": true
+ },
+ "C0_hayward_TM_u_in_[-1/16,1/16]": {
+  "contains": [
+   true,
+   true,
+   true
+  ],
+  "values": [
+   "[+/- 0.0201]",
+   "[+/- 0.0913]",
+   "[-0.01 +/- 9.56e-3]"
+  ],
+  "pass_": true
+ },
+ "NULL_signflip_hayward_TM": {
+  "contains": [
+   true,
+   true,
+   false
+  ],
+  "values": [
+   "[+/- 0.0201]",
+   "[+/- 0.0913]",
+   "[-0.03 +/- 8.45e-3]"
+  ],
+  "refuses": true
+ },
+ "C3_RN_TM_r_in_[95/32,97/32]": {
+  "xi0": [
+   true,
+   true,
+   true
+  ],
+  "xi1/6": [
+   true,
+   true,
+   true
+  ],
+  "Bach_eq_60V": [
+   true,
+   true,
+   true
+  ],
+  "routeA_eq_V": [
+   true,
+   true,
+   true
+  ],
+  "pass_": true
+ },
+ "C2_minkowski_schart_TM": {
+  "b": {
+   "nn": "[+/- 4.35e-5]",
+   "nr": "[+/- 7.92e-9]",
+   "rr": "[+/- 1.30e-5]",
+   "T": "[+/- 1.30e-5]",
+   "uu": "[+/- 4.35e-5]"
+  },
+  "pass_": true
+ },
+ "C6_friedmann_k1/2_schart_TM": {
+  "rows": [
+   {
+    "z": "0.5 +- 1/512",
+    "V0_uu": "[0.0005 +/- 2.25e-5]",
+    "pred": "[0.0005 +/- 2.25e-5]",
+    "V6_uu": "[+/- 1.16e-10]",
+    "pass_": true
+   },
+   {
+    "z": "1 +- 1/512",
+    "V0_uu": "[0.008 +/- 2.95e-4]",
+    "pred": "[0.008 +/- 2.95e-4]",
+    "V6_uu": "[+/- 8.10e-11]",
+    "pass_": true
+   },
+   {
+    "z": "1.5 +- 1/512",
+    "V0_uu": "[0.042 +/- 5.52e-4]",
+    "pred": "[0.042 +/- 5.51e-4]",
+    "V6_uu": "[+/- 2.10e-7]",
+    "pass_": true
+   }
+  ],
+  "pass_": true
+ },
+ "all_extended_positive_controls_pass": true,
+ "signflip_null_refuses_TM": true,
+ "time_s": 10.8
+}

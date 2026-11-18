@@ -1,0 +1,69 @@
+{
+ "instrument_sha256": {
+  "phase2/b1_box.py": "b5a922b1db4dd1e2d34ae00ba431b6c867ce9e6e7c782776409afc427bdd1924",
+  "phase2/b2_outward.py": "2bcbc847d928ddc3f22b1f86e69f77583a7ec1e36841b2f6f3bb21ee45d74b3c",
+  "phase2/b3_gate.py": "797060de937a85b885c385e1c7788098b4da89fb20107bae770d41791ccfb64a",
+  "phase2/make_bg2.py": "e869e7158e1aaf1ef3d19fffd70eb96bfcccdbe91638a064e4500949391e6343",
+  "phase2/p_xlc.py": "91e87cc9be52f26f4c484db9bb0694e036d35f838ba66b33842bf641ddf26514",
+  "phase2/p_eps.py": "8624855a70770983f294d071fd34c5baaac756178d9e0afb30c3f0e7df7e00bd",
+  "phase2/p_eps0.py": "001c4fe83747390abc0fc0e55e338d354b4223d1a990ee1e4474f2b378bc43bd",
+  "phase2/p_dover.py": "55bac6d8e98c8434de69db095b8a56f7de4b73654a031888cb3ea7047c49075c"
+ },
+ "imported_read_only_sha256": {
+  "<LAB>/sideways/build-1/outward_rec.py": "839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa",
+  "<LAB>/sideways/build-1/l0_cert.py": "b20787ed0e6d6fc0a95e630d186f41502fafda90e7931ba2ba1bd0c994006e71",
+  "<LAB>/sideways/build-4/l2_lib.py": "40c831a3a07a20952e2c20051913679e92c4bdcf3024f5029a9f6b0efde91c84",
+  "<LAB>/sideways/build-4/l2b_ext.py": "81d41a108bf66bb5a55252a37db56b7c602b7eef50c175f88587cae5085aa542",
+  "<LAB>/sideways/build-4/l2_cert.py": "d76a06cfd2f238bb381f8aa34e9edce7c1b969cb18ed8ac70ff98449705d04a9",
+  "<LAB>/engine/cert/driver_v2.py": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e",
+  "<LAB>/engine/cert/driver_v31.py": "0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171",
+  "<LAB>/engine/cert/driver_v32.py": "c95d0e5f301e56114d2bae97d31bdd94c3de6e23733c88d5c004ec85c1fcd771",
+  "<LAB>/engine/cert/driver2.py": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2",
+  "<LAB>/engine/cert/lin_tube2_k1_3.pkl": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df",
+  "<LAB>/sideways/build-1/outward_rec.pkl": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+ },
+ "records_sha256": {
+  "phase2/outward_C.pkl": "c5aab9780d415073dccb8c9ab179e46ce9050ac493d400c26da18e1be540b1d5",
+  "phase2/outward_e5ctl.pkl": "a93cab32f2e2e040a9c656c697e3f0084679c1f2fed3bc9e6e57fb769ace6a50",
+  "phase2/outward_nullshift.pkl": "92521dfbeeaedc05c7ceadab1f37855eba96f01ec4d9acec31de2c674237bb1c"
+ },
+ "controls": {
+  "old_record_gate_reproduces_1_0": {
+   "tried": [
+    [
+     21,
+     1.0
+    ],
+    [
+     14,
+     1.0
+    ],
+    [
+     7,
+     1.0
+    ],
+    [
+     0,
+     1.0
+    ]
+   ],
+   "reproduces_1_0": true
+  },
+  "e5ctl": {
+   "x_lc": "[1.357941265765732 +/- 7.18e-16]",
+   "near_cone_max_rel": 9.242898391788902e-16,
+   "note": "same rebuild code from the OLD E5 box: reproduces the old widths"
+  },
+  "D_point_values_old_new_overlap_k0": true,
+  "B1_replicate_overlap": true,
+  "b2_overlap_old": {
+   "x_steps_checked": 667,
+   "all_overlap": true,
+   "first_failing_step": null,
+   "x_lc_old": "[1.357941265765732 +/- 7.18e-16]",
+   "x_lc_overlaps_old": true,
+   "x_lc_inside_old": true,
+   "end_overlaps_old": true
+  }
+ }
+}

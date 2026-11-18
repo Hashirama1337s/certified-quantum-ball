@@ -1,0 +1,413 @@
+{
+ "PQ2c-1": {
+  "verdict_by_build": "NOT RUN AS SEALED (tight homogeneous stage + full pass): probe shows T1+T2 cannot change the deep step-matrix radii that set the e width; the e below is the QB2b run-1 record replayed",
+  "probe": {
+   "file": "probe_tight.log",
+   "tight_sec_per_tube_step": "4.5-7.5",
+   "plain_sec_per_tube_step": "0.3-0.5",
+   "full_tight_rebuild_ETA_min": "~75-90 (720 tube steps)",
+   "plus_pass_ETA_min": "~85"
+  },
+  "deep_ratio": {
+   "file": "deep_ratio.json",
+   "substeps": 480,
+   "k_range": [
+    960,
+    1439
+   ],
+   "order0_radius_ratio_tight_over_plain": {
+    "min": 0.46036284944766853,
+    "median": 0.8959144734033606,
+    "max": 0.9949214602315231
+   },
+   "k_ge_1300_ratio_max": 0.9949214602315231,
+   "tight_jet_overlap_assertion": "never fired (assert in build-4 qb2b_tight.py T1)"
+  },
+  "cause": "floor = the pinned tube record step balls (setrad 2.5e-18 at tube step 600 -> 4.7e-17 at 715) times the genuine state sensitivity of the HKA step matrix (order-0 radius 8e-14 .. 3e-13 at depth), not interval dependency",
+  "N6": {
+   "e": [
+    "2.2796218038245719129e-14",
+    "3.33e-10"
+   ],
+   "e_contains_0": true,
+   "e_width": "[6.66e-10 +/- 2.58e-13]",
+   "width_le_1em10": false
+  },
+  "C8": {
+   "e": [
+    "-1.8804402479588588903e-15",
+    "4.68e-9"
+   ],
+   "e_contains_0": true,
+   "e_width": "[9.36e-9 +/- 4.32e-12]",
+   "width_le_1em10": false,
+   "e_explicit_only": [
+    "-1211.1376937788327237",
+    "1.11e-9"
+   ]
+  },
+  "N_a": {
+   "e_Na": [
+    "-0.00030235960930600302070",
+    "3.33e-10"
+   ],
+   "excludes_0": true,
+   "e_rowzero_per_unit_delta": [
+    "-302.35960932879925242",
+    "2.06e-10"
+   ],
+   "J_s_xm": [
+    "58.313767936470775906",
+    "1.65e-13"
+   ],
+   "J_c_xm": [
+    "-0.0058226690727984285785",
+    "4.51e-18"
+   ],
+   "predicted_e_per_unit_delta_full": [
+    "-302.35960932879926987",
+    "2.79e-11"
+   ],
+   "predicted_abs_e_design_formula_per_unit_delta": [
+    "302.32942153207741039",
+    "2.79e-11"
+   ],
+   "e_rowzero_encloses_full_prediction": true,
+   "predicted_e_Na": [
+    "-0.00030235960932879925618",
+    "2.79e-17"
+   ],
+   "e_Na_encloses_predicted": true,
+   "design_formula_matches": false
+  },
+  "N_c": {
+   "e": [
+    "-0.00011949776035180548206",
+    "3.56e-10"
+   ],
+   "refuses": true,
+   "width": "[7.12e-10 +/- 1.35e-13]"
+  }
+ },
+ "PQ2c-2": {
+  "x=-0.01": {
+   "real": [
+    "0",
+    "1.10e-9"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "-2.74128164390e-7",
+    "1.10e-9"
+   ],
+   "N_b_excludes_0": true,
+   "sigma_TT": [
+    "0.274128164119",
+    "1.03e-15"
+   ],
+   "predicted_N_b": [
+    "-2.74128164119e-7",
+    "1.03e-21"
+   ]
+  },
+  "x=-0.25": {
+   "real": [
+    "4.33680868994e-19",
+    "1.60e-10"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "-5.14096818449e-7",
+    "1.60e-10"
+   ],
+   "N_b_excludes_0": true,
+   "sigma_TT": [
+    "0.514096817878",
+    "3.42e-16"
+   ],
+   "predicted_N_b": [
+    "-5.14096817878e-7",
+    "3.42e-22"
+   ]
+  },
+  "x=-2": {
+   "real": [
+    "3.19839640883e-18",
+    "1.14e-10"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "6.85100125075e-7",
+    "1.14e-10"
+   ],
+   "N_b_excludes_0": true,
+   "sigma_TT": [
+    "-0.685100124585",
+    "1.70e-13"
+   ],
+   "predicted_N_b": [
+    "6.85100124585e-7",
+    "1.70e-19"
+   ]
+  },
+  "x=-4.6": {
+   "real": [
+    "0",
+    "1.67e-8"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "5.81641278197e-9",
+    "1.67e-8"
+   ],
+   "N_b_excludes_0": false,
+   "sigma_TT": [
+    "-0.00581641271330",
+    "4.14e-10"
+   ],
+   "predicted_N_b": [
+    "5.81641271330e-9",
+    "4.14e-16"
+   ],
+   "note": "sonic-side transported representation (|Y| ~ 600): width too large for N-b; see x=-4.6_centre_side"
+  },
+  "x=-6": {
+   "real": [
+    "0",
+    "4.81e-11"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "3.54471713050e-10",
+    "4.81e-11"
+   ],
+   "N_b_excludes_0": true,
+   "sigma_TT": [
+    "-0.000354471712549",
+    "2.11e-12"
+   ],
+   "predicted_N_b": [
+    "3.54471712549e-10",
+    "2.11e-18"
+   ]
+  },
+  "x=-4.6_centre_side": {
+   "real": [
+    "0",
+    "8.00e-12"
+   ],
+   "real_contains_0": true,
+   "N_b": [
+    "5.81641272299e-9",
+    "8.00e-12"
+   ],
+   "N_b_excludes_0": true,
+   "sigma_TT": [
+    "-0.00581641271330",
+    "1.70e-13"
+   ],
+   "predicted_N_b": [
+    "5.81641271330e-9",
+    "1.70e-19"
+   ]
+  },
+  "all_real_contain_0": true,
+  "all_N_b_exclude_0": true,
+  "N_b_points_used": "x=-6, x=-4.6_centre_side, x=-2, x=-0.25, x=-0.01"
+ },
+ "PQ2c-3": {
+  "Psi2": [
+   "3.4616358037141656915",
+   "3.02e-12"
+  ],
+  "overlaps_QB2b": true,
+  "excludes_0": true,
+  "rel_width": "[8.72e-13 +/- 4.20e-16]",
+  "N8": {
+   "x_V": [
+    "-0.25278710208307181878",
+    "1.14e-20"
+   ],
+   "A_xV": [
+    "1.9143464252607319765",
+    "2.91e-20"
+   ],
+   "Abar2_xV": [
+    "6.6267701263947739585",
+    "5.79e-12"
+   ],
+   "Psi2": [
+    "3.4616358037141656915",
+    "3.02e-12"
+   ],
+   "sign": 1,
+   "rel_width": "[8.73e-13 +/- 2.71e-16]",
+   "rel_width_le_1em3": true,
+   "units": "per unit K eps s e^{2s}, K = N_c/(30 pi); Psi2 = Abar_2(x_V)/A(x_V)"
+  },
+  "C6": {
+   "Psi2_routeB": [
+    "3.4616358037141656727",
+    "1.03e-11"
+   ],
+   "Psi2_routeA": [
+    "3.4616358037141656915",
+    "3.02e-12"
+   ],
+   "overlap": true,
+   "yB_xV": [
+    [
+     "6.6267701263947739225",
+     "1.96e-11"
+    ],
+    [
+     "-2.1833354473263879439",
+     "2.36e-10"
+    ],
+    [
+     "11.893932304865571651",
+     "4.51e-10"
+    ],
+    [
+     "-4.4958808499294642433",
+     "1.55e-10"
+    ]
+   ],
+   "yA_xV": [
+    [
+     "6.6267701263947739585",
+     "5.79e-12"
+    ],
+    [
+     "-2.1833354473263876728",
+     "2.01e-12"
+    ],
+    [
+     "11.893932304865570977",
+     "1.11e-11"
+    ],
+    [
+     "-4.4958808499294640244",
+     "3.95e-12"
+    ]
+   ]
+  },
+  "note": "replay of the final stage on the QB2b run-1 transported record"
+ },
+ "PQ2c-4": {
+  "x_s": [
+   "0.80866895631844282988",
+   "6.43e-19"
+  ],
+  "x_s_blind_float": "0.80866895631844",
+  "x_s_rel_diff": [
+   "3.4994305881799914356e-15",
+   "7.95e-19"
+  ],
+  "A_xV": [
+   "1.9143464252607319765",
+   "2.91e-20"
+  ],
+  "A_xV_blind_float": "1.91434642526073",
+  "Psi2": [
+   "3.4616358037141656915",
+   "3.02e-12"
+  ],
+  "rows": {
+   "headline Psi_per_unit_K_eps": {
+    "Psi_blind": "0.1075199950",
+    "converted": [
+     "3.4616358044408366051",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "2.0992124976238618617e-10",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N40_X0.95": {
+    "Psi_blind": "0.10751999497668573",
+    "converted": [
+     "3.4616358036902272715",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "-6.9153490713739357298e-12",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N50_X0.95": {
+    "Psi_blind": "0.10751999497706545",
+    "converted": [
+     "3.4616358037024524614",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "-3.3837268890426954598e-12",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N60_X0.95": {
+    "Psi_blind": "0.10751999497716666",
+    "converted": [
+     "3.4616358037057109451",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "-2.4424136012821985597e-12",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N40_X0.90": {
+    "Psi_blind": "0.10751999497733232",
+    "converted": [
+     "3.4616358037110444144",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "-9.0167692224778521123e-13",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N50_X0.90": {
+    "Psi_blind": "0.10751999497752145",
+    "converted": [
+     "3.4616358037171335067",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "8.5734474244780018923e-13",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   },
+   "N60_X0.90": {
+    "Psi_blind": "0.107519994977364",
+    "converted": [
+     "3.4616358037120643607",
+     "5.56e-18"
+    ],
+    "rel_diff": [
+     "-6.0703405091466506455e-13",
+     "8.72e-13"
+    ],
+    "le_1e_9": true
+   }
+  },
+  "PQ2c4_pass": true,
+  "PQ2c3": {
+   "Psi2": [
+    "3.4616358037141656915",
+    "3.02e-12"
+   ],
+   "overlaps_QB2b": true,
+   "excludes_0": true,
+   "rel_width": "[8.72e-13 +/- 4.20e-16]"
+  }
+ }
+}

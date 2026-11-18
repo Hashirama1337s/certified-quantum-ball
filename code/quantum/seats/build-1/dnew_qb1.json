@@ -1,0 +1,104 @@
+{
+ "instrument": "engine/cert/count_b4v3.py (+count_b4.py, count_b4v3_seal.py, lin_stages_v2, lin_tm_v3), imported, install()",
+ "engine_sha256": {
+  "engine/cert/count_b4v3.py": "9d6db027f0ca12a2fefc6fcb716bfd36d3a5d422c971611403bcec04dd13b28f",
+  "engine/cert/count_b4.py": "7f17adc9c0b10ec529fba28ea356296b7b3bd77dd95bd312e3bb791c4d2c7204",
+  "engine/cert/count_b4v3_seal.py": "6e7d49f3e1af8e8f0a3caf32476adfd3557cee49cf7d5a067f528ab7d02f470c",
+  "engine/cert/lin_stages_v2.py": "e477ec1f6fc3f36ec16e776c26c0516e1fa5b964ee769286d8e0c290f20bf2d5",
+  "engine/cert/lin_stages.py": "582e24236c8ff81594cb56a4c2afdb0edc9a083dfdc261cf61623f4679deb821",
+  "engine/cert/lin_tube2_k1_3.pkl": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+ },
+ "script_sha256": "4d809cfb75ce0549debedf8b1bcd416498bd5f0c1b45915fd3215e114dc53999",
+ "linear": "CachedLinear2(L13_nsub2.pkl, sha256 verified c239cbe53470)",
+ "prec": 128,
+ "x_m": "[-4.600000000000000 +/- 7.11e-16]",
+ "values": {
+  "0": {
+   "D_new": {
+    "re": [
+     "-108.52727565146470122",
+     "5.55e-8"
+    ],
+    "im": [
+     "0",
+     "2.37e-12"
+    ]
+   },
+   "D_HKA": {
+    "re": [
+     "194.05528271674018860",
+     "1.01e-7"
+    ],
+    "im": [
+     "0",
+     "5.40e-12"
+    ]
+   },
+   "D_new_re_sign": -1,
+   "sec": 4.0
+  },
+  "1": {
+   "D_new": {
+    "re": [
+     "-7.2440885428830988038",
+     "1.96e-9"
+    ],
+    "im": [
+     "0",
+     "1.97e-14"
+    ]
+   },
+   "D_HKA": {
+    "re": [
+     "-23.462597692195414844",
+     "5.92e-9"
+    ],
+    "im": [
+     "0",
+     "1.04e-13"
+    ]
+   },
+   "D_new_re_sign": -1,
+   "sec": 4.1
+  },
+  "2": {
+   "D_new": {
+    "re": [
+     "-2.4126270857981028564",
+     "1.13e-9"
+    ],
+    "im": [
+     "0",
+     "3.74e-14"
+    ]
+   },
+   "D_HKA": {
+    "re": [
+     "-19.942295267987575083",
+     "1.12e-8"
+    ],
+    "im": [
+     "0",
+     "1.13e-13"
+    ]
+   },
+   "D_new_re_sign": -1,
+   "sec": 4.0
+  }
+ },
+ "D_new_2_nonzero_certified": true,
+ "D_new_2_abs_lower_bound": "2.412627085",
+ "float_lin_float_D_new_NONCOUNTING": {
+  "-4.6": {
+   "0.0": -108.52727565150171,
+   "1.0": -7.244088542878887,
+   "2.0": -2.412627085797027
+  },
+  "-2.0": {
+   "0.0": -7.958257902778397,
+   "1.0": -0.5442148357564793,
+   "2.0": -0.18568821647419909
+  }
+ },
+ "time_s": 29.1
+}

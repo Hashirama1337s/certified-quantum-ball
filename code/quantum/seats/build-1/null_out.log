@@ -1,0 +1,19 @@
+[    0.9s] nu_s=0.004 contracts over the box: eps=[1.46e-26 +/- 3.82e-29] epsX=[1.67e-27 +/- 4.67e-30] L*=[7.50 +/- 3.54e-3]
+[   48.8s]   tau step 50 x=0.03262 h=0.008553 width=[1.02e-27 +/- 4.67e-30] t=47.3s
+[   68.8s] tau leg 63 steps; x-gap transport to x = [0.050000 +/- 1e-11] (68s)
+[  120.7s]   lohner step 50 x=0.0899 h=0.0008553 width=[2.90e-27 +/- 2.89e-30] t=51.9s
+[  183.2s]   lohner step 100 x=0.1612 h=0.001829 width=[3.85e-27 +/- 8.02e-31] t=114.3s
+[  250.1s]   lohner step 150 x=0.2831 h=0.00391 width=[5.29e-27 +/- 1.31e-30] t=181.3s
+[  311.9s]   lohner step 200 x=0.4772 h=0.004181 width=[6.43e-27 +/- 2.15e-30] t=243.1s
+[  370.9s]   lohner step 250 x=0.7739 h=0.008939 width=[6.91e-27 +/- 4.27e-30] t=302.1s
+[  433.7s]   lohner step 300 x=1.1523 h=0.009557 width=[6.33e-27 +/- 2.17e-30] t=364.9s
+[  494.0s]   lohner step 350 x=1.5795 h=0.01022 width=[5.63e-27 +/- 1.10e-30] t=425.2s
+[  560.4s]   lohner step 400 x=2.0362 h=0.01092 width=[4.79e-27 +/- 4.35e-30] t=491.6s
+[  610.4s]   lohner step 450 x=2.5526 h=0.01168 width=[3.79e-27 +/- 1.82e-30] t=541.6s
+[  655.9s]   lohner step 500 x=3.1527 h=0.01248 width=[2.81e-27 +/- 3.11e-30] t=587.1s
+[  700.1s]   lohner step 550 x=3.9690 h=0.0267 width=[2.32e-27 +/- 4.57e-30] t=631.3s
+[  740.8s]   lohner step 600 x=5.3977 h=0.05708 width=[1.96e-27 +/- 3.37e-31] t=672.0s
+[  782.4s]   lohner step 650 x=9.5862 h=0.1221 width=[1.81e-27 +/- 1.45e-30] t=713.6s
+[  800.5s] outward: steps=731 D<0 True V>0 True lemma True
+[  800.6s] saved <LAB-WIN>\quantum\seats\build-1\null_out.pkl
+memcap: exit 0, peak 0.13 GB of 8.00 GB cap

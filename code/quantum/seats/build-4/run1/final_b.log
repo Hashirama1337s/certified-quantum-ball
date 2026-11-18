@@ -1,0 +1,170 @@
+{
+ "N6": {
+  "e": [
+   "2.2796218038245719129e-14",
+   "3.33e-10"
+  ],
+  "e_contains_0": true,
+  "e_width": "[6.66e-10 +/- 2.58e-13]",
+  "width_le_1em10": false
+ },
+ "N-a": {
+  "e_Na": [
+   "-0.00030235960930600302070",
+   "3.33e-10"
+  ],
+  "excludes_0": true,
+  "e_rowzero_per_unit_delta": [
+   "-302.35960932879925242",
+   "2.06e-10"
+  ],
+  "J_s_xm": [
+   "58.313767936470775906",
+   "1.65e-13"
+  ],
+  "J_c_xm": [
+   "-0.0058226690727984285785",
+   "4.51e-18"
+  ],
+  "predicted_e_per_unit_delta_full": [
+   "-302.35960932879926987",
+   "2.79e-11"
+  ],
+  "predicted_abs_e_design_formula_per_unit_delta": [
+   "302.32942153207741039",
+   "2.79e-11"
+  ],
+  "e_rowzero_encloses_full_prediction": true,
+  "predicted_e_Na": [
+   "-0.00030235960932879925618",
+   "2.79e-17"
+  ],
+  "e_Na_encloses_predicted": true,
+  "design_formula_matches": false
+ },
+ "N-c": {
+  "e": [
+   "-0.00011949776035180548206",
+   "3.56e-10"
+  ],
+  "refuses": true,
+  "width": "[7.12e-10 +/- 1.35e-13]"
+ },
+ "C8": {
+  "e": [
+   "-1.8804402479588588903e-15",
+   "4.68e-9"
+  ],
+  "e_contains_0": true,
+  "e_width": "[9.36e-9 +/- 4.32e-12]",
+  "width_le_1em10": false,
+  "e_explicit_only": [
+   "-1211.1376937788327237",
+   "1.11e-9"
+  ]
+ },
+ "C8'": {
+  "e": [
+   "0.0012111376937769522267",
+   "4.68e-9"
+  ],
+  "refuses": true,
+  "predicted": [
+   "0.0012111376937788326689",
+   "1.11e-15"
+  ]
+ },
+ "C2": {
+  "D_HKA_kstar": [
+   "0",
+   "4.55e-7"
+  ],
+  "D_new_kstar": [
+   "0",
+   "1.52e-7"
+  ],
+  "refused": true,
+  "D_HKA_2_own_transport": [
+   "-19.942295267987582258",
+   "1.07e-11"
+  ],
+  "D_HKA_2_excludes_0": true
+ },
+ "gate_N1_C1_C8": {
+  "N1": true,
+  "C1": true,
+  "C8": true,
+  "open": true
+ },
+ "N8": {
+  "x_V": [
+   "-0.25278710208307181878",
+   "1.14e-20"
+  ],
+  "A_xV": [
+   "1.9143464252607319765",
+   "2.91e-20"
+  ],
+  "Abar2_xV": [
+   "6.6267701263947739585",
+   "5.79e-12"
+  ],
+  "Psi2": [
+   "3.4616358037141656915",
+   "3.02e-12"
+  ],
+  "sign": 1,
+  "rel_width": "[8.73e-13 +/- 2.71e-16]",
+  "rel_width_le_1em3": true,
+  "units": "per unit K eps s e^{2s}, K = N_c/(30 pi); Psi2 = Abar_2(x_V)/A(x_V)"
+ },
+ "C6": {
+  "Psi2_routeB": [
+   "3.4616358037141656727",
+   "1.03e-11"
+  ],
+  "Psi2_routeA": [
+   "3.4616358037141656915",
+   "3.02e-12"
+  ],
+  "overlap": true,
+  "yB_xV": [
+   [
+    "6.6267701263947739225",
+    "1.96e-11"
+   ],
+   [
+    "-2.1833354473263879439",
+    "2.36e-10"
+   ],
+   [
+    "11.893932304865571651",
+    "4.51e-10"
+   ],
+   [
+    "-4.4958808499294642433",
+    "1.55e-10"
+   ]
+  ],
+  "yA_xV": [
+   [
+    "6.6267701263947739585",
+    "5.79e-12"
+   ],
+   [
+    "-2.1833354473263876728",
+    "2.01e-12"
+   ],
+   [
+    "11.893932304865570977",
+    "1.11e-11"
+   ],
+   [
+    "-4.4958808499294640244",
+    "3.95e-12"
+   ]
+  ]
+ }
+}
+C1 {'b': ['-4.7963240638274756700e-20', '8.83e-14'], 'e': ['-2.5231417432811098500e-17', '5.95e-12'], 'b_contains_0': True, 'e_contains_0': True, 'c_overlaps_plus_half': True, 'd_overlaps_plus_one': True, 'first_run_sign_slip': 'expected c=-1/2, d=-1 in the first final run (wrong sign); corrected, see comment', 'outward_points_0.5_3': 'not computed (domain cut, lead lever 1): no outward transport', 'pass': True} {'m2': True, 'm025': True, 'm46': True, 'm6': True, 'm001': True}
+memcap: exit 0, peak 1.14 GB of 8.00 GB cap

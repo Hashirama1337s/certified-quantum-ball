@@ -1,0 +1,6 @@
+c0 closed form = [-173.10044439229957 +/- 4.55e-15]
+b_nr_5 e^{-4xc}... ratio b_nr5/b_nn4 = 4/3 -> hat_b_nr centre limit (x^5 coefficient) = [-230.80059252306609 +/- 2.73e-15]
+design |J_s|/|c_V| = [302.32942153208 +/- 5.68e-12]
+(J_c - J_s)/c_V    = [-302.35960932880 +/- 3.82e-12]
+J_c/c_V share       = [-0.03018779672 +/- 1.86e-12]
+memcap: exit 0, peak 0.01 GB of 4.00 GB cap

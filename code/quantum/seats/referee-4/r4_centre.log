@@ -1,0 +1,11 @@
+einstein series built (12s)
+order r^0: unknowns [A2, c2] -> [{A2: m0/3, c2: m0/6}]
+order r^1: unknowns [v1] -> [{v1: -1/2}]
+order r^2: unknowns [A4, c4, m2] -> [{A4: m0**2/9 + m0/15 + m2/5, c4: m0**2/24 + m0/20 + m2/15}]
+order r^3: unknowns [m2, v3] -> [{m2: -10*m0*v3 - 3*m0/4}]
+order r^4: unknowns [A6, c6, m4, v3] -> [{A6: -7*m0**3/135 + 2*m0**2/15 + 13*m0/140 + m4/7, c6: -17*m0**3/1296 + 11*m0**2/360 + 13*m0/210 + 5*m4/126, v3: m0/15 - 7/40}]
+order r^5: unknowns [m4, v5] -> [{m4: 7*m0**3/18 - 7*m0**2/8 - 7*m0*v5 + 5*m0/16}]
+all Einstein series equations to r^5 hold: True []
+SOL {A2: m0/3, c2: m0/6, v1: -1/2, A4: -m0*(m0 - 12)/45, c4: -m0*(m0 - 42)/360, m2: -m0*(2*m0 - 3)/3, A6: -m0*(-8*m0**2 - 18*m0 + 2160*v5 - 297)/2160, c6: -m0*(-10*m0**2 + 18*m0 + 1200*v5 - 321)/4320, v3: (8*m0 - 21)/120, m4: -m0*(-56*m0**2 + 126*m0 + 1008*v5 - 45)/144}
+unsolved (beyond reach of r^5 eqs): [v5]
+memcap: exit 0, peak 0.06 GB of 4.00 GB cap

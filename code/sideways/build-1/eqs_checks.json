@@ -1,0 +1,101 @@
+{
+ "beta equation": {
+  "angular_triple_consistent": true,
+  "metric_free": true,
+  "l_free": true,
+  "form K (kappa b + a b_x + c b)": true,
+  "a == 1 + N V": true,
+  "c == (1+NV)(om_x/om - A_x/2A) + 2NV + N_x V + V_x (N+V)/(1-V^2)": true
+ },
+ "beta centre / PS3": {
+  "U* = -2/(3(1+k)) is an equilibrium of G at P=0 (G_U(0,W,U*) = 0)": true,
+  "G_P(0,W,U) == 0 and G_W(0,W,U*) == 0 hold": true,
+  "a0 == (1+3k)/(3(1+k)) == 1 + U*": true,
+  "c0 == -2(1-3k)/(3(1+k))": true,
+  "PS3 identity: -c0 - a0 (l+2n) - G(20) simplifies to 0": true,
+  "parity of the blown-up centre field (P odd; W, U even)": true,
+  "a even in P": true,
+  "c even in P": true,
+  "value kappa(1/3, 1, 0) == -1/2": true,
+  "value kappa(1/3, l, n) == -(l+2n)/2": true
+ },
+ "axial Pi": {
+  "E_s phi after substitution depends on hx, hx_x?": [],
+  "E_x phi after substitution depends on hs, hs_x?": [],
+  "E_s phi == al_s Q_x + be_s Q + ga_s h_s": true,
+  "E_x phi == al_x Q_x + be_x Q + ga_x h_x": true,
+  "al_s == (N^2-1)/(2 A N^2)": true,
+  "first-order (Q_x level) light-cone exponent at N = 1 equals (1 - lambda_lc - kappa)/lambda_lc, lambda_lc = -N_x": true,
+  "on-shell ga_s - (L-2)/2, ga_x - (L-2)/2 (numeric, 60 digits)": {
+   "1.7/0.21/0.13 L=6": [
+    "0.0",
+    "0.0"
+   ],
+   "1.7/0.21/0.13 L=12": [
+    "0.0",
+    "0.0"
+   ],
+   "1.7/0.21/0.13 L=20": [
+    "0.0",
+    "0.0"
+   ],
+   "0.6/0.05/0.4 L=6": [
+    "0.0",
+    "0.0"
+   ],
+   "0.6/0.05/0.4 L=12": [
+    "0.0",
+    "0.0"
+   ],
+   "0.6/0.05/0.4 L=20": [
+    "0.0",
+    "0.0"
+   ],
+   "1/0.0527/0.644 L=6": [
+    "0.0",
+    "0.0"
+   ],
+   "1/0.0527/0.644 L=12": [
+    "0.0",
+    "0.0"
+   ],
+   "1/0.0527/0.644 L=20": [
+    "0.0",
+    "0.0"
+   ]
+  }
+ },
+ "polar fluid / PL1": {
+  "w_x enters only the theta row; rows s,x free of w_x": true,
+  "L enters only the w column": true,
+  "det(C - lam B) has the transport factor (1 + N V - lam)": true,
+  "quadratic factor vanishes at lam = 1 + N(V +- sqrt k)/(1 +- sqrt k V)": true,
+  "det C_S vanishes on the sonic set N = (1 - sqrt(k) V)/(sqrt(k) - V)": true,
+  "principal part == x-flux d(dT^x_nu)/df exactly (lemma H-flux)": true
+ },
+ "l=1 gauge / PL4": {
+  "residual ODE Theta' = -A Theta (kappa-independent)": true,
+  "T = (kappa - A) Theta/(A N^2)": true,
+  "X = (kappa + A(N^2 - 1)) Theta/(A N^2)": true,
+  "w_gauge = -(kappa - A(1 + N V)) Theta/(N gV sA)": true,
+  "A -> 1 at the centre (Theta ~ e^-x, xi^theta ~ 1/r smooth for every kappa)": true,
+  "alpha-gauge rate (unique zero of the centre coefficient)": [
+   "(k + 1/3)/(k + 1)"
+  ],
+  "rate == (1+3k)/(3(1+k))": true,
+  "zero is simple (centre coefficient linear in kappa)": true,
+  "translation (kappa = 1) excluded: coefficient nonzero": true,
+  "boost (kappa = 0) excluded: coefficient nonzero": true
+ },
+ "toy / PL5": {
+  "toy first-order light-cone exponent == -kappa": true,
+  "in G (D4) normalisation rho == l - n - lambda": true,
+  "weak rates (rho = m+1, n = 0) == l - 1 - m  [G (F2)]": true
+ },
+ "principal symbols / PL1": {
+  "axial Q symbol": "-A0**2*N0*(N0 - lam + 1)*(N0 + lam - 1)/(-A0**3*L*N0**3 + 2*A0**3*N0**3 + 4*A0**2*N0**3*k*om0 - 2*A0**2*N0**3 - 4*A0**2*N0**2*N1 - 2*A0**2*N0**2*N2 - A0*A1*N0**2*N1 - A0*A1*N1 - A0*A2*N0**3 + A0*A2*N0 + A1**2*N0**3 - A1**2*N0)",
+  "axial Q symbol roots 1 +- N": true,
+  "K symbol in Z1 vanishes at the sonic pair": true,
+  "K symbol in Z1 is not identically zero": true
+ }
+}

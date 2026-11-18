@@ -1,0 +1,2564 @@
+[
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-e.md",
+    "sha256": "54febb43fdcd782e29af29ed14ab9b8f8f5cd7ba7afae879da32cd5baedfab19",
+    "bytes": 3516
+   },
+   {
+    "path": "<lab>/design.md",
+    "sha256": "fd3fed54c586ccb985637c75363b83cfa8c0b5427d051ccfbdd727dc3acb3bb1",
+    "bytes": 12408
+   },
+   {
+    "path": "<lab>/engine/derive.py",
+    "sha256": "ef70536c299390c3a59a22ecd3fb43c0055366052680dbb1ac841994ec96cf69",
+    "bytes": 8439
+   }
+  ],
+  "tag": "LIGHTBALL-E",
+  "note": "existence BAR before certified code",
+  "sealed_at": "2026-11-15T22:40:33+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-e.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/design.md",
+      "lines": [
+       1,
+       137
+      ],
+      "sha256": "fd3fed54c586ccb985637c75363b83cfa8c0b5427d051ccfbdd727dc3acb3bb1"
+     }
+    ],
+    "tolerances": "interval arithmetic (exact enclosures); a width ≤ 1e-12 target because KHA quote 8 decimals, so 1e-12 gives margin for later mode work",
+    "toy_model": "flat Friedmann (exact)"
+   }
+  },
+  "sha256": "9ed31dfab03f657f804ec4a94f0d4c0f4994ffc67919e30caf6021a1d776a7d7",
+  "id": "9ed31dfab0"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "9ed31dfab0",
+  "files": [
+   {
+    "path": "<lab>/engine/cert/core.py",
+    "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.py",
+    "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.pkl",
+    "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b"
+   },
+   {
+    "path": "<lab>/engine/cert/param.py",
+    "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0"
+   },
+   {
+    "path": "<lab>/engine/cert/taylor.py",
+    "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner.py",
+    "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62"
+   },
+   {
+    "path": "<lab>/engine/cert/pipeline.py",
+    "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1"
+   },
+   {
+    "path": "<lab>/engine/cert/driver.py",
+    "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5"
+   },
+   {
+    "path": "<lab>/engine/cert/run_cert.py",
+    "sha256": "21a389de5d8c817fbf424703805c451798da6976891e6d56d5283cef653e89bd"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails.py",
+    "sha256": "cb5d3fd456d7e011907ac2b28347f53a710eedc623b65b34694a4d1491132dc5"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner.py",
+    "sha256": "d5295524ee1c62e911329ee8ac705aeb435e42e3c1a9313c638d34c2e21f06ba"
+   },
+   {
+    "path": "<lab>/engine/cert/check_struct.py",
+    "sha256": "4ea204d3fc8417b2cef1a5584107c7260abc6bcd4d88f3c87c2acd88226c53c1"
+   },
+   {
+    "path": "<lab>/engine/system.py",
+    "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f"
+   },
+   {
+    "path": "<lab>/engine/eqs_gen.py",
+    "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e"
+   },
+   {
+    "path": "<lab>/engine/bg.py",
+    "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64"
+   },
+   {
+    "path": "<lab>/engine/bgc.py",
+    "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e"
+   },
+   {
+    "path": "<lab>/engine/jet.py",
+    "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae"
+   }
+  ],
+  "at": "2026-11-15T23:41:56+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "9ed31dfab0",
+  "seal_sha256": "9ed31dfab03f657f804ec4a94f0d4c0f4994ffc67919e30caf6021a1d776a7d7",
+  "outcome": "FAILED",
+  "measured": "Kill condition hit: PE4 warm-up (positive control, k=1/2 Friedmann) did NOT certify - Newton point run converged (|R| 6.5e-10) but the Krawczyk box run crashed in the sonic-manifold tail bound at the node (no contraction, L*=nan, nu_s=0.008). Target attempt (rad 1e-14): PE1 not contracted (Ebox 3.5e-13 > radius); PE2 saddle certified but V-zero count ambiguous (11 steps); PE3 m/r 0.0595+-8.2e-5 in band (provisional). Null1 crashed (harness om-guess bug; point residual certified nonzero 0.881). Obstruction: sonic-start leg at a node (k=1/2) + box/error sizing. Next: new BAR v2 with tau-time start leg, radius ladder, PE2 bisection, null fix - no retuning of this bar.",
+  "settled_at": "2026-11-16T00:20:01+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs/target.log",
+    "sha256": "e8575d3327772bf87f0f16d2981cf4ad485b677cd8e13a1208fa209ade732d80"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-e2.md",
+    "sha256": "da128c59bc8acb27bf3049432b63e76468b0e5a1a57457926c132828c14ac96a",
+    "bytes": 3575
+   },
+   {
+    "path": "<lab>/proposal-v2.md",
+    "sha256": "5c8176370dca84086351606191b9315984eb79d4eda47d59e481427668174b24",
+    "bytes": 8859
+   }
+  ],
+  "tag": "LIGHTBALL-E2",
+  "note": "existence attempt 2 BAR + v2 proposal",
+  "sealed_at": "2026-11-16T00:52:41+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-e2.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proposal-v2.md",
+      "lines": [
+       1,
+       81
+      ],
+      "sha256": "5c8176370dca84086351606191b9315984eb79d4eda47d59e481427668174b24"
+     }
+    ],
+    "depends_on": [
+     "9ed31dfab0",
+     "921909428f",
+     "56439ea867"
+    ],
+    "instruments": [
+     {
+      "path": "<lab>/engine/cert/run_v2.py",
+      "sha256": "2a770321a66d577a43f940f6b3c1f272cd0fac4071212e45d3070b39e83b1a62"
+     },
+     {
+      "path": "<lab>/engine/cert/driver_v2.py",
+      "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e"
+     },
+     {
+      "path": "<lab>/engine/cert/driver2.py",
+      "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2"
+     },
+     {
+      "path": "<lab>/proposal-v2.md",
+      "sha256": "5c8176370dca84086351606191b9315984eb79d4eda47d59e481427668174b24"
+     }
+    ],
+    "tolerances": "interval arithmetic; the radius cap of 5e-7 comes from the BAR-LB-E width of 1e-6",
+    "toy_model": "flat Friedmann (exact, sealed in AMEND-LB-E-1)"
+   }
+  },
+  "sha256": "95f6de5cf26eb549cfa37024a1b3d9684252a99c52378d637e5845bbc4148c60",
+  "id": "95f6de5cf2"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "95f6de5cf2",
+  "files": [
+   {
+    "path": "<lab>/engine/cert/core.py",
+    "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.py",
+    "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.pkl",
+    "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b"
+   },
+   {
+    "path": "<lab>/engine/cert/param.py",
+    "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0"
+   },
+   {
+    "path": "<lab>/engine/cert/taylor.py",
+    "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner.py",
+    "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62"
+   },
+   {
+    "path": "<lab>/engine/cert/pipeline.py",
+    "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1"
+   },
+   {
+    "path": "<lab>/engine/cert/driver.py",
+    "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5"
+   },
+   {
+    "path": "<lab>/engine/cert/driver2.py",
+    "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v2.py",
+    "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v2.py",
+    "sha256": "2a770321a66d577a43f940f6b3c1f272cd0fac4071212e45d3070b39e83b1a62"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails.py",
+    "sha256": "cb5d3fd456d7e011907ac2b28347f53a710eedc623b65b34694a4d1491132dc5"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner.py",
+    "sha256": "d5295524ee1c62e911329ee8ac705aeb435e42e3c1a9313c638d34c2e21f06ba"
+   },
+   {
+    "path": "<lab>/engine/cert/check_struct.py",
+    "sha256": "4ea204d3fc8417b2cef1a5584107c7260abc6bcd4d88f3c87c2acd88226c53c1"
+   },
+   {
+    "path": "<lab>/engine/system.py",
+    "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f"
+   },
+   {
+    "path": "<lab>/engine/eqs_gen.py",
+    "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e"
+   },
+   {
+    "path": "<lab>/engine/bg.py",
+    "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64"
+   },
+   {
+    "path": "<lab>/engine/bgc.py",
+    "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e"
+   },
+   {
+    "path": "<lab>/engine/jet.py",
+    "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae"
+   }
+  ],
+  "at": "2026-11-16T00:52:41+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "95f6de5cf2",
+  "seal_sha256": "95f6de5cf26eb549cfa37024a1b3d9684252a99c52378d637e5845bbc4148c60",
+  "outcome": "FAILED",
+  "measured": "Kill rule hit: PE4 warm-up (k=1/2) - no rung of the sealed ladder contracted (r=1e-12..1e-9: K/X ratios 1.3e3, 1.3e4, 1.4e5, 4.4e6; r=1e-8, 1e-7: box evaluation failed). Target (k=1/3) ladder r=1e-12, 1e-11 did not contract (box-run end width 7.2e-3, 8.8e-2 from 3e-12 start) - run stopped by the lead per the kill rule (no k=1/3 claim). Null1 PASS (residual certified nonzero; no contraction). Obstruction: box-run Lohner inflates ~1e9 vs true flow growth ~1e3 (variational wrapping). Next: attempt 3 needs a new bar (interior matching / C1-Lohner).",
+  "settled_at": "2026-11-16T01:42:08+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs2/warmup.log",
+    "sha256": "5d5ae4df1d3733568c0bb0e44a91a4c1ae30271ff86cc8a386d1e6b4ead4689c"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-e3.md",
+    "sha256": "e9ef57debee62d1908da8a12476ba3302aa50284add9d10fe01d8ea780afec9c",
+    "bytes": 3418
+   },
+   {
+    "path": "<lab>/proposal-v3.md",
+    "sha256": "965022301f22b45f9f295bfc0f1fe59385abeabd38b194b98a0dfcf422e1a47a",
+    "bytes": 7154
+   }
+  ],
+  "tag": "LIGHTBALL-E3",
+  "note": "existence attempt 3 BAR + v3 proposal",
+  "sealed_at": "2026-11-16T02:42:45+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-e3.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proposal-v3.md",
+      "lines": [
+       1,
+       90
+      ],
+      "sha256": "965022301f22b45f9f295bfc0f1fe59385abeabd38b194b98a0dfcf422e1a47a"
+     }
+    ],
+    "depends_on": [
+     "9ed31dfab0",
+     "921909428f",
+     "95f6de5cf2"
+    ],
+    "instruments": [
+     {
+      "path": "<lab>/engine/cert/run_v3.py",
+      "sha256": "3bb5359410433c5a73b1b6c668e3197cc7938a6aa75d0e2cf04d6e971a849367"
+     },
+     {
+      "path": "<lab>/engine/cert/driver_v3.py",
+      "sha256": "84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2"
+     },
+     {
+      "path": "<lab>/engine/cert/lohner2.py",
+      "sha256": "cdbcbc3ed708a132ca441f9f1ae4877a575c990a3b8abce629607e1665fe40b5"
+     },
+     {
+      "path": "<lab>/proposal-v3.md",
+      "sha256": "965022301f22b45f9f295bfc0f1fe59385abeabd38b194b98a0dfcf422e1a47a"
+     }
+    ],
+    "tolerances": "interval arithmetic; the radius cap stays within the BAR-LB-E limit (width ≤ 1e-6)",
+    "toy_model": "flat Friedmann"
+   }
+  },
+  "sha256": "8aec628fd2370f5072e7be0030f3a3c7842aef15bf58b91914fc33d6d7638457",
+  "id": "8aec628fd2"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "8aec628fd2",
+  "files": [
+   {
+    "path": "<lab>/engine/cert/core.py",
+    "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.py",
+    "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.pkl",
+    "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b"
+   },
+   {
+    "path": "<lab>/engine/cert/param.py",
+    "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0"
+   },
+   {
+    "path": "<lab>/engine/cert/taylor.py",
+    "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner.py",
+    "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner2.py",
+    "sha256": "cdbcbc3ed708a132ca441f9f1ae4877a575c990a3b8abce629607e1665fe40b5"
+   },
+   {
+    "path": "<lab>/engine/cert/pipeline.py",
+    "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1"
+   },
+   {
+    "path": "<lab>/engine/cert/driver.py",
+    "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5"
+   },
+   {
+    "path": "<lab>/engine/cert/driver2.py",
+    "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v2.py",
+    "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v3.py",
+    "sha256": "84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v2.py",
+    "sha256": "2a770321a66d577a43f940f6b3c1f272cd0fac4071212e45d3070b39e83b1a62"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v3.py",
+    "sha256": "3bb5359410433c5a73b1b6c668e3197cc7938a6aa75d0e2cf04d6e971a849367"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails.py",
+    "sha256": "cb5d3fd456d7e011907ac2b28347f53a710eedc623b65b34694a4d1491132dc5"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner.py",
+    "sha256": "d5295524ee1c62e911329ee8ac705aeb435e42e3c1a9313c638d34c2e21f06ba"
+   },
+   {
+    "path": "<lab>/engine/cert/check_struct.py",
+    "sha256": "4ea204d3fc8417b2cef1a5584107c7260abc6bcd4d88f3c87c2acd88226c53c1"
+   },
+   {
+    "path": "<lab>/engine/system.py",
+    "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f"
+   },
+   {
+    "path": "<lab>/engine/eqs_gen.py",
+    "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e"
+   },
+   {
+    "path": "<lab>/engine/bg.py",
+    "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64"
+   },
+   {
+    "path": "<lab>/engine/bgc.py",
+    "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e"
+   },
+   {
+    "path": "<lab>/engine/jet.py",
+    "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae"
+   }
+  ],
+  "at": "2026-11-16T02:42:46+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "8aec628fd2",
+  "seal_sha256": "8aec628fd2370f5072e7be0030f3a3c7842aef15bf58b91914fc33d6d7638457",
+  "outcome": "HOLD",
+  "measured": "EXISTENCE CERTIFIED (one implementation): PE1 Krawczyk contraction at first rung r=1e-15 (max rad(K)/rad(X) = 0.00247; Ebox 2.6e-25); Evans-Coleman sonic data V0 in [0.11243940138809833622 +/- 6.74e-21]. PE2 saddle certified (lam 4.29174946397, lam_b -0.3867122506) + exactly 1 V sign change, 0 ambiguous. PE3 m/r(t=0) = 0.0595 +/- 8.24e-5 inside EC 0.0596+-0.0005. PE4 warm-up: k=1/2 contraction at r=1e-15 (ratio 0.0248), K(X) contains exact Friedmann data. Null1 PASS (residual certified nonzero, no contraction). Null2 PASS (refusal). Pending B5 blind replication + referees.",
+  "settled_at": "2026-11-16T03:13:09+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs3/results-e3.txt",
+    "sha256": "7defa0d0cdde31ad7811b6edbe84e16ec129110bafe00754a4fc17a95e7eca0c"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-e4.md",
+    "sha256": "01e655f16ef74cad26589581da5f480f54680d43ff484c84a7c6ca11dca7550b",
+    "bytes": 3993
+   }
+  ],
+  "tag": "LIGHTBALL-E4",
+  "note": null,
+  "sealed_at": "2026-11-16T07:57:20+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-e4.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proposal-v31.md",
+      "lines": [
+       1,
+       89
+      ],
+      "sha256": "8d6fdbcea5a4b2b8771a9fd65bc3a8f283bce6cb23b780890e216878316eabf6"
+     }
+    ],
+    "depends_on": [
+     "8aec628fd2",
+     "921909428f",
+     "95f6de5cf2",
+     "9ed31dfab0"
+    ],
+    "instruments": [
+     {
+      "path": "<lab>/engine/cert/run_v31.py",
+      "sha256": "8ada5973899d50ee9b6d3a74c877d90e39733c9e768f9aeb2791fad540aa502a"
+     },
+     {
+      "path": "<lab>/engine/cert/driver_v31.py",
+      "sha256": "0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171"
+     },
+     {
+      "path": "<lab>/engine/cert/test_tails_v31.py",
+      "sha256": "e1924ab703b5f5b5aab94dbc9fbcc769220e8f6ce2ee1c736d72e517636e3e5e"
+     },
+     {
+      "path": "<lab>/engine/cert/test_lohner2.py",
+      "sha256": "752ae78c6a813375c3a0c3dc8ec085b64626b5bc390eb92bfaee5e2e7e24ac78"
+     },
+     {
+      "path": "<lab>/proposal-v31.md",
+      "sha256": "8d6fdbcea5a4b2b8771a9fd65bc3a8f283bce6cb23b780890e216878316eabf6"
+     }
+    ],
+    "tolerances": "interval arithmetic; radius cap within BAR-LB-E width <= 1e-6",
+    "toy_model": "flat Friedmann"
+   }
+  },
+  "sha256": "7928715efeae88a562ac98b2bd4bd734f886d453211864f1206491914b61437f",
+  "id": "7928715efe"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "7928715efe",
+  "files": [
+   {
+    "path": "<lab>/proposal-v31.md",
+    "sha256": "8d6fdbcea5a4b2b8771a9fd65bc3a8f283bce6cb23b780890e216878316eabf6"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v31.py",
+    "sha256": "8ada5973899d50ee9b6d3a74c877d90e39733c9e768f9aeb2791fad540aa502a"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v31.py",
+    "sha256": "0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails_v31.py",
+    "sha256": "e1924ab703b5f5b5aab94dbc9fbcc769220e8f6ce2ee1c736d72e517636e3e5e"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner2.py",
+    "sha256": "752ae78c6a813375c3a0c3dc8ec085b64626b5bc390eb92bfaee5e2e7e24ac78"
+   },
+   {
+    "path": "<lab>/engine/cert/core.py",
+    "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.py",
+    "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.pkl",
+    "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b"
+   },
+   {
+    "path": "<lab>/engine/cert/param.py",
+    "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0"
+   },
+   {
+    "path": "<lab>/engine/cert/taylor.py",
+    "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner.py",
+    "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner2.py",
+    "sha256": "cdbcbc3ed708a132ca441f9f1ae4877a575c990a3b8abce629607e1665fe40b5"
+   },
+   {
+    "path": "<lab>/engine/cert/pipeline.py",
+    "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1"
+   },
+   {
+    "path": "<lab>/engine/cert/driver.py",
+    "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5"
+   },
+   {
+    "path": "<lab>/engine/cert/driver2.py",
+    "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v2.py",
+    "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v3.py",
+    "sha256": "84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails.py",
+    "sha256": "cb5d3fd456d7e011907ac2b28347f53a710eedc623b65b34694a4d1491132dc5"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner.py",
+    "sha256": "d5295524ee1c62e911329ee8ac705aeb435e42e3c1a9313c638d34c2e21f06ba"
+   },
+   {
+    "path": "<lab>/engine/cert/check_struct.py",
+    "sha256": "4ea204d3fc8417b2cef1a5584107c7260abc6bcd4d88f3c87c2acd88226c53c1"
+   }
+  ],
+  "at": "2026-11-16T07:57:24+00:00"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "7928715efe",
+  "files": [
+   {
+    "path": "<lab>/engine/system.py",
+    "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f"
+   },
+   {
+    "path": "<lab>/engine/eqs_gen.py",
+    "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e"
+   },
+   {
+    "path": "<lab>/engine/bg.py",
+    "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64"
+   },
+   {
+    "path": "<lab>/engine/bgc.py",
+    "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e"
+   },
+   {
+    "path": "<lab>/engine/jet.py",
+    "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae"
+   }
+  ],
+  "at": "2026-11-16T07:57:28+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "7928715efe",
+  "seal_sha256": "7928715efeae88a562ac98b2bd4bd734f886d453211864f1206491914b61437f",
+  "outcome": "FAILED",
+  "measured": "Kill rule: PE4 warm-up (k=1/2, float64 seed) did not contract on rungs 1e-15..1e-12; Ebox ~ 8.7 r at every rung (repaired error addend linear in r at k=1/2, so structurally non-contracting); stopped at 2259 s. By the sealed rule no k=1/3 claim. Everything else held: target PE1 contracts at r=1e-15 (ratio 0.007), V0 = 0.1124394013880983362 +- 3.3e-20, W0 = 8.90132327775564352 +- 7.9e-18; PE2 v3.1 holds; PE3 m/r 0.0595 +- 8.2e-5; content nulls W0, xc, V0 all non-contracting; tails/Lohner2/struct controls PASS.",
+  "settled_at": "2026-11-16T09:00:42+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs4/target.log",
+    "sha256": "bd018dc533e4f0044fbcc50e1c12116fddbe6ddef7596370bb4c345359eee765"
+   },
+   {
+    "path": "<lab>/runs4/warmup.log",
+    "sha256": "c63e0112058350acd362fcbfb5778e95d2f30adaa0587c90d92716e6b66a185a"
+   },
+   {
+    "path": "<lab>/runs4/nullv0.log",
+    "sha256": "7e3e7b642c2a32045a052b329d79dc51a745530dbeaf9b1e4178a608716b3260"
+   },
+   {
+    "path": "<lab>/runs4/chaina.log",
+    "sha256": "13e7aeb40d3ced1ad5622d4e99d1ddf9736f4bb1fb09220478bc76b07a860323"
+   },
+   {
+    "path": "<lab>/runs4/chainb.log",
+    "sha256": "c85d3e4ac6d1056bae7eb05d705374591015ba785198c966df4548bd518b4542"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-e5.md",
+    "sha256": "f0c0bd719bbaa8ff357b85bb278cd5f6fab28cc971bcdbaaf58269359396faa9",
+    "bytes": 3843
+   }
+  ],
+  "tag": "LIGHTBALL-E5",
+  "note": null,
+  "sealed_at": "2026-11-16T17:48:03+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-e5.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proposal-v32.md",
+      "lines": [
+       1,
+       78
+      ],
+      "sha256": "7ab6ddb934b67444b9efe6fb7ea4c935b4232d6041324d4d58394d57a021f3d4"
+     }
+    ],
+    "depends_on": [
+     "7928715efe",
+     "8aec628fd2",
+     "921909428f",
+     "71904980c4"
+    ],
+    "instruments": [
+     {
+      "path": "<lab>/engine/cert/run_v32.py",
+      "sha256": "fcd1f159042ee76842eba1b8c71dd17c5dab84984fd0d01f6059ac6eb77d9799"
+     },
+     {
+      "path": "<lab>/engine/cert/driver_v32.py",
+      "sha256": "c95d0e5f301e56114d2bae97d31bdd94c3de6e23733c88d5c004ec85c1fcd771"
+     },
+     {
+      "path": "<lab>/engine/cert/test_tails_v32.py",
+      "sha256": "acae22bb383604fb4baf81584757e26b3b6f4234b53f830d22291720ce256c18"
+     }
+    ],
+    "tolerances": "interval arithmetic; radius cap within BAR-LB-E width <= 1e-6",
+    "toy_model": "flat Friedmann"
+   }
+  },
+  "sha256": "d0af75803f5c350f948cdd30a1a71bccfe3b5638b7f51a34d3030f1876ce8f78",
+  "id": "d0af75803f"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "d0af75803f",
+  "files": [
+   {
+    "path": "<lab>/proposal-v32.md",
+    "sha256": "7ab6ddb934b67444b9efe6fb7ea4c935b4232d6041324d4d58394d57a021f3d4"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v32.py",
+    "sha256": "fcd1f159042ee76842eba1b8c71dd17c5dab84984fd0d01f6059ac6eb77d9799"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v32.py",
+    "sha256": "c95d0e5f301e56114d2bae97d31bdd94c3de6e23733c88d5c004ec85c1fcd771"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails_v32.py",
+    "sha256": "acae22bb383604fb4baf81584757e26b3b6f4234b53f830d22291720ce256c18"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v31.py",
+    "sha256": "0a717957670fc16cf150299aa7401e805ae2de8273eff1ac06de7df2e2220171"
+   },
+   {
+    "path": "<lab>/engine/cert/run_v31.py",
+    "sha256": "8ada5973899d50ee9b6d3a74c877d90e39733c9e768f9aeb2791fad540aa502a"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails_v31.py",
+    "sha256": "e1924ab703b5f5b5aab94dbc9fbcc769220e8f6ce2ee1c736d72e517636e3e5e"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner2.py",
+    "sha256": "752ae78c6a813375c3a0c3dc8ec085b64626b5bc390eb92bfaee5e2e7e24ac78"
+   },
+   {
+    "path": "<lab>/engine/cert/core.py",
+    "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.py",
+    "sha256": "7ec1433829803e460d9912388b25035f1aa32c9394088cf7ada5a2beb8f5aa99"
+   },
+   {
+    "path": "<lab>/engine/cert/fields.pkl",
+    "sha256": "736818c02663152307cfefc5b9a3ecb0aa1d5cdf6619858cd453f63e3b368d3b"
+   },
+   {
+    "path": "<lab>/engine/cert/param.py",
+    "sha256": "7d8b6751d5668a15d27f4b8b1e8a07850dad719b029fa3d93fcea389f0a87bd0"
+   },
+   {
+    "path": "<lab>/engine/cert/taylor.py",
+    "sha256": "674f03480383c9fe6d0cdbf123ee11578535368b102c1f65778ce71a6184c663"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner.py",
+    "sha256": "a5f70be48612786384d56cdf1be7b89072492b876060cdfb604c67edd0311b62"
+   },
+   {
+    "path": "<lab>/engine/cert/lohner2.py",
+    "sha256": "cdbcbc3ed708a132ca441f9f1ae4877a575c990a3b8abce629607e1665fe40b5"
+   },
+   {
+    "path": "<lab>/engine/cert/pipeline.py",
+    "sha256": "a5b0936b2ca6aef804c01a156a2a65229e256c1af0ac21f5fb40930788a765e1"
+   },
+   {
+    "path": "<lab>/engine/cert/driver.py",
+    "sha256": "91b6eb7ba0fb59984834d1a030c5d5a1f0074bfec97010844cc6ed30ca46f4b5"
+   },
+   {
+    "path": "<lab>/engine/cert/driver2.py",
+    "sha256": "9169e6614fc1bb8349517d4753b9fbc7032dabf4e3c1868172f295c9780737b2"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v2.py",
+    "sha256": "8b2c17fc259ee6d67d0a75b25ce51483d2469e313deeeeb320951290b634233e"
+   },
+   {
+    "path": "<lab>/engine/cert/driver_v3.py",
+    "sha256": "84808b61fb66274692c5b5dbb344c8c04c9493649b8319bf81276cb5eb9281e2"
+   },
+   {
+    "path": "<lab>/engine/cert/test_tails.py",
+    "sha256": "cb5d3fd456d7e011907ac2b28347f53a710eedc623b65b34694a4d1491132dc5"
+   },
+   {
+    "path": "<lab>/engine/cert/test_lohner.py",
+    "sha256": "d5295524ee1c62e911329ee8ac705aeb435e42e3c1a9313c638d34c2e21f06ba"
+   },
+   {
+    "path": "<lab>/engine/cert/check_struct.py",
+    "sha256": "4ea204d3fc8417b2cef1a5584107c7260abc6bcd4d88f3c87c2acd88226c53c1"
+   },
+   {
+    "path": "<lab>/engine/system.py",
+    "sha256": "34327a73a4f076f9b65f5fa68e6b3f9d7812894e0b54ecc0fcb5cac8e4606a2f"
+   },
+   {
+    "path": "<lab>/engine/eqs_gen.py",
+    "sha256": "26e4f83a98e9dea13beeea9ec30815f0668d73669b71b379b51738f00f1cc74e"
+   },
+   {
+    "path": "<lab>/engine/bg.py",
+    "sha256": "cc267f83cb8a384c9cbe848c0b5f4780a013c0242a6338661a82b954ac1dbd64"
+   },
+   {
+    "path": "<lab>/engine/bgc.py",
+    "sha256": "d98f0d324be60959856f03a97017bd06a5e346a98ff8c2b1fd77f6cd2df4241e"
+   },
+   {
+    "path": "<lab>/engine/jet.py",
+    "sha256": "c47c81fed1607a5723899af0cc4c298f52676e7b6d66907bf70a54822bf707ae"
+   }
+  ],
+  "at": "2026-11-16T17:48:09+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "d0af75803f",
+  "seal_sha256": "d0af75803f5c350f948cdd30a1a71bccfe3b5638b7f51a34d3030f1876ce8f78",
+  "outcome": "HOLD",
+  "measured": "PE4 warm-up k=1/2 (float64 seed) contracts at r=1e-15 (ratio 0.0247, Ebox 1.8e-22), box contains exact Friedmann data. PE1 target contracts at r=1e-15 (ratio 0.00703, Ebox 1.9e-24). PE2 v3.1 holds (1 V sign change, 0 ambiguous, det sign certified, x monotone, mono runs consistent). PE3 m/r(t=0) 0.0595 +- 8.2e-5. Content nulls V0/W0/xc all refuse via Krawczyk. Controls: test_tails_v32 13 + 12 (incl. injected 3eps flagged, derivative check C, frozen-eigenpair null fails), test_tails_v31, test_lohner2 thin+box, check_struct all rc=0. Existence certified (first implementation); independently proved by refereed blind B5 (71904980c4); local uniqueness not claimed.",
+  "settled_at": "2026-11-16T18:34:21+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs6/target.log",
+    "sha256": "f68a9e3376a74f8969f0d9c023d80ea47d8d02c4a5cf98f8320af3379c2bc211"
+   },
+   {
+    "path": "<lab>/runs6/warmup.log",
+    "sha256": "7fe91307078a26048d66be2a404bb3296a352c7d79f135c602199b05ebafdaf6"
+   },
+   {
+    "path": "<lab>/runs6/nullv0.log",
+    "sha256": "52073a67e1198d4be773b178d709ebfa72335fd5ee092abaca1444778d65898c"
+   },
+   {
+    "path": "<lab>/runs6/chaina.log",
+    "sha256": "78ee2f4442d99b9de717b32ff54e245af94e45f21f2a064780e919470c495bf4"
+   },
+   {
+    "path": "<lab>/runs6/chainb.log",
+    "sha256": "795feb19da7f08c95dfdee89487c1d4bf5f8e43c76a9aa9d91657023d0a9060a"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/bar-lb-m.md",
+    "sha256": "1606fcb365776d483124c75ea98122c51f779f665beb6a79844ab7331cc6cad8",
+    "bytes": 5574
+   }
+  ],
+  "tag": "LIGHTBALL-M",
+  "note": null,
+  "sealed_at": "2026-11-17T00:45:22+00:00",
+  "seal_fields": {
+   "<lab>/bar-lb-m.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proposal-b4-speedup.md",
+      "lines": [
+       1,
+       267
+      ],
+      "sha256": "d80390cea397f184c0e4e56c5c3766571895c1c124d3f662005822df6672e381"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f"
+    ],
+    "instruments": [
+     {
+      "path": "<lab>/engine/cert/count_b4v3.py",
+      "sha256": "9d6db027f0ca12a2fefc6fcb716bfd36d3a5d422c971611403bcec04dd13b28f"
+     },
+     {
+      "path": "<lab>/engine/cert/count_b4v3_seal.py",
+      "sha256": "6e7d49f3e1af8e8f0a3caf32476adfd3557cee49cf7d5a067f528ab7d02f470c"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tm_v3.py",
+      "sha256": "54c1e2f7f2defad39483f3de6af9774212b2b78da2d9f416234598255708f4a3"
+     },
+     {
+      "path": "<lab>/b4speed/cachel.py",
+      "sha256": "a0489e264e31f61a9934b0089644025048adcc304c7e2401031c61c9e8b98533"
+     },
+     {
+      "path": "<lab>/b4speed/l13_nsub2.pkl",
+      "sha256": "c239cbe5347059080ea3c4144b8c5a65133cb4c4812a280096c8f5116dfbb782"
+     },
+     {
+      "path": "<lab>/engine/cert/count_b4.py",
+      "sha256": "7f17adc9c0b10ec529fba28ea356296b7b3bd77dd95bd312e3bb791c4d2c7204"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tm_v2.py",
+      "sha256": "80b6a52355e28605a8f6d72784fa025ddac354733c413191cb086f84f60985d1"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tm.py",
+      "sha256": "98a06289ee5db85f16c7610968754b4a9c5a38417ec4efe1cf2a5273bf6411c9"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_stages_v2.py",
+      "sha256": "e477ec1f6fc3f36ec16e776c26c0516e1fa5b964ee769286d8e0c290f20bf2d5"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_stages.py",
+      "sha256": "582e24236c8ff81594cb56a4c2afdb0edc9a083dfdc261cf61623f4679deb821"
+     },
+     {
+      "path": "<lab>/engine/cert/core.py",
+      "sha256": "932a32b5f6b23f416147ce112b3a51e2d840b855fea79b339fdc397d3ca88f85"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_mc.py",
+      "sha256": "ee336f0e6185a620c9d995466af69b486372716dc1f593ed56d0fc13bbcbf64d"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_fields2.pkl",
+      "sha256": "dce8eba80ec94e1dff72d4187f17029cd3a0e62ae65f3e71e41658ed7761fc26"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tube_v2.py",
+      "sha256": "a39312d4a76008e638e850ccb8417a0261b5c6ea590619c973b143a15d73a368"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+      "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_tube2_k1_2.pkl",
+      "sha256": "17dadbfcfb78e235010610e0b7b627dcb76a35ceedc6601e4fc1b845bad3badf"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_b4_smoke3.py",
+      "sha256": "45657bd361d2c18b7a2476e5f232f8b3c16f73835e8dc0618242fac9bc5f68cd"
+     },
+     {
+      "path": "<lab>/engine/cert/fw_cert3.py",
+      "sha256": "8f71e486ff5dd80718bd2338f13268fb7ad484522ebf0fa476cbf20652d10c0e"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_fw4_bg3.pkl",
+      "sha256": "53008a7d2bc8cf30dbd4c69431bdcfa366c181fdc9e18b5f27358a0cc7eb63c0"
+     },
+     {
+      "path": "<lab>/engine/cert/lin_fw4_bg3_make.py",
+      "sha256": "c46259e4874bd6be733ece8a4490fc487534b85028aa957c847b5541d3525561"
+     },
+     {
+      "path": "<lab>/runs6/fw_cert3_m2.5_ka40_k55.log",
+      "sha256": "b58013270c01a6c4cf5c793815af6a5fa34dc1bf502d76c0dbb608d898be421a"
+     },
+     {
+      "path": "<lab>/runs6/fw_cert3_m3.5_ka55_k2000.log",
+      "sha256": "5ce474e11b2b6a1caf361305c3d26db095c224b0dd905540e782bce01847f54e"
+     }
+    ],
+    "tolerances": "interval arithmetic; the 0.25-of-an-integer rule",
+    "toy_model": "none (controls are the known gauge zero and the known kappa*)"
+   }
+  },
+  "sha256": "b1b0ee1cde8ecea0c0eef5c5ced6d4da3d40ee3c3fc6ae52bda9a5ad93df861c",
+  "id": "b1b0ee1cde"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "b1b0ee1cde",
+  "seal_sha256": "b1b0ee1cde8ecea0c0eef5c5ced6d4da3d40ee3c3fc6ae52bda9a5ad93df861c",
+  "outcome": "HOLD",
+  "measured": "N(R1=40)=1 (Delta/pi 1.0000+-2.4e-5, parity True, 99 discs, 0 refinements); kappa* [2.810552549+-3.8e-10], gamma [0.3558019224+-7.0e-11]; PM3 all nonzero/neg, iw=2 at 199 pts; controls C1a/b/c + R1=3 PASS; AMEND-2 met -> full half-plane wording",
+  "settled_at": "2026-11-17T02:18:09+00:00",
+  "results": [
+   {
+    "path": "<lab>/runs7/verdict_m.json",
+    "sha256": "aa9f6b54da4c923281febd400ad67603621bdf66d2545c8c4cde14717bd97675"
+   },
+   {
+    "path": "<lab>/runs7/count_r40.log",
+    "sha256": "a1f1f5f3f9d4862b652c2e38e5fafe573a270186ea395304489ab35d30607b4d"
+   },
+   {
+    "path": "<lab>/runs7/kstar.log",
+    "sha256": "4dbe4d4b8f6beb2b491fe5e13f5e2000c56f46b4ead90e4a88bdd2be6709c5b1"
+   },
+   {
+    "path": "<lab>/runs7/ctl_c1.log",
+    "sha256": "671ef28b51c5b2ae62f7744f47fa3210c69554546d5be54a86386eb399a37aa9"
+   },
+   {
+    "path": "<lab>/runs7/ctl_r3.log",
+    "sha256": "64f5758b27fb7275c2a1ceb4968c4d20e37ae8f8fe5ad9d19509a8f018c13f37"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-s1.md",
+    "sha256": "14f5257a9ce0e8a00ef7826ba9d24c9136720ddddfba5e96f63d7de22201f499",
+    "bytes": 4157
+   }
+  ],
+  "tag": "LIGHTBALL-SF-S1",
+  "note": null,
+  "sealed_at": "2026-11-17T12:47:55+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-s1.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/sideways/seats/audit-1/gr-qc_9906124.txt",
+      "lines": [
+       425,
+       450
+      ],
+      "sha256": "9ef8594090811a66088be61ec6cce932f3e946998034abd21c7b9143c681fe8e"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f"
+    ],
+    "tolerances": "interval arithmetic (arb), no headroom needed; the symbolic identity must be exact (sympy simplify to 0)",
+    "ceiling": "\"no twisting fluid motion of the ball of light grows, in any shape\" - one closed sector, all l at once",
+    "toy_model": "none - PS3 is an exact closed form on the same equations"
+   }
+  },
+  "sha256": "2c30c7615f3905a85556640f31d1ba94a6ecea0ad8539c5f84c52dc43a88417b",
+  "id": "2c30c7615f"
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-l0.md",
+    "sha256": "30180dca75ef758732d0f9585be5a39098167ffe0fe2fb6c664274ba254508be",
+    "bytes": 4464
+   }
+  ],
+  "tag": "LIGHTBALL-SF-L0",
+  "note": null,
+  "sealed_at": "2026-11-17T12:48:02+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-l0.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proof-b4.md",
+      "lines": [
+       56,
+       66
+      ],
+      "sha256": "e4375aa62ba97fce43aca697c585aa7741d25a92389e5c467b282de6910bb2ac"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "b1b0ee1cde"
+    ],
+    "tolerances": "interval overlap in arb (rigorous enclosures, no headroom); x_lc window +- 1e-3 around the float probe",
+    "ceiling": "the exact map of where spurious zeros can hide, for every sector the count will meet",
+    "toy_model": "flat-space scalar wave equation in self-similar coordinates, G App. D"
+   }
+  },
+  "sha256": "596c7146ff8cd6e1afbda935ac952858337bb3f6dbb9a8a73746219521b1f674",
+  "id": "596c7146ff"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "2c30c7615f",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.py",
+    "sha256": "839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/sideways/build-1/s1_cert.py",
+    "sha256": "098bb4712565850d831a5a7b32ff10c5ca5fc0291f6674359c90543aecd2889a"
+   },
+   {
+    "path": "<lab>/sideways/build-1/l0_cert.py",
+    "sha256": "b20787ed0e6d6fc0a95e630d186f41502fafda90e7931ba2ba1bd0c994006e71"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   }
+  ],
+  "at": "2026-11-17T13:46:12+00:00"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "596c7146ff",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.py",
+    "sha256": "839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/sideways/build-1/s1_cert.py",
+    "sha256": "098bb4712565850d831a5a7b32ff10c5ca5fc0291f6674359c90543aecd2889a"
+   },
+   {
+    "path": "<lab>/sideways/build-1/l0_cert.py",
+    "sha256": "b20787ed0e6d6fc0a95e630d186f41502fafda90e7931ba2ba1bd0c994006e71"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   }
+  ],
+  "at": "2026-11-17T13:46:12+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "2c30c7615f",
+  "seal_sha256": "2c30c7615f3905a85556640f31d1ba94a6ecea0ad8539c5f84c52dc43a88417b",
+  "outcome": "FAILED",
+  "measured": "PS1 FAILED as sealed: 1+NV certified >= 0.5 on centre chart (exact 1/2 at centre), tube 720/720 (lb 0.500066865), sonic chart and outward leg to X1=12 (lb 1.0), but the far side x>=12 (near t=0, N->0) was NOT certified (far-side check returned 0; instrument gap, no point where 1+NV<=0 was found). PS2 FAILED (H2 outward N>0 on 715/731 steps, H6 far side not met; H1,H3,H4,H5 hold). PS3 HOLD (exact identity with G (20) at general k). PS4 as sealed FAILED (cannot fail on content: returned -1/2 exactly); PS4' (AMEND-SF-S1-1 db321cde2e, POST HOC) HOLD: -103/201 excludes -1/2. Re-test needs a far-side certificate under a new seal.",
+  "settled_at": "2026-11-17T13:48:07+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-1/result_s1.json",
+    "sha256": "433cbdaa0c590c32a8b9451d1bc402ae91c6135d43a49964d50d2fa34dde01be"
+   },
+   {
+    "path": "<lab>/sideways/build-1/main_s1.log",
+    "sha256": "340aea1af2ba7f5d8495a936a7777b5dabb6705c0196571c96be7bcd9be48a88"
+   }
+  ]
+ },
+ {
+  "kind": "settle",
+  "seal_id": "596c7146ff",
+  "seal_sha256": "596c7146ff8cd6e1afbda935ac952858337bb3f6dbb9a8a73746219521b1f674",
+  "outcome": "HOLD",
+  "measured": "PL1 HOLD (speeds 1+-N, sonic pair, 1+NV; principal part = x-flux). PL2 HOLD: sonic d_l = [-0.0990290820550 +- 8.74e-14], lambda' [1.099029082055 +- 2.22e-13] for polar l=1 and l=2, overlaps spherical d; d<0 certified. PL3a HOLD: x_lc = [1.357941265765732 +- 7.18e-16], 2m/r [0.264594463842 +- 4.8e-13], lambda'_lc [0.67534243396737 +- 4.4e-15]; d_lc axial Pi l=2 [0.324657566033 +- 5.5e-13] (>0), polar l=2 [-1.02602730190 +- 6.3e-12] (<0): sign decided in each variable; level-dependent; resonance set kappa = 1 - m lambda'_lc. PL3b (informative, not required by the verdict rule): axial HOLD, polar FAILED. PL4 HOLD: l=1 polar residual gauge rate (1+3k)/(3(1+k)) = 1/2 exact, simple; translation (1), boost (0) excluded; nothing on Re kappa = 0. PL5 HOLD. Kill switch clear. Light-cone resonance ~0.325 inside Re kappa > 0: counts use the analytic class + pole-free normalisation.",
+  "settled_at": "2026-11-17T13:48:17+00:00",
+  "false_flags": [
+   "result_l0.json:PL3b.polar.overlap = false",
+   "result_l0.json:PL3b.pass_polar = false"
+  ],
+  "override": "PL3b is the analogy item; BAR-SF-L0 verdict rule: HOLD if PL1, PL2, PL3a, PL4 and PL5 hold, PL3b scored and reported but not required. Its polar FAILED is recorded in the measured text.",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-1/result_l0.json",
+    "sha256": "6c44c4b58b5d01baf595d39c250a38cd2692b5166fa912c7ad28ce29ca0205d6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/main_l0.log",
+    "sha256": "a9a2b45b4845f5e0f0dff464934a0cffba36f7eb0982794a86ce7d2f50b3b885"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-s1b.md",
+    "sha256": "0bf7a9a26d192a080373ad39bb87b879be9172fcd8813c3844d3c8ccf0ae7e73",
+    "bytes": 3559
+   }
+  ],
+  "tag": "LIGHTBALL-SF-S1b",
+  "note": null,
+  "sealed_at": "2026-11-17T13:48:43+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-s1b.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/sideways/seats/audit-1/gr-qc_9906124.txt",
+      "lines": [
+       425,
+       450
+      ],
+      "sha256": "9ef8594090811a66088be61ec6cce932f3e946998034abd21c7b9143c681fe8e"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "2c30c7615f"
+    ],
+    "tolerances": "interval arithmetic (arb), no headroom; symbolic identity exact",
+    "ceiling": "\"no twisting fluid motion of the ball of light grows, in any shape\"",
+    "toy_model": "none - PS3b is an exact closed form on the same equations"
+   }
+  },
+  "sha256": "0812c8e0d24809f5798adbd6224ce911af041916062df9f9117a285a558f1f25",
+  "id": "0812c8e0d2"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "0812c8e0d2",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-1/s1b_cert.py",
+    "sha256": "8847ad4a3a83c823648fcfe1ff30a2a3ad47db9d47cba19bff3bce1093e54d3a"
+   },
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.py",
+    "sha256": "839e6c55acd1ee9591fdc173bc5f7f53138a5bd35fe9bf0b38ed766862df7afa"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   }
+  ],
+  "at": "2026-11-17T13:55:10+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "0812c8e0d2",
+  "seal_sha256": "0812c8e0d24809f5798adbd6224ce911af041916062df9f9117a285a558f1f25",
+  "outcome": "HOLD",
+  "measured": "PS1b HOLD: 1+NV > 0 on the whole E5 solution centre to t=0; lower bounds centre chart 0.5 (exact 1/2 at centre), tube 0.500066865282, sonic both sides >= 1.2, outward leg 1.0, far side x>=12 1.000 (invariant-region lemma re-verified from outward_rec end hull). PS2b HOLD: H1-H6 incl. N>0 for t<0 via N_x = aN, N>=0 only at t=0 (justified), c bounded as t->0. PS3b HOLD (exact G (20) identity). PS4b HOLD (-103/201 excludes -1/2). PS5b HOLD (checker refuses 1+NV-0.6). Claim: on E5 every regular axial-fluid (beta) mode, every l>=1, decays, kappa = -(l+2n)/2. To referee before 'proved'.",
+  "settled_at": "2026-11-17T13:56:31+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-1/result_s1b.json",
+    "sha256": "b9c827f2fa2673dac0ad1403f44dc6092201faf58b128856470aba4926e5a4eb"
+   },
+   {
+    "path": "<lab>/sideways/build-1/main_s1b.log",
+    "sha256": "d29dc34272dbff2714c99e0b00b70f8751a276e48a0ba1fcb52c3505d1510954"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-x1.md",
+    "sha256": "6eb9ee0673ffc502a4b18f263fc2d0ca05c9e6281858d4b152dddde6cbfdd4d5",
+    "bytes": 4638
+   }
+  ],
+  "tag": "LIGHTBALL-SF-X1",
+  "note": null,
+  "sealed_at": "2026-11-17T14:08:47+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-x1.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proof-b4.md",
+      "lines": [
+       56,
+       66
+      ],
+      "sha256": "e4375aa62ba97fce43aca697c585aa7741d25a92389e5c467b282de6910bb2ac"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "596c7146ff",
+     "0812c8e0d2"
+    ],
+    "tolerances": "exact symbolic (simplify to 0); interval arithmetic (arb) for N > 1 and the lattice distances",
+    "ceiling": "every place a spurious zero could hide in Re kappa >= 0 is excluded by proof, for every l",
+    "toy_model": "flat-space toy of build-1 (G App. D) through the same level code, rho = l - n - lambda"
+   }
+  },
+  "sha256": "cb9af3b657e4bbab56fcb64a899200aeb77b5264f8bb7c9be9106bf0da690bd3",
+  "id": "cb9af3b657"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "cb9af3b657",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-2/x1_cert.py",
+    "sha256": "e15172b773040626fce2b04047a963b9241ad33a5521b1673b61732c06c584e0"
+   },
+   {
+    "path": "<lab>/sideways/build-2/proof-sf-x1.md",
+    "sha256": "3ecc84a56a0f8bedb0e5e098b1f03e26e0c0d25a3cbc689cd1c52f24c17add15"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   }
+  ],
+  "at": "2026-11-17T14:55:04+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "cb9af3b657",
+  "seal_sha256": "cb9af3b657e4bbab56fcb64a899200aeb77b5264f8bb7c9be9106bf0da690bd3",
+  "outcome": "HOLD",
+  "measured": "PX1 HOLD: sonic exponent identity exact in kappa (polynomial ring over QQ(c,t,sA), sonic set parametrised), l=1 and general l>=2; rank n-1, nonzero coefficient kappa-free; d [-0.0990290820550 +- 8.74e-14], lambda' [1.099029082055 +- 2.22e-13]. PX2 HOLD: counting levels collision-free in Re kappa>=0 for all l>=1 (sonic fluid level; light cone polar h_AB' rho = (1-3lam-kappa)/lam; axial one below h_A rho = (1-2lam-kappa)/lam); level maps bijective (certified determinants; L>=6 polynomial). PX3 HOLD: N > 1 centre-to-sonic (centre chart N-1 >= 32.36; tube N-1 >= 1.0135; sonic piece >= 1.0113). PX4 data: lattice distances sonic 0.090105970508, light polar 1.51926970718, light axial 0.519269707183. PX5 HOLD (l=0 reproduces PROOF-B4). PX6 HOLD (bad levels report collisions at kappa=[1 +- 2.7e-13] and 1-lambda_lc). PROOF-SF-X1 one seat; to second referee.",
+  "settled_at": "2026-11-17T14:58:10+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-2/result_x1.json",
+    "sha256": "3cf0c62b233124e45ffe7ce555b2e3f0ffa85b32da1434c2fdc667f23f12aa0a"
+   },
+   {
+    "path": "<lab>/sideways/build-2/main_x1.log",
+    "sha256": "aef78937a98e27e2c50ab245ec363650b2b3bc1da7b94962fcc4368be98f2edc"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-c1.md",
+    "sha256": "90dcd36052b2d493757392ef8e285416207133612f37360994cdbb487c23e14f",
+    "bytes": 4379
+   }
+  ],
+  "tag": "LIGHTBALL-SF-C1",
+  "note": null,
+  "sealed_at": "2026-11-17T15:17:02+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-c1.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/proof-b4.md",
+      "lines": [
+       70,
+       81
+      ],
+      "sha256": "e4375aa62ba97fce43aca697c585aa7741d25a92389e5c467b282de6910bb2ac"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "596c7146ff",
+     "cb9af3b657"
+    ],
+    "tolerances": "exact symbolic (simplify to 0); interval arithmetic (arb) for the domain certificates",
+    "ceiling": "every l >= 1 sector has a proved regular class at the centre and a non-degenerate count domain",
+    "toy_model": "flat-space toy of build-1 (G App. D)"
+   }
+  },
+  "sha256": "e3e640d750afe974e6a521d8248f40c0ac955a134ebafc395ea7ace56c696133",
+  "id": "e3e640d750"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "e3e640d750",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-3/c1_cert.py",
+    "sha256": "d319830d530959a1234f8c77ab5a20bfdbdb2f3daf24c6bd477a8bb3915352af"
+   },
+   {
+    "path": "<lab>/sideways/build-3/c1_series.py",
+    "sha256": "b6e9bf142bfb0b1eddf257561c896f9fc4d98e88b83ef0cae9553a167bad7659"
+   },
+   {
+    "path": "<lab>/sideways/build-3/proof-sf-c1.md",
+    "sha256": "c9203e58af1c8f16d732a9410cfba6f2cb822514640e28b412fb02e48fc972bd"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   }
+  ],
+  "at": "2026-11-17T15:54:16+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "e3e640d750",
+  "seal_sha256": "e3e640d750afe974e6a521d8248f40c0ac955a134ebafc395ea7ace56c696133",
+  "outcome": "FAILED",
+  "measured": "PC1 HOLD (axial Q centre: indicial (s-l+1)(s+l+2), kappa-free, one regular branch ~ r^(l-1) in Q, no log, all l>=2). PC2 HOLD (polar exponents l, l+2, -l-1, 1-l, 3-2kappa (l>=2); 1, 3, -2, 3-2kappa (l=1); regular space dim 2; logs only in the transport branch at the 5 collisions in Re kappa>=0). PC3 HOLD (NV<1, |V|<1, 1+NV>0, T<0, N>1 certified on centre chart, 720 tube steps, both sonic pieces, outward leg to x_lc; contiguity asserted). PC4 FAILED as sealed: the fluid minor m(00,01) and dT_{s theta}/dw are certified < 0 on every piece, but the instrument's exact identity linking them to the Einstein rows ('minor_(00,01)(dl,v) == 4 m(00,01)', c1_cert.py l.740) is false for both l=1 and l>=2, so the certified minor is not shown to be the minor of the actual equations; the kill flag NV_ge_1_or_rank_drop was set from PC4's pass flag, not from any NV>=1 or rank drop found (all certified ranges pass). PC5 HOLD (B4 Mc(0) eigenvalues {-1,0,0,-2}; flat toy l, -l-1). PC6 HOLD (wrong-l null residual 32W0^2/3 != 0). Per the bar: PC1+PC5+PC6 HOLD unblock SB2 (axial); polar counts blocked until PC4 is re-tested.",
+  "settled_at": "2026-11-17T15:56:52+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-3/result_c1.json",
+    "sha256": "5639f834ca8dbd581cb51655290396d8a410459dd170d4d6020851fb42910de6"
+   },
+   {
+    "path": "<lab>/sideways/build-3/main_c1.log",
+    "sha256": "67edd33880d3685ed988ac61ea4b9503e90be2f8be4fa07887552bcb0b565a2a"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-c1b.md",
+    "sha256": "f5281043662664bb36995db13be11752d37a8b39370783f0bf92bed47f61698b",
+    "bytes": 3051
+   }
+  ],
+  "tag": "LIGHTBALL-SF-C1b",
+  "note": null,
+  "sealed_at": "2026-11-17T15:59:47+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-c1b.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/sideways/build-3/c1_cert.py",
+      "lines": [
+       730,
+       745
+      ],
+      "sha256": "d319830d530959a1234f8c77ab5a20bfdbdb2f3daf24c6bd477a8bb3915352af"
+     }
+    ],
+    "depends_on": [
+     "e3e640d750",
+     "d0af75803f"
+    ],
+    "tolerances": "exact symbolic",
+    "ceiling": "the polar reduced systems shown complete on the whole count domain",
+    "toy_model": "none - an exact identity check on the same expressions"
+   }
+  },
+  "sha256": "2ddcc50b714f24efeca3b9cf1bd1f7c13f3cd18b0c62677dd5b0cd63194a71ef",
+  "id": "2ddcc50b71"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "2ddcc50b71",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-3/c1b_cert.py",
+    "sha256": "fe679218fbe29c64797ec2f295acd8c4be7ee8e028c81f2b2ae32a17e9b2a8be"
+   },
+   {
+    "path": "<lab>/sideways/build-3/result_c1.json",
+    "sha256": "5639f834ca8dbd581cb51655290396d8a410459dd170d4d6020851fb42910de6"
+   },
+   {
+    "path": "<lab>/sideways/build-3/c1_cert.py",
+    "sha256": "d319830d530959a1234f8c77ab5a20bfdbdb2f3daf24c6bd477a8bb3915352af"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/polar_sys.py",
+    "sha256": "03f8ff39201b20bca614c574b4ccd31754ec48766b23800db7bb9e638fe1fb60"
+   }
+  ],
+  "at": "2026-11-17T16:04:11+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "2ddcc50b71",
+  "seal_sha256": "2ddcc50b714f24efeca3b9cf1bd1f7c13f3cd18b0c62677dd5b0cd63194a71ef",
+  "outcome": "HOLD",
+  "measured": "PC4b HOLD: after reduction by sA^2 = A, gV^2 = 1 - V^2, in both sectors (l1, lge2): row + 2 dT coefficient = 0 for rows (00,01) x (dl, v); minor - 4 m = 0; d row(0 2)/dw + 2 dT_{s theta}/dw = 0. PC4b-cert HOLD: result_c1.json sha256 5639f834... gate passed; stored m, dw (and m/theta, dw/theta at centre) < 0 on every piece after outward inflation -> Einstein minor and d row(0 2)/dw nonzero on (centre, x_lc]. PC4b-null HOLD: minor-3m, k=17/50, +T all nonzero (exact spot values); plain cancel reproduces C1's False. C1's PC4 content established; C1 stays FAILED as sealed. Polar reduced systems complete on the whole count domain.",
+  "settled_at": "2026-11-17T16:04:45+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-3/result_c1b.json",
+    "sha256": "9656569000c8224c33f9c56538b73c43dd712bf54f860d645164e51092f91e92"
+   },
+   {
+    "path": "<lab>/sideways/build-3/main_c1b.log",
+    "sha256": "cc90620ced9ff24f664540875c293d39a192cbc03f936c8a2207e8912640ba9c"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-l2.md",
+    "sha256": "7a8e1a804104a5be174fb1ca11f421f4082b5ba2928425065a85d28698043fd5",
+    "bytes": 4489
+   }
+  ],
+  "tag": "LIGHTBALL-SF-L2",
+  "note": null,
+  "sealed_at": "2026-11-17T16:23:53+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-l2.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/sideways/build-2/proof-sf-x1.md",
+      "lines": [
+       1,
+       40
+      ],
+      "sha256": "3ecc84a56a0f8bedb0e5e098b1f03e26e0c0d25a3cbc689cd1c52f24c17add15"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "596c7146ff",
+     "cb9af3b657",
+     "e3e640d750",
+     "2ddcc50b71",
+     "0812c8e0d2"
+    ],
+    "tolerances": "interval arithmetic (arb); the 0.25 rule on the winding",
+    "ceiling": "the first certified mode count of a critical solution in a light-cone sector",
+    "toy_model": "flat-space self-similar wave equation, Gundlach App. D"
+   }
+  },
+  "sha256": "9077a35520a1cc8866414ba80562eae2716916f5ee6f87163614cdffc9b40754",
+  "id": "9077a35520"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "9077a35520",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-4/l2_cert.py",
+    "sha256": "d76a06cfd2f238bb381f8aa34e9edce7c1b969cb18ed8ac70ff98449705d04a9"
+   },
+   {
+    "path": "<lab>/sideways/build-4/l2_lib.py",
+    "sha256": "40c831a3a07a20952e2c20051913679e92c4bdcf3024f5029a9f6b0efde91c84"
+   },
+   {
+    "path": "<lab>/sideways/build-4/ax_sys.py",
+    "sha256": "f3f4d85865d691d14a8db6008aa14dd3c1530ff3dc90c7031d0277aed01a85c5"
+   },
+   {
+    "path": "<lab>/sideways/build-4/proof-norm.md",
+    "sha256": "317bf5c9b272775f5c42eeeeb0b3bcae469a08ad714d88ed31b5bc6defd1033f"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.py",
+    "sha256": "63bc805872a1e6388cb43dfea9fd5edf39b039b973eb88b7e1b5533748d94ec6"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/lin_core.py",
+    "sha256": "167c752ac52faf8e282dd7dd67d8912231089081a79d7381d51dec147ef46ba7"
+   },
+   {
+    "path": "<lab>/sideways/build-1/bgnum.py",
+    "sha256": "79929fab352ba7669cd1f215a932fe2440ddb57a7c3392c423f6a1d717eb2310"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/sideways/build-3/c1_series.py",
+    "sha256": "b6e9bf142bfb0b1eddf257561c896f9fc4d98e88b83ef0cae9553a167bad7659"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   },
+   {
+    "path": "<tools>/gravity_engine/argument_count.py",
+    "sha256": "57da7ee2b42db29fbdf177d19c545c51d6c98374ae9c3068651ab53da3ff602b"
+   }
+  ],
+  "at": "2026-11-17T18:31:45+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "9077a35520",
+  "seal_sha256": "9077a35520a1cc8866414ba80562eae2716916f5ee6f87163614cdffc9b40754",
+  "outcome": "FAILED",
+  "measured": "As sealed, not HOLD. PL2-1 HOLD: axial Pi l=2 half-disc {Re kappa>=0, |kappa|<=10}: N = 0, Delta/pi [+/- 1.21e-6], parity True, 0 refinements (ledgers/pl2_1_halfdisc.jsonl; main_l2.log l.9). PL2-2 HOLD: flat toy T-a N=1, T-b N=0, T-c N=1 as pre-stated. PL2-3 INCONCLUSIVE: control disc |kappa-(-1.8+6.2i)|<=0.5 could not be certified (precision floor: value enclosures [+/-1] wider than |D| on Re kappa ~ -1.5..-2.3; not refinement; zero found NOT SEALED at -1.82723+6.18981i, 0.47 inside the contour; build-4/DIAG-L2.md); instrument crashed before writing result_l2.json. PL2-4 NOT MET: the 'bounded' null is a rescaling D_an/(1-sigma) (referee-3 F6), so the sealed null_not_symmetry clause fails. PROOF-NORM gap at kappa=1 closed in PROOF-NORM-v2 (F1). Re-test L2b to be sealed: replay PL2-1, real class null (singular centre branch), same control disc behind a precision gate.",
+  "settled_at": "2026-11-17T19:15:10+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-4/main_l2.log",
+    "sha256": "89d7e00a38d0185fe6af6eb405d3c24ded6f18dcf2e9b768e324a49d723216ad"
+   },
+   {
+    "path": "<lab>/sideways/build-4/ledgers/pl2_1_halfdisc.jsonl",
+    "sha256": "ad87889a6c02369f7de2b1b0c36ddaa66c9f7c947e4bc68088dc56d27a3ebc6d"
+   },
+   {
+    "path": "<lab>/sideways/build-4/diag-l2.md",
+    "sha256": "47f7246abe76e1c2bf535f9192be82f8c86dd0c7f189154833e63e7fe003ba33"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-l2b.md",
+    "sha256": "d719a3ea61a95fdd4ca3f2e80259ced05ee0380c377727ef9b4bc0ead1a73e54",
+    "bytes": 4390
+   }
+  ],
+  "tag": "LIGHTBALL-SF-L2b",
+  "note": null,
+  "sealed_at": "2026-11-17T19:21:22+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-l2b.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/sideways/build-4/proof-norm-v2.md",
+      "lines": [
+       1,
+       60
+      ],
+      "sha256": "e432a8f864c5c46283195f2a3a3a560aa1e6311c39ca4514794579bea5eda7b5"
+     }
+    ],
+    "depends_on": [
+     "9077a35520",
+     "cb9af3b657",
+     "e3e640d750",
+     "2ddcc50b71",
+     "d0af75803f"
+    ],
+    "tolerances": "interval arithmetic (arb); the 0.25 rule; precision gate relative radius 1e-2",
+    "ceiling": "a certified light-cone count with a real-object control that finds a known decaying mode",
+    "toy_model": "flat-space self-similar wave equation, l = 2, both centre classes"
+   }
+  },
+  "sha256": "fc89881caf3cda9d8692448175489a1d2c5c64382b097aeeecacc99054b4bbdf",
+  "id": "fc89881caf"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "fc89881caf",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-4/l2b_cert.py",
+    "sha256": "056e940b2da9ce5c0c3a5af2a3194388569cd67965aa702b89df1155cd2a3422"
+   },
+   {
+    "path": "<lab>/sideways/build-4/l2b_ext.py",
+    "sha256": "81d41a108bf66bb5a55252a37db56b7c602b7eef50c175f88587cae5085aa542"
+   },
+   {
+    "path": "<lab>/sideways/build-4/l2_lib.py",
+    "sha256": "40c831a3a07a20952e2c20051913679e92c4bdcf3024f5029a9f6b0efde91c84"
+   },
+   {
+    "path": "<lab>/sideways/build-4/l2_cert.py",
+    "sha256": "d76a06cfd2f238bb381f8aa34e9edce7c1b969cb18ed8ac70ff98449705d04a9"
+   },
+   {
+    "path": "<lab>/sideways/build-4/ax_sys.py",
+    "sha256": "f3f4d85865d691d14a8db6008aa14dd3c1530ff3dc90c7031d0277aed01a85c5"
+   },
+   {
+    "path": "<lab>/sideways/build-4/proof-norm-v2.md",
+    "sha256": "e432a8f864c5c46283195f2a3a3a560aa1e6311c39ca4514794579bea5eda7b5"
+   },
+   {
+    "path": "<lab>/sideways/build-4/ledgers/pl2_1_halfdisc.jsonl",
+    "sha256": "ad87889a6c02369f7de2b1b0c36ddaa66c9f7c947e4bc68088dc56d27a3ebc6d"
+   },
+   {
+    "path": "<lab>/sideways/build-1/eqs_l.pkl",
+    "sha256": "9331c181deddeab6b2610094f9b30870ec73b3b7692940bc3cba938d1c058f90"
+   },
+   {
+    "path": "<lab>/sideways/build-1/outward_rec.pkl",
+    "sha256": "8f588ecb8c40002fef358780cb603f08de4399eaae2376005ead35cadf53f142"
+   },
+   {
+    "path": "<lab>/engine/cert/lin_tube2_k1_3.pkl",
+    "sha256": "f6bff9e203c8a4e054a35bff0453d179d570dca6bd520665b900cb2b2c3071df"
+   },
+   {
+    "path": "<tools>/gravity_engine/argument_count.py",
+    "sha256": "57da7ee2b42db29fbdf177d19c545c51d6c98374ae9c3068651ab53da3ff602b"
+   }
+  ],
+  "at": "2026-11-17T19:57:43+00:00"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "fc89881caf",
+  "seal_sha256": "fc89881caf3cda9d8692448175489a1d2c5c64382b097aeeecacc99054b4bbdf",
+  "outcome": "FAILED",
+  "measured": "As sealed (verdict rule: PL2b-3 INCONCLUSIVE -> FAILED as sealed, PL2b-1 stands as the count). PL2b-1 HOLD: replay N = 0 on {Re kappa>=0, |kappa|<=10}, Delta/pi [+/- 2.72e-6], 51/51 ledger lines, 0 recomputed discs. PL2b-2 HOLD: toy regular class 0/0/0, singular class 1/2/0 on the three discs (blind-confirmed answers). PL2b-3 INCONCLUSIVE (precision gate fails at all 4 matching distances: max relative radius 1.0; certified background tube width ~1e-13 near XBAR limits D ~ 1e-11 on Re kappa ~ -2); real-object control NOT achieved. PL2b-4 HOLD (normalisation teeth: analytic 0, rescaled -1). PL2b-5 INCONCLUSIVE (information only; centre-chart odd orders stored as balls containing 0).",
+  "settled_at": "2026-11-17T20:14:01+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-4/result_l2b.json",
+    "sha256": "0497966c2cb467abcd2f9d30fd6fce920cd7cc212570adca49a768d8ce177565"
+   },
+   {
+    "path": "<lab>/sideways/build-4/main_l2b.log",
+    "sha256": "40da7219636976e20b8c0eeff4e728dbcc2b950310e7f2ea9f9c1da602f5045e"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/sideways/bar-sf-bg2.md",
+    "sha256": "3e839b4df3e8138741ab7c4b0acb99b507fe98f3cab99320298587e8ced544ef",
+    "bytes": 4000
+   }
+  ],
+  "tag": "LIGHTBALL-SF-BG2",
+  "note": null,
+  "sealed_at": "2026-11-18T00:51:51+00:00",
+  "seal_fields": {
+   "<lab>/sideways/bar-sf-bg2.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/engine/cert/run_v32.py",
+      "lines": [
+       96,
+       97
+      ],
+      "sha256": "fcd1f159042ee76842eba1b8c71dd17c5dab84984fd0d01f6059ac6eb77d9799"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "b1b0ee1cde",
+     "fc89881caf",
+     "7a68ad7998"
+    ],
+    "tolerances": "interval arithmetic (arb)",
+    "ceiling": "a background sharp enough to certify decaying-side controls, unblocking the dipole and quadrupole counts",
+    "toy_model": "none - anchors are previously certified values on the same object"
+   }
+  },
+  "sha256": "ed61d09268c0c164a19128dc9f07ab4997094f581171386ea571f2aa59f8475b",
+  "id": "ed61d09268"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "ed61d09268",
+  "files": [
+   {
+    "path": "<lab>/sideways/build-5/phase2/b1_box.py",
+    "sha256": "b5a922b1db4dd1e2d34ae00ba431b6c867ce9e6e7c782776409afc427bdd1924"
+   },
+   {
+    "path": "<lab>/sideways/build-5/phase2/b2_outward.py",
+    "sha256": "2bcbc847d928ddc3f22b1f86e69f77583a7ec1e36841b2f6f3bb21ee45d74b3c"
+   },
+   {
+    "path": "<lab>/sideways/build-5/phase2/b3_gate.py",
+    "sha256": "797060de937a85b885c385e1c7788098b4da89fb20107bae770d41791ccfb64a"
+   },
+   {
+    "path": "<lab>/sideways/build-5/phase2/p_dover.py",
+    "sha256": "55bac6d8e98c8434de69db095b8a56f7de4b73654a031888cb3ea7047c49075c"
+   },
+   {
+    "path": "<lab>/sideways/build-5/phase2/make_bg2.py",
+    "sha256": "e869e7158e1aaf1ef3d19fffd70eb96bfcccdbe91638a064e4500949391e6343"
+   },
+   {
+    "path": "<lab>/sideways/build-5/phase2/outward_c.pkl",
+    "sha256": "c5aab9780d415073dccb8c9ab179e46ce9050ac493d400c26da18e1be540b1d5"
+   },
+   {
+    "path": "<lab>/sideways/build-5/result_bg2.json",
+    "sha256": "2635c4b2f3cc19001253368085cf8ddfb5803078d120f387aba119e4c155af85"
+   },
+   {
+    "path": "<lab>/sideways/build-5/controls_bg2.json",
+    "sha256": "83580db3166d22a22024e3436c53d0a1b4b9e0e1de5a73aa817857fe9388e365"
+   }
+  ],
+  "at": "2026-11-18T02:33:34+00:00",
+  "note": "pinned after the run (disclosed); hashes match controls_bg2.json"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "ed61d09268",
+  "seal_sha256": "ed61d09268c0c164a19128dc9f07ab4997094f581171386ea571f2aa59f8475b",
+  "outcome": "HOLD",
+  "measured": "PC1 V0 width 6.94e-29 inside E5; PC2 x_lc width 6.98e-25, near-cone rel 1.06e-24, x_lc state 1.47e-24, Frobenius 2.8e-23, all overlap old (a-priori Bx boxes and high-order jet bounds excluded: bounds by design, disclosed); PC3 gate worst 1.25e-7 at all 4 distances; PC4 m/r overlaps, x_lc inside old, swap-back reproduces 1.0; PC5 Krawczyk refuses and shifted rebuild x_lc disjoint",
+  "settled_at": "2026-11-18T02:33:34+00:00",
+  "results": [
+   {
+    "path": "<lab>/sideways/build-5/result_bg2.json",
+    "sha256": "2635c4b2f3cc19001253368085cf8ddfb5803078d120f387aba119e4c155af85"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/bar-qb1.md",
+    "sha256": "bc14c5b13ff87226664beb4a49229c71b93ef1c6d15eb45f7dc55f1a7f3d71df",
+    "bytes": 4365
+   }
+  ],
+  "tag": "LIGHTBALL-QB1",
+  "note": null,
+  "sealed_at": "2026-11-18T03:13:48+00:00",
+  "seal_fields": {
+   "<lab>/quantum/bar-qb1.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/quantum/design-qb1.md",
+      "lines": [
+       26,
+       136
+      ],
+      "sha256": "5f879a0d0faa85ce2e0da60558e3d5c6d07bfc67da19a4b665c0c3da69b957f5"
+     }
+    ],
+    "depends_on": [
+     "d0af75803f",
+     "ed61d09268",
+     "b1b0ee1cde"
+    ],
+    "tolerances": "interval arithmetic (arb)",
+    "ceiling": "the first certified one-loop stress-tensor coefficient on a true critical-collapse solution, the same shape for every free massless field",
+    "toy_model": "Hayward, Reissner-Nordstrom, Minkowski, k = 1/2 Friedmann (PQ5)"
+   }
+  },
+  "sha256": "54caa4012c1f4426e06957ee0cc94878c3294ed5e7dd29fdd704f941ae2f134a",
+  "id": "54caa4012c"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "54caa4012c",
+  "files": [
+   {
+    "path": "<lab>/quantum/seats/build-1/ajet.py",
+    "sha256": "acee648e75a2a63ce0d1953d108acb3908e9bfc0537e60d7ae7b5770c7609c2f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/aser.py",
+    "sha256": "fef6d9027b777ded02599a05d51610207c7f40a05dd842766a710d09642fa21e"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/charts.py",
+    "sha256": "3bb001bad328659c0a49438dd26c3c7610d52e5e24d486a0178ccb33604fd6c9"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/bg.py",
+    "sha256": "c05ad4d77e20daa24ed87b1c766bc97bd7a9b720e1b77401027f1d3ca352166c"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/ctl.py",
+    "sha256": "b31dc093e4a3e7649929bcff327fba519974e4f01b9db4fce5e69dda40071275"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/qb1.py",
+    "sha256": "309e91b6179ad72a28481c5e481d787be10cbe4060b7f20d105d960b2682fdc9"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/dnew.py",
+    "sha256": "4d809cfb75ce0549debedf8b1bcd416498bd5f0c1b45915fd3215e114dc53999"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/null_bg.py",
+    "sha256": "c3dc74aba983db8d430a0721b065b31a92ff7d29022215ff1e724610f39d454d"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/null_eval.py",
+    "sha256": "b22f5fa882d4b4c9e4a89314e11b351e5b5c71f2604cd876e2ac7f70275cd6dd"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/result_qb1.json",
+    "sha256": "65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/controls_qb1.json",
+    "sha256": "6a76082e38327fde5e70ab8c4e2c62cd8479353eb9246f9be6ec1b1d2d89a3c4"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/dnew_qb1.json",
+    "sha256": "7182a1fc2d7c578d6e78981250457dc4b716add2188797fd233d3209bb12cf5f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-1/null_qb1.json",
+    "sha256": "56eb00903de62cb62cd5b7133887c2297be0514080ef0f82dd7d6a12a1734897"
+   }
+  ],
+  "at": "2026-11-18T03:56:39+00:00",
+  "note": "pinned after the run (disclosed)"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "54caa4012c",
+  "seal_sha256": "54caa4012c1f4426e06957ee0cc94878c3294ed5e7dd29fdd704f941ae2f134a",
+  "outcome": "FAILED",
+  "measured": "PQ1 HOLD (sonic b_uu 0.44667377966953663 +/- 1.3e-17); PQ2 FAILED as sealed: signs certified at 691 grid points only, not on covering intervals (zero bracket [-0.82611434221,-0.82611433983] certified, uniqueness local only); PQ3 HOLD c0 = -173.10044439229957 +/- 3e-13; PQ4 HOLD 28 rows overlap, residual contains 0; PQ5 HOLD all controls; PQ6 FAILED: null ill-posed (an off-solution V0 still solves the ODE, so Einstein holds locally) - b values do shift disjointly at x=0 and outward; PQ7 FAILED as sealed: certified D_new(2) = -2.41262709 +/- 5.3e-9 at x_m = -4.6, not at the sealed -2 (float only there)",
+  "settled_at": "2026-11-18T03:56:39+00:00",
+  "results": [
+   {
+    "path": "<lab>/quantum/seats/build-1/result_qb1.json",
+    "sha256": "65096e9f428677b3e4fcdef7de00174deb7634b0cfd05acda71b03ad3a2673c4"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/bar-qb1b.md",
+    "sha256": "53c5f4cadd0f03564c91bdafd5372a7f70772920a783ba9ccfcb1c5047430970",
+    "bytes": 4040
+   }
+  ],
+  "tag": "LIGHTBALL-QB1b",
+  "note": null,
+  "sealed_at": "2026-11-18T03:57:03+00:00",
+  "seal_fields": {
+   "<lab>/quantum/bar-qb1b.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/quantum/design-qb1.md",
+      "lines": [
+       26,
+       136
+      ],
+      "sha256": "5f879a0d0faa85ce2e0da60558e3d5c6d07bfc67da19a4b665c0c3da69b957f5"
+     }
+    ],
+    "depends_on": [
+     "54caa4012c",
+     "d0af75803f",
+     "ed61d09268",
+     "b1b0ee1cde"
+    ],
+    "tolerances": "interval arithmetic (arb)",
+    "ceiling": "the first certified one-loop stress-tensor source on a true critical-collapse solution, with its full sign map",
+    "toy_model": "Hayward, Reissner-Nordstrom, Minkowski, k = 1/2 Friedmann (carried)"
+   }
+  },
+  "sha256": "4d3b12ef390456a4ec287e6370eaea2f39ba4e58ea5d9956d0944d12a99b9f7b",
+  "id": "4d3b12ef39"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "4d3b12ef39",
+  "files": [
+   {
+    "path": "<lab>/quantum/seats/build-2/tm.py",
+    "sha256": "cfd650cd6874720bc7ae3e9a5a2ef490fefdea4ee57e5747fefeba0f24066b1f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/tmbg.py",
+    "sha256": "e1ebc3baa93dd76dbc97693ebb36fdf8cf94b7fd4dcf6e3a3a7f3200c816dd65"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/tmcell.py",
+    "sha256": "d3416c6f6e93ad9b7b952bf84d7da9b4459774ff6ad1f7f53982f59b64349062"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/schart.py",
+    "sha256": "8708bc39034b26d13371803e649f0687f2ead95708f5e2ad761b1b7a35a1842f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/signmap2.py",
+    "sha256": "bea6245c4cb4ad493da86881daa34e52751548befe0f122884595c2433c139f7"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/tasks2.py",
+    "sha256": "010f9a6037367abe47d75deb0b8f796b0851f2e27425b053654508d4125cee3d"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/dnew2.py",
+    "sha256": "579a3750f80c02b3c735c6a7c17edab2e1805a7ee35a451df5f1092f32073b4c"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/finalize.py",
+    "sha256": "040b410bc7a389c95ff4f448134bb91ce6174121eab47eab5f1a12b5d1dfe9f9"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/result_qb1b.json",
+    "sha256": "cb204c29eaedd633c3a6f5ab58826a616a029f097afef1b88fba2d7f7ef1e6cd"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-2/controls_qb1b.json",
+    "sha256": "7fefab90da0bbe553ac5472b8349b088f997b54c75a72a7efb9b8c4662c7f864"
+   }
+  ],
+  "at": "2026-11-18T04:53:22+00:00",
+  "note": "pinned after the run (disclosed); control cell sizes cut after first try (disclosed)"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "4d3b12ef39",
+  "seal_sha256": "4d3b12ef390456a4ec287e6370eaea2f39ba4e58ea5d9956d0944d12a99b9f7b",
+  "outcome": "HOLD",
+  "measured": "PQ2b: 2261 exact-dyadic cells cover [-12,12] with no gap, certified sign each; exactly one zero, enclosed in [-0.826114343479,-0.826114339754] (width 3.7e-9), b_nn' >= 1.1654794 on zero cell; PQ6b: omega(1+1e-12) off-shell null - Einstein residual excludes 0 at 24/28 points, routes disjoint at 8/28; PQ7b: D_new(2) = -2.4126270857981 +/- 1.1e-9 at x_m=-4.6; PQ8: centre/tube seam overlap at x=-9/2 all components; controls pass on TM path (cell sizes cut after first try, disclosed)",
+  "settled_at": "2026-11-18T04:53:32+00:00",
+  "pin_warnings": [
+   "STALE: result_qb1b.json names instrument hash(es) 582e24236c8ff81594cb... but none is a pinned instrument hash: it was produced by a different script version"
+  ],
+  "results": [
+   {
+    "path": "<lab>/quantum/seats/build-2/result_qb1b.json",
+    "sha256": "cb204c29eaedd633c3a6f5ab58826a616a029f097afef1b88fba2d7f7ef1e6cd"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/bar-qb2.md",
+    "sha256": "650f45f38ab2704e34a01407a9e0f633a2defe842d1894cb939fb369d763ac46",
+    "bytes": 4622
+   }
+  ],
+  "tag": "LIGHTBALL-QB2",
+  "note": null,
+  "sealed_at": "2026-11-18T05:41:43+00:00",
+  "seal_fields": {
+   "<lab>/quantum/bar-qb2.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/quantum/design-qb2-v2.md",
+      "lines": [
+       37,
+       118
+      ],
+      "sha256": "ebbf46afb3f9a26e081ff07cced02dc504762807af766064edaa4bc3323e6be6"
+     }
+    ],
+    "depends_on": [
+     "4d3b12ef39",
+     "54caa4012c",
+     "d0af75803f",
+     "ed61d09268",
+     "b1b0ee1cde"
+    ],
+    "tolerances": "interval arithmetic (arb)",
+    "ceiling": "the first certified sign and size of the one-loop quantum push on the compactness of a true critical-collapse solution, the same for every free massless field of spin <= 1",
+    "toy_model": "C1 / C8 manufactured cases; C5 k = 1/3 Friedmann zero floor"
+   }
+  },
+  "sha256": "f2bcfadb3e215c5f5ae62b56ded762f0af8e15c0aa3605cd064919cc76f15967",
+  "id": "f2bcfadb3e"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "f2bcfadb3e",
+  "files": [
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2core.py",
+    "sha256": "4906d61e202aa3cb63d576a0b9c9c90e1981afb02d7db4bc3ec4576e6f0499cf"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2lib.py",
+    "sha256": "430507c93c425c77d1ec06ba35d090aede8d297ccad5f5d701d9be386e6178c2"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2pass.py",
+    "sha256": "52c4165672062cf2096b22a0ccd261eb071ea82d44ebd8022c12b0ba415ecd1d"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2stages.py",
+    "sha256": "a27121aecb5376a0288894dfe9f5ca6373dc606799bdcc7a65a6048c5dbfd81c"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2final.py",
+    "sha256": "b005b5060d9314da3c1006dd3234f2191ddfebc28dcd00c0c80da165205aa908"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/qb2sym2.py",
+    "sha256": "5f16c578c518c344a56f59f6088314f85bec5a78cafef052048c9f1bea65acc7"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/bachsym.py",
+    "sha256": "9f314a7baf685d380c4f516d4eae46df1a88b286925cb60d6e979b0a9f846291"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/n1_rows.py",
+    "sha256": "df5160546dd3dace689a948562bda1e987545618f5245bd6bee6dcf3216d3fb5"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/hka_copy.py",
+    "sha256": "6382993a91cc60e0cc7824ea1465036b999a77437abd878acb995a3c35f02b20"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/c2check.py",
+    "sha256": "b56be098baede4e8b564fbad57f0e31e6d20dd3900c10f3d04054ecc459fbc11"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/n0check.py",
+    "sha256": "d56f760c25235f8eb0016bea979d47c765aae63ebfd7ba82110306d0155045ce"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/a3.py",
+    "sha256": "95dda7df5c9b6bc549341571b2dbe22819b366bf6fdb593d42ef95b9cb541f96"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/bach_u.py",
+    "sha256": "db51f3e02c21566e34f5ea5e89443954ceaf76f042bf99f7190b242986f4df6a"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/make_outputs.py",
+    "sha256": "ddf1fe478cac601f9393cdd16782cd4e29ae1d92a7c9916cc1c793f0c54d8134"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/result_qb2.json",
+    "sha256": "d677bb43a80fe18f2eb7225771bea6759640f1538952137813536b82d691a620"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-3/controls_qb2.json",
+    "sha256": "b0dc43375869d7bee661e88872712175a47036ae0437dc9aa5dd2ea7cd278626"
+   }
+  ],
+  "at": "2026-11-18T07:51:02+00:00",
+  "note": "pinned after the run (disclosed); _patch*.py and p_*.py are build helpers/probes"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "f2bcfadb3e",
+  "seal_sha256": "f2bcfadb3e215c5f5ae62b56ded762f0af8e15c0aa3605cd064919cc76f15967",
+  "outcome": "FAILED",
+  "measured": "Headline PQ2-8 HOLD: Psi2 = 3.4616358037141 +/- 1.15e-7 (positive, rel width 3.3e-8), route B overlaps. PQ2-1 HOLD (source TMs via conformal-weight route, match QB1b; outward cells not built - domain cut). PQ2-2 HOLD (four rows exact). PQ2-7 HOLD (x_V = -0.252787102083 unique, V'>0). FAILED as sealed: PQ2-3 (e encloses 0 but width 2e-5 not <=1e-10; D_t <= 1.1e-10 marginal; (0,12] not covered); PQ2-4 (centre coefficients <= 3.5e-16 not 1e-30); PQ2-5 partial (C1 x=0.5,3 not run; C8 theta-theta residual not computed; C1,C2,C6,C8,C8' otherwise pass); PQ2-6 partial (N-c refuses; N-a refuses and encloses the corrected J-ODE prediction but the design's printed |e| formula was wrong by 1e-4 rel)",
+  "settled_at": "2026-11-18T07:51:11+00:00",
+  "results": [
+   {
+    "path": "<lab>/quantum/seats/build-3/result_qb2.json",
+    "sha256": "d677bb43a80fe18f2eb7225771bea6759640f1538952137813536b82d691a620"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/bar-qb2b.md",
+    "sha256": "de4a8f97ad985bfc97a77e7278ef33da1c4588f400dd420b7844c14f2c58fee3",
+    "bytes": 3575
+   }
+  ],
+  "tag": "LIGHTBALL-QB2b",
+  "note": null,
+  "sealed_at": "2026-11-18T07:52:07+00:00",
+  "seal_fields": {
+   "<lab>/quantum/bar-qb2b.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/quantum/design-qb2-v2.md",
+      "lines": [
+       37,
+       118
+      ],
+      "sha256": "ebbf46afb3f9a26e081ff07cced02dc504762807af766064edaa4bc3323e6be6"
+     }
+    ],
+    "depends_on": [
+     "f2bcfadb3e",
+     "4d3b12ef39",
+     "ed61d09268",
+     "d0af75803f",
+     "b1b0ee1cde"
+    ],
+    "tolerances": "interval arithmetic (arb)",
+    "ceiling": "a fully closed certified first-order quantum push on the peak compactness of a true critical solution",
+    "toy_model": "C1 / C8 manufactured cases"
+   }
+  },
+  "sha256": "373f306e9fcab42b35d007d81a5e8b838322a45dff64a45f1e918ef2ae4526e2",
+  "id": "373f306e9f"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "373f306e9f",
+  "files": [
+   {
+    "path": "<lab>/quantum/seats/build-4/run.md",
+    "sha256": "40c178783be0ea38f75f8c479e3c0df99b61d375c059c49b1121350d6d4887e8"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/domain-lemma.md",
+    "sha256": "ff441eb27db3a1d0bb8bb0f5fbcf5e3d9f230557c926d298d894f13a67a857fa"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/tube_bg2.py",
+    "sha256": "160708f213648b4a31f65dc303d44ee8478ede0e9bd091600592df7ffa9a64e8"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/tube_compare.py",
+    "sha256": "725685cf9779badf72cf4917fd76b1e95525614e94dd1f0632eeb9d744055750"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/centre_exact.py",
+    "sha256": "a6b388dd22df39556959d9223864c70705cf9e520115f93a3c3f5da282c1406f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/thth_sym.py",
+    "sha256": "b54a2c689ffe730d1989c510eb42501d0c54b2d49be115423a169f1c59d69e23"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/thth_eval.py",
+    "sha256": "e99883f69d49c518a0cb2c69678f81fd3120e59a836747d28391fbe7d03e68ac"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/stages_b.py",
+    "sha256": "1a77e83c4b8393c60c2de95b29cc7a69d6ad40137ac55316da938a2055e175f0"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/stages_b_helpers.py",
+    "sha256": "6b93480eaddca91218fad55b6eeb4baf2c1e9c4391e853e2be3e7e54daa7fe23"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/make_pass_b.py",
+    "sha256": "84f71b12dd0f52a1c7947061a2b054853904fe922f36cca6f87f1c0637a9c222"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/pass_b.py",
+    "sha256": "28e8cef71035449401c908b8cfa83be313dc076a56cd84f3428ebe3380d8b410"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/final_b.py",
+    "sha256": "26ec80976eeac68185bb7757c6a0b802e89b46ee048348af80a37dd23afed6aa"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/make_outputs_b.py",
+    "sha256": "13727ff57848c8b7018519a4d19038311a28341630d65c03d61b0aa67d82f8a5"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/qb2b.py",
+    "sha256": "58abe81d23b3a30e167b7df1612c44d66df5ebd5ee94b2e6a2af94b9d5b463e4"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/result_qb2b.json",
+    "sha256": "b2a00fc7f86b5867964a7784aef873ed2bbd3f68dca5ea2c2c34a5b97300a691"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/controls_qb2b.json",
+    "sha256": "17c402436dd0881410a5eafc5f55e617045243a11ec2848d2feafa81fbd28aae"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/final.json",
+    "sha256": "a2c849774b40deb3a6a3d1b284654f0304f9d5af1ad36905a88832730d7002b4"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/thth.json",
+    "sha256": "b2d15ebcba416bd6e80d831d84806b93c9fbfd8d741963af1f330715be73607f"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/centre_exact.json",
+    "sha256": "cfddeddb931e0f042f348b61fe8f8db35a8fce44e3cd2164bcce8a7ffbc66ccb"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-4/tube_compare.json",
+    "sha256": "d3ea5415c9c2e536281c22b45a3fa83c79ab6db87c1319f4c77a5fd95ceb9f1a"
+   }
+  ],
+  "at": "2026-11-18T10:06:26+00:00",
+  "note": "build-4 QB2b instruments + outputs (run 1 is the record)"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "373f306e9f",
+  "seal_sha256": "373f306e9fcab42b35d007d81a5e8b838322a45dff64a45f1e918ef2ae4526e2",
+  "outcome": "FAILED",
+  "measured": "FAILED by item: PQ2b-1 e on real source encloses 0 but width 6.66e-10 > 1e-10 (D_t PASS, max 3.4e-13). PQ2b-2 HOLD (exact sympy orders; c0 = -(2/3)W0(8W0-3)e^{-4xc} = -173.10044439229957 +/- 8.8e-16). PQ2b-3 HOLD (domain lemma; C1 5 points). PQ2b-4 HOLD (C8 thth encloses 0 at x=-0.01, C8' N-a N-c C2 as predicted). PQ2b-5 HOLD Psi2 = 3.4616358037141657 +/- 3.0e-12, route B overlaps.",
+  "settled_at": "2026-11-18T10:06:37+00:00",
+  "items": {
+   "PQ2b-1": "FAILED",
+   "PQ2b-2": "HOLD",
+   "PQ2b-3": "HOLD",
+   "PQ2b-4": "HOLD",
+   "PQ2b-5": "HOLD"
+  },
+  "results": [
+   {
+    "path": "<lab>/quantum/seats/build-4/result_qb2b.json",
+    "sha256": "b2a00fc7f86b5867964a7784aef873ed2bbd3f68dca5ea2c2c34a5b97300a691"
+   }
+  ]
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/bar-qb2c.md",
+    "sha256": "3cd7a8df4dacc27a3f1f862c02a7fb771cd00ce9ee92de0a6d314dd0126f16be",
+    "bytes": 3332
+   }
+  ],
+  "tag": "LIGHTBALL-QB2c",
+  "note": null,
+  "sealed_at": "2026-11-18T10:07:04+00:00",
+  "seal_fields": {
+   "<lab>/quantum/bar-qb2c.md": {
+    "formula_refs": [
+     {
+      "path": "<lab>/quantum/design-qb2-v2.md",
+      "lines": [
+       37,
+       118
+      ],
+      "sha256": "ebbf46afb3f9a26e081ff07cced02dc504762807af766064edaa4bc3323e6be6"
+     }
+    ],
+    "depends_on": [
+     "373f306e9f",
+     "f2bcfadb3e",
+     "4d3b12ef39",
+     "ed61d09268"
+    ],
+    "tolerances": "interval arithmetic (arb); replication float relative 1e-9",
+    "ceiling": "a fully closed certified first-order quantum push on the peak compactness of a true critical solution",
+    "toy_model": "C1 / C8 manufactured cases"
+   }
+  },
+  "sha256": "7aab7efe5a1d0ce44c435172dfb95b9f97d54d9dae83962f170e563799ee205e",
+  "id": "7aab7efe5a"
+ },
+ {
+  "kind": "seal-file",
+  "v": 2,
+  "files": [
+   {
+    "path": "<lab>/quantum/amendment-qb2-v3.md",
+    "sha256": "090d61a7b99647f3995d44a99b338c2f763a737db7872e13f44138db03a6fe4e",
+    "bytes": 2498
+   }
+  ],
+  "tag": "LIGHTBALL-QB2-v3",
+  "note": null,
+  "sealed_at": "2026-11-18T10:20:33+00:00",
+  "amends": "f2bcfadb3e",
+  "sha256": "4cf721320795b68e6f4cebff58cb51638fe8d03aa16fd9f9d5310acb17fc4936",
+  "id": "4cf7213207"
+ },
+ {
+  "kind": "pin",
+  "seal_id": "7aab7efe5a",
+  "files": [
+   {
+    "path": "<lab>/quantum/seats/build-5/run.md",
+    "sha256": "ae38f51438c1bbbbc92d4f1df8671b854a7791b7e96c936f2dc878cc5bbae221"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/probe_tight.py",
+    "sha256": "5c0056bbf97b9c3aca0e2fd3b578e634b1741a9209f833d711695c44b1a0d9fc"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/deep_ratio.py",
+    "sha256": "885f8c8f2fc343879d0419d8ce179746624edd6a83ba22e9da0a7d14ba0ec26d"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/thth_c.py",
+    "sha256": "abcffb829bdc4ef80649e50e175833d476c3cc70e584e0b7969af5692740dbfe"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/final_c.py",
+    "sha256": "0ade9c32911d4cd0eef6d8bbbb148b1433fb2dd78a4fa91ca64851fd2d5d41b8"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/make_outputs_c.py",
+    "sha256": "3cdd194040a37d7d0f52acade4badffb6f2c61b8c71cdfd8673c24ae58fbc21b"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/result_qb2c.json",
+    "sha256": "3aac39669ab99dee6a45233b477a2b33056a75fa1b5dad42ea4ec5e6776a0d7a"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/controls_qb2c.json",
+    "sha256": "17932836cad43b8960dcefc93ae47e54c7816c3f58fc14745e0965b10c6d5d40"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/conv_c.json",
+    "sha256": "6d02b6b1acd4d64c81698c75415dfc6a77484a4078a68f941b80c1383bdd505c"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/thth_c.json",
+    "sha256": "bba0f715a809c63d7bad3aed9161225cccc32fba9ca52399d7ab00e0ff98dffd"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/final_c.json",
+    "sha256": "c0f3d42246e24acd133bd7a6f73d5e4755fd518ef9942eef0f6408687bc47225"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/deep_ratio.json",
+    "sha256": "7155f52396a3553a512b7f807d2ad9d1e70f3c05e9f98eb17e4ab1ee3023c722"
+   },
+   {
+    "path": "<lab>/quantum/seats/build-5/probe_tight.log",
+    "sha256": "5ed4d89300a7cbcafef873fcc8fee9fa717a4d5f88ec2670216c1fed76c21125"
+   }
+  ],
+  "at": "2026-11-18T10:34:30+00:00",
+  "note": "build-5 QB2c"
+ },
+ {
+  "kind": "settle",
+  "seal_id": "7aab7efe5a",
+  "seal_sha256": "7aab7efe5a1d0ce44c435172dfb95b9f97d54d9dae83962f170e563799ee205e",
+  "outcome": "FAILED",
+  "measured": "FAILED by item: PQ2c-1 not reached - tight T1+T2 probe shows deep step-matrix radii unchanged (ratio median 0.90, deep 0.99); floor = tube step balls (KT=36); e = [2.3e-14 +/- 3.3e-10] encloses 0, width 6.66e-10 > 1e-10. PQ2c-2 HOLD thth real encloses 0 at 5 points, N-b refuses = -1e-6 sigma_TT. PQ2c-3 HOLD Psi2 = 3.4616358037141657 +/- 3.0e-12. PQ2c-4 HOLD replication rel <= 6.9e-12 (runs), 2.1e-10 (10-digit headline); x_s = e^{-xc} closed form.",
+  "settled_at": "2026-11-18T10:34:30+00:00",
+  "items": {
+   "PQ2c-1": "FAILED",
+   "PQ2c-2": "HOLD",
+   "PQ2c-3": "HOLD",
+   "PQ2c-4": "HOLD"
+  },
+  "results": [
+   {
+    "path": "<lab>/quantum/seats/build-5/result_qb2c.json",
+    "sha256": "3aac39669ab99dee6a45233b477a2b33056a75fa1b5dad42ea4ec5e6776a0d7a"
+   }
+  ]
+ }
+]
