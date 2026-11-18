@@ -45,7 +45,7 @@ state-dependent part, so we state it as a **conjecture** under named conditions.
 and only presses harder or softer. **Where the picture breaks.** The finger also depends on a quantum state, which we
 assume is itself self-similar. Nobody has proved that such a state exists on this background.
 
-[![DOI {{DOI}}](brand/doi.svg)](https://doi.org/{{DOI}}) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
+[![DOI 10.5281/zenodo.24341256](brand/doi.svg)](https://doi.org/10.5281/zenodo.24341256) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
 **Read** [paper.md](paper.md) · **Re-run** [tools/reproduce.md](tools/reproduce.md) · **Check** [CLAIMS.md](CLAIMS.md) and [SCORECARD.md](SCORECARD.md)
 
@@ -303,7 +303,7 @@ What this work leaves open, for anyone who wants to take the next step.
 ## How to cite
 
 ```
-Moki & Julio (2026). The quantum fingerprint on the critical ball of light: a certified one-loop Bach source on the Evans-Coleman solution, and the sign of its secular push on the peak compactness. Version 1.0. Zenodo. https://doi.org/{{DOI}}
+Moki & Julio (2026). The quantum fingerprint on the critical ball of light: a certified one-loop Bach source on the Evans-Coleman solution, and the sign of its secular push on the peak compactness. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.24341256
 ```
 
 Machine-readable: [CITATION.cff](CITATION.cff). Text and data: CC BY 4.0 (`LICENSE`). Code: MIT (`LICENSE-CODE`).
